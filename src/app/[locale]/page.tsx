@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { InteractiveAsciiGlobe } from "@/components/ascii-globe/interactive-ascii-globe";
-import { TransportSimulation } from "@/components/ascii-globe/transport-simulation";
+import { AsciiGlobe } from "@/components/site/ascii-globe";
 import { MarkdownBody, MonoLabel, RAIL } from "@/components/site/page-sections";
 import { buttonVariants } from "@/components/ui/button";
 import { Link } from "@/i18n/navigation";
@@ -53,12 +52,9 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
           </div>
         </div>
         <div className="mx-auto w-full max-w-[560px] md:max-w-none">
-          <InteractiveAsciiGlobe />
+          <AsciiGlobe label={tHome("globe")} />
         </div>
       </section>
-
-      {/* Sezione Disclosures & Simulazione CO2 / Trasporti stile patchtheplanet.org */}
-      <TransportSimulation />
 
       {rest && <MarkdownBody body={rest} />}
     </div>
