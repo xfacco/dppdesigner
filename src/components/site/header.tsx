@@ -46,7 +46,7 @@ export async function SiteHeader({ locale }: { locale: string }) {
           )}
           <ThemeToggle labels={{ toDark: t("themeDark"), toLight: t("themeLight") }} />
           {/* Su telefono il pulsante c'è già nell'apertura delle pagine: qui occuperebbe troppo spazio */}
-          <Link href="/progetta" className={buttonVariants({ size: "sm", className: "hidden sm:inline-flex" })}>
+          <Link href="/progetta" className={buttonVariants({ size: "sm", className: "max-sm:hidden" })}>
             {t("startWizard")}
           </Link>
         </div>
