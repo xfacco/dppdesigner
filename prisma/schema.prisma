@@ -1,0 +1,422 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+// ─── Utenti e accesso (tabelle richieste da Better Auth + campi applicativi) ───
+
+enum Role {
+  USER
+  EDITOR
+  ADMIN
+}
+
+model User {
+  id                String         @id
+  name              String
+  email             String         @unique
+  emailVerified     Boolean        @default(false)
+  image             String?
+  role              Role           @default(USER)
+  company           String?
+  jobTitle          String?
+  phone             String?
+  locale            String?
+  lastSeenAt        DateTime       @default(now())
+  createdAt         DateTime       @default(now())
+  updatedAt         DateTime       @updatedAt
+  sessions          Session[]
+  accounts          Account[]
+  journeys          Journey[]
+  consents          Consent[]
+  answeredQuestions StepQuestion[]
+
+  @@map("user")
+}
+
+model Session {
+  id        String   @id
+  expiresAt DateTime
+  token     String   @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  ipAddress String?
+  userAgent String?
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("session")
+}
+
+model Account {
+  id                    String    @id
+  accountId             String
+  providerId            String
+  userId                String
+  user                  User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  accessToken           String?
+  refreshToken          String?
+  idToken               String?
+  accessTokenExpiresAt  DateTime?
+  refreshTokenExpiresAt DateTime?
+  scope                 String?
+  password              String?
+  createdAt             DateTime  @default(now())
+  updatedAt             DateTime  @updatedAt
+
+  @@index([userId])
+  @@map("account")
+}
+
+model Verification {
+  id         String   @id
+  identifier String
+  value      String
+  expiresAt  DateTime
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([identifier])
+  @@map("verification")
+}
+
+enum ConsentType {
+  PRIVACY
+  MARKETING
+}
+
+model Consent {
+  id            String      @id @default(cuid())
+  userId        String
+  user          User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  type          ConsentType
+  policyVersion String
+  granted       Boolean
+  createdAt     DateTime    @default(now())
+
+  @@index([userId])
+  @@map("consents")
+}
+
+// ─── Configurazione wizard (versionata) ───
+
+enum VersionStatus {
+  DRAFT
+  PUBLISHED
+  ARCHIVED
+}
+
+enum QuestionType {
+  SINGLE_CHOICE
+  MULTI_CHOICE
+  NUMBER
+  TEXT
+  FIELDS
+  /// Griglia: una riga per ogni opzione scelta in un altro step (config.rowsFrom), una o più colonne per riga
+  MATRIX
+}
+
+model WizardVersion {
+  id              String           @id @default(cuid())
+  number          Int              @unique
+  status          VersionStatus    @default(DRAFT)
+  notes           String?
+  /// Collegamento tra step e parti degli schemi del riepilogo (vedi src/lib/diagrams/config.ts); null = predefinito
+  diagramConfig   Json?
+  publishedAt     DateTime?
+  createdAt       DateTime         @default(now())
+  steps           Step[]
+  areas           ScoringArea[]
+  scoringRules    ScoringRule[]
+  recommendations Recommendation[]
+  journeys        Journey[]
+
+  @@map("wizard_versions")
+}
+
+model Step {
+  id           String            @id @default(cuid())
+  versionId    String
+  version      WizardVersion     @relation(fields: [versionId], references: [id], onDelete: Cascade)
+  key          String
+  position     Int
+  type         QuestionType
+  required     Boolean           @default(true)
+  /// Regola di visibilità (vedi src/lib/wizard/rules.ts); null = sempre visibile
+  visibleIf    Json?
+  /// Configurazione per tipo: { min, max } per NUMBER, { fields: [...] } per FIELDS
+  config       Json?
+  translations StepTranslation[]
+  options      Option[]
+  suggestions  StepSuggestion[]
+
+  @@unique([versionId, key])
+  @@index([versionId, position])
+  @@map("steps")
+}
+
+model StepTranslation {
+  id          String  @id @default(cuid())
+  stepId      String
+  step        Step    @relation(fields: [stepId], references: [id], onDelete: Cascade)
+  locale      String
+  title       String
+  description String?
+  help        String?
+  /// Riferimenti normativi in Markdown, mostrati prima delle risposte
+  references  String?
+
+  @@unique([stepId, locale])
+  @@map("step_translations")
+}
+
+model Option {
+  id           String              @id @default(cuid())
+  stepId       String
+  step         Step                @relation(fields: [stepId], references: [id], onDelete: Cascade)
+  key          String
+  position     Int
+  visibleIf    Json?
+  translations OptionTranslation[]
+
+  @@unique([stepId, key])
+  @@map("options")
+}
+
+/// Consiglio mostrato in uno step quando la condizione è vera (es. livello del DPP in base alle categorie)
+model StepSuggestion {
+  id           String                      @id @default(cuid())
+  stepId       String
+  step         Step                        @relation(fields: [stepId], references: [id], onDelete: Cascade)
+  condition    Json
+  /// Opzione consigliata (facoltativa): evidenziata e preselezionata se l'utente non ha ancora risposto
+  optionKey    String?
+  /// Obbligatorio (es. per legge): l'opzione è selezionata e non si può togliere
+  mandatory    Boolean                     @default(false)
+  priority     Int                         @default(0)
+  translations StepSuggestionTranslation[]
+
+  @@index([stepId])
+  @@map("step_suggestions")
+}
+
+model StepSuggestionTranslation {
+  id           String         @id @default(cuid())
+  suggestionId String
+  suggestion   StepSuggestion @relation(fields: [suggestionId], references: [id], onDelete: Cascade)
+  locale       String
+  message      String
+
+  @@unique([suggestionId, locale])
+  @@map("step_suggestion_translations")
+}
+
+model OptionTranslation {
+  id          String  @id @default(cuid())
+  optionId    String
+  option      Option  @relation(fields: [optionId], references: [id], onDelete: Cascade)
+  locale      String
+  label       String
+  description String?
+
+  @@unique([optionId, locale])
+  @@map("option_translations")
+}
+
+model ScoringArea {
+  id           String                   @id @default(cuid())
+  versionId    String
+  version      WizardVersion            @relation(fields: [versionId], references: [id], onDelete: Cascade)
+  key          String
+  position     Int
+  weight       Float                    @default(1)
+  maxPoints    Int
+  translations ScoringAreaTranslation[]
+  rules        ScoringRule[]
+
+  @@unique([versionId, key])
+  @@map("scoring_areas")
+}
+
+model ScoringAreaTranslation {
+  id     String      @id @default(cuid())
+  areaId String
+  area   ScoringArea @relation(fields: [areaId], references: [id], onDelete: Cascade)
+  locale String
+  label  String
+
+  @@unique([areaId, locale])
+  @@map("scoring_area_translations")
+}
+
+model ScoringRule {
+  id        String        @id @default(cuid())
+  versionId String
+  version   WizardVersion @relation(fields: [versionId], references: [id], onDelete: Cascade)
+  areaId    String
+  area      ScoringArea   @relation(fields: [areaId], references: [id], onDelete: Cascade)
+  condition Json
+  points    Int
+  note      String?
+
+  @@map("scoring_rules")
+}
+
+model Recommendation {
+  id           String                      @id @default(cuid())
+  versionId    String
+  version      WizardVersion               @relation(fields: [versionId], references: [id], onDelete: Cascade)
+  condition    Json
+  priority     Int                         @default(0)
+  translations RecommendationTranslation[]
+
+  @@map("recommendations")
+}
+
+model RecommendationTranslation {
+  id               String         @id @default(cuid())
+  recommendationId String
+  recommendation   Recommendation @relation(fields: [recommendationId], references: [id], onDelete: Cascade)
+  locale           String
+  title            String
+  body             String
+
+  @@unique([recommendationId, locale])
+  @@map("recommendation_translations")
+}
+
+// ─── Percorsi utente ───
+
+enum JourneyStatus {
+  IN_PROGRESS
+  COMPLETED
+}
+
+model Journey {
+  id             String         @id @default(cuid())
+  /// null finché il percorso è anonimo (o dopo la cancellazione dell'utente)
+  userId         String?
+  user           User?          @relation(fields: [userId], references: [id], onDelete: SetNull)
+  /// SHA-256 del token salvato nel cookie di ripresa
+  tokenHash      String?        @unique
+  tokenExpiresAt DateTime?
+  versionId      String
+  version        WizardVersion  @relation(fields: [versionId], references: [id])
+  status         JourneyStatus  @default(IN_PROGRESS)
+  /// Percorso di prova avviato da un admin (anche su una bozza): escluso da statistiche ed elenchi
+  isPreview      Boolean        @default(false)
+  /// Nascosto dall'utente nella sua area personale (eliminazione solo visiva: i dati restano)
+  hiddenByUserAt DateTime?
+  lastStepKey    String?
+  locale         String
+  score          Int?
+  areaScores     Json?
+  createdAt      DateTime       @default(now())
+  updatedAt      DateTime       @updatedAt
+  completedAt    DateTime?
+  answers        Answer[]
+  questions      StepQuestion[]
+
+  @@index([userId])
+  @@index([createdAt])
+  @@map("journeys")
+}
+
+model Answer {
+  id          String   @id @default(cuid())
+  journeyId   String
+  journey     Journey  @relation(fields: [journeyId], references: [id], onDelete: Cascade)
+  stepKey     String
+  value       Json
+  needsReview Boolean  @default(false)
+  updatedAt   DateTime @updatedAt
+
+  @@unique([journeyId, stepKey])
+  @@map("answers")
+}
+
+// ─── Domande sugli step (assistente AI ed esperto del sito) ───
+
+enum QuestionChannel {
+  AI
+  EXPERT
+}
+
+enum QuestionStatus {
+  OPEN
+  ANSWERED
+}
+
+model StepQuestion {
+  id           String          @id @default(cuid())
+  journeyId    String
+  journey      Journey         @relation(fields: [journeyId], references: [id], onDelete: Cascade)
+  stepKey      String
+  channel      QuestionChannel
+  status       QuestionStatus  @default(OPEN)
+  locale       String
+  question     String
+  answer       String?
+  answeredById String?
+  answeredBy   User?           @relation(fields: [answeredById], references: [id], onDelete: SetNull)
+  createdAt    DateTime        @default(now())
+  answeredAt   DateTime?
+
+  @@index([journeyId, stepKey])
+  @@index([channel, status, createdAt])
+  @@map("step_questions")
+}
+
+// ─── Contenuti del sito ───
+
+enum PageStatus {
+  DRAFT
+  PUBLISHED
+}
+
+model Page {
+  id           String            @id @default(cuid())
+  /// Chiave stabile (es. "home", "what-is-dpp"); "home" è la pagina /[locale]
+  key          String            @unique
+  status       PageStatus        @default(DRAFT)
+  showInMenu   Boolean           @default(true)
+  position     Int               @default(0)
+  updatedAt    DateTime          @updatedAt
+  translations PageTranslation[]
+
+  @@map("pages")
+}
+
+model PageTranslation {
+  id          String  @id @default(cuid())
+  pageId      String
+  page        Page    @relation(fields: [pageId], references: [id], onDelete: Cascade)
+  locale      String
+  slug        String
+  title       String
+  description String?
+  /// Markdown
+  body        String
+
+  @@unique([pageId, locale])
+  @@unique([locale, slug])
+  @@map("page_translations")
+}
+
+model ContactMessage {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  company   String?
+  message   String
+  locale    String
+  handled   Boolean  @default(false)
+  createdAt DateTime @default(now())
+
+  @@map("contact_messages")
+}

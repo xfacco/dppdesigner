@@ -1,0 +1,272 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * Palette: neutri quasi puri, linee sottili, un solo accento verde.
+ * Tema chiaro/scuro: data-theme sull'elemento <html> (selettore nell'intestazione),
+ * altrimenti segue la preferenza del sistema.
+ */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --ink: #171717;
+  --ink-foreground: #ffffff;
+  --muted: #f7f7f7;
+  --muted-foreground: #686868;
+  --card: #ffffff;
+  --border: #e5e5e5;
+  --input: #cfcfcf;
+  --primary: #257345;
+  --primary-foreground: #ffffff;
+  --accent: #eaf4ed;
+  --accent-foreground: #1d5c37;
+  --destructive: #c0392b;
+  --warning: #c98a12;
+  --ring: #257345;
+  --radius: 0.625rem;
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  --background: #111111;
+  --foreground: #f1f1f1;
+  --ink: #f1f1f1;
+  --ink-foreground: #111111;
+  --muted: #1b1b1b;
+  --muted-foreground: #aaaaaa;
+  --card: #161616;
+  --border: #303030;
+  --input: #505050;
+  --primary: #99dda9;
+  --primary-foreground: #111111;
+  --accent: #1b2a20;
+  --accent-foreground: #b8e8c3;
+  --destructive: #e57368;
+  --warning: #e0a83a;
+  --ring: #99dda9;
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --background: #111111;
+    --foreground: #f1f1f1;
+    --ink: #f1f1f1;
+    --ink-foreground: #111111;
+    --muted: #1b1b1b;
+    --muted-foreground: #aaaaaa;
+    --card: #161616;
+    --border: #303030;
+    --input: #505050;
+    --primary: #99dda9;
+    --primary-foreground: #111111;
+    --accent: #1b2a20;
+    --accent-foreground: #b8e8c3;
+    --destructive: #e57368;
+    --warning: #e0a83a;
+    --ring: #99dda9;
+    color-scheme: dark;
+  }
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-ink: var(--ink);
+  --color-ink-foreground: var(--ink-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-card: var(--card);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-warning: var(--warning);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 2px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 4px);
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  body {
+    background: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  h1,
+  h2,
+  h3 {
+    letter-spacing: -0.03em;
+  }
+  ::selection {
+    background: color-mix(in srgb, var(--color-primary) 25%, transparent);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-ring);
+    outline-offset: 2px;
+  }
+}
+
+/* Testi di aiuto dell'admin */
+.help-content {
+  line-height: 1.6;
+}
+.help-content > * + * {
+  margin-top: 0.6rem;
+}
+.help-content h3 {
+  font-weight: 600;
+  margin-top: 1rem;
+}
+.help-content ul,
+.help-content ol {
+  padding-left: 1.25rem;
+}
+.help-content ul {
+  list-style: disc;
+}
+.help-content ol {
+  list-style: decimal;
+}
+.help-content li + li {
+  margin-top: 0.25rem;
+}
+.help-content code {
+  font-size: 0.85em;
+  background: var(--color-muted);
+  border-radius: 0.25rem;
+  padding: 0.05rem 0.3rem;
+}
+.help-content pre {
+  font-size: 0.8rem;
+  background: var(--color-background);
+  border: 1px solid var(--color-border);
+  border-radius: 0.375rem;
+  padding: 0.6rem 0.75rem;
+  overflow-x: auto;
+}
+.help-content table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+.help-content th,
+.help-content td {
+  text-align: left;
+  padding: 0.3rem 0.75rem 0.3rem 0;
+  border-bottom: 1px solid var(--color-border);
+  vertical-align: top;
+}
+.help-content .warn {
+  border-left: 3px solid var(--color-warning);
+  padding-left: 0.75rem;
+}
+
+/* Riferimenti normativi dentro uno step: più compatti del testo delle pagine */
+.prose-content.step-references {
+  font-size: inherit;
+  line-height: 1.55;
+  letter-spacing: normal;
+}
+.prose-content.step-references a {
+  color: var(--color-primary);
+}
+.prose-content.step-references p,
+.prose-content.step-references ul {
+  margin-bottom: 0.5rem;
+}
+.prose-content.step-references li + li {
+  margin-top: 0.3rem;
+}
+.prose-content.step-references > :last-child {
+  margin-bottom: 0;
+}
+
+/* Testo Markdown delle pagine di contenuto */
+.prose-content {
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  letter-spacing: -0.01em;
+}
+.prose-content h1 {
+  font-size: clamp(2.375rem, 5vw, 3.5rem);
+  font-weight: 500;
+  letter-spacing: -0.05em;
+  line-height: 1.08;
+  margin: 0 0 1.5rem;
+  text-wrap: balance;
+}
+.prose-content h2 {
+  font-size: 1.6875rem;
+  font-weight: 500;
+  letter-spacing: -0.035em;
+  line-height: 1.2;
+  margin: 2.5rem 0 1rem;
+}
+.prose-content h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 1.75rem 0 0.5rem;
+}
+.prose-content p,
+.prose-content ul,
+.prose-content ol,
+.prose-content table {
+  margin: 0 0 1.125rem;
+}
+.prose-content ul {
+  list-style: disc;
+  padding-left: 1.375rem;
+}
+.prose-content ol {
+  list-style: decimal;
+  padding-left: 1.375rem;
+}
+.prose-content li + li {
+  margin-top: 0.25rem;
+}
+.prose-content a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--color-input);
+  text-underline-offset: 4px;
+}
+.prose-content a:hover {
+  text-decoration-color: currentColor;
+}
+.prose-content table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+.prose-content th,
+.prose-content td {
+  border-bottom: 1px solid var(--color-border);
+  padding: 0.9rem 1rem 0.9rem 0;
+  text-align: left;
+  vertical-align: top;
+}
+.prose-content thead th {
+  color: var(--color-muted-foreground);
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+.prose-content blockquote {
+  border-left: 2px solid var(--color-ink);
+  padding-left: 0.875rem;
+  font-size: 0.875rem;
+  margin: 0 0 1.125rem;
+}

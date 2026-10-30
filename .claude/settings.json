@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e ' *)",
+      "WebFetch(domain:eur-lex.europa.eu)",
+      "WebSearch",
+      "Bash(npx prisma *)",
+      "Bash(grep -vE \"^\\\\s*$|│|┌|└\")",
+      "Skill(claude-api)",
+      "Skill(claude-api:*)",
+      "Bash(npx tsx *)",
+      "Bash(pkill -f \"tsx --tsconfig tsconfig.json -e\")",
+      "Bash(pkill -f \"tsx --tsconfig tsconfig.json\")",
+      "Bash(node -e 'for \\(const l of [\"it\",\"en\"]\\) { const j=require\\(\"./src/messages/\"+l+\".json\"\\); console.log\\(l, Object.keys\\(j\\).join\\(\",\"\\), \"diagrams\" in j\\) }')",
+      "Bash(grep -n \"const version = await db.wizardVersion.create\\({ data: { number, notes\" src/server/wizard-admin.ts)",
+      "Bash(grep -n \"journeys.map\\\\|<li key={j.id}\\\\|</li>\\\\|Link href={\\\\`/progetta\" \"src/app/[locale]/account/page.tsx\")",
+      "Bash(grep -rnio \".\\\\{0,60\\\\}percors[oi].\\\\{0,50\\\\}\" src prisma/seed-data)",
+      "WebFetch(domain:patchtheplanet.org)"
+    ]
+  }
+}

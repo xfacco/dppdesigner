@@ -1,0 +1,92 @@
+# DPP Designer
+
+Sito educativo sul Digital Product Passport con il wizard "Progetta" (`/it/progetta`) e dashboard admin.
+Il testo introduttivo di `/progetta` si modifica da **Admin → Contenuti → Progetta il tuo DPP** (pagina di sistema `wizard_intro`); l'elenco degli step sotto il testo viene dal wizard pubblicato.
+Analisi: [ANALISI-BUSINESS.md](ANALISI-BUSINESS.md), [ANALISI-TECNICA.md](ANALISI-TECNICA.md).
+
+## Stack
+
+Next.js 16 (App Router) · TypeScript · Tailwind CSS 4 · componenti in stile shadcn/ui · Prisma 7 + PostgreSQL · Better Auth · next-intl · react-hook-form + zod · Vitest
+
+## Avvio in locale
+
+Requisiti: Node 24, un database PostgreSQL (es. Neon o Docker).
+
+```bash
+npm install
+cp .env.example .env          # compilare i valori
+npx prisma migrate dev        # crea le tabelle
+npm run db:seed               # wizard v1, pagine, utente admin (SEED_ADMIN_*)
+npm run dev
+```
+
+Con 1Password, invece del file `.env`: `npm run dev:op` (legge i riferimenti `op://` da [.env.op](.env.op)).
+
+- Sito: http://localhost:3000/it
+- Admin: http://localhost:3000/admin
+
+Senza `RESEND_API_KEY` le email (verifica, reset password) vengono stampate nel terminale.
+
+## Comandi
+
+| Comando | Cosa fa |
+|---|---|
+| `npm run dev` | Server di sviluppo |
+| `npm run build` | Genera il client Prisma e la build di produzione |
+| `npm test` | Test del motore del wizard |
+| `npm run typecheck` | Controllo dei tipi |
+| `npm run db:migrate` | Nuova migrazione dopo modifiche a `prisma/schema.prisma` |
+| `npm run db:seed` | Dati iniziali (idempotente: non sovrascrive wizard e pagine esistenti) |
+
+## Struttura
+
+```
+prisma/
+  schema.prisma          modello dati
+  seed.ts, seed-data/    wizard iniziale (16 step), pagine IT/EN, admin
+src/
+  app/[locale]/          sito pubblico, wizard, login/registrazione, area personale
+  app/admin/             dashboard admin (lead, progetti, editor wizard, contenuti, messaggi, utenti)
+  app/api/               auth, export dati, export CSV lead, cambio lingua, job di conservazione
+  lib/wizard/            motore del wizard: regole, visibilità, validazione, punteggio (puro, testato)
+  server/                accesso ai dati lato server (progetti, contenuti, lead, versioni wizard)
+  messages/              testi dell'interfaccia IT/EN
+```
+
+## Come funziona il wizard
+
+- Step, opzioni, dipendenze, aree di punteggio, regole e raccomandazioni sono nel database e si modificano da **Admin → Wizard**.
+- Le modifiche si fanno su una **bozza**; alla pubblicazione la bozza diventa la versione attiva. I progetti già iniziati restano sulla loro versione.
+- Le condizioni sono JSON (vedi [src/lib/wizard/rules.ts](src/lib/wizard/rules.ts)), con un editor visuale nell'admin:
+  `{ "step": "industry", "op": "eq", "value": "battery" }`, combinabili con `all`, `any`, `not`.
+- Il wizard si compila **senza account**. Un cookie (30 giorni) permette di riprenderlo dallo stesso browser. A fine progetto l'utente può registrarsi: il progetto viene associato all'account.
+- Le **regole di punteggio del seed sono esempi** da validare.
+
+## Schemi del riepilogo
+
+Il riepilogo mostra due schemi generati dalle risposte, scaricabili in PNG e SVG:
+
+- **Flusso dei dati DPP**: fonti dati → middle layer (se serve) → DPP platform → Registro UE, con frecce puntinate (integrazioni), continue e tratteggiate (da pianificare) e il percorso di caricamento manuale.
+- **Blueprint del DPP**: tutti gli step raggruppati in aree (Azienda, Prodotto, Dati, Identificazione, Infrastruttura, Altro), una scheda per step con risposta e stato (definito, da definire, attenzione, non applicabile), le griglie per categoria in un’unica tabella, contatori e note. Schede cliccabili per modificare la risposta; su telefono le aree sono impilate.
+
+Il generatore è in [src/lib/diagrams/generate.ts](src/lib/diagrams/generate.ts) (testato), il disegno in [src/components/diagrams/](src/components/diagrams/). Quali step alimentano ogni parte si configura per versione in **Admin → Wizard → versione → Schemi del riepilogo**.
+
+## Domande sugli step (AI ed esperto)
+
+In ogni step l'utente può aprire "Hai un dubbio su questa domanda?" e:
+
+- **chiedere all'AI**: risposta immediata da Claude (`claude-opus-5-5`, [src/server/ai.ts](src/server/ai.ts)), con il contesto dello step (testo, opzioni, riferimenti normativi) e le risposte già date. Richiede `ANTHROPIC_API_KEY`; senza, la scheda è disattivata. Limite: 10 domande per progetto nelle 24 ore. È attivo il fallback lato server (`fallbacks: "default"`) in caso di rifiuto per policy.
+- **chiedere all'esperto**: la domanda arriva in **Admin → Domande**; la risposta compare nello stesso step (nessuna email). Limite: 5 domande in attesa per progetto.
+
+Domande e risposte sono salvate nella tabella `step_questions` e incluse nell'export dei dati dell'utente.
+
+## Conservazione dati
+
+Job giornaliero `GET /api/cron/retention` (Vercel Cron, header `Authorization: Bearer $CRON_SECRET`):
+cancella gli utenti `USER` inattivi da 24 mesi (i progetti restano anonimi) e invalida i token di ripresa scaduti.
+
+## Deploy (Vercel + Neon)
+
+1. Database Neon, `DATABASE_URL` nelle variabili d'ambiente Vercel (integrazione 1Password↔Vercel o sincronizzazione dalla CI: Vercel non risolve i riferimenti `op://`).
+2. Impostare `BETTER_AUTH_SECRET`, `BETTER_AUTH_URL`, `NEXT_PUBLIC_APP_URL`, `RESEND_API_KEY`, `EMAIL_FROM`, `CRON_SECRET`.
+3. Eseguire `npx prisma migrate deploy` e `npm run db:seed` sul database di produzione.
