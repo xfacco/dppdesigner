@@ -1,0 +1,56 @@
+[
+  {
+    "id": "cmvv1uw3g0000nay3kae5fkpz",
+    "number": 1,
+    "status": "ARCHIVED",
+    "notes": "Configurazione iniziale",
+    "publishedAt": "2026-10-30T13:10:34.863Z",
+    "createdAt": "2026-10-30T13:10:34.876Z",
+    "diagramConfig": null
+  },
+  {
+    "id": "cmvv7v0ln007y0ey3wxdwi41k",
+    "number": 2,
+    "status": "ARCHIVED",
+    "notes": "versione 2",
+    "publishedAt": "2026-10-30T16:01:18.428Z",
+    "createdAt": "2026-10-30T15:58:38.411Z",
+    "diagramConfig": null
+  },
+  {
+    "id": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "number": 3,
+    "status": "ARCHIVED",
+    "notes": "Copia della versione 2",
+    "publishedAt": "2026-10-30T16:03:25.638Z",
+    "createdAt": "2026-10-30T16:01:46.624Z",
+    "diagramConfig": null
+  },
+  {
+    "id": "cmvv84sfe0004m2y36lcnqttm",
+    "number": 4,
+    "status": "ARCHIVED",
+    "notes": "Versione 4",
+    "publishedAt": "2026-10-30T16:39:40.380Z",
+    "createdAt": "2026-10-30T16:06:14.378Z",
+    "diagramConfig": null
+  },
+  {
+    "id": "cmvv9bu5o001yeuy3gha52hfk",
+    "number": 5,
+    "status": "PUBLISHED",
+    "notes": "Versione 5",
+    "publishedAt": "2026-10-30T19:02:35.477Z",
+    "createdAt": "2026-10-30T16:39:42.828Z",
+    "diagramConfig": null
+  },
+  {
+    "id": "cmvvel4kl0001qhy3fj5lzynz",
+    "number": 6,
+    "status": "DRAFT",
+    "notes": "V6",
+    "publishedAt": null,
+    "createdAt": "2026-10-30T19:06:54.309Z",
+    "diagramConfig": null
+  }
+]

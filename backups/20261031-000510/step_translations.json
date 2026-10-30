@@ -1,0 +1,1838 @@
+[
+  {
+    "id": "cmvv1uw400002nay3gzsgkbgc",
+    "stepId": "cmvv1uw3z0001nay302pn5ya0",
+    "locale": "it",
+    "title": "In quale settore opera la tua azienda?",
+    "description": "Gli obblighi e le tempistiche del DPP dipendono dalla categoria di prodotto.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): quadro generale. I prodotti soggetti al passaporto e i dati richiesti sono definiti da **atti delegati per gruppo di prodotto**, adottati nel tempo secondo il piano di lavoro della Commissione.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 77 (passaporto delle batterie).\n- **Prodotti da costruzione**: [Regolamento (UE) 2024/3110 (Prodotti da costruzione)](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/ita), che prevede un proprio passaporto digitale.\n- [Digital Product Passport — Commissione europea](https://single-market-economy.ec.europa.eu/single-market/digital-product-passport_en)"
+  },
+  {
+    "id": "cmvv1uw400003nay36jhapct6",
+    "stepId": "cmvv1uw3z0001nay302pn5ya0",
+    "locale": "en",
+    "title": "Which industry does your company operate in?",
+    "description": "DPP obligations and timelines depend on the product category.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): general framework. The products requiring a passport and the data required are set by **delegated acts per product group**, adopted over time following the Commission's working plan.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 77 (battery passport).\n- **Construction products**: [Regulation (EU) 2024/3110 (Construction products)](https://eur-lex.europa.eu/eli/reg/2024/3110/oj), which provides for its own digital passport.\n- [Digital Product Passport — European Commission](https://single-market-economy.ec.europa.eu/single-market/digital-product-passport_en)"
+  },
+  {
+    "id": "cmvv1uw49000tnay3m52jrz9t",
+    "stepId": "cmvv1uw49000snay3umv1r90x",
+    "locale": "it",
+    "title": "Che tipo di azienda siete?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita), art. 2 (definizioni): distingue **fabbricante**, **importatore**, **distributore** e **rivenditore** (dealer). Gli obblighi sul passaporto ricadono principalmente su chi immette il prodotto sul mercato UE.\n- Un brand che fa produrre a terzi con il proprio marchio è di norma considerato fabbricante."
+  },
+  {
+    "id": "cmvv1uw49000unay3hvriawnm",
+    "stepId": "cmvv1uw49000snay3umv1r90x",
+    "locale": "en",
+    "title": "What type of company are you?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj), Article 2 (definitions): distinguishes **manufacturer**, **importer**, **distributor** and **dealer**. Passport obligations fall mainly on whoever places the product on the EU market.\n- A brand having products made by third parties under its own name is usually considered the manufacturer."
+  },
+  {
+    "id": "cmvv1uw4f001bnay30eq9w90y",
+    "stepId": "cmvv1uw4e001anay3xf5oepq2",
+    "locale": "it",
+    "title": "Producete internamente o vi affidate a fornitori?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): chi immette il prodotto sul mercato deve rendere disponibile il passaporto anche quando i dati provengono dalla **catena di fornitura**: con fornitori esterni servono accordi su quali dati, in che formato e con quali tempi.\n- [CIRPASS-2](https://cirpass2.eu/): progetti pilota europei sullo scambio di dati di filiera per il DPP."
+  },
+  {
+    "id": "cmvv1uw4i001onay3mno8pvaw",
+    "stepId": "cmvv1uw4i001mnay3m93c90wy",
+    "locale": "en",
+    "title": "How many different products (SKUs) do you handle each year?",
+    "description": null,
+    "help": "An estimate is fine.",
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): a passport is required for **every product placed on the market** that falls under a delegated act. The number of SKUs drives data volumes, update processes and platform costs.\n- The passport level (model, batch or item) is set by the delegated act: see the granularity step."
+  },
+  {
+    "id": "cmvv1uw4q001unay3ftbb4ydt",
+    "stepId": "cmvv1uw4p001snay354wenea7",
+    "locale": "en",
+    "title": "Does the product require maintenance or repairs?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): ecodesign requirements include **durability, reparability and spare parts availability**; the related information may be included in the passport.\n- [Directive (EU) 2024/1799 (Right to repair)](https://eur-lex.europa.eu/eli/dir/2024/1799/oj): repair obligations for certain product categories.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 14 (information on state of health and expected lifetime)."
+  },
+  {
+    "id": "cmvv1uw52002enay3iuk7bgiw",
+    "stepId": "cmvv1uw52002dnay3enyannv5",
+    "locale": "it",
+    "title": "Da dove arrivano i dati che finiranno nel DPP?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): i requisiti di informazione comprendono anche la **tracciabilità delle sostanze preoccupanti** lungo il ciclo di vita, che richiede dati dai fornitori.\n- [CIRPASS-2](https://cirpass2.eu/): casi d'uso e modelli di scambio dati tra sistemi aziendali (ERP, PLM, MES) e fornitori."
+  },
+  {
+    "id": "cmvv1uw590030nay3qnkb5lim",
+    "stepId": "cmvv1uw59002ynay3xkgeuvzv",
+    "locale": "en",
+    "title": "How is this data organized today?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the passport relies on **open, interoperable standards** and a decentralised architecture: data stays with the economic operator or its service provider.\n- Data spread across several systems needs a common data model before feeding the passport."
+  },
+  {
+    "id": "cmvv1uw5m003xnay3wisb443k",
+    "stepId": "cmvv1uw5l003vnay3xwyz24a4",
+    "locale": "en",
+    "title": "Does the product already carry a data carrier?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the passport is linked to a **unique product identifier** through a **data carrier** (e.g. a QR code) placed on the product, its packaging or documentation, as set by the delegated act.\n- The data carrier only holds the identifier, not the passport data.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 13 (labelling and QR code)."
+  },
+  {
+    "id": "cmvv1uw5u004knay3gojd2g5m",
+    "stepId": "cmvv1uw5t004jnay3r43lqx1b",
+    "locale": "it",
+    "title": "A quale livello serve il passaporto?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): l'atto delegato stabilisce se il passaporto si riferisce al **modello**, al **lotto** o al **singolo articolo**.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 77: il passaporto è **per singola batteria**."
+  },
+  {
+    "id": "cmvv1uw60005bnay37opq9ndb",
+    "stepId": "cmvv1uw60005anay3luqifwto",
+    "locale": "it",
+    "title": "Dove ospiterete i passaporti?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il passaporto può essere gestito dall'operatore economico o da un **fornitore di servizi del passaporto**; sono previsti requisiti di disponibilità nel tempo, inclusa una **copia di backup** presso un fornitore di servizi.\n- La scelta tra piattaforma proprietaria, SaaS o PaaS deve garantire accesso ai dati anche in caso di cessazione dell'attività o del fornitore."
+  },
+  {
+    "id": "cmvv1uw4f001cnay3e9994x10",
+    "stepId": "cmvv1uw4e001anay3xf5oepq2",
+    "locale": "en",
+    "title": "Do you manufacture in-house or rely on suppliers?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): whoever places the product on the market must make the passport available even when the data comes from the **supply chain**: with external suppliers you need agreements on which data, in which format and when.\n- [CIRPASS-2](https://cirpass2.eu/): European pilot projects on supply-chain data exchange for the DPP."
+  },
+  {
+    "id": "cmvv1uw4i001nnay3jzf8yxmu",
+    "stepId": "cmvv1uw4i001mnay3m93c90wy",
+    "locale": "it",
+    "title": "Quanti prodotti diversi (SKU) gestite ogni anno?",
+    "description": null,
+    "help": "Una stima è sufficiente.",
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il passaporto è richiesto per **ogni prodotto immesso sul mercato** che rientra in un atto delegato. Il numero di SKU incide su volumi di dati, processi di aggiornamento e costi della piattaforma.\n- Il livello del passaporto (modello, lotto o singolo articolo) è stabilito dall'atto delegato: vedi lo step sulla granularità."
+  },
+  {
+    "id": "cmvv1uw4m001rnay3fi5br1v9",
+    "stepId": "cmvv1uw4m001pnay3vy3nbxj1",
+    "locale": "en",
+    "title": "Describe a sample product",
+    "description": "We will use this product as a reference throughout the journey.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj), Annex III: categories of information that may be included in the passport (identifiers, compliance, documentation, instructions, repair and end-of-life information…). The sector's delegated act says which ones are mandatory.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Annex XIII (information to be included in the battery passport)."
+  },
+  {
+    "id": "cmvv1uw4q001tnay33t4dnbnk",
+    "stepId": "cmvv1uw4p001snay354wenea7",
+    "locale": "it",
+    "title": "Il prodotto richiede manutenzione o riparazioni?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): tra i requisiti di progettazione ecocompatibile rientrano **durabilità, riparabilità e disponibilità di parti di ricambio**; le informazioni relative possono confluire nel passaporto.\n- [Direttiva (UE) 2024/1799 (Diritto alla riparazione)](https://eur-lex.europa.eu/eli/dir/2024/1799/oj/ita): obblighi di riparazione per alcune categorie di prodotti.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 14 (informazioni sullo stato di salute e sulla durata prevista)."
+  },
+  {
+    "id": "cmvv1uw4u0022nay31g9cjwwy",
+    "stepId": "cmvv1uw4t0021nay3m03p0qrp",
+    "locale": "it",
+    "title": "I dati del prodotto sono statici o dinamici?",
+    "description": "Dinamici: cambiano durante la vita del prodotto (es. riparazioni, stato di salute, proprietari).",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il passaporto deve restare **accessibile e aggiornato** per la durata prevista; l'atto delegato indica chi può aggiornare quali dati (es. riparatori, rigeneratori).\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), Allegato XIII: alcune informazioni del passaporto sono **dinamiche** (es. stato di salute) e vanno aggiornate durante la vita della batteria."
+  },
+  {
+    "id": "cmvv1uw4u0023nay3ymwghi3d",
+    "stepId": "cmvv1uw4t0021nay3m03p0qrp",
+    "locale": "en",
+    "title": "Is the product data static or dynamic?",
+    "description": "Dynamic: they change during the product's life (e.g. repairs, state of health, owners).",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the passport must remain **accessible and up to date** for its expected lifetime; the delegated act sets who may update which data (e.g. repairers, remanufacturers).\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Annex XIII: some passport information is **dynamic** (e.g. state of health) and must be updated during the battery's life."
+  },
+  {
+    "id": "cmvv1uw52002fnay3f454b4f7",
+    "stepId": "cmvv1uw52002dnay3enyannv5",
+    "locale": "en",
+    "title": "Where does the data for the DPP come from?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): information requirements also cover **tracking substances of concern** throughout the life cycle, which requires supplier data.\n- [CIRPASS-2](https://cirpass2.eu/): use cases and data exchange models between business systems (ERP, PLM, MES) and suppliers."
+  },
+  {
+    "id": "cmvv1uw59002znay30v3lcl7a",
+    "stepId": "cmvv1uw59002ynay3xkgeuvzv",
+    "locale": "it",
+    "title": "Come sono organizzati oggi questi dati?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il passaporto si basa su **standard aperti e interoperabili** e su un'architettura decentralizzata: i dati restano presso l'operatore economico o il suo fornitore di servizi.\n- Dati distribuiti su più sistemi richiedono un modello dati comune prima di alimentare il passaporto."
+  },
+  {
+    "id": "cmvv1uw5g003bnay3kpu6sayt",
+    "stepId": "cmvv1uw5f003anay36zm9rcx4",
+    "locale": "it",
+    "title": "Quali informazioni avete già disponibili?",
+    "description": "Il modello dati richiesto dipende dall'atto delegato del settore.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita), Allegato III: categorie di informazioni del passaporto.\n- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): i **parametri di prodotto** (durabilità, contenuto riciclato, impronta ambientale e di carbonio, riciclabilità…) su cui gli atti delegati possono fissare requisiti.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), Allegato XIII.\n- **Tessile, acciaio, alluminio e altri gruppi**: gli atti delegati sono in preparazione; il modello dati definitivo dipenderà da questi."
+  },
+  {
+    "id": "cmvv1uw5g003cnay3r35xmxo4",
+    "stepId": "cmvv1uw5f003anay36zm9rcx4",
+    "locale": "en",
+    "title": "Which information do you already have?",
+    "description": "The required data model depends on the sector's delegated act.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj), Annex III: categories of passport information.\n- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the **product parameters** (durability, recycled content, environmental and carbon footprint, recyclability…) on which delegated acts may set requirements.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Annex XIII.\n- **Textiles, steel, aluminium and other groups**: delegated acts are being prepared; the final data model will depend on them."
+  },
+  {
+    "id": "cmvv1uw5m003wnay3l9tu67um",
+    "stepId": "cmvv1uw5l003vnay3xwyz24a4",
+    "locale": "it",
+    "title": "Sul prodotto è già presente un data carrier?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il passaporto è collegato a un **identificativo univoco del prodotto** tramite un **data carrier** (es. QR code) presente sul prodotto, sull'imballaggio o sulla documentazione, come indicato dall'atto delegato.\n- Il data carrier contiene solo l'identificativo, non i dati del passaporto.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 13 (etichettatura e QR code)."
+  },
+  {
+    "id": "cmvv1uw5p0048nay37l1p14s6",
+    "stepId": "cmvv1uw5p0047nay3s8a55g2i",
+    "locale": "it",
+    "title": "Quali requisiti deve rispettare il data carrier?",
+    "description": null,
+    "help": "Riferimenti normativi da verificare con il consulente per il tuo settore.",
+    "references": "- **Prodotti ESPR**: tipo di data carrier e posizionamento sono fissati dall'atto delegato del gruppo di prodotto, sulla base di standard aperti ([Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita)).\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 13 (QR code sulla batteria) e art. 77 (accesso al passaporto tramite QR code).\n- Standard di riferimento: QR code ISO/IEC 18004; identificazione univoca ISO/IEC 15459."
+  },
+  {
+    "id": "cmvv1uw5p0049nay3qddj0fqd",
+    "stepId": "cmvv1uw5p0047nay3s8a55g2i",
+    "locale": "en",
+    "title": "Which requirements must the data carrier meet?",
+    "description": null,
+    "help": "Regulatory references to be verified with the consultant for your sector.",
+    "references": "- **ESPR products**: data carrier type and placement are set by the product group's delegated act, based on open standards ([Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj)).\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 13 (QR code on the battery) and Article 77 (passport access through the QR code).\n- Reference standards: QR code ISO/IEC 18004; unique identification ISO/IEC 15459."
+  },
+  {
+    "id": "cmvv1uw5u004lnay3zsrfaeo9",
+    "stepId": "cmvv1uw5t004jnay3r43lqx1b",
+    "locale": "en",
+    "title": "At which level is the passport needed?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the delegated act sets whether the passport relates to the **model**, the **batch** or the **individual item**.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 77: the passport is **per individual battery**."
+  },
+  {
+    "id": "cmvv1uw5y004znay3rvevaoz1",
+    "stepId": "cmvv1uw5x004ynay3epr6yrwd",
+    "locale": "it",
+    "title": "Che schema userete per l'identificativo e l'URL?",
+    "description": null,
+    "help": "Rif. EN 18219 (identificativi univoci DPP): verificare lo stato della norma.",
+    "references": "- **EN 18219** (CEN/CENELEC JTC 24): norma sugli identificativi univoci per il DPP, parte del pacchetto di norme armonizzate richieste dalla Commissione. Verifica lo stato di pubblicazione.\n- [GS1 Digital Link](https://www.gs1.org/standards/gs1-digital-link): schema diffuso per codificare identificativi di prodotto in un URL risolvibile.\n- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): identificativi e data carrier devono basarsi su standard aperti e restare stabili nel tempo."
+  },
+  {
+    "id": "cmvv1uw5y0050nay3m77u4a2q",
+    "stepId": "cmvv1uw5x004ynay3epr6yrwd",
+    "locale": "en",
+    "title": "Which scheme will you use for the identifier and URL?",
+    "description": null,
+    "help": "See EN 18219 (DPP unique identifiers): check the standard's status.",
+    "references": "- **EN 18219** (CEN/CENELEC JTC 24): standard on unique identifiers for the DPP, part of the harmonised standards requested by the Commission. Check its publication status.\n- [GS1 Digital Link](https://www.gs1.org/standards/gs1-digital-link): a widespread scheme for encoding product identifiers in a resolvable URL.\n- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): identifiers and data carriers must be based on open standards and remain stable over time."
+  },
+  {
+    "id": "cmvv1uw60005cnay31mdqntwh",
+    "stepId": "cmvv1uw60005anay3luqifwto",
+    "locale": "en",
+    "title": "Where will you host the passports?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the passport may be managed by the economic operator or by a **passport service provider**; there are requirements on long-term availability, including a **backup copy** held by a service provider.\n- Choosing between a proprietary platform, SaaS or PaaS must ensure data access even if the business or the provider ceases activity."
+  },
+  {
+    "id": "cmvv1uw63005qnay3dchc9voy",
+    "stepId": "cmvv1uw62005pnay33fc5ib9l",
+    "locale": "it",
+    "title": "Come pensate di integrarvi con il Registry UE?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita), art. 13: **registro dei passaporti** istituito dalla Commissione, in cui vengono registrati almeno gli identificativi univoci di prodotto e collegati al passaporto.\n- [DPP Registry — Commissione europea](https://single-market-economy.ec.europa.eu/single-market/digital-product-passport/dpp-registry_en)\n- Il registro è collegato anche ai controlli doganali sui prodotti importati."
+  },
+  {
+    "id": "cmvv1uw63005rnay3wgwwj0v5",
+    "stepId": "cmvv1uw62005pnay33fc5ib9l",
+    "locale": "en",
+    "title": "How do you plan to integrate with the EU Registry?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj), Article 13: **digital product passport registry** set up by the Commission, storing at least the unique product identifiers and linking them to the passport.\n- [DPP Registry — European Commission](https://single-market-economy.ec.europa.eu/single-market/digital-product-passport/dpp-registry_en)\n- The registry is also linked to customs checks on imported products."
+  },
+  {
+    "id": "cmvv7z1tw00fy0ey39xl5k8a6",
+    "stepId": "cmvv7z1tv00fx0ey337jkpa3h",
+    "locale": "it",
+    "title": "In quale settore opera la tua azienda?",
+    "description": "Gli obblighi e le tempistiche del DPP dipendono dalla categoria di prodotto.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): quadro generale. I prodotti soggetti al passaporto e i dati richiesti sono definiti da **atti delegati per gruppo di prodotto**, adottati nel tempo secondo il piano di lavoro della Commissione.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 77 (passaporto delle batterie).\n- **Prodotti da costruzione**: [Regolamento (UE) 2024/3110 (Prodotti da costruzione)](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/ita), che prevede un proprio passaporto digitale.\n- [Digital Product Passport — Commissione europea](https://single-market-economy.ec.europa.eu/single-market/digital-product-passport_en)"
+  },
+  {
+    "id": "cmvv7z1tw00fz0ey3dut8tbh3",
+    "stepId": "cmvv7z1tv00fx0ey337jkpa3h",
+    "locale": "en",
+    "title": "Which industry does your company operate in?",
+    "description": "DPP obligations and timelines depend on the product category.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): general framework. The products requiring a passport and the data required are set by **delegated acts per product group**, adopted over time following the Commission's working plan.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 77 (battery passport).\n- **Construction products**: [Regulation (EU) 2024/3110 (Construction products)](https://eur-lex.europa.eu/eli/reg/2024/3110/oj), which provides for its own digital passport.\n- [Digital Product Passport — European Commission](https://single-market-economy.ec.europa.eu/single-market/digital-product-passport_en)"
+  },
+  {
+    "id": "cmvv7z1u600gp0ey3qvxwc7fa",
+    "stepId": "cmvv7z1u500go0ey3d2lhg93h",
+    "locale": "it",
+    "title": "Che tipo di azienda siete?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita), art. 2 (definizioni): distingue **fabbricante**, **importatore**, **distributore** e **rivenditore** (dealer). Gli obblighi sul passaporto ricadono principalmente su chi immette il prodotto sul mercato UE.\n- Un brand che fa produrre a terzi con il proprio marchio è di norma considerato fabbricante."
+  },
+  {
+    "id": "cmvv7z1u600gq0ey36603dpyx",
+    "stepId": "cmvv7z1u500go0ey3d2lhg93h",
+    "locale": "en",
+    "title": "What type of company are you?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj), Article 2 (definitions): distinguishes **manufacturer**, **importer**, **distributor** and **dealer**. Passport obligations fall mainly on whoever places the product on the EU market.\n- A brand having products made by third parties under its own name is usually considered the manufacturer."
+  },
+  {
+    "id": "cmvv7z1uc00ha0ey3wnknie9l",
+    "stepId": "cmvv7z1ub00h90ey3pohhzfvk",
+    "locale": "en",
+    "title": "How many different products (SKUs) do you handle each year?",
+    "description": null,
+    "help": "An estimate is fine.",
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): a passport is required for **every product placed on the market** that falls under a delegated act. The number of SKUs drives data volumes, update processes and platform costs.\n- The passport level (model, batch or item) is set by the delegated act: see the granularity step."
+  },
+  {
+    "id": "cmvv7z1uc00hb0ey3sks2xswq",
+    "stepId": "cmvv7z1ub00h90ey3pohhzfvk",
+    "locale": "it",
+    "title": "Quanti prodotti diversi (SKU) gestite ogni anno?",
+    "description": null,
+    "help": "Una stima è sufficiente.",
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il passaporto è richiesto per **ogni prodotto immesso sul mercato** che rientra in un atto delegato. Il numero di SKU incide su volumi di dati, processi di aggiornamento e costi della piattaforma.\n- Il livello del passaporto (modello, lotto o singolo articolo) è stabilito dall'atto delegato: vedi lo step sulla granularità."
+  },
+  {
+    "id": "cmvv7z1ud00he0ey3orf9hknb",
+    "stepId": "cmvv7z1ud00hc0ey3drvmw86e",
+    "locale": "en",
+    "title": "Describe a sample product",
+    "description": "We will use this product as a reference throughout the journey.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj), Annex III: categories of information that may be included in the passport (identifiers, compliance, documentation, instructions, repair and end-of-life information…). The sector's delegated act says which ones are mandatory.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Annex XIII (information to be included in the battery passport)."
+  },
+  {
+    "id": "cmvv7z1ue00hg0ey3xxc8h4o9",
+    "stepId": "cmvv7z1ue00hf0ey30jkmzho1",
+    "locale": "en",
+    "title": "Does the product require maintenance or repairs?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): ecodesign requirements include **durability, reparability and spare parts availability**; the related information may be included in the passport.\n- [Directive (EU) 2024/1799 (Right to repair)](https://eur-lex.europa.eu/eli/dir/2024/1799/oj): repair obligations for certain product categories.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 14 (information on state of health and expected lifetime)."
+  },
+  {
+    "id": "cmvv7z1ue00hh0ey3pf893bx4",
+    "stepId": "cmvv7z1ue00hf0ey30jkmzho1",
+    "locale": "it",
+    "title": "Il prodotto richiede manutenzione o riparazioni?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): tra i requisiti di progettazione ecocompatibile rientrano **durabilità, riparabilità e disponibilità di parti di ricambio**; le informazioni relative possono confluire nel passaporto.\n- [Direttiva (UE) 2024/1799 (Diritto alla riparazione)](https://eur-lex.europa.eu/eli/dir/2024/1799/oj/ita): obblighi di riparazione per alcune categorie di prodotti.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 14 (informazioni sullo stato di salute e sulla durata prevista)."
+  },
+  {
+    "id": "cmvv7z1ug00hp0ey3ortpgre3",
+    "stepId": "cmvv7z1ug00ho0ey3e5898ee4",
+    "locale": "it",
+    "title": "I dati del prodotto sono statici o dinamici?",
+    "description": "Dinamici: cambiano durante la vita del prodotto (es. riparazioni, stato di salute, proprietari).",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il passaporto deve restare **accessibile e aggiornato** per la durata prevista; l'atto delegato indica chi può aggiornare quali dati (es. riparatori, rigeneratori).\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), Allegato XIII: alcune informazioni del passaporto sono **dinamiche** (es. stato di salute) e vanno aggiornate durante la vita della batteria."
+  },
+  {
+    "id": "cmvv7z1ug00hq0ey30f3v2mqv",
+    "stepId": "cmvv7z1ug00ho0ey3e5898ee4",
+    "locale": "en",
+    "title": "Is the product data static or dynamic?",
+    "description": "Dynamic: they change during the product's life (e.g. repairs, state of health, owners).",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the passport must remain **accessible and up to date** for its expected lifetime; the delegated act sets who may update which data (e.g. repairers, remanufacturers).\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Annex XIII: some passport information is **dynamic** (e.g. state of health) and must be updated during the battery's life."
+  },
+  {
+    "id": "cmvv7z1uj00i10ey3wix2hja2",
+    "stepId": "cmvv7z1ui00i00ey3o8vh6fo8",
+    "locale": "it",
+    "title": "Da dove arrivano i dati che finiranno nel DPP?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): i requisiti di informazione comprendono anche la **tracciabilità delle sostanze preoccupanti** lungo il ciclo di vita, che richiede dati dai fornitori.\n- [CIRPASS-2](https://cirpass2.eu/): casi d'uso e modelli di scambio dati tra sistemi aziendali (ERP, PLM, MES) e fornitori."
+  },
+  {
+    "id": "cmvv7z1uj00i20ey3gv48ka1v",
+    "stepId": "cmvv7z1ui00i00ey3o8vh6fo8",
+    "locale": "en",
+    "title": "Where does the data for the DPP come from?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): information requirements also cover **tracking substances of concern** throughout the life cycle, which requires supplier data.\n- [CIRPASS-2](https://cirpass2.eu/): use cases and data exchange models between business systems (ERP, PLM, MES) and suppliers."
+  },
+  {
+    "id": "cmvv7z1un00im0ey3m9tft3ib",
+    "stepId": "cmvv7z1un00il0ey35qzvjofp",
+    "locale": "en",
+    "title": "How is this data organized today?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the passport relies on **open, interoperable standards** and a decentralised architecture: data stays with the economic operator or its service provider.\n- Data spread across several systems needs a common data model before feeding the passport."
+  },
+  {
+    "id": "cmvv7z1un00in0ey38hz73bmt",
+    "stepId": "cmvv7z1un00il0ey35qzvjofp",
+    "locale": "it",
+    "title": "Come sono organizzati oggi questi dati?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il passaporto si basa su **standard aperti e interoperabili** e su un'architettura decentralizzata: i dati restano presso l'operatore economico o il suo fornitore di servizi.\n- Dati distribuiti su più sistemi richiedono un modello dati comune prima di alimentare il passaporto."
+  },
+  {
+    "id": "cmvv7z1ud00hd0ey36xcyudde",
+    "stepId": "cmvv7z1ud00hc0ey3drvmw86e",
+    "locale": "it",
+    "title": "Descrivi un prodotto di esempio",
+    "description": "Useremo questo prodotto come riferimento per il progetto.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita), Allegato III: categorie di informazioni che possono essere incluse nel passaporto (identificativi, conformità, documentazione, istruzioni, informazioni per riparazione e fine vita…). L'atto delegato del settore indica quali sono obbligatorie.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), Allegato XIII (informazioni da includere nel passaporto delle batterie)."
+  },
+  {
+    "id": "cmvv7z1uq00iy0ey31a2v5d1s",
+    "stepId": "cmvv7z1up00ix0ey3eah4cief",
+    "locale": "it",
+    "title": "Quali informazioni avete già disponibili?",
+    "description": "Il modello dati richiesto dipende dall'atto delegato del settore.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita), Allegato III: categorie di informazioni del passaporto.\n- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): i **parametri di prodotto** (durabilità, contenuto riciclato, impronta ambientale e di carbonio, riciclabilità…) su cui gli atti delegati possono fissare requisiti.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), Allegato XIII.\n- **Tessile, acciaio, alluminio e altri gruppi**: gli atti delegati sono in preparazione; il modello dati definitivo dipenderà da questi."
+  },
+  {
+    "id": "cmvv7z1uq00iz0ey3sj1f16te",
+    "stepId": "cmvv7z1up00ix0ey3eah4cief",
+    "locale": "en",
+    "title": "Which information do you already have?",
+    "description": "The required data model depends on the sector's delegated act.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj), Annex III: categories of passport information.\n- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the **product parameters** (durability, recycled content, environmental and carbon footprint, recyclability…) on which delegated acts may set requirements.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Annex XIII.\n- **Textiles, steel, aluminium and other groups**: delegated acts are being prepared; the final data model will depend on them."
+  },
+  {
+    "id": "cmvv7z1ut00jj0ey3gja3vul0",
+    "stepId": "cmvv7z1ut00ji0ey36pgluolj",
+    "locale": "en",
+    "title": "Does the product already carry a data carrier?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the passport is linked to a **unique product identifier** through a **data carrier** (e.g. a QR code) placed on the product, its packaging or documentation, as set by the delegated act.\n- The data carrier only holds the identifier, not the passport data.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 13 (labelling and QR code)."
+  },
+  {
+    "id": "cmvv7z1uu00jk0ey3u1mk6ilf",
+    "stepId": "cmvv7z1ut00ji0ey36pgluolj",
+    "locale": "it",
+    "title": "Sul prodotto è già presente un data carrier?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il passaporto è collegato a un **identificativo univoco del prodotto** tramite un **data carrier** (es. QR code) presente sul prodotto, sull'imballaggio o sulla documentazione, come indicato dall'atto delegato.\n- Il data carrier contiene solo l'identificativo, non i dati del passaporto.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 13 (etichettatura e QR code)."
+  },
+  {
+    "id": "cmvv7z1v300jv0ey3dvk5gei4",
+    "stepId": "cmvv7z1v200ju0ey34tee6u6m",
+    "locale": "it",
+    "title": "Quali requisiti deve rispettare il data carrier?",
+    "description": null,
+    "help": "Riferimenti normativi da verificare con il consulente per il tuo settore.",
+    "references": "- **Prodotti ESPR**: tipo di data carrier e posizionamento sono fissati dall'atto delegato del gruppo di prodotto, sulla base di standard aperti ([Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita)).\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 13 (QR code sulla batteria) e art. 77 (accesso al passaporto tramite QR code).\n- Standard di riferimento: QR code ISO/IEC 18004; identificazione univoca ISO/IEC 15459."
+  },
+  {
+    "id": "cmvv7z1v300jw0ey3xzl6vqs7",
+    "stepId": "cmvv7z1v200ju0ey34tee6u6m",
+    "locale": "en",
+    "title": "Which requirements must the data carrier meet?",
+    "description": null,
+    "help": "Regulatory references to be verified with the consultant for your sector.",
+    "references": "- **ESPR products**: data carrier type and placement are set by the product group's delegated act, based on open standards ([Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj)).\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 13 (QR code on the battery) and Article 77 (passport access through the QR code).\n- Reference standards: QR code ISO/IEC 18004; unique identification ISO/IEC 15459."
+  },
+  {
+    "id": "cmvv7z1v500k70ey3l8wtavzp",
+    "stepId": "cmvv7z1v500k60ey3t8pc503v",
+    "locale": "it",
+    "title": "A quale livello serve il passaporto?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): l'atto delegato stabilisce se il passaporto si riferisce al **modello**, al **lotto** o al **singolo articolo**.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 77: il passaporto è **per singola batteria**."
+  },
+  {
+    "id": "cmvv7z1v500k80ey38jim7imb",
+    "stepId": "cmvv7z1v500k60ey3t8pc503v",
+    "locale": "en",
+    "title": "At which level is the passport needed?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the delegated act sets whether the passport relates to the **model**, the **batch** or the **individual item**.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 77: the passport is **per individual battery**."
+  },
+  {
+    "id": "cmvv7z1v800km0ey3jkwgqmuv",
+    "stepId": "cmvv7z1v800kl0ey34ysb79oh",
+    "locale": "it",
+    "title": "Che schema userete per l'identificativo e l'URL?",
+    "description": null,
+    "help": "Rif. EN 18219 (identificativi univoci DPP): verificare lo stato della norma.",
+    "references": "- **EN 18219** (CEN/CENELEC JTC 24): norma sugli identificativi univoci per il DPP, parte del pacchetto di norme armonizzate richieste dalla Commissione. Verifica lo stato di pubblicazione.\n- [GS1 Digital Link](https://www.gs1.org/standards/gs1-digital-link): schema diffuso per codificare identificativi di prodotto in un URL risolvibile.\n- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): identificativi e data carrier devono basarsi su standard aperti e restare stabili nel tempo."
+  },
+  {
+    "id": "cmvv7z1v800kn0ey3jq8zy48q",
+    "stepId": "cmvv7z1v800kl0ey34ysb79oh",
+    "locale": "en",
+    "title": "Which scheme will you use for the identifier and URL?",
+    "description": null,
+    "help": "See EN 18219 (DPP unique identifiers): check the standard's status.",
+    "references": "- **EN 18219** (CEN/CENELEC JTC 24): standard on unique identifiers for the DPP, part of the harmonised standards requested by the Commission. Check its publication status.\n- [GS1 Digital Link](https://www.gs1.org/standards/gs1-digital-link): a widespread scheme for encoding product identifiers in a resolvable URL.\n- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): identifiers and data carriers must be based on open standards and remain stable over time."
+  },
+  {
+    "id": "cmvv7z1va00ky0ey3ugdyo5cf",
+    "stepId": "cmvv7z1v900kx0ey3zg1v50dr",
+    "locale": "it",
+    "title": "Dove ospiterete i passaporti?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il passaporto può essere gestito dall'operatore economico o da un **fornitore di servizi del passaporto**; sono previsti requisiti di disponibilità nel tempo, inclusa una **copia di backup** presso un fornitore di servizi.\n- La scelta tra piattaforma proprietaria, SaaS o PaaS deve garantire accesso ai dati anche in caso di cessazione dell'attività o del fornitore."
+  },
+  {
+    "id": "cmvv7z1va00kz0ey37tri1nk7",
+    "stepId": "cmvv7z1v900kx0ey3zg1v50dr",
+    "locale": "en",
+    "title": "Where will you host the passports?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the passport may be managed by the economic operator or by a **passport service provider**; there are requirements on long-term availability, including a **backup copy** held by a service provider.\n- Choosing between a proprietary platform, SaaS or PaaS must ensure data access even if the business or the provider ceases activity."
+  },
+  {
+    "id": "cmvv7v0m0009r0ey30th6bv7g",
+    "stepId": "cmvv7v0m0009q0ey3cedr10s9",
+    "locale": "it",
+    "title": "Descrivi un prodotto di esempio",
+    "description": "Useremo questo prodotto come riferimento per il progetto.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita), Allegato III: categorie di informazioni che possono essere incluse nel passaporto (identificativi, conformità, documentazione, istruzioni, informazioni per riparazione e fine vita…). L'atto delegato del settore indica quali sono obbligatorie.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), Allegato XIII (informazioni da includere nel passaporto delle batterie)."
+  },
+  {
+    "id": "cmvv7v0lx009c0ey3i0tzpk04",
+    "stepId": "cmvv7v0lx009b0ey33id3aqxb",
+    "locale": "it",
+    "title": "Producete internamente o vi affidate a fornitori?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): chi immette il prodotto sul mercato deve rendere disponibile il passaporto anche quando i dati provengono dalla **catena di fornitura**: con fornitori esterni servono accordi su quali dati, in che formato e con quali tempi.\r\n- [CIRPASS-2](https://cirpass2.eu/): progetti pilota europei sullo scambio di dati di filiera per il DPP."
+  },
+  {
+    "id": "cmvv7v0lx009d0ey3z2f6tozk",
+    "stepId": "cmvv7v0lx009b0ey33id3aqxb",
+    "locale": "en",
+    "title": "Do you manufacture in-house or rely on suppliers?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): whoever places the product on the market must make the passport available even when the data comes from the **supply chain**: with external suppliers you need agreements on which data, in which format and when.\r\n- [CIRPASS-2](https://cirpass2.eu/): European pilot projects on supply-chain data exchange for the DPP."
+  },
+  {
+    "id": "cmvv7v0lp00800ey3j8hkm6ef",
+    "stepId": "cmvv7v0lo007z0ey3nwk3tjmm",
+    "locale": "it",
+    "title": "In quale settore opera la tua azienda?",
+    "description": "Gli obblighi e le tempistiche del DPP dipendono dalla categoria di prodotto.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): quadro generale. I prodotti soggetti al passaporto e i dati richiesti sono definiti da **atti delegati per gruppo di prodotto**, adottati nel tempo secondo il piano di lavoro della Commissione.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 77 (passaporto delle batterie).\n- **Prodotti da costruzione**: [Regolamento (UE) 2024/3110 (Prodotti da costruzione)](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/ita), che prevede un proprio passaporto digitale.\n- [Digital Product Passport — Commissione europea](https://single-market-economy.ec.europa.eu/single-market/digital-product-passport_en)"
+  },
+  {
+    "id": "cmvv7v0lp00810ey3bdhaa5vt",
+    "stepId": "cmvv7v0lo007z0ey3nwk3tjmm",
+    "locale": "en",
+    "title": "Which industry does your company operate in?",
+    "description": "DPP obligations and timelines depend on the product category.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): general framework. The products requiring a passport and the data required are set by **delegated acts per product group**, adopted over time following the Commission's working plan.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 77 (battery passport).\n- **Construction products**: [Regulation (EU) 2024/3110 (Construction products)](https://eur-lex.europa.eu/eli/reg/2024/3110/oj), which provides for its own digital passport.\n- [Digital Product Passport — European Commission](https://single-market-economy.ec.europa.eu/single-market/digital-product-passport_en)"
+  },
+  {
+    "id": "cmvv7v0lu008r0ey3vdc8c6cc",
+    "stepId": "cmvv7v0lt008q0ey3rpwxotvs",
+    "locale": "it",
+    "title": "Che tipo di azienda siete?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita), art. 2 (definizioni): distingue **fabbricante**, **importatore**, **distributore** e **rivenditore** (dealer). Gli obblighi sul passaporto ricadono principalmente su chi immette il prodotto sul mercato UE.\n- Un brand che fa produrre a terzi con il proprio marchio è di norma considerato fabbricante."
+  },
+  {
+    "id": "cmvv7v0lu008s0ey3yurjedhu",
+    "stepId": "cmvv7v0lt008q0ey3rpwxotvs",
+    "locale": "en",
+    "title": "What type of company are you?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj), Article 2 (definitions): distinguishes **manufacturer**, **importer**, **distributor** and **dealer**. Passport obligations fall mainly on whoever places the product on the EU market.\n- A brand having products made by third parties under its own name is usually considered the manufacturer."
+  },
+  {
+    "id": "cmvv7v0lz009o0ey3fo6dzz52",
+    "stepId": "cmvv7v0lz009n0ey327pmhpzi",
+    "locale": "en",
+    "title": "How many different products (SKUs) do you handle each year?",
+    "description": null,
+    "help": "An estimate is fine.",
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): a passport is required for **every product placed on the market** that falls under a delegated act. The number of SKUs drives data volumes, update processes and platform costs.\n- The passport level (model, batch or item) is set by the delegated act: see the granularity step."
+  },
+  {
+    "id": "cmvv7v0lz009p0ey34co6xc4j",
+    "stepId": "cmvv7v0lz009n0ey327pmhpzi",
+    "locale": "it",
+    "title": "Quanti prodotti diversi (SKU) gestite ogni anno?",
+    "description": null,
+    "help": "Una stima è sufficiente.",
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il passaporto è richiesto per **ogni prodotto immesso sul mercato** che rientra in un atto delegato. Il numero di SKU incide su volumi di dati, processi di aggiornamento e costi della piattaforma.\n- Il livello del passaporto (modello, lotto o singolo articolo) è stabilito dall'atto delegato: vedi lo step sulla granularità."
+  },
+  {
+    "id": "cmvv7z1vb00ld0ey3m7o8wx7x",
+    "stepId": "cmvv7z1vb00lc0ey33vxup12y",
+    "locale": "it",
+    "title": "Come pensate di integrarvi con il Registry UE?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita), art. 13: **registro dei passaporti** istituito dalla Commissione, in cui vengono registrati almeno gli identificativi univoci di prodotto e collegati al passaporto.\n- [DPP Registry — Commissione europea](https://single-market-economy.ec.europa.eu/single-market/digital-product-passport/dpp-registry_en)\n- Il registro è collegato anche ai controlli doganali sui prodotti importati."
+  },
+  {
+    "id": "cmvv7z1vb00le0ey3tu7cdq92",
+    "stepId": "cmvv7z1vb00lc0ey33vxup12y",
+    "locale": "en",
+    "title": "How do you plan to integrate with the EU Registry?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj), Article 13: **digital product passport registry** set up by the Commission, storing at least the unique product identifiers and linking them to the passport.\n- [DPP Registry — European Commission](https://single-market-economy.ec.europa.eu/single-market/digital-product-passport/dpp-registry_en)\n- The registry is also linked to customs checks on imported products."
+  },
+  {
+    "id": "cmvv7v0m0009s0ey3p9vyf576",
+    "stepId": "cmvv7v0m0009q0ey3cedr10s9",
+    "locale": "en",
+    "title": "Describe a sample product",
+    "description": "We will use this product as a reference throughout the journey.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj), Annex III: categories of information that may be included in the passport (identifiers, compliance, documentation, instructions, repair and end-of-life information…). The sector's delegated act says which ones are mandatory.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Annex XIII (information to be included in the battery passport)."
+  },
+  {
+    "id": "cmvv7v0m1009u0ey38vub3ir1",
+    "stepId": "cmvv7v0m1009t0ey3c9q6l7y0",
+    "locale": "en",
+    "title": "Does the product require maintenance or repairs?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): ecodesign requirements include **durability, reparability and spare parts availability**; the related information may be included in the passport.\n- [Directive (EU) 2024/1799 (Right to repair)](https://eur-lex.europa.eu/eli/dir/2024/1799/oj): repair obligations for certain product categories.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 14 (information on state of health and expected lifetime)."
+  },
+  {
+    "id": "cmvv7v0m1009v0ey345qr1as2",
+    "stepId": "cmvv7v0m1009t0ey3c9q6l7y0",
+    "locale": "it",
+    "title": "Il prodotto richiede manutenzione o riparazioni?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): tra i requisiti di progettazione ecocompatibile rientrano **durabilità, riparabilità e disponibilità di parti di ricambio**; le informazioni relative possono confluire nel passaporto.\n- [Direttiva (UE) 2024/1799 (Diritto alla riparazione)](https://eur-lex.europa.eu/eli/dir/2024/1799/oj/ita): obblighi di riparazione per alcune categorie di prodotti.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 14 (informazioni sullo stato di salute e sulla durata prevista)."
+  },
+  {
+    "id": "cmvv7v0m200a30ey38ryerj49",
+    "stepId": "cmvv7v0m200a20ey3m54u29zp",
+    "locale": "it",
+    "title": "I dati del prodotto sono statici o dinamici?",
+    "description": "Dinamici: cambiano durante la vita del prodotto (es. riparazioni, stato di salute, proprietari).",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il passaporto deve restare **accessibile e aggiornato** per la durata prevista; l'atto delegato indica chi può aggiornare quali dati (es. riparatori, rigeneratori).\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), Allegato XIII: alcune informazioni del passaporto sono **dinamiche** (es. stato di salute) e vanno aggiornate durante la vita della batteria."
+  },
+  {
+    "id": "cmvv7v0m200a40ey3fpuucbg3",
+    "stepId": "cmvv7v0m200a20ey3m54u29zp",
+    "locale": "en",
+    "title": "Is the product data static or dynamic?",
+    "description": "Dynamic: they change during the product's life (e.g. repairs, state of health, owners).",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the passport must remain **accessible and up to date** for its expected lifetime; the delegated act sets who may update which data (e.g. repairers, remanufacturers).\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Annex XIII: some passport information is **dynamic** (e.g. state of health) and must be updated during the battery's life."
+  },
+  {
+    "id": "cmvv7v0m400af0ey3jjbgs6ev",
+    "stepId": "cmvv7v0m400ae0ey3zz7ffcsm",
+    "locale": "it",
+    "title": "Da dove arrivano i dati che finiranno nel DPP?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): i requisiti di informazione comprendono anche la **tracciabilità delle sostanze preoccupanti** lungo il ciclo di vita, che richiede dati dai fornitori.\n- [CIRPASS-2](https://cirpass2.eu/): casi d'uso e modelli di scambio dati tra sistemi aziendali (ERP, PLM, MES) e fornitori."
+  },
+  {
+    "id": "cmvv7v0m400ag0ey3goih9qml",
+    "stepId": "cmvv7v0m400ae0ey3zz7ffcsm",
+    "locale": "en",
+    "title": "Where does the data for the DPP come from?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): information requirements also cover **tracking substances of concern** throughout the life cycle, which requires supplier data.\n- [CIRPASS-2](https://cirpass2.eu/): use cases and data exchange models between business systems (ERP, PLM, MES) and suppliers."
+  },
+  {
+    "id": "cmvv7v0m700b00ey34ibqjsk4",
+    "stepId": "cmvv7v0m700az0ey3rggap3u8",
+    "locale": "en",
+    "title": "How is this data organized today?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the passport relies on **open, interoperable standards** and a decentralised architecture: data stays with the economic operator or its service provider.\n- Data spread across several systems needs a common data model before feeding the passport."
+  },
+  {
+    "id": "cmvv7v0m700b10ey3keo46r1f",
+    "stepId": "cmvv7v0m700az0ey3rggap3u8",
+    "locale": "it",
+    "title": "Come sono organizzati oggi questi dati?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il passaporto si basa su **standard aperti e interoperabili** e su un'architettura decentralizzata: i dati restano presso l'operatore economico o il suo fornitore di servizi.\n- Dati distribuiti su più sistemi richiedono un modello dati comune prima di alimentare il passaporto."
+  },
+  {
+    "id": "cmvv7v0m800bc0ey3hlv70gqv",
+    "stepId": "cmvv7v0m800bb0ey353i20qcq",
+    "locale": "it",
+    "title": "Quali informazioni avete già disponibili?",
+    "description": "Il modello dati richiesto dipende dall'atto delegato del settore.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita), Allegato III: categorie di informazioni del passaporto.\n- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): i **parametri di prodotto** (durabilità, contenuto riciclato, impronta ambientale e di carbonio, riciclabilità…) su cui gli atti delegati possono fissare requisiti.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), Allegato XIII.\n- **Tessile, acciaio, alluminio e altri gruppi**: gli atti delegati sono in preparazione; il modello dati definitivo dipenderà da questi."
+  },
+  {
+    "id": "cmvv7v0m800bd0ey37459jn6n",
+    "stepId": "cmvv7v0m800bb0ey353i20qcq",
+    "locale": "en",
+    "title": "Which information do you already have?",
+    "description": "The required data model depends on the sector's delegated act.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj), Annex III: categories of passport information.\n- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the **product parameters** (durability, recycled content, environmental and carbon footprint, recyclability…) on which delegated acts may set requirements.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Annex XIII.\n- **Textiles, steel, aluminium and other groups**: delegated acts are being prepared; the final data model will depend on them."
+  },
+  {
+    "id": "cmvv7v0mb00bx0ey3bidaobfn",
+    "stepId": "cmvv7v0ma00bw0ey3qvevbwz3",
+    "locale": "en",
+    "title": "Does the product already carry a data carrier?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the passport is linked to a **unique product identifier** through a **data carrier** (e.g. a QR code) placed on the product, its packaging or documentation, as set by the delegated act.\n- The data carrier only holds the identifier, not the passport data.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 13 (labelling and QR code)."
+  },
+  {
+    "id": "cmvv7v0mb00by0ey3uj0dotjk",
+    "stepId": "cmvv7v0ma00bw0ey3qvevbwz3",
+    "locale": "it",
+    "title": "Sul prodotto è già presente un data carrier?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il passaporto è collegato a un **identificativo univoco del prodotto** tramite un **data carrier** (es. QR code) presente sul prodotto, sull'imballaggio o sulla documentazione, come indicato dall'atto delegato.\n- Il data carrier contiene solo l'identificativo, non i dati del passaporto.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 13 (etichettatura e QR code)."
+  },
+  {
+    "id": "cmvv7v0mc00c90ey37et6i0v5",
+    "stepId": "cmvv7v0mc00c80ey3tngldcso",
+    "locale": "it",
+    "title": "Quali requisiti deve rispettare il data carrier?",
+    "description": null,
+    "help": "Riferimenti normativi da verificare con il consulente per il tuo settore.",
+    "references": "- **Prodotti ESPR**: tipo di data carrier e posizionamento sono fissati dall'atto delegato del gruppo di prodotto, sulla base di standard aperti ([Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita)).\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 13 (QR code sulla batteria) e art. 77 (accesso al passaporto tramite QR code).\n- Standard di riferimento: QR code ISO/IEC 18004; identificazione univoca ISO/IEC 15459."
+  },
+  {
+    "id": "cmvv7v0mc00ca0ey3sjyuahia",
+    "stepId": "cmvv7v0mc00c80ey3tngldcso",
+    "locale": "en",
+    "title": "Which requirements must the data carrier meet?",
+    "description": null,
+    "help": "Regulatory references to be verified with the consultant for your sector.",
+    "references": "- **ESPR products**: data carrier type and placement are set by the product group's delegated act, based on open standards ([Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj)).\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 13 (QR code on the battery) and Article 77 (passport access through the QR code).\n- Reference standards: QR code ISO/IEC 18004; unique identification ISO/IEC 15459."
+  },
+  {
+    "id": "cmvv7v0me00cl0ey3n7510zue",
+    "stepId": "cmvv7v0me00ck0ey34pedd1l4",
+    "locale": "it",
+    "title": "A quale livello serve il passaporto?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): l'atto delegato stabilisce se il passaporto si riferisce al **modello**, al **lotto** o al **singolo articolo**.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 77: il passaporto è **per singola batteria**."
+  },
+  {
+    "id": "cmvv7v0me00cm0ey39gnziq31",
+    "stepId": "cmvv7v0me00ck0ey34pedd1l4",
+    "locale": "en",
+    "title": "At which level is the passport needed?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the delegated act sets whether the passport relates to the **model**, the **batch** or the **individual item**.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 77: the passport is **per individual battery**."
+  },
+  {
+    "id": "cmvv7v0mm00d00ey3hsjee4gh",
+    "stepId": "cmvv7v0mm00cz0ey3jait9kjy",
+    "locale": "it",
+    "title": "Che schema userete per l'identificativo e l'URL?",
+    "description": null,
+    "help": "Rif. EN 18219 (identificativi univoci DPP): verificare lo stato della norma.",
+    "references": "- **EN 18219** (CEN/CENELEC JTC 24): norma sugli identificativi univoci per il DPP, parte del pacchetto di norme armonizzate richieste dalla Commissione. Verifica lo stato di pubblicazione.\n- [GS1 Digital Link](https://www.gs1.org/standards/gs1-digital-link): schema diffuso per codificare identificativi di prodotto in un URL risolvibile.\n- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): identificativi e data carrier devono basarsi su standard aperti e restare stabili nel tempo."
+  },
+  {
+    "id": "cmvv7v0mm00d10ey3txiorx0n",
+    "stepId": "cmvv7v0mm00cz0ey3jait9kjy",
+    "locale": "en",
+    "title": "Which scheme will you use for the identifier and URL?",
+    "description": null,
+    "help": "See EN 18219 (DPP unique identifiers): check the standard's status.",
+    "references": "- **EN 18219** (CEN/CENELEC JTC 24): standard on unique identifiers for the DPP, part of the harmonised standards requested by the Commission. Check its publication status.\n- [GS1 Digital Link](https://www.gs1.org/standards/gs1-digital-link): a widespread scheme for encoding product identifiers in a resolvable URL.\n- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): identifiers and data carriers must be based on open standards and remain stable over time."
+  },
+  {
+    "id": "cmvv7v0ms00dc0ey36mwc2lry",
+    "stepId": "cmvv7v0mr00db0ey3m0afrglo",
+    "locale": "it",
+    "title": "Dove ospiterete i passaporti?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il passaporto può essere gestito dall'operatore economico o da un **fornitore di servizi del passaporto**; sono previsti requisiti di disponibilità nel tempo, inclusa una **copia di backup** presso un fornitore di servizi.\n- La scelta tra piattaforma proprietaria, SaaS o PaaS deve garantire accesso ai dati anche in caso di cessazione dell'attività o del fornitore."
+  },
+  {
+    "id": "cmvv7v0ms00dd0ey3a8w8ge8e",
+    "stepId": "cmvv7v0mr00db0ey3m0afrglo",
+    "locale": "en",
+    "title": "Where will you host the passports?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the passport may be managed by the economic operator or by a **passport service provider**; there are requirements on long-term availability, including a **backup copy** held by a service provider.\n- Choosing between a proprietary platform, SaaS or PaaS must ensure data access even if the business or the provider ceases activity."
+  },
+  {
+    "id": "cmvv7v0n000dr0ey3xe09njeo",
+    "stepId": "cmvv7v0n000dq0ey3ditjsjuu",
+    "locale": "it",
+    "title": "Come pensate di integrarvi con il Registry UE?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita), art. 13: **registro dei passaporti** istituito dalla Commissione, in cui vengono registrati almeno gli identificativi univoci di prodotto e collegati al passaporto.\n- [DPP Registry — Commissione europea](https://single-market-economy.ec.europa.eu/single-market/digital-product-passport/dpp-registry_en)\n- Il registro è collegato anche ai controlli doganali sui prodotti importati."
+  },
+  {
+    "id": "cmvv7v0n000ds0ey3xsk18xb8",
+    "stepId": "cmvv7v0n000dq0ey3ditjsjuu",
+    "locale": "en",
+    "title": "How do you plan to integrate with the EU Registry?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj), Article 13: **digital product passport registry** set up by the Commission, storing at least the unique product identifiers and linking them to the passport.\n- [DPP Registry — European Commission](https://single-market-economy.ec.europa.eu/single-market/digital-product-passport/dpp-registry_en)\n- The registry is also linked to customs checks on imported products."
+  },
+  {
+    "id": "cmvv7z1vf00ls0ey3c4x9bcya",
+    "stepId": "cmvv7z1ve00lr0ey3oyfzhsc5",
+    "locale": "it",
+    "title": "Producete internamente o vi affidate a fornitori?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): chi immette il prodotto sul mercato deve rendere disponibile il passaporto anche quando i dati provengono dalla **catena di fornitura**: con fornitori esterni servono accordi su quali dati, in che formato e con quali tempi.\r\n- [CIRPASS-2](https://cirpass2.eu/): progetti pilota europei sullo scambio di dati di filiera per il DPP."
+  },
+  {
+    "id": "cmvv7z1vf00lt0ey3rceml3ir",
+    "stepId": "cmvv7z1ve00lr0ey3oyfzhsc5",
+    "locale": "en",
+    "title": "Do you manufacture in-house or rely on suppliers?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): whoever places the product on the market must make the passport available even when the data comes from the **supply chain**: with external suppliers you need agreements on which data, in which format and when.\r\n- [CIRPASS-2](https://cirpass2.eu/): European pilot projects on supply-chain data exchange for the DPP."
+  },
+  {
+    "id": "cmvv84sfn0006m2y379wywwxz",
+    "stepId": "cmvv84sfm0005m2y36cr0x2j9",
+    "locale": "it",
+    "title": "A quale livello serve il passaporto?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): l'atto delegato stabilisce se il passaporto si riferisce al **modello**, al **lotto** o al **singolo articolo**.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 77: il passaporto è **per singola batteria**."
+  },
+  {
+    "id": "cmvv84sfn0007m2y34v1gn8fh",
+    "stepId": "cmvv84sfm0005m2y36cr0x2j9",
+    "locale": "en",
+    "title": "At which level is the passport needed?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the delegated act sets whether the passport relates to the **model**, the **batch** or the **individual item**.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 77: the passport is **per individual battery**."
+  },
+  {
+    "id": "cmvv84sfu000lm2y3d261c67l",
+    "stepId": "cmvv84sft000km2y35ln84hkc",
+    "locale": "it",
+    "title": "Che schema userete per l'identificativo e l'URL?",
+    "description": null,
+    "help": "Rif. EN 18219 (identificativi univoci DPP): verificare lo stato della norma.",
+    "references": "- **EN 18219** (CEN/CENELEC JTC 24): norma sugli identificativi univoci per il DPP, parte del pacchetto di norme armonizzate richieste dalla Commissione. Verifica lo stato di pubblicazione.\n- [GS1 Digital Link](https://www.gs1.org/standards/gs1-digital-link): schema diffuso per codificare identificativi di prodotto in un URL risolvibile.\n- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): identificativi e data carrier devono basarsi su standard aperti e restare stabili nel tempo."
+  },
+  {
+    "id": "cmvv84sfu000mm2y3d7vogt52",
+    "stepId": "cmvv84sft000km2y35ln84hkc",
+    "locale": "en",
+    "title": "Which scheme will you use for the identifier and URL?",
+    "description": null,
+    "help": "See EN 18219 (DPP unique identifiers): check the standard's status.",
+    "references": "- **EN 18219** (CEN/CENELEC JTC 24): standard on unique identifiers for the DPP, part of the harmonised standards requested by the Commission. Check its publication status.\n- [GS1 Digital Link](https://www.gs1.org/standards/gs1-digital-link): a widespread scheme for encoding product identifiers in a resolvable URL.\n- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): identifiers and data carriers must be based on open standards and remain stable over time."
+  },
+  {
+    "id": "cmvv84sfw000xm2y3ms47tlgk",
+    "stepId": "cmvv84sfw000wm2y3mvrfw93t",
+    "locale": "it",
+    "title": "Dove ospiterete i passaporti?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il passaporto può essere gestito dall'operatore economico o da un **fornitore di servizi del passaporto**; sono previsti requisiti di disponibilità nel tempo, inclusa una **copia di backup** presso un fornitore di servizi.\n- La scelta tra piattaforma proprietaria, SaaS o PaaS deve garantire accesso ai dati anche in caso di cessazione dell'attività o del fornitore."
+  },
+  {
+    "id": "cmvv84sfw000ym2y3tzvcri2l",
+    "stepId": "cmvv84sfw000wm2y3mvrfw93t",
+    "locale": "en",
+    "title": "Where will you host the passports?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the passport may be managed by the economic operator or by a **passport service provider**; there are requirements on long-term availability, including a **backup copy** held by a service provider.\n- Choosing between a proprietary platform, SaaS or PaaS must ensure data access even if the business or the provider ceases activity."
+  },
+  {
+    "id": "cmvv84sg2001cm2y3n82ivypu",
+    "stepId": "cmvv84sg1001bm2y38g3agmza",
+    "locale": "it",
+    "title": "In quale settore opera la tua azienda?",
+    "description": "Gli obblighi e le tempistiche del DPP dipendono dalla categoria di prodotto.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): quadro generale. I prodotti soggetti al passaporto e i dati richiesti sono definiti da **atti delegati per gruppo di prodotto**, adottati nel tempo secondo il piano di lavoro della Commissione.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 77 (passaporto delle batterie).\n- **Prodotti da costruzione**: [Regolamento (UE) 2024/3110 (Prodotti da costruzione)](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/ita), che prevede un proprio passaporto digitale.\n- [Digital Product Passport — Commissione europea](https://single-market-economy.ec.europa.eu/single-market/digital-product-passport_en)"
+  },
+  {
+    "id": "cmvv84sg2001dm2y3mumu03od",
+    "stepId": "cmvv84sg1001bm2y38g3agmza",
+    "locale": "en",
+    "title": "Which industry does your company operate in?",
+    "description": "DPP obligations and timelines depend on the product category.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): general framework. The products requiring a passport and the data required are set by **delegated acts per product group**, adopted over time following the Commission's working plan.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 77 (battery passport).\n- **Construction products**: [Regulation (EU) 2024/3110 (Construction products)](https://eur-lex.europa.eu/eli/reg/2024/3110/oj), which provides for its own digital passport.\n- [Digital Product Passport — European Commission](https://single-market-economy.ec.europa.eu/single-market/digital-product-passport_en)"
+  },
+  {
+    "id": "cmvv84sga0023m2y3smn8o2y4",
+    "stepId": "cmvv84sga0022m2y3jc454tn6",
+    "locale": "it",
+    "title": "Che tipo di azienda siete?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita), art. 2 (definizioni): distingue **fabbricante**, **importatore**, **distributore** e **rivenditore** (dealer). Gli obblighi sul passaporto ricadono principalmente su chi immette il prodotto sul mercato UE.\n- Un brand che fa produrre a terzi con il proprio marchio è di norma considerato fabbricante."
+  },
+  {
+    "id": "cmvv84sga0024m2y3mvd08cbu",
+    "stepId": "cmvv84sga0022m2y3jc454tn6",
+    "locale": "en",
+    "title": "What type of company are you?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj), Article 2 (definitions): distinguishes **manufacturer**, **importer**, **distributor** and **dealer**. Passport obligations fall mainly on whoever places the product on the EU market.\n- A brand having products made by third parties under its own name is usually considered the manufacturer."
+  },
+  {
+    "id": "cmvv84sge002om2y3z317s2oa",
+    "stepId": "cmvv84sgd002nm2y3s3aviv8b",
+    "locale": "en",
+    "title": "How many different products (SKUs) do you handle each year?",
+    "description": null,
+    "help": "An estimate is fine.",
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): a passport is required for **every product placed on the market** that falls under a delegated act. The number of SKUs drives data volumes, update processes and platform costs.\n- The passport level (model, batch or item) is set by the delegated act: see the granularity step."
+  },
+  {
+    "id": "cmvv84sge002pm2y3qdno2rvb",
+    "stepId": "cmvv84sgd002nm2y3s3aviv8b",
+    "locale": "it",
+    "title": "Quanti prodotti diversi (SKU) gestite ogni anno?",
+    "description": null,
+    "help": "Una stima è sufficiente.",
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il passaporto è richiesto per **ogni prodotto immesso sul mercato** che rientra in un atto delegato. Il numero di SKU incide su volumi di dati, processi di aggiornamento e costi della piattaforma.\n- Il livello del passaporto (modello, lotto o singolo articolo) è stabilito dall'atto delegato: vedi lo step sulla granularità."
+  },
+  {
+    "id": "cmvv84sgg002sm2y34nkegxkq",
+    "stepId": "cmvv84sgf002qm2y3jtzol6t6",
+    "locale": "en",
+    "title": "Describe a sample product",
+    "description": "We will use this product as a reference throughout the journey.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj), Annex III: categories of information that may be included in the passport (identifiers, compliance, documentation, instructions, repair and end-of-life information…). The sector's delegated act says which ones are mandatory.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Annex XIII (information to be included in the battery passport)."
+  },
+  {
+    "id": "cmvv84sgi002um2y3u1r8nbfz",
+    "stepId": "cmvv84sgi002tm2y3hg3t08wy",
+    "locale": "en",
+    "title": "Does the product require maintenance or repairs?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): ecodesign requirements include **durability, reparability and spare parts availability**; the related information may be included in the passport.\n- [Directive (EU) 2024/1799 (Right to repair)](https://eur-lex.europa.eu/eli/dir/2024/1799/oj): repair obligations for certain product categories.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 14 (information on state of health and expected lifetime)."
+  },
+  {
+    "id": "cmvv84sgi002vm2y3zjve90hc",
+    "stepId": "cmvv84sgi002tm2y3hg3t08wy",
+    "locale": "it",
+    "title": "Il prodotto richiede manutenzione o riparazioni?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): tra i requisiti di progettazione ecocompatibile rientrano **durabilità, riparabilità e disponibilità di parti di ricambio**; le informazioni relative possono confluire nel passaporto.\n- [Direttiva (UE) 2024/1799 (Diritto alla riparazione)](https://eur-lex.europa.eu/eli/dir/2024/1799/oj/ita): obblighi di riparazione per alcune categorie di prodotti.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 14 (informazioni sullo stato di salute e sulla durata prevista)."
+  },
+  {
+    "id": "cmvv84sgl0033m2y38q361un0",
+    "stepId": "cmvv84sgl0032m2y3lq6f249m",
+    "locale": "it",
+    "title": "I dati del prodotto sono statici o dinamici?",
+    "description": "Dinamici: cambiano durante la vita del prodotto (es. riparazioni, stato di salute, proprietari).",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il passaporto deve restare **accessibile e aggiornato** per la durata prevista; l'atto delegato indica chi può aggiornare quali dati (es. riparatori, rigeneratori).\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), Allegato XIII: alcune informazioni del passaporto sono **dinamiche** (es. stato di salute) e vanno aggiornate durante la vita della batteria."
+  },
+  {
+    "id": "cmvv84sgl0034m2y3arrp57jc",
+    "stepId": "cmvv84sgl0032m2y3lq6f249m",
+    "locale": "en",
+    "title": "Is the product data static or dynamic?",
+    "description": "Dynamic: they change during the product's life (e.g. repairs, state of health, owners).",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the passport must remain **accessible and up to date** for its expected lifetime; the delegated act sets who may update which data (e.g. repairers, remanufacturers).\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Annex XIII: some passport information is **dynamic** (e.g. state of health) and must be updated during the battery's life."
+  },
+  {
+    "id": "cmvv84sgq003fm2y3tqtm3fsd",
+    "stepId": "cmvv84sgp003em2y3m6h649o8",
+    "locale": "it",
+    "title": "Da dove arrivano i dati che finiranno nel DPP?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): i requisiti di informazione comprendono anche la **tracciabilità delle sostanze preoccupanti** lungo il ciclo di vita, che richiede dati dai fornitori.\n- [CIRPASS-2](https://cirpass2.eu/): casi d'uso e modelli di scambio dati tra sistemi aziendali (ERP, PLM, MES) e fornitori."
+  },
+  {
+    "id": "cmvv84sgq003gm2y33ufz07hl",
+    "stepId": "cmvv84sgp003em2y3m6h649o8",
+    "locale": "en",
+    "title": "Where does the data for the DPP come from?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): information requirements also cover **tracking substances of concern** throughout the life cycle, which requires supplier data.\n- [CIRPASS-2](https://cirpass2.eu/): use cases and data exchange models between business systems (ERP, PLM, MES) and suppliers."
+  },
+  {
+    "id": "cmvv84sgv0040m2y39rxj7eii",
+    "stepId": "cmvv84sgu003zm2y367jm4y3d",
+    "locale": "en",
+    "title": "How is this data organized today?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the passport relies on **open, interoperable standards** and a decentralised architecture: data stays with the economic operator or its service provider.\n- Data spread across several systems needs a common data model before feeding the passport."
+  },
+  {
+    "id": "cmvv84sgv0041m2y3cm07xlhw",
+    "stepId": "cmvv84sgu003zm2y367jm4y3d",
+    "locale": "it",
+    "title": "Come sono organizzati oggi questi dati?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il passaporto si basa su **standard aperti e interoperabili** e su un'architettura decentralizzata: i dati restano presso l'operatore economico o il suo fornitore di servizi.\n- Dati distribuiti su più sistemi richiedono un modello dati comune prima di alimentare il passaporto."
+  },
+  {
+    "id": "cmvv84sgz004cm2y3b38mo44m",
+    "stepId": "cmvv84sgz004bm2y3shg735j4",
+    "locale": "it",
+    "title": "Quali informazioni avete già disponibili?",
+    "description": "Il modello dati richiesto dipende dall'atto delegato del settore.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita), Allegato III: categorie di informazioni del passaporto.\n- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): i **parametri di prodotto** (durabilità, contenuto riciclato, impronta ambientale e di carbonio, riciclabilità…) su cui gli atti delegati possono fissare requisiti.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), Allegato XIII.\n- **Tessile, acciaio, alluminio e altri gruppi**: gli atti delegati sono in preparazione; il modello dati definitivo dipenderà da questi."
+  },
+  {
+    "id": "cmvv84sgz004dm2y3u57qse8e",
+    "stepId": "cmvv84sgz004bm2y3shg735j4",
+    "locale": "en",
+    "title": "Which information do you already have?",
+    "description": "The required data model depends on the sector's delegated act.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj), Annex III: categories of passport information.\n- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the **product parameters** (durability, recycled content, environmental and carbon footprint, recyclability…) on which delegated acts may set requirements.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Annex XIII.\n- **Textiles, steel, aluminium and other groups**: delegated acts are being prepared; the final data model will depend on them."
+  },
+  {
+    "id": "cmvv84sh5004xm2y3ntcelm78",
+    "stepId": "cmvv84sh5004wm2y3a4ptcwgr",
+    "locale": "en",
+    "title": "Does the product already carry a data carrier?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the passport is linked to a **unique product identifier** through a **data carrier** (e.g. a QR code) placed on the product, its packaging or documentation, as set by the delegated act.\n- The data carrier only holds the identifier, not the passport data.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 13 (labelling and QR code)."
+  },
+  {
+    "id": "cmvv84sh5004ym2y3cxjh3905",
+    "stepId": "cmvv84sh5004wm2y3a4ptcwgr",
+    "locale": "it",
+    "title": "Sul prodotto è già presente un data carrier?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il passaporto è collegato a un **identificativo univoco del prodotto** tramite un **data carrier** (es. QR code) presente sul prodotto, sull'imballaggio o sulla documentazione, come indicato dall'atto delegato.\n- Il data carrier contiene solo l'identificativo, non i dati del passaporto.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 13 (etichettatura e QR code)."
+  },
+  {
+    "id": "cmvv84sh90059m2y34c87cuhf",
+    "stepId": "cmvv84sh90058m2y3mvx3teoe",
+    "locale": "it",
+    "title": "Quali requisiti deve rispettare il data carrier?",
+    "description": null,
+    "help": "Riferimenti normativi da verificare con il consulente per il tuo settore.",
+    "references": "- **Prodotti ESPR**: tipo di data carrier e posizionamento sono fissati dall'atto delegato del gruppo di prodotto, sulla base di standard aperti ([Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita)).\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 13 (QR code sulla batteria) e art. 77 (accesso al passaporto tramite QR code).\n- Standard di riferimento: QR code ISO/IEC 18004; identificazione univoca ISO/IEC 15459."
+  },
+  {
+    "id": "cmvv84sh9005am2y3hnadpbac",
+    "stepId": "cmvv84sh90058m2y3mvx3teoe",
+    "locale": "en",
+    "title": "Which requirements must the data carrier meet?",
+    "description": null,
+    "help": "Regulatory references to be verified with the consultant for your sector.",
+    "references": "- **ESPR products**: data carrier type and placement are set by the product group's delegated act, based on open standards ([Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj)).\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 13 (QR code on the battery) and Article 77 (passport access through the QR code).\n- Reference standards: QR code ISO/IEC 18004; unique identification ISO/IEC 15459."
+  },
+  {
+    "id": "cmvv84shc005lm2y3d3u3bp4w",
+    "stepId": "cmvv84shc005km2y32ldbort1",
+    "locale": "it",
+    "title": "Come pensate di integrarvi con il Registry UE?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita), art. 13: **registro dei passaporti** istituito dalla Commissione, in cui vengono registrati almeno gli identificativi univoci di prodotto e collegati al passaporto.\n- [DPP Registry — Commissione europea](https://single-market-economy.ec.europa.eu/single-market/digital-product-passport/dpp-registry_en)\n- Il registro è collegato anche ai controlli doganali sui prodotti importati."
+  },
+  {
+    "id": "cmvvel4m7004fqhy3suli1ui5",
+    "stepId": "cmvvel4m6004eqhy32lmrnjbk",
+    "locale": "en",
+    "title": "How is this data organized today?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the passport relies on **open, interoperable standards** and a decentralised architecture: data stays with the economic operator or its service provider.\n- Data spread across several systems needs a common data model before feeding the passport."
+  },
+  {
+    "id": "cmvv84shc005mm2y3p1nbsde2",
+    "stepId": "cmvv84shc005km2y32ldbort1",
+    "locale": "en",
+    "title": "How do you plan to integrate with the EU Registry?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj), Article 13: **digital product passport registry** set up by the Commission, storing at least the unique product identifiers and linking them to the passport.\n- [DPP Registry — European Commission](https://single-market-economy.ec.europa.eu/single-market/digital-product-passport/dpp-registry_en)\n- The registry is also linked to customs checks on imported products."
+  },
+  {
+    "id": "cmvv84shg0060m2y3fjal7vbv",
+    "stepId": "cmvv84shg005zm2y3kcfmyfxl",
+    "locale": "it",
+    "title": "Producete internamente o vi affidate a fornitori?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): chi immette il prodotto sul mercato deve rendere disponibile il passaporto anche quando i dati provengono dalla **catena di fornitura**: con fornitori esterni servono accordi su quali dati, in che formato e con quali tempi.\r\n- [CIRPASS-2](https://cirpass2.eu/): progetti pilota europei sullo scambio di dati di filiera per il DPP."
+  },
+  {
+    "id": "cmvv84shg0061m2y345qw0s2p",
+    "stepId": "cmvv84shg005zm2y3kcfmyfxl",
+    "locale": "en",
+    "title": "Do you manufacture in-house or rely on suppliers?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): whoever places the product on the market must make the passport available even when the data comes from the **supply chain**: with external suppliers you need agreements on which data, in which format and when.\r\n- [CIRPASS-2](https://cirpass2.eu/): European pilot projects on supply-chain data exchange for the DPP."
+  },
+  {
+    "id": "cmvv8w8rz0001boy3cxsg1ch1",
+    "stepId": "cmvv8w8rx0000boy3vn539ajp",
+    "locale": "it",
+    "title": "Quali categorie di prodotto immettete sul mercato?",
+    "description": "Le categorie proposte dipendono dal settore scelto. Puoi selezionarne più di una.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): requisiti e passaporto sono definiti **per gruppo di prodotto** dagli atti delegati.\n- **Batterie**: [Regolamento (UE) 2023/1542](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 77: il passaporto riguarda le batterie per mezzi di trasporto leggeri, le batterie industriali oltre 2 kWh e le batterie per veicoli elettrici."
+  },
+  {
+    "id": "cmvv8w8rz0002boy38qfif5wk",
+    "stepId": "cmvv8w8rx0000boy3vn539ajp",
+    "locale": "en",
+    "title": "Which product categories do you place on the market?",
+    "description": "The categories shown depend on the industry you chose. You can select more than one.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): requirements and the passport are set **per product group** by delegated acts.\n- **Batteries**: [Regulation (EU) 2023/1542](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 77: the passport covers light means of transport batteries, industrial batteries above 2 kWh and electric vehicle batteries."
+  },
+  {
+    "id": "cmvv9bu650020euy3hbgxqfpr",
+    "stepId": "cmvv9bu64001zeuy3gcjr5qiz",
+    "locale": "en",
+    "title": "Which product categories do you place on the market?",
+    "description": "The categories shown depend on the industry you chose. You can select more than one.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): requirements and the passport are set **per product group** by delegated acts.\n- **Batteries**: [Regulation (EU) 2023/1542](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 77: the passport covers light means of transport batteries, industrial batteries above 2 kWh and electric vehicle batteries."
+  },
+  {
+    "id": "cmvv9bu650021euy3p8l1vpr4",
+    "stepId": "cmvv9bu64001zeuy3gcjr5qiz",
+    "locale": "it",
+    "title": "Quali categorie di prodotto immettete sul mercato?",
+    "description": "Le categorie proposte dipendono dal settore scelto. Puoi selezionarne più di una.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): requisiti e passaporto sono definiti **per gruppo di prodotto** dagli atti delegati.\n- **Batterie**: [Regolamento (UE) 2023/1542](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 77: il passaporto riguarda le batterie per mezzi di trasporto leggeri, le batterie industriali oltre 2 kWh e le batterie per veicoli elettrici."
+  },
+  {
+    "id": "cmvv9bu6m0040euy3hlmfveae",
+    "stepId": "cmvv9bu6m003zeuy3mk9bjhur",
+    "locale": "en",
+    "title": "Which industry does your company operate in?",
+    "description": "DPP obligations and timelines depend on the product category.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): general framework. The products requiring a passport and the data required are set by **delegated acts per product group**, adopted over time following the Commission's working plan.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 77 (battery passport).\n- **Construction products**: [Regulation (EU) 2024/3110 (Construction products)](https://eur-lex.europa.eu/eli/reg/2024/3110/oj), which provides for its own digital passport.\n- [Digital Product Passport — European Commission](https://single-market-economy.ec.europa.eu/single-market/digital-product-passport_en)"
+  },
+  {
+    "id": "cmvv9bu6m0041euy3ryyf44ez",
+    "stepId": "cmvv9bu6m003zeuy3mk9bjhur",
+    "locale": "it",
+    "title": "In quale settore opera la tua azienda?",
+    "description": "Gli obblighi e le tempistiche del DPP dipendono dalla categoria di prodotto.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): quadro generale. I prodotti soggetti al passaporto e i dati richiesti sono definiti da **atti delegati per gruppo di prodotto**, adottati nel tempo secondo il piano di lavoro della Commissione.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 77 (passaporto delle batterie).\n- **Prodotti da costruzione**: [Regolamento (UE) 2024/3110 (Prodotti da costruzione)](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/ita), che prevede un proprio passaporto digitale.\n- [Digital Product Passport — Commissione europea](https://single-market-economy.ec.europa.eu/single-market/digital-product-passport_en)"
+  },
+  {
+    "id": "cmvv9bu6r004reuy3y1cq8vu0",
+    "stepId": "cmvv9bu6r004qeuy3bmqxvr4i",
+    "locale": "en",
+    "title": "What type of company are you?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj), Article 2 (definitions): distinguishes **manufacturer**, **importer**, **distributor** and **dealer**. Passport obligations fall mainly on whoever places the product on the EU market.\n- A brand having products made by third parties under its own name is usually considered the manufacturer."
+  },
+  {
+    "id": "cmvv9bu6r004seuy3u2m7mbjd",
+    "stepId": "cmvv9bu6r004qeuy3bmqxvr4i",
+    "locale": "it",
+    "title": "Che tipo di azienda siete?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita), art. 2 (definizioni): distingue **fabbricante**, **importatore**, **distributore** e **rivenditore** (dealer). Gli obblighi sul passaporto ricadono principalmente su chi immette il prodotto sul mercato UE.\n- Un brand che fa produrre a terzi con il proprio marchio è di norma considerato fabbricante."
+  },
+  {
+    "id": "cmvv9bu6w005ceuy3yvb814vo",
+    "stepId": "cmvv9bu6w005beuy36yrd8i47",
+    "locale": "en",
+    "title": "Do you manufacture in-house or rely on suppliers?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): whoever places the product on the market must make the passport available even when the data comes from the **supply chain**: with external suppliers you need agreements on which data, in which format and when.\r\n- [CIRPASS-2](https://cirpass2.eu/): European pilot projects on supply-chain data exchange for the DPP."
+  },
+  {
+    "id": "cmvv9bu6w005deuy3qg1jifz3",
+    "stepId": "cmvv9bu6w005beuy36yrd8i47",
+    "locale": "it",
+    "title": "Producete internamente o vi affidate a fornitori?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): chi immette il prodotto sul mercato deve rendere disponibile il passaporto anche quando i dati provengono dalla **catena di fornitura**: con fornitori esterni servono accordi su quali dati, in che formato e con quali tempi.\r\n- [CIRPASS-2](https://cirpass2.eu/): progetti pilota europei sullo scambio di dati di filiera per il DPP."
+  },
+  {
+    "id": "cmvv9bu7f006oeuy30m5ktnt9",
+    "stepId": "cmvv9bu7d006neuy3e15k4o0h",
+    "locale": "en",
+    "title": "For each category, does the product require maintenance or repairs?",
+    "description": "If the product is repaired or maintained, the passport will have to include the relevant information (spare parts, instructions) and, depending on the sector, the work carried out.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): ecodesign requirements include **durability, reparability and spare parts availability**; the related information may be included in the passport.\n- [Directive (EU) 2024/1799 (Right to repair)](https://eur-lex.europa.eu/eli/dir/2024/1799/oj): repair obligations for certain product categories.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 14 (information on state of health and expected lifetime)."
+  },
+  {
+    "id": "cmvvel4m7004gqhy3zl53j5nm",
+    "stepId": "cmvvel4m6004eqhy32lmrnjbk",
+    "locale": "it",
+    "title": "Come sono organizzati oggi questi dati?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il passaporto si basa su **standard aperti e interoperabili** e su un'architettura decentralizzata: i dati restano presso l'operatore economico o il suo fornitore di servizi.\n- Dati distribuiti su più sistemi richiedono un modello dati comune prima di alimentare il passaporto."
+  },
+  {
+    "id": "cmvvel4mg004rqhy3akv5u27w",
+    "stepId": "cmvvel4mb004qqhy3k331cnu2",
+    "locale": "en",
+    "title": "Which information do you already have?",
+    "description": "The required data model depends on the sector's delegated act.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj), Annex III: categories of passport information.\n- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the **product parameters** (durability, recycled content, environmental and carbon footprint, recyclability…) on which delegated acts may set requirements.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Annex XIII.\n- **Textiles, steel, aluminium and other groups**: delegated acts are being prepared; the final data model will depend on them."
+  },
+  {
+    "id": "cmvv9bu7m0079euy3hh0p74nx",
+    "stepId": "cmvv9bu7m0078euy3r0k182od",
+    "locale": "en",
+    "title": "Where does the data for the DPP come from?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): information requirements also cover **tracking substances of concern** throughout the life cycle, which requires supplier data.\n- [CIRPASS-2](https://cirpass2.eu/): use cases and data exchange models between business systems (ERP, PLM, MES) and suppliers."
+  },
+  {
+    "id": "cmvv9bu7m007aeuy3d9qizlc9",
+    "stepId": "cmvv9bu7m0078euy3r0k182od",
+    "locale": "it",
+    "title": "Da dove arrivano i dati che finiranno nel DPP?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): i requisiti di informazione comprendono anche la **tracciabilità delle sostanze preoccupanti** lungo il ciclo di vita, che richiede dati dai fornitori.\n- [CIRPASS-2](https://cirpass2.eu/): casi d'uso e modelli di scambio dati tra sistemi aziendali (ERP, PLM, MES) e fornitori."
+  },
+  {
+    "id": "cmvv9bu7r007ueuy3hokmti91",
+    "stepId": "cmvv9bu7q007teuy3jt08x2zq",
+    "locale": "en",
+    "title": "How is this data organized today?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the passport relies on **open, interoperable standards** and a decentralised architecture: data stays with the economic operator or its service provider.\n- Data spread across several systems needs a common data model before feeding the passport."
+  },
+  {
+    "id": "cmvv9bu7r007veuy3s9radimp",
+    "stepId": "cmvv9bu7q007teuy3jt08x2zq",
+    "locale": "it",
+    "title": "Come sono organizzati oggi questi dati?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il passaporto si basa su **standard aperti e interoperabili** e su un'architettura decentralizzata: i dati restano presso l'operatore economico o il suo fornitore di servizi.\n- Dati distribuiti su più sistemi richiedono un modello dati comune prima di alimentare il passaporto."
+  },
+  {
+    "id": "cmvv9bu7w0086euy3sv2eefrr",
+    "stepId": "cmvv9bu7w0085euy3no2gy3gz",
+    "locale": "en",
+    "title": "Which information do you already have?",
+    "description": "The required data model depends on the sector's delegated act.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj), Annex III: categories of passport information.\n- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the **product parameters** (durability, recycled content, environmental and carbon footprint, recyclability…) on which delegated acts may set requirements.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Annex XIII.\n- **Textiles, steel, aluminium and other groups**: delegated acts are being prepared; the final data model will depend on them."
+  },
+  {
+    "id": "cmvv9bu7w0087euy38f2rzmxv",
+    "stepId": "cmvv9bu7w0085euy3no2gy3gz",
+    "locale": "it",
+    "title": "Quali informazioni avete già disponibili?",
+    "description": "Il modello dati richiesto dipende dall'atto delegato del settore.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita), Allegato III: categorie di informazioni del passaporto.\n- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): i **parametri di prodotto** (durabilità, contenuto riciclato, impronta ambientale e di carbonio, riciclabilità…) su cui gli atti delegati possono fissare requisiti.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), Allegato XIII.\n- **Tessile, acciaio, alluminio e altri gruppi**: gli atti delegati sono in preparazione; il modello dati definitivo dipenderà da questi."
+  },
+  {
+    "id": "cmvv9bu80008reuy3i6mtay00",
+    "stepId": "cmvv9bu80008qeuy31aozm8pk",
+    "locale": "en",
+    "title": "Does the product already carry a data carrier?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the passport is linked to a **unique product identifier** through a **data carrier** (e.g. a QR code) placed on the product, its packaging or documentation, as set by the delegated act.\n- The data carrier only holds the identifier, not the passport data.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 13 (labelling and QR code)."
+  },
+  {
+    "id": "cmvv9bu80008seuy36fxlcvk4",
+    "stepId": "cmvv9bu80008qeuy31aozm8pk",
+    "locale": "it",
+    "title": "Sul prodotto è già presente un data carrier?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il passaporto è collegato a un **identificativo univoco del prodotto** tramite un **data carrier** (es. QR code) presente sul prodotto, sull'imballaggio o sulla documentazione, come indicato dall'atto delegato.\n- Il data carrier contiene solo l'identificativo, non i dati del passaporto.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 13 (etichettatura e QR code)."
+  },
+  {
+    "id": "cmvv9bu7i006yeuy3kcehlkin",
+    "stepId": "cmvv9bu7i006weuy3rvl70rl8",
+    "locale": "it",
+    "title": "Per ciascuna categoria, i dati del prodotto sono statici o dinamici?",
+    "description": "Statici: definiti alla produzione e non cambiano (es. composizione). Dinamici: cambiano durante la vita del prodotto (es. riparazioni, stato di salute, proprietari).",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il passaporto deve restare **accessibile e aggiornato** per la durata prevista; l'atto delegato indica chi può aggiornare quali dati (es. riparatori, rigeneratori).\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), Allegato XIII: alcune informazioni del passaporto sono **dinamiche** (es. stato di salute) e vanno aggiornate durante la vita della batteria."
+  },
+  {
+    "id": "cmvv9bu87009feuy3hqm81sfc",
+    "stepId": "cmvv9bu87009eeuy3r5x64cen",
+    "locale": "en",
+    "title": "Which scheme will you use for the identifier and URL?",
+    "description": null,
+    "help": "See EN 18219 (DPP unique identifiers): check the standard's status.",
+    "references": "- **EN 18219** (CEN/CENELEC JTC 24): standard on unique identifiers for the DPP, part of the harmonised standards requested by the Commission. Check its publication status.\n- [GS1 Digital Link](https://www.gs1.org/standards/gs1-digital-link): a widespread scheme for encoding product identifiers in a resolvable URL.\n- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): identifiers and data carriers must be based on open standards and remain stable over time."
+  },
+  {
+    "id": "cmvv9bu87009geuy3hm4h593u",
+    "stepId": "cmvv9bu87009eeuy3r5x64cen",
+    "locale": "it",
+    "title": "Che schema userete per l'identificativo e l'URL?",
+    "description": null,
+    "help": "Rif. EN 18219 (identificativi univoci DPP): verificare lo stato della norma.",
+    "references": "- **EN 18219** (CEN/CENELEC JTC 24): norma sugli identificativi univoci per il DPP, parte del pacchetto di norme armonizzate richieste dalla Commissione. Verifica lo stato di pubblicazione.\n- [GS1 Digital Link](https://www.gs1.org/standards/gs1-digital-link): schema diffuso per codificare identificativi di prodotto in un URL risolvibile.\n- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): identificativi e data carrier devono basarsi su standard aperti e restare stabili nel tempo."
+  },
+  {
+    "id": "cmvv9bu8b009reuy3mp3wdjhm",
+    "stepId": "cmvv9bu8b009qeuy31pbg6n84",
+    "locale": "en",
+    "title": "Where will you host the passports?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the passport may be managed by the economic operator or by a **passport service provider**; there are requirements on long-term availability, including a **backup copy** held by a service provider.\n- Choosing between a proprietary platform, SaaS or PaaS must ensure data access even if the business or the provider ceases activity."
+  },
+  {
+    "id": "cmvv9bu8b009seuy3kwj0ltbm",
+    "stepId": "cmvv9bu8b009qeuy31pbg6n84",
+    "locale": "it",
+    "title": "Dove ospiterete i passaporti?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il passaporto può essere gestito dall'operatore economico o da un **fornitore di servizi del passaporto**; sono previsti requisiti di disponibilità nel tempo, inclusa una **copia di backup** presso un fornitore di servizi.\n- La scelta tra piattaforma proprietaria, SaaS o PaaS deve garantire accesso ai dati anche in caso di cessazione dell'attività o del fornitore."
+  },
+  {
+    "id": "cmvv9bu8d00a6euy3ydw0qskg",
+    "stepId": "cmvv9bu8d00a5euy3qdcxu8d0",
+    "locale": "en",
+    "title": "How do you plan to integrate with the EU Registry?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj), Article 13: **digital product passport registry** set up by the Commission, storing at least the unique product identifiers and linking them to the passport.\n- [DPP Registry — European Commission](https://single-market-economy.ec.europa.eu/single-market/digital-product-passport/dpp-registry_en)\n- The registry is also linked to customs checks on imported products."
+  },
+  {
+    "id": "cmvv9bu8d00a7euy33nkz94cv",
+    "stepId": "cmvv9bu8d00a5euy3qdcxu8d0",
+    "locale": "it",
+    "title": "Come pensate di integrarvi con il Registry UE?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita), art. 13: **registro dei passaporti** istituito dalla Commissione, in cui vengono registrati almeno gli identificativi univoci di prodotto e collegati al passaporto.\n- [DPP Registry — Commissione europea](https://single-market-economy.ec.europa.eu/single-market/digital-product-passport/dpp-registry_en)\n- Il registro è collegato anche ai controlli doganali sui prodotti importati."
+  },
+  {
+    "id": "cmvv9bu8h00aleuy3ld7j77kd",
+    "stepId": "cmvv9bu8g00akeuy3om675fu0",
+    "locale": "en",
+    "title": "How many different products (SKUs) do you handle each year?",
+    "description": null,
+    "help": "An estimate is fine.",
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): a passport is required for **every product placed on the market** that falls under a delegated act. The number of SKUs drives data volumes, update processes and platform costs.\n- The passport level (model, batch or item) is set by the delegated act: see the granularity step."
+  },
+  {
+    "id": "cmvv9bu8h00ameuy35pafawtl",
+    "stepId": "cmvv9bu8g00akeuy3om675fu0",
+    "locale": "it",
+    "title": "Quanti prodotti diversi (SKU) gestite ogni anno?",
+    "description": null,
+    "help": "Una stima è sufficiente.",
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il passaporto è richiesto per **ogni prodotto immesso sul mercato** che rientra in un atto delegato. Il numero di SKU incide su volumi di dati, processi di aggiornamento e costi della piattaforma.\n- Il livello del passaporto (modello, lotto o singolo articolo) è stabilito dall'atto delegato: vedi lo step sulla granularità."
+  },
+  {
+    "id": "cmvv9bu8i00aoeuy3l56ns66o",
+    "stepId": "cmvv9bu8i00aneuy3m7erf8d5",
+    "locale": "en",
+    "title": "Describe a sample product",
+    "description": "We will use this product as a reference throughout the journey.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj), Annex III: categories of information that may be included in the passport (identifiers, compliance, documentation, instructions, repair and end-of-life information…). The sector's delegated act says which ones are mandatory.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Annex XIII (information to be included in the battery passport)."
+  },
+  {
+    "id": "cmvv9bu72005peuy366ds4rpg",
+    "stepId": "cmvv9bu71005neuy3nvruz0nv",
+    "locale": "it",
+    "title": "A quale livello serve il passaporto, per ciascuna categoria?",
+    "description": "Il passaporto può riferirsi al modello, al lotto di produzione o al singolo prodotto. Il livello può essere diverso tra categorie e anche tra prodotti della stessa categoria.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): l'atto delegato stabilisce se il passaporto si riferisce al **modello**, al **lotto** o al **singolo articolo**.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 77: il passaporto è **per singola batteria**."
+  },
+  {
+    "id": "cmvv9bu8i00apeuy3raou6iks",
+    "stepId": "cmvv9bu8i00aneuy3m7erf8d5",
+    "locale": "it",
+    "title": "Descrivi un prodotto di esempio",
+    "description": "Useremo questo prodotto come riferimento per il progetto.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita), Allegato III: categorie di informazioni che possono essere incluse nel passaporto (identificativi, conformità, documentazione, istruzioni, informazioni per riparazione e fine vita…). L'atto delegato del settore indica quali sono obbligatorie.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), Allegato XIII (informazioni da includere nel passaporto delle batterie)."
+  },
+  {
+    "id": "cmvv9bu72005oeuy34y47fq9l",
+    "stepId": "cmvv9bu71005neuy3nvruz0nv",
+    "locale": "en",
+    "title": "At which level is the passport needed, for each category?",
+    "description": "The passport can relate to the model, the production batch or the individual item. The level can differ between categories and also between products of the same category.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the delegated act sets whether the passport relates to the **model**, the **batch** or the **individual item**.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 77: the passport is **per individual battery**."
+  },
+  {
+    "id": "cmvv9bu7f006peuy3tc1l327y",
+    "stepId": "cmvv9bu7d006neuy3e15k4o0h",
+    "locale": "it",
+    "title": "Per ciascuna categoria, il prodotto richiede manutenzione o riparazioni?",
+    "description": "Se il prodotto viene riparato o mantenuto, il passaporto dovrà riportare le informazioni utili (ricambi, istruzioni) e, a seconda del settore, gli interventi eseguiti.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): tra i requisiti di progettazione ecocompatibile rientrano **durabilità, riparabilità e disponibilità di parti di ricambio**; le informazioni relative possono confluire nel passaporto.\n- [Direttiva (UE) 2024/1799 (Diritto alla riparazione)](https://eur-lex.europa.eu/eli/dir/2024/1799/oj/ita): obblighi di riparazione per alcune categorie di prodotti.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 14 (informazioni sullo stato di salute e sulla durata prevista)."
+  },
+  {
+    "id": "cmvv9bu7i006xeuy3dzw13hld",
+    "stepId": "cmvv9bu7i006weuy3rvl70rl8",
+    "locale": "en",
+    "title": "For each category, is the product data static or dynamic?",
+    "description": "Static: set at production and unchanged (e.g. composition). Dynamic: they change during the product's life (e.g. repairs, state of health, owners).",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the passport must remain **accessible and up to date** for its expected lifetime; the delegated act sets who may update which data (e.g. repairers, remanufacturers).\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Annex XIII: some passport information is **dynamic** (e.g. state of health) and must be updated during the battery's life."
+  },
+  {
+    "id": "cmvvel4l30003qhy3jn30wwoo",
+    "stepId": "cmvvel4l10002qhy3p9n5usk6",
+    "locale": "en",
+    "title": "Which product categories do you place on the market?",
+    "description": "The categories shown depend on the industry you chose. You can select more than one.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): requirements and the passport are set **per product group** by delegated acts.\n- **Batteries**: [Regulation (EU) 2023/1542](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 77: the passport covers light means of transport batteries, industrial batteries above 2 kWh and electric vehicle batteries."
+  },
+  {
+    "id": "cmvvel4l30004qhy3q1ab1pgq",
+    "stepId": "cmvvel4l10002qhy3p9n5usk6",
+    "locale": "it",
+    "title": "Quali categorie di prodotto immettete sul mercato?",
+    "description": "Le categorie proposte dipendono dal settore scelto. Puoi selezionarne più di una.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): requisiti e passaporto sono definiti **per gruppo di prodotto** dagli atti delegati.\n- **Batterie**: [Regolamento (UE) 2023/1542](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 77: il passaporto riguarda le batterie per mezzi di trasporto leggeri, le batterie industriali oltre 2 kWh e le batterie per veicoli elettrici."
+  },
+  {
+    "id": "cmvvel4lj0023qhy3bhuzjnpo",
+    "stepId": "cmvvel4lj0022qhy34uexglbw",
+    "locale": "en",
+    "title": "Which industry does your company operate in?",
+    "description": "DPP obligations and timelines depend on the product category.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): general framework. The products requiring a passport and the data required are set by **delegated acts per product group**, adopted over time following the Commission's working plan.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 77 (battery passport).\n- **Construction products**: [Regulation (EU) 2024/3110 (Construction products)](https://eur-lex.europa.eu/eli/reg/2024/3110/oj), which provides for its own digital passport.\n- [Digital Product Passport — European Commission](https://single-market-economy.ec.europa.eu/single-market/digital-product-passport_en)"
+  },
+  {
+    "id": "cmvvel4lj0024qhy3g19l8rvd",
+    "stepId": "cmvvel4lj0022qhy34uexglbw",
+    "locale": "it",
+    "title": "In quale settore opera la tua azienda?",
+    "description": "Gli obblighi e le tempistiche del DPP dipendono dalla categoria di prodotto.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): quadro generale. I prodotti soggetti al passaporto e i dati richiesti sono definiti da **atti delegati per gruppo di prodotto**, adottati nel tempo secondo il piano di lavoro della Commissione.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 77 (passaporto delle batterie).\n- **Prodotti da costruzione**: [Regolamento (UE) 2024/3110 (Prodotti da costruzione)](https://eur-lex.europa.eu/eli/reg/2024/3110/oj/ita), che prevede un proprio passaporto digitale.\n- [Digital Product Passport — Commissione europea](https://single-market-economy.ec.europa.eu/single-market/digital-product-passport_en)"
+  },
+  {
+    "id": "cmvvel4lv003fqhy3ql5bb437",
+    "stepId": "cmvvel4lu003eqhy3mk1mi897",
+    "locale": "en",
+    "title": "Do you manufacture in-house or rely on suppliers?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): whoever places the product on the market must make the passport available even when the data comes from the **supply chain**: with external suppliers you need agreements on which data, in which format and when.\r\n- [CIRPASS-2](https://cirpass2.eu/): European pilot projects on supply-chain data exchange for the DPP."
+  },
+  {
+    "id": "cmvvel4lv003gqhy3ynkb94ga",
+    "stepId": "cmvvel4lu003eqhy3mk1mi897",
+    "locale": "it",
+    "title": "Producete internamente o vi affidate a fornitori?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): chi immette il prodotto sul mercato deve rendere disponibile il passaporto anche quando i dati provengono dalla **catena di fornitura**: con fornitori esterni servono accordi su quali dati, in che formato e con quali tempi.\r\n- [CIRPASS-2](https://cirpass2.eu/): progetti pilota europei sullo scambio di dati di filiera per il DPP."
+  },
+  {
+    "id": "cmvvel4mg004sqhy3zrko5u5d",
+    "stepId": "cmvvel4mb004qqhy3k331cnu2",
+    "locale": "it",
+    "title": "Quali informazioni avete già disponibili?",
+    "description": "Il modello dati richiesto dipende dall'atto delegato del settore.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita), Allegato III: categorie di informazioni del passaporto.\n- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): i **parametri di prodotto** (durabilità, contenuto riciclato, impronta ambientale e di carbonio, riciclabilità…) su cui gli atti delegati possono fissare requisiti.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), Allegato XIII.\n- **Tessile, acciaio, alluminio e altri gruppi**: gli atti delegati sono in preparazione; il modello dati definitivo dipenderà da questi."
+  },
+  {
+    "id": "cmvvel4mr005oqhy3o43jyjsb",
+    "stepId": "cmvvel4mr005nqhy3nq4xtk9g",
+    "locale": "en",
+    "title": "Which scheme will you use for the identifier and URL?",
+    "description": null,
+    "help": "See EN 18219 (DPP unique identifiers): check the standard's status.",
+    "references": "- **EN 18219** (CEN/CENELEC JTC 24): standard on unique identifiers for the DPP, part of the harmonised standards requested by the Commission. Check its publication status.\n- [GS1 Digital Link](https://www.gs1.org/standards/gs1-digital-link): a widespread scheme for encoding product identifiers in a resolvable URL.\n- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): identifiers and data carriers must be based on open standards and remain stable over time."
+  },
+  {
+    "id": "cmvvel4mr005pqhy3u3lzh3w5",
+    "stepId": "cmvvel4mr005nqhy3nq4xtk9g",
+    "locale": "it",
+    "title": "Che schema userete per l'identificativo e l'URL?",
+    "description": null,
+    "help": "Rif. EN 18219 (identificativi univoci DPP): verificare lo stato della norma.",
+    "references": "- **EN 18219** (CEN/CENELEC JTC 24): norma sugli identificativi univoci per il DPP, parte del pacchetto di norme armonizzate richieste dalla Commissione. Verifica lo stato di pubblicazione.\n- [GS1 Digital Link](https://www.gs1.org/standards/gs1-digital-link): schema diffuso per codificare identificativi di prodotto in un URL risolvibile.\n- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): identificativi e data carrier devono basarsi su standard aperti e restare stabili nel tempo."
+  },
+  {
+    "id": "cmvvel4n0006fqhy3g9lwocfa",
+    "stepId": "cmvvel4mz006eqhy3a7gxb26p",
+    "locale": "en",
+    "title": "How do you plan to integrate with the EU Registry?",
+    "description": null,
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj), Article 13: **digital product passport registry** set up by the Commission, storing at least the unique product identifiers and linking them to the passport.\n- [DPP Registry — European Commission](https://single-market-economy.ec.europa.eu/single-market/digital-product-passport/dpp-registry_en)\n- The registry is also linked to customs checks on imported products."
+  },
+  {
+    "id": "cmvvel4n4006uqhy3664rxd7z",
+    "stepId": "cmvvel4n3006tqhy3e53pbjuj",
+    "locale": "en",
+    "title": "How many different products (SKUs) do you handle each year?",
+    "description": null,
+    "help": "An estimate is fine.",
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): a passport is required for **every product placed on the market** that falls under a delegated act. The number of SKUs drives data volumes, update processes and platform costs.\n- The passport level (model, batch or item) is set by the delegated act: see the granularity step."
+  },
+  {
+    "id": "cmvvel4n4006vqhy34x97d0da",
+    "stepId": "cmvvel4n3006tqhy3e53pbjuj",
+    "locale": "it",
+    "title": "Quanti prodotti diversi (SKU) gestite ogni anno?",
+    "description": null,
+    "help": "Una stima è sufficiente.",
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il passaporto è richiesto per **ogni prodotto immesso sul mercato** che rientra in un atto delegato. Il numero di SKU incide su volumi di dati, processi di aggiornamento e costi della piattaforma.\n- Il livello del passaporto (modello, lotto o singolo articolo) è stabilito dall'atto delegato: vedi lo step sulla granularità."
+  },
+  {
+    "id": "cmvvel4n5006xqhy3s9qigg03",
+    "stepId": "cmvvel4n5006wqhy3bcykb6bb",
+    "locale": "en",
+    "title": "Describe a sample product",
+    "description": "We will use this product as a reference throughout the journey.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj), Annex III: categories of information that may be included in the passport (identifiers, compliance, documentation, instructions, repair and end-of-life information…). The sector's delegated act says which ones are mandatory.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Annex XIII (information to be included in the battery passport)."
+  },
+  {
+    "id": "cmvvel4na0070qhy3u1gx81f4",
+    "stepId": "cmvvel4na006zqhy3d1bihza0",
+    "locale": "it",
+    "title": "A quale livello serve il passaporto, per ciascuna categoria?",
+    "description": "Il passaporto può riferirsi al modello, al lotto di produzione o al singolo prodotto. Il livello può essere diverso tra categorie e anche tra prodotti della stessa categoria.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): l'atto delegato stabilisce se il passaporto si riferisce al **modello**, al **lotto** o al **singolo articolo**.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 77: il passaporto è **per singola batteria**."
+  },
+  {
+    "id": "cmvvel4na0071qhy32sofzd9j",
+    "stepId": "cmvvel4na006zqhy3d1bihza0",
+    "locale": "en",
+    "title": "At which level is the passport needed, for each category?",
+    "description": "The passport can relate to the model, the production batch or the individual item. The level can differ between categories and also between products of the same category.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the delegated act sets whether the passport relates to the **model**, the **batch** or the **individual item**.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 77: the passport is **per individual battery**."
+  },
+  {
+    "id": "cmvvel4nk0080qhy3m6wle34m",
+    "stepId": "cmvvel4nk007zqhy3ncoou8vr",
+    "locale": "en",
+    "title": "For each category, does the product require maintenance or repairs?",
+    "description": "If the product is repaired or maintained, the passport will have to include the relevant information (spare parts, instructions) and, depending on the sector, the work carried out.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): ecodesign requirements include **durability, reparability and spare parts availability**; the related information may be included in the passport.\n- [Directive (EU) 2024/1799 (Right to repair)](https://eur-lex.europa.eu/eli/dir/2024/1799/oj): repair obligations for certain product categories.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 14 (information on state of health and expected lifetime)."
+  },
+  {
+    "id": "cmvvel4nk0081qhy38xdtpb78",
+    "stepId": "cmvvel4nk007zqhy3ncoou8vr",
+    "locale": "it",
+    "title": "Per ciascuna categoria, il prodotto richiede manutenzione o riparazioni?",
+    "description": "Se il prodotto viene riparato o mantenuto, il passaporto dovrà riportare le informazioni utili (ricambi, istruzioni) e, a seconda del settore, gli interventi eseguiti.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): tra i requisiti di progettazione ecocompatibile rientrano **durabilità, riparabilità e disponibilità di parti di ricambio**; le informazioni relative possono confluire nel passaporto.\n- [Direttiva (UE) 2024/1799 (Diritto alla riparazione)](https://eur-lex.europa.eu/eli/dir/2024/1799/oj/ita): obblighi di riparazione per alcune categorie di prodotti.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 14 (informazioni sullo stato di salute e sulla durata prevista)."
+  },
+  {
+    "id": "cmvvel4nq008rqhy3owyn8di2",
+    "stepId": "cmvvel4nq008qqhy3c6kxca1z",
+    "locale": "it",
+    "title": "Per ciascuna categoria, i dati del prodotto sono statici o dinamici?",
+    "description": "Statici: definiti alla produzione e non cambiano (es. composizione). Dinamici: cambiano durante la vita del prodotto (es. riparazioni, stato di salute, proprietari).",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il passaporto deve restare **accessibile e aggiornato** per la durata prevista; l'atto delegato indica chi può aggiornare quali dati (es. riparatori, rigeneratori).\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), Allegato XIII: alcune informazioni del passaporto sono **dinamiche** (es. stato di salute) e vanno aggiornate durante la vita della batteria."
+  },
+  {
+    "id": "cmvvel4nq008sqhy34svqqbg9",
+    "stepId": "cmvvel4nq008qqhy3c6kxca1z",
+    "locale": "en",
+    "title": "For each category, is the product data static or dynamic?",
+    "description": "Static: set at production and unchanged (e.g. composition). Dynamic: they change during the product's life (e.g. repairs, state of health, owners).",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the passport must remain **accessible and up to date** for its expected lifetime; the delegated act sets who may update which data (e.g. repairers, remanufacturers).\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Annex XIII: some passport information is **dynamic** (e.g. state of health) and must be updated during the battery's life."
+  },
+  {
+    "id": "cmvvel4n0006gqhy3l5rb3doj",
+    "stepId": "cmvvel4mz006eqhy3a7gxb26p",
+    "locale": "it",
+    "title": "Come pensate di integrarvi con il Registro UE?",
+    "description": null,
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita), art. 13: **registro dei passaporti** istituito dalla Commissione, in cui vengono registrati almeno gli identificativi univoci di prodotto e collegati al passaporto.\n- [DPP Registry — Commissione europea](https://single-market-economy.ec.europa.eu/single-market/digital-product-passport/dpp-registry_en)\n- Il registro è collegato anche ai controlli doganali sui prodotti importati."
+  },
+  {
+    "id": "cmvvel4lq002vqhy33z32wqff",
+    "stepId": "cmvvel4lp002tqhy3l4aked0d",
+    "locale": "it",
+    "title": "Che tipo di azienda siete?",
+    "description": "Chi immette il prodotto sul mercato UE ha la responsabilità del passaporto. Un brand che fa produrre a terzi con il proprio marchio è di norma considerato fabbricante. Puoi selezionare più ruoli.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita), art. 2 (definizioni): distingue **fabbricante**, **importatore**, **distributore** e **rivenditore** (dealer). Gli obblighi sul passaporto ricadono principalmente su chi immette il prodotto sul mercato UE.\n- Un brand che fa produrre a terzi con il proprio marchio è di norma considerato fabbricante."
+  },
+  {
+    "id": "cmvvel4lq002uqhy3dnpaq478",
+    "stepId": "cmvvel4lp002tqhy3l4aked0d",
+    "locale": "en",
+    "title": "What type of company are you?",
+    "description": "Whoever places the product on the EU market is responsible for the passport. A brand having products made by third parties under its own name is usually considered the manufacturer. You can select more than one role.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj), Article 2 (definitions): distinguishes **manufacturer**, **importer**, **distributor** and **dealer**. Passport obligations fall mainly on whoever places the product on the EU market.\n- A brand having products made by third parties under its own name is usually considered the manufacturer."
+  },
+  {
+    "id": "cmvvel4m0003sqhy3ijt4hl68",
+    "stepId": "cmvvel4lz003qqhy361i2j7tz",
+    "locale": "it",
+    "title": "Da dove arrivano i dati che finiranno nel DPP?",
+    "description": "Indica tutte le fonti da cui oggi arrivano le informazioni sul prodotto: sistemi interni e fornitori.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): i requisiti di informazione comprendono anche la **tracciabilità delle sostanze preoccupanti** lungo il ciclo di vita, che richiede dati dai fornitori.\n- [CIRPASS-2](https://cirpass2.eu/): casi d'uso e modelli di scambio dati tra sistemi aziendali (ERP, PLM, MES) e fornitori."
+  },
+  {
+    "id": "cmvvel4m0003rqhy37jpyxvx1",
+    "stepId": "cmvvel4lz003qqhy361i2j7tz",
+    "locale": "en",
+    "title": "Where does the data for the DPP come from?",
+    "description": "Indicate all the sources the product information comes from today: internal systems and suppliers.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): information requirements also cover **tracking substances of concern** throughout the life cycle, which requires supplier data.\n- [CIRPASS-2](https://cirpass2.eu/): use cases and data exchange models between business systems (ERP, PLM, MES) and suppliers."
+  },
+  {
+    "id": "cmvvel4mn005dqhy3rdjt4grn",
+    "stepId": "cmvvel4mn005bqhy3nnrklb6s",
+    "locale": "it",
+    "title": "Sul prodotto è già presente un data carrier?",
+    "description": "Il data carrier (es. QR code) collega il prodotto fisico al suo passaporto. Può trovarsi sul prodotto, sull'imballaggio o sulla documentazione.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il passaporto è collegato a un **identificativo univoco del prodotto** tramite un **data carrier** (es. QR code) presente sul prodotto, sull'imballaggio o sulla documentazione, come indicato dall'atto delegato.\n- Il data carrier contiene solo l'identificativo, non i dati del passaporto.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 13 (etichettatura e QR code)."
+  },
+  {
+    "id": "cmvvel4mn005cqhy38xaxlbol",
+    "stepId": "cmvvel4mn005bqhy3nnrklb6s",
+    "locale": "en",
+    "title": "Does the product already carry a data carrier?",
+    "description": "The data carrier (e.g. a QR code) links the physical product to its passport. It can be on the product, its packaging or the documentation.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the passport is linked to a **unique product identifier** through a **data carrier** (e.g. a QR code) placed on the product, its packaging or documentation, as set by the delegated act.\n- The data carrier only holds the identifier, not the passport data.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 13 (labelling and QR code)."
+  },
+  {
+    "id": "cmvvel4mx0061qhy3c8en81ax",
+    "stepId": "cmvvel4mx005zqhy3bmb6hig9",
+    "locale": "it",
+    "title": "Dove ospiterete i passaporti?",
+    "description": "Il passaporto deve restare disponibile per tutta la vita del prodotto, anche se cambiano fornitore o azienda.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il passaporto può essere gestito dall'operatore economico o da un **fornitore di servizi del passaporto**; sono previsti requisiti di disponibilità nel tempo, inclusa una **copia di backup** presso un fornitore di servizi.\n- La scelta tra piattaforma proprietaria, SaaS o PaaS deve garantire accesso ai dati anche in caso di cessazione dell'attività o del fornitore."
+  },
+  {
+    "id": "cmvvel4mx0060qhy3n6idoglc",
+    "stepId": "cmvvel4mx005zqhy3bmb6hig9",
+    "locale": "en",
+    "title": "Where will you host the passports?",
+    "description": "The passport must remain available for the whole product life, even if the provider or the company changes.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the passport may be managed by the economic operator or by a **passport service provider**; there are requirements on long-term availability, including a **backup copy** held by a service provider.\n- Choosing between a proprietary platform, SaaS or PaaS must ensure data access even if the business or the provider ceases activity."
+  },
+  {
+    "id": "cmvveys65000gzwy3a9nkfr99",
+    "stepId": "cmvveys65000fzwy3177bk4me",
+    "locale": "it",
+    "title": "Specifica il settore",
+    "description": "Ci aiuta a capire quali atti delegati potrebbero riguardarvi.",
+    "help": null,
+    "references": null
+  },
+  {
+    "id": "cmvveys65000hzwy37s477vpj",
+    "stepId": "cmvveys65000fzwy3177bk4me",
+    "locale": "en",
+    "title": "Specify the industry",
+    "description": "It helps us understand which delegated acts may apply to you.",
+    "help": null,
+    "references": null
+  },
+  {
+    "id": "cmvveys69000jzwy3xghoemrc",
+    "stepId": "cmvveys69000izwy3nnecdx5p",
+    "locale": "it",
+    "title": "Chi è responsabile del progetto DPP in azienda?",
+    "description": "Il passaporto coinvolge prodotto, qualità, IT e fornitori: serve una persona o una funzione che ne guidi il progetto.",
+    "help": null,
+    "references": null
+  },
+  {
+    "id": "cmvveys69000kzwy3crhbsv8m",
+    "stepId": "cmvveys69000izwy3nnecdx5p",
+    "locale": "en",
+    "title": "Who owns the DPP project in your company?",
+    "description": "The passport involves product, quality, IT and suppliers: a person or function needs to lead the project.",
+    "help": null,
+    "references": null
+  },
+  {
+    "id": "cmvveys6g0011zwy3jr1i6dsc",
+    "stepId": "cmvveys6g0010zwy3f0cyehtf",
+    "locale": "it",
+    "title": "Quanti fornitori dovranno fornirvi dati per il passaporto?",
+    "description": "Più sono i fornitori, più conta avere un formato standard e un canale strutturato per raccogliere i dati.",
+    "help": null,
+    "references": null
+  },
+  {
+    "id": "cmvveys6g0012zwy3v99lshm7",
+    "stepId": "cmvveys6g0010zwy3f0cyehtf",
+    "locale": "en",
+    "title": "How many suppliers will need to provide data for the passport?",
+    "description": "The more suppliers, the more a standard format and a structured channel to collect data matter.",
+    "help": null,
+    "references": null
+  },
+  {
+    "id": "cmvveys6o001gzwy3vsmdwt4k",
+    "stepId": "cmvveys6n001fzwy37zs044a0",
+    "locale": "it",
+    "title": "Dove verrà applicato il data carrier?",
+    "description": "La posizione ha un impatto su produzione, packaging ed etichette.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): il data carrier può trovarsi **sul prodotto, sull'imballaggio o sulla documentazione** che lo accompagna; l'atto delegato del gruppo di prodotto indica dove.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), art. 13: il QR code va stampato o inciso sulla batteria (o, se non possibile, sull'imballaggio e sui documenti)."
+  },
+  {
+    "id": "cmvveys6o001hzwy3vg4qu76a",
+    "stepId": "cmvveys6n001fzwy37zs044a0",
+    "locale": "en",
+    "title": "Where will the data carrier be applied?",
+    "description": "The position affects production, packaging and labels.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): the data carrier may be placed **on the product, its packaging or accompanying documentation**; the product group's delegated act says where.\n- **Batteries**: [Regulation (EU) 2023/1542 (Batteries)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj), Article 13: the QR code must be printed or engraved on the battery (or, where not possible, on the packaging and documents)."
+  },
+  {
+    "id": "cmvveys7c001yzwy3zhhaskzw",
+    "stepId": "cmvveys7c001xzwy3i2xn7w3g",
+    "locale": "it",
+    "title": "Chi deve poter consultare o aggiornare il passaporto?",
+    "description": "Il passaporto prevede livelli di accesso diversi: alcune informazioni sono pubbliche, altre riservate a specifici operatori.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita): l'accesso alle informazioni del passaporto può essere **differenziato per tipo di soggetto** (consumatori, operatori economici, riparatori, riciclatori, autorità); l'atto delegato stabilisce chi può accedere a cosa e chi può aggiornarlo."
+  },
+  {
+    "id": "cmvveys7c001zzwy30vyxk1oj",
+    "stepId": "cmvveys7c001xzwy3i2xn7w3g",
+    "locale": "en",
+    "title": "Who must be able to view or update the passport?",
+    "description": "The passport has different access levels: some information is public, other information is restricted to specific operators.",
+    "help": null,
+    "references": "- [Regulation (EU) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj): access to passport information may be **differentiated by type of actor** (consumers, economic operators, repairers, recyclers, authorities); the delegated act sets who can access what and who can update it."
+  },
+  {
+    "id": "cmvv1uw4m001qnay3g7ornue6",
+    "stepId": "cmvv1uw4m001pnay3vy3nbxj1",
+    "locale": "it",
+    "title": "Descrivi un prodotto di esempio",
+    "description": "Useremo questo prodotto come riferimento per il progetto.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita), Allegato III: categorie di informazioni che possono essere incluse nel passaporto (identificativi, conformità, documentazione, istruzioni, informazioni per riparazione e fine vita…). L'atto delegato del settore indica quali sono obbligatorie.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), Allegato XIII (informazioni da includere nel passaporto delle batterie)."
+  },
+  {
+    "id": "cmvv84sgg002rm2y3w95f5uy2",
+    "stepId": "cmvv84sgf002qm2y3jtzol6t6",
+    "locale": "it",
+    "title": "Descrivi un prodotto di esempio",
+    "description": "Useremo questo prodotto come riferimento per il progetto.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita), Allegato III: categorie di informazioni che possono essere incluse nel passaporto (identificativi, conformità, documentazione, istruzioni, informazioni per riparazione e fine vita…). L'atto delegato del settore indica quali sono obbligatorie.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), Allegato XIII (informazioni da includere nel passaporto delle batterie)."
+  },
+  {
+    "id": "cmvvel4n5006yqhy3xosy3f0c",
+    "stepId": "cmvvel4n5006wqhy3bcykb6bb",
+    "locale": "it",
+    "title": "Descrivi un prodotto di esempio",
+    "description": "Useremo questo prodotto come riferimento per il progetto.",
+    "help": null,
+    "references": "- [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita), Allegato III: categorie di informazioni che possono essere incluse nel passaporto (identificativi, conformità, documentazione, istruzioni, informazioni per riparazione e fine vita…). L'atto delegato del settore indica quali sono obbligatorie.\n- **Batterie**: [Regolamento (UE) 2023/1542 (Batterie)](https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita), Allegato XIII (informazioni da includere nel passaporto delle batterie)."
+  }
+]

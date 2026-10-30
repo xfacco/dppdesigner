@@ -1,0 +1,18 @@
+[
+  {
+    "id": "cmvv1xyi5000jp8y3f78lf3sv",
+    "userId": "iiZ6FxOABwshxKjpUDimV3Plvyd4fkSt",
+    "type": "PRIVACY",
+    "policyVersion": "2026-10",
+    "granted": true,
+    "createdAt": "2026-10-30T13:12:57.965Z"
+  },
+  {
+    "id": "cmvv1xyi5000kp8y32a0uam3o",
+    "userId": "iiZ6FxOABwshxKjpUDimV3Plvyd4fkSt",
+    "type": "MARKETING",
+    "policyVersion": "2026-10",
+    "granted": true,
+    "createdAt": "2026-10-30T13:12:57.965Z"
+  }
+]

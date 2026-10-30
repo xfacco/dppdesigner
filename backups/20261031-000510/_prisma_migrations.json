@@ -1,0 +1,82 @@
+[
+  {
+    "id": "3c522e36-58e4-48e5-ba1a-3635cf6a44dd",
+    "checksum": "356554420278fe3a966d7ee9fe699c514315a00561d456a72ad13e0e332ef5bd",
+    "finished_at": "2026-10-30T14:10:34.166Z",
+    "migration_name": "20261030141034_init",
+    "logs": null,
+    "rolled_back_at": null,
+    "started_at": "2026-10-30T14:10:34.129Z",
+    "applied_steps_count": 1
+  },
+  {
+    "id": "7b268754-b86f-48e4-beab-10de3d166acd",
+    "checksum": "2b7a1c2a00063118de73c79007d9854be7112fb4430aec23c1cfc283c92c484b",
+    "finished_at": "2026-10-30T14:57:55.608Z",
+    "migration_name": "20261030145755_step_references",
+    "logs": null,
+    "rolled_back_at": null,
+    "started_at": "2026-10-30T14:57:55.607Z",
+    "applied_steps_count": 1
+  },
+  {
+    "id": "e9c56545-2fe0-4f4b-a4aa-7a77331fe7f1",
+    "checksum": "25febdd59813b8592b642644450794ad094abcedb3cda29b97e509b50bc13b4a",
+    "finished_at": "2026-10-30T15:13:46.682Z",
+    "migration_name": "20261030151346_step_questions",
+    "logs": null,
+    "rolled_back_at": null,
+    "started_at": "2026-10-30T15:13:46.674Z",
+    "applied_steps_count": 1
+  },
+  {
+    "id": "d001d426-6faf-477a-9790-b329f761ca02",
+    "checksum": "f784ecfebb6b52302b632481aaad7ce98852728c82f26a395ed5a54559d22217",
+    "finished_at": "2026-10-30T17:10:27.173Z",
+    "migration_name": "20261030171027_journey_preview",
+    "logs": null,
+    "rolled_back_at": null,
+    "started_at": "2026-10-30T17:10:27.170Z",
+    "applied_steps_count": 1
+  },
+  {
+    "id": "bb4bef07-b809-4d07-adbb-761406638eed",
+    "checksum": "e069ed09f69307d49ff83bc1277b8340795e2979e2d09b550bf7903d6f7e244a",
+    "finished_at": "2026-10-30T17:23:45.731Z",
+    "migration_name": "20261030172345_step_suggestions",
+    "logs": null,
+    "rolled_back_at": null,
+    "started_at": "2026-10-30T17:23:45.724Z",
+    "applied_steps_count": 1
+  },
+  {
+    "id": "f9588db6-5d03-41b9-9abe-0b09161eb99f",
+    "checksum": "9ede1049ce5561d2fc60518691f2e67050c60884bd17841bea470f38c504bef7",
+    "finished_at": "2026-10-30T17:41:29.537Z",
+    "migration_name": "20261030174129_matrix_and_mandatory",
+    "logs": null,
+    "rolled_back_at": null,
+    "started_at": "2026-10-30T17:41:29.535Z",
+    "applied_steps_count": 1
+  },
+  {
+    "id": "7424434d-e7c6-460a-94aa-17e8e1539760",
+    "checksum": "23db13e4f45de4adb7b630b6c4d4b3b988f9e938356ebabf4986e9e9317f9af9",
+    "finished_at": "2026-10-30T19:20:52.992Z",
+    "migration_name": "20261030192052_diagram_config",
+    "logs": null,
+    "rolled_back_at": null,
+    "started_at": "2026-10-30T19:20:52.991Z",
+    "applied_steps_count": 1
+  },
+  {
+    "id": "4d7580b9-45c1-4c47-95bf-1d568bbc89a4",
+    "checksum": "644ed7e3a54cf60fcf121ed582c562ea41fda1da4fc88295f02c00141fedd30f",
+    "finished_at": "2026-10-30T20:27:48.755Z",
+    "migration_name": "20261030202748_journey_hidden_by_user",
+    "logs": null,
+    "rolled_back_at": null,
+    "started_at": "2026-10-30T20:27:48.754Z",
+    "applied_steps_count": 1
+  }
+]

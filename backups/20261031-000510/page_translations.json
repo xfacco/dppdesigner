@@ -1,0 +1,146 @@
+[
+  {
+    "id": "cmvv1uw6y007rnay3yhcr2fbi",
+    "pageId": "cmvv1uw6y007qnay3etl6pxns",
+    "locale": "it",
+    "slug": "settori",
+    "title": "Settori",
+    "description": "Il DPP nei settori tessile, elettronica, batterie e costruzioni.",
+    "body": "# Settori\n\n## Batterie\nIl Regolamento Batterie prevede un passaporto dedicato per batterie industriali, per veicoli elettrici e per mezzi di trasporto leggeri sopra determinate soglie.\n\n## Tessile e moda\nTra le prime categorie ESPR. Dati chiave: composizione delle fibre, origine, riciclabilità, sostanze, istruzioni di cura e fine vita.\n\n## Elettronica\nRiparabilità, disponibilità di ricambi e aggiornamenti software sono al centro dei requisiti attesi.\n\n## Costruzioni\nI prodotti da costruzione seguono il nuovo Regolamento Prodotti da Costruzione (CPR), che prevede anch'esso un passaporto digitale.\n\n> Le date indicate sono orientative e soggette a evoluzione normativa. Verifica sempre le fonti ufficiali della Commissione europea."
+  },
+  {
+    "id": "cmvv1uw6y007snay3dr585b6z",
+    "pageId": "cmvv1uw6y007qnay3etl6pxns",
+    "locale": "en",
+    "slug": "sectors",
+    "title": "Sectors",
+    "description": "The DPP in textiles, electronics, batteries and construction.",
+    "body": "# Sectors\n\n## Batteries\nThe Battery Regulation sets out a dedicated passport for industrial batteries, electric vehicle batteries and light means of transport batteries above certain thresholds.\n\n## Textiles and fashion\nAmong the first ESPR categories. Key data: fibre composition, origin, recyclability, substances, care and end-of-life instructions.\n\n## Electronics\nReparability, spare parts availability and software updates are at the core of expected requirements.\n\n## Construction\nConstruction products follow the new Construction Products Regulation (CPR), which also provides for a digital passport.\n\n> Dates are indicative and subject to regulatory change. Always check the European Commission's official sources."
+  },
+  {
+    "id": "cmvv1uw71007xnay3i6zfdie6",
+    "pageId": "cmvv1uw70007wnay32yx9xxuc",
+    "locale": "it",
+    "slug": "contatti",
+    "title": "Contatti",
+    "description": "Scrivici per un confronto sul tuo progetto DPP.",
+    "body": "# Contatti\n\nVuoi approfondire il tuo progetto di Digital Product Passport? Scrivici."
+  },
+  {
+    "id": "cmvv1uw6v007lnay3wx81appy",
+    "pageId": "cmvv1uw6v007knay3au6g3o42",
+    "locale": "it",
+    "slug": "cos-e-il-dpp",
+    "title": "Cos'è il DPP",
+    "description": "Il Digital Product Passport spiegato in modo semplice.",
+    "body": "# Cos'è il Digital Product Passport\n\nIl Digital Product Passport è un insieme di dati sul prodotto, accessibile in formato digitale tramite un **data carrier** applicato al prodotto (ad esempio un QR code).\n\n## Come è fatto\n\n- **Data carrier** — reca un identificativo univoco e persistente del prodotto. Non contiene i dati del passaporto.\n- **Data host** — il sistema che ospita il passaporto vero e proprio, aggiornabile nel tempo.\n- **Registry UE** — il registro centrale che collega l'identificativo al data host.\n\n## Quali dati contiene\n\nI dati richiesti sono definiti dagli atti delegati per ciascuna categoria di prodotto. In generale riguardano:\n\n- identificativo univoco del prodotto\n- composizione, materiali e loro origine\n- metriche di sostenibilità (es. impronta di carbonio, riciclabilità)\n- informazioni per riparazione, riuso e fine vita\n\n## Domande frequenti\n\n**Il QR code contiene tutti i dati?**\nNo: contiene un identificativo che rimanda al passaporto ospitato dal data host.\n\n**Serve una piattaforma specifica?**\nNo, i formati devono essere aperti e interoperabili: puoi scegliere tra soluzione proprietaria, SaaS o PaaS."
+  },
+  {
+    "id": "cmvv1uw6v007mnay3yjctkib3",
+    "pageId": "cmvv1uw6v007knay3au6g3o42",
+    "locale": "en",
+    "slug": "what-is-dpp",
+    "title": "What is the DPP",
+    "description": "The Digital Product Passport explained simply.",
+    "body": "# What is the Digital Product Passport\n\nThe Digital Product Passport is a set of product data, accessible digitally through a **data carrier** applied to the product (for example a QR code).\n\n## How it works\n\n- **Data carrier** — carries a unique, persistent product identifier. It does not contain the passport data.\n- **Data host** — the system hosting the actual passport, which can be updated over time.\n- **EU Registry** — the central registry linking the identifier to the data host.\n\n## What data it contains\n\nRequired data is defined by delegated acts for each product category. In general it covers:\n\n- unique product identifier\n- composition, materials and their origin\n- sustainability metrics (e.g. carbon footprint, recyclability)\n- information for repair, reuse and end of life\n\n## FAQ\n\n**Does the QR code contain all the data?**\nNo: it carries an identifier pointing to the passport served by the data host.\n\n**Do I need a specific platform?**\nNo, formats must be open and interoperable: you can choose a proprietary, SaaS or PaaS solution."
+  },
+  {
+    "id": "cmvv1uw6w007onay37rosrvnq",
+    "pageId": "cmvv1uw6w007nnay3p4u578mn",
+    "locale": "it",
+    "slug": "normativa-espr",
+    "title": "Normativa ESPR",
+    "description": "Il Regolamento ESPR, il Registry UE e le tempistiche per settore.",
+    "body": "# Normativa ESPR e tempistiche\n\nIl **Regolamento (UE) 2024/1781 sulla progettazione ecocompatibile dei prodotti sostenibili (ESPR)** introduce il Digital Product Passport come strumento per comunicare dati di sostenibilità e ciclo di vita.\n\n## Registry UE\n\nIl registro centrale dei DPP è previsto dall'art. 13 ESPR, con istituzione entro il **19 luglio 2026**. Collega l'identificativo presente sul data carrier al data host del passaporto.\n\n## Tempistiche indicative per settore\n\n| Settore | Riferimento | Tempistica indicativa |\n|---|---|---|\n| Batterie | Regolamento (UE) 2023/1542 | Passaporto batterie da febbraio 2027 |\n| Tessile | ESPR, atto delegato | Tra le prime categorie del piano di lavoro |\n| Ferro, acciaio, alluminio | ESPR, atto delegato | Tra le prime categorie del piano di lavoro |\n| Elettronica | ESPR, atti delegati | Fasi successive |\n| Prodotti da costruzione | Regolamento (UE) 2024/3110 (CPR) | Secondo le specifiche tecniche CPR |\n\n> Le date indicate sono orientative e soggette a evoluzione normativa. Verifica sempre le fonti ufficiali della Commissione europea.\n\n## Fonti\n\n- [DPP Registry — Commissione europea](https://single-market-economy.ec.europa.eu/single-market/digital-product-passport/dpp-registry_en)\n- [CIRPASS-2](https://cirpass2.eu/)"
+  },
+  {
+    "id": "cmvv1uw6w007pnay3m8qnx25y",
+    "pageId": "cmvv1uw6w007nnay3p4u578mn",
+    "locale": "en",
+    "slug": "espr-regulation",
+    "title": "ESPR Regulation",
+    "description": "The ESPR Regulation, the EU Registry and sector timelines.",
+    "body": "# ESPR Regulation and timelines\n\nThe **Ecodesign for Sustainable Products Regulation (EU) 2024/1781 (ESPR)** introduces the Digital Product Passport as the tool to communicate sustainability and life-cycle data.\n\n## EU Registry\n\nThe central DPP registry is set out in Article 13 ESPR, to be established by **19 July 2026**. It links the identifier on the data carrier to the passport's data host.\n\n## Indicative timelines by sector\n\n| Sector | Reference | Indicative timeline |\n|---|---|---|\n| Batteries | Regulation (EU) 2023/1542 | Battery passport from February 2027 |\n| Textiles | ESPR, delegated act | Among the first working plan categories |\n| Iron, steel, aluminium | ESPR, delegated act | Among the first working plan categories |\n| Electronics | ESPR, delegated acts | Later phases |\n| Construction products | Regulation (EU) 2024/3110 (CPR) | According to CPR technical specifications |\n\n> Dates are indicative and subject to regulatory change. Always check the European Commission's official sources.\n\n## Sources\n\n- [DPP Registry — European Commission](https://single-market-economy.ec.europa.eu/single-market/digital-product-passport/dpp-registry_en)\n- [CIRPASS-2](https://cirpass2.eu/)"
+  },
+  {
+    "id": "cmvv1uw6z007unay3kxvdji57",
+    "pageId": "cmvv1uw6z007tnay3nwn3zc6o",
+    "locale": "it",
+    "slug": "chi-sono",
+    "title": "Chi sono",
+    "description": "Esperienza e competenze sul Digital Product Passport.",
+    "body": "# Chi sono\n\n*Testo da completare: profilo, esperienza, progetti e competenze sul Digital Product Passport.*"
+  },
+  {
+    "id": "cmvv1uw6z007vnay39mbh1pv9",
+    "pageId": "cmvv1uw6z007tnay3nwn3zc6o",
+    "locale": "en",
+    "slug": "about",
+    "title": "About",
+    "description": "Experience and expertise on the Digital Product Passport.",
+    "body": "# About\n\n*Text to be completed: profile, experience, projects and expertise on the Digital Product Passport.*"
+  },
+  {
+    "id": "cmvv1uw71007ynay3bmvs94qa",
+    "pageId": "cmvv1uw70007wnay32yx9xxuc",
+    "locale": "en",
+    "slug": "contact",
+    "title": "Contact",
+    "description": "Get in touch to discuss your DPP project.",
+    "body": "# Contact\n\nWant to discuss your Digital Product Passport project? Get in touch."
+  },
+  {
+    "id": "cmvv36bl30001k0y3g5o8c3wx",
+    "pageId": "cmvv36bl20000k0y3iwogktas",
+    "locale": "it",
+    "slug": "wizard-intro-it",
+    "title": "Progetta il tuo DPP",
+    "description": "Progetta il Digital Product Passport della tua azienda: punteggio di maturità, architettura e prossimi passi.",
+    "body": "# Progetta il tuo Digital Product Passport\n\nRispondi a qualche domanda sulla tua azienda e sul tuo prodotto. Alla fine otterrai:\n\n- un **punteggio di maturità** per dati, processi e tecnologia\n- uno **schema di architettura** del tuo DPP\n- i **prossimi passi consigliati**\n\nNon serve registrarsi per iniziare: puoi riprendere dallo stesso browser per 30 giorni, oppure registrarti alla fine per salvare il progetto."
+  },
+  {
+    "id": "cmvv36bl30002k0y3ne5q3uns",
+    "pageId": "cmvv36bl20000k0y3iwogktas",
+    "locale": "en",
+    "slug": "wizard-intro-en",
+    "title": "Design your DPP",
+    "description": "Design your company's Digital Product Passport: maturity score, architecture and next steps.",
+    "body": "# Design your Digital Product Passport\n\nAnswer a few questions about your company and product. At the end you will get:\n\n- a **maturity score** for data, processes and technology\n- an **architecture sketch** of your DPP\n- **recommended next steps**\n\nNo sign-up needed to start: you can resume from the same browser for 30 days, or sign up at the end to save your project."
+  },
+  {
+    "id": "cmvv1uw6s007jnay3pv9ze848",
+    "pageId": "cmvv1uw6s007hnay317zbsi7i",
+    "locale": "en",
+    "slug": "home-en",
+    "title": "Home",
+    "description": "Learn what the Digital Product Passport is and how ready your company is.",
+    "body": "# Get ready for the Digital Product Passport\r\n\r\nUnderstanding what your company needs — data, processes, technology — is the first step.\r\n\r\n## How \"Design\" works\r\n\r\n1. Answer a few questions about your industry, product and data\r\n2. Consolidate information on the DPP for your products\r\n3. Receive an **architecture sketch** and **recommended next steps**\r\n\r\nNo sign-up needed to start."
+  },
+  {
+    "id": "cmvv1uw730081nay3zsd3dd5c",
+    "pageId": "cmvv1uw73007znay3tbp173jv",
+    "locale": "en",
+    "slug": "privacy",
+    "title": "Privacy notice",
+    "description": "How we process your data.",
+    "body": "# Privacy notice\n\n*Draft to be validated with the privacy consultant.*\n\n## DPP projects (Design)\nThe wizard requires no account and collects no personal data. Answers (company and product data) are kept for statistical purposes. A technical cookie lets you resume the journey from the same browser for 30 days.\n\n## Questions on steps\nIn each step you can ask the AI assistant or the site's expert a question. Questions and answers are stored with the journey. Questions to the AI assistant, together with the step context and the answers already given in the journey, are sent to Anthropic (provider of the Claude model) to generate the reply. Do not include personal data in your questions.\n\n## Account\nWhen you sign up you provide your name, email and, optionally, company, role and phone. Data is kept for **24 months after your last sign-in**, then deleted; journeys are kept anonymously.\n\n## Your rights\nFrom your account you can download your data and delete your account at any time."
+  },
+  {
+    "id": "cmvv1uw730080nay33aq9ft5q",
+    "pageId": "cmvv1uw73007znay3tbp173jv",
+    "locale": "it",
+    "slug": "privacy",
+    "title": "Informativa privacy",
+    "description": "Come trattiamo i tuoi dati.",
+    "body": "# Informativa privacy\n\n*Bozza da validare con il consulente privacy.*\n\n## Progetti DPP (Progetta)\nIl wizard si compila senza account e non raccoglie dati personali. Le risposte (dati aziendali e di prodotto) sono conservate per finalità statistiche. Un cookie tecnico permette di riprendere il progetto dallo stesso browser per 30 giorni.\n\n## Domande sugli step\nIn ogni step puoi fare una domanda all'assistente AI o all'esperto del sito. Domande e risposte sono conservate insieme al progetto. Le domande all'assistente AI, con il contesto dello step e le risposte già date nel progetto, vengono inviate ad Anthropic (fornitore del modello Claude) per generare la risposta. Non inserire dati personali nelle domande.\n\n## Account\nRegistrandoti fornisci nome, email e, facoltativamente, azienda, ruolo e telefono. I dati sono conservati per **24 mesi dall'ultimo accesso**, poi cancellati; i progetti restano in forma anonima.\n\n## I tuoi diritti\nDall'area personale puoi scaricare i tuoi dati ed eliminare l'account in qualsiasi momento."
+  },
+  {
+    "id": "cmvv1uw6s007inay3djsy9r17",
+    "pageId": "cmvv1uw6s007hnay317zbsi7i",
+    "locale": "it",
+    "slug": "home-it",
+    "title": "Home",
+    "description": "Scopri cos'è il Digital Product Passport e quanto è pronta la tua azienda.",
+    "body": "# Preparati al Digital Product Passport\r\n\r\nCapire cosa serve alla tua azienda — dati, processi, tecnologia — è il primo passo.\r\n\r\n## Come funziona \"Progetta\"\r\n\r\n1. Rispondi a qualche domanda su settore, prodotto e dati\r\n2. Consolida le informazioni sul DPP per i tuoi prodotti\r\n3. Ricevi uno **schema di architettura** e i **prossimi passi consigliati**\r\n\r\nNon serve registrarsi per iniziare."
+  }
+]

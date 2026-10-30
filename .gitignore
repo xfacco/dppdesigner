@@ -4,14 +4,9 @@ out/
 coverage/
 next-env.d.ts
 *.tsbuildinfo
-.env
 .env.local
 .DS_Store
 .vercel
 src/generated/
-.claude/settings.local.json
-backups/
-
-# Database locale e backup (contengono dati personali)
-.data/
-backups/
+.data/pgdata/postmaster.pid
+.data/pgdata/postmaster.opts

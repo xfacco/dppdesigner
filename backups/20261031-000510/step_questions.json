@@ -1,0 +1,28 @@
+[
+  {
+    "id": "cmvv4q01x0002viy3nzqqyxxl",
+    "journeyId": "cmvv3rxs700010oy3x4r8jdgi",
+    "stepKey": "company_type",
+    "channel": "EXPERT",
+    "status": "OPEN",
+    "locale": "it",
+    "question": "jjj",
+    "answer": null,
+    "answeredById": null,
+    "createdAt": "2026-10-30T14:30:45.573Z",
+    "answeredAt": null
+  },
+  {
+    "id": "cmvv4qgwe0004viy3znd75qz2",
+    "journeyId": "cmvv4qc0r0003viy3mfwmjpsy",
+    "stepKey": "industry",
+    "channel": "EXPERT",
+    "status": "OPEN",
+    "locale": "it",
+    "question": "asdasdasd",
+    "answer": null,
+    "answeredById": null,
+    "createdAt": "2026-10-30T14:31:07.406Z",
+    "answeredAt": null
+  }
+]

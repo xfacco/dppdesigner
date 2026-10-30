@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm -v)",
+      "Bash(pnpm -v)",
+      "Bash(npm view *)",
+      "Bash(docker info *)",
+      "Bash(npm install *)",
+      "Bash(npm audit *)",
+      "Bash(node -e \"const p=require\\('./node_modules/better-auth/package.json'\\);console.log\\(Object.keys\\(p.exports\\).filter\\(k=>/prisma|next|plugins$|react|client/.test\\(k\\)\\)\\)\")",
+      "Bash(DATABASE_URL=postgresql://x@localhost/x npx prisma generate)",
+      "Bash(npx vitest *)",
+      "Bash(npx tsc *)",
+      "Bash(npm run *)",
+      "Bash(node -e ' *)",
+      "Read(//dev/**)"
+    ]
+  }
+}
