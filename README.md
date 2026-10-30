@@ -12,6 +12,10 @@ Next.js 16 (App Router) · TypeScript · Tailwind CSS 4 · componenti in stile s
 
 Requisiti: Node 24, un database PostgreSQL (es. Neon o Docker).
 
+Per lo sviluppo c'è anche un PostgreSQL incorporato, senza installazioni: `npm run db` lo avvia sulla porta 54329 con i dati in `.data/pgdata` (cartella esclusa da git, che resta tra un riavvio e l'altro). Va lasciato acceso in un terminale a parte; Ctrl+C lo ferma in modo pulito. In `.env`: `DATABASE_URL="postgresql://postgres:postgres@localhost:54329/dppdesigner"`.
+
+I backup locali stanno in `backups/<data-ora>/` (esclusa da git): un file JSON per tabella e `pgdata.tar.gz`, copia della cartella dati fatta a database fermo. Per ripristinare quest'ultima: fermare il database, sostituire `.data/pgdata` con il contenuto dell'archivio, riavviare `npm run db`.
+
 ```bash
 npm install
 cp .env.example .env          # compilare i valori
@@ -31,6 +35,7 @@ Senza `RESEND_API_KEY` le email (verifica, reset password) vengono stampate nel 
 
 | Comando | Cosa fa |
 |---|---|
+| `npm run db` | PostgreSQL locale incorporato (dati in `.data/pgdata`) |
 | `npm run dev` | Server di sviluppo |
 | `npm run build` | Genera il client Prisma e la build di produzione |
 | `npm test` | Test del motore del wizard |
