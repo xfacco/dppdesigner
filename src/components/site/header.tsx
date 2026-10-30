@@ -15,7 +15,7 @@ export async function SiteHeader({ locale }: { locale: string }) {
 
   return (
     <header className="bg-background">
-      <div className="mx-auto flex min-h-[76px] w-[min(calc(100%-40px),1200px)] flex-wrap items-center gap-x-8 gap-y-3 py-4 sm:w-[min(calc(100%-80px),1200px)]">
+      <div className="mx-auto flex min-h-[76px] w-[min(calc(100%-40px),1200px)] flex-wrap items-center gap-x-4 gap-y-3 py-4 md:gap-x-8 sm:w-[min(calc(100%-80px),1200px)]">
         <Link href="/" className="inline-flex items-center gap-4 whitespace-nowrap" aria-label="DPP Designer — Home">
           <Logo />
           <span aria-hidden className="hidden h-5 w-px bg-border lg:block" />

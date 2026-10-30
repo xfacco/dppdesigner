@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { AsciiGlobe } from "@/components/site/ascii-globe";
+import { DppInteractiveStage } from "@/components/dpp-3d/dpp-interactive-stage";
 import { MarkdownBody, MonoLabel, RAIL } from "@/components/site/page-sections";
 import { buttonVariants } from "@/components/ui/button";
 import { Link } from "@/i18n/navigation";
@@ -51,8 +51,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             )}
           </div>
         </div>
-        <div className="mx-auto w-full max-w-[560px] md:max-w-none">
-          <AsciiGlobe label={tHome("globe")} />
+        <div className="mx-auto w-full max-w-[640px] lg:max-w-none">
+          <DppInteractiveStage />
         </div>
       </section>
 
