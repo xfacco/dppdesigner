@@ -11,3 +11,7 @@ next-env.d.ts
 src/generated/
 .claude/settings.local.json
 backups/
+
+# Database locale e backup (contengono dati personali)
+.data/
+backups/
