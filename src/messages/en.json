@@ -10,6 +10,8 @@
     "logout": "Sign out",
     "language": "Italiano",
     "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
     "tagline": "Digital Product Passport",
     "themeDark": "Switch to dark theme",
     "themeLight": "Switch to light theme"
@@ -297,7 +299,8 @@
   },
   "home": {
     "byline": "ESPR · Regulation (EU) 2024/1781",
-    "globe": "Slowly rotating globe of data drawn in ASCII characters",
-    "secondary": "What is the DPP"
+    "globe": "ASCII globe centred on Europe, circled by a ring with ESPR, the Batteries Regulation, the EU registry and EN digital passport standards",
+    "secondary": "What is the DPP",
+    "ring": "ESPR 2024/1781 · EU REGISTRY · EN 18219 · EN 18220 · EN 18222 · BATTERIES REG. 2023/1542 · QR → DPP · "
   }
 }

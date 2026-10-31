@@ -13,7 +13,26 @@
       "Bash(npx tsc *)",
       "Bash(npm run *)",
       "Bash(node -e ' *)",
-      "Read(//dev/**)"
+      "Read(//dev/**)",
+      "Bash(sed -i '' 's|^const { result } = await send\\(\"Runtime.evaluate\"|if \\(process.env.CLICK\\) { await send\\(\"Runtime.evaluate\", { expression: `document.querySelector\\(${JSON.stringify\\(process.env.CLICK\\)}\\).click\\(\\)` }\\); await wait\\(400\\); }\\\\nconst { result } = await send\\(\"Runtime.evaluate\"|' cdp.mjs)",
+      "Bash(unset COOKIE)",
+      "Bash(node cdp.mjs http://localhost:3000/it ham-closed.png 390 700)",
+      "Bash(CLICK='button[aria-controls]' node cdp.mjs http://localhost:3000/it ham-open.png 390 700)",
+      "Bash(node cdp.mjs http://localhost:3000/it desk.png 1280 200)",
+      "Bash(node cdp.mjs http://localhost:3000/it h1024.png 1024 120)",
+      "Bash(CLICK='button[aria-controls]' node cdp.mjs http://localhost:3000/it h800open.png 800 460)",
+      "Bash(node cdp.mjs http://localhost:3000/it h1280.png 1280 120)",
+      "Bash(node cdp.mjs http://localhost:3000/it h800.png 800 120)",
+      "Bash(CLICK='button[aria-controls]' node cdp.mjs http://localhost:3000/it ham-open.png 390 420)",
+      "Bash(node cdp.mjs \"https://patchtheplanet.org/#disclosures\" ptp.png 1280 1000)",
+      "Bash(node cdp.mjs http://localhost:3000/it home-now.png 1280 800)",
+      "Bash(node cdp.mjs http://localhost:3000/it home-now.png 1280 860)",
+      "Bash(node cdp.mjs http://localhost:3000/it home-m.png 390 1100)",
+      "Bash(python3 - *)",
+      "Bash(node cdp.mjs http://localhost:3000/it home-m.png 390 1000)"
+    ],
+    "additionalDirectories": [
+      "/Users/corrado/Downloads/Corrado/dppdesigner/src/app/[locale]"
     ]
   }
 }

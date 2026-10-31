@@ -2,53 +2,70 @@ import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { buttonVariants } from "@/components/ui/button";
 import { getSession } from "@/lib/session";
-import { getMenu } from "@/server/content";
 import { LocaleSwitch } from "./locale-switch";
 import { Logo } from "./logo";
+import { MobileMenu } from "./mobile-menu";
 import { SignOutButton } from "./sign-out-button";
 import { ThemeToggle } from "./theme-toggle";
 
+// Le pagine del sito sono raggiungibili dal footer: in alto restano lingua, account e pulsante principale
 export async function SiteHeader({ locale }: { locale: string }) {
-  const [t, menu, session] = await Promise.all([getTranslations("nav"), getMenu(locale), getSession()]);
+  const [t, session] = await Promise.all([getTranslations("nav"), getSession()]);
   const other = locale === "it" ? "en" : "it";
-  const navLink = "text-[13px] text-muted-foreground transition-colors hover:text-foreground";
+  const navLink = "whitespace-nowrap text-[13px] text-muted-foreground transition-colors hover:text-foreground";
+  const mobileLink = "block w-full border-b py-3 text-left text-[15px] text-foreground transition-colors hover:text-primary";
 
   return (
-    <header className="bg-background">
-      <div className="mx-auto flex min-h-[76px] w-[min(calc(100%-40px),1200px)] flex-wrap items-center gap-x-4 gap-y-3 py-4 md:gap-x-8 sm:w-[min(calc(100%-80px),1200px)]">
+    <header className="relative z-30 bg-background">
+      <div className="mx-auto flex min-h-[76px] w-[min(calc(100%-40px),1200px)] items-center gap-x-4 py-4 sm:w-[min(calc(100%-80px),1200px)] md:gap-x-8">
         <Link href="/" className="inline-flex items-center gap-4 whitespace-nowrap" aria-label="DPP Designer — Home">
           <Logo />
           <span aria-hidden className="hidden h-5 w-px bg-border lg:block" />
           <span className="hidden text-[15px] font-bold leading-tight tracking-[-0.025em] lg:block">{t("tagline")}</span>
         </Link>
 
-        <nav aria-label={t("menu")} className="order-3 flex w-full flex-wrap gap-x-6 gap-y-2 md:order-none md:ml-auto md:w-auto md:gap-x-7">
-          {menu.map((item) => (
-            <Link key={item.key} href={`/${item.slug}`} className={navLink}>
-              {item.title}
-            </Link>
-          ))}
-        </nav>
-
-        <div className="ml-auto flex min-w-0 flex-wrap items-center justify-end gap-x-3 gap-y-2 md:ml-0">
-          <LocaleSwitch to={other} label={t("language")} />
-          {session ? (
-            <>
-              <Link href="/account" className={navLink}>
-                {t("account")}
+        <div className="ml-auto flex items-center gap-3">
+          <nav aria-label={t("menu")} className="hidden items-center gap-4 md:flex">
+            <LocaleSwitch to={other} label={t("language")} />
+            {session ? (
+              <>
+                <Link href="/account" className={navLink}>
+                  {t("account")}
+                </Link>
+                <SignOutButton label={t("logout")} redirectTo={`/${locale}`} className="text-[13px]" />
+              </>
+            ) : (
+              <Link href="/login" className={navLink}>
+                {t("login")}
               </Link>
-              <SignOutButton label={t("logout")} redirectTo={`/${locale}`} className="text-[13px]" />
-            </>
-          ) : (
-            <Link href="/login" className={navLink}>
-              {t("login")}
-            </Link>
-          )}
+            )}
+          </nav>
           <ThemeToggle labels={{ toDark: t("themeDark"), toLight: t("themeLight") }} />
-          {/* Su telefono il pulsante c'è già nell'apertura delle pagine: qui occuperebbe troppo spazio */}
-          <Link href="/progetta" className={buttonVariants({ size: "sm", className: "max-sm:hidden" })}>
+          <Link href="/progetta" className={buttonVariants({ size: "sm", className: "max-md:hidden" })}>
             {t("startWizard")}
           </Link>
+
+          {/* Su telefono le stesse voci stanno nel pannello ad hamburger */}
+          <MobileMenu labels={{ open: t("openMenu"), close: t("closeMenu") }}>
+            <nav aria-label={t("menu")} className="pb-4">
+              <LocaleSwitch to={other} label={t("language")} className={mobileLink} />
+              {session ? (
+                <>
+                  <Link href="/account" className={mobileLink}>
+                    {t("account")}
+                  </Link>
+                  <SignOutButton label={t("logout")} redirectTo={`/${locale}`} className={mobileLink} />
+                </>
+              ) : (
+                <Link href="/login" className={mobileLink}>
+                  {t("login")}
+                </Link>
+              )}
+            </nav>
+            <Link href="/progetta" className={buttonVariants({ className: "w-full" })}>
+              {t("startWizard")}
+            </Link>
+          </MobileMenu>
         </div>
       </div>
     </header>

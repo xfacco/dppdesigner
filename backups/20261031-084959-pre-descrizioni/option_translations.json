@@ -1,0 +1,6190 @@
+[
+  {
+    "id": "cmvv1uw410005nay3nfpylf3z",
+    "optionId": "cmvv1uw410004nay33oa5k8u6",
+    "locale": "it",
+    "label": "Batterie",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw410006nay3nxauruie",
+    "optionId": "cmvv1uw410004nay33oa5k8u6",
+    "locale": "en",
+    "label": "Batteries",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw420008nay3gcglhd7j",
+    "optionId": "cmvv1uw420007nay3l362jro8",
+    "locale": "it",
+    "label": "Tessile e moda",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw420009nay31nv9qscs",
+    "optionId": "cmvv1uw420007nay3l362jro8",
+    "locale": "en",
+    "label": "Textile and fashion",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw43000bnay3wj5gvyq5",
+    "optionId": "cmvv1uw42000anay31ofiabbc",
+    "locale": "it",
+    "label": "Elettronica",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw43000cnay3y1cick0w",
+    "optionId": "cmvv1uw42000anay31ofiabbc",
+    "locale": "en",
+    "label": "Electronics",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw43000enay3n7lul67i",
+    "optionId": "cmvv1uw43000dnay3lyhhf2sk",
+    "locale": "it",
+    "label": "Arredamento",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw43000fnay3lkyltkrx",
+    "optionId": "cmvv1uw43000dnay3lyhhf2sk",
+    "locale": "en",
+    "label": "Furniture",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw44000hnay32t0otrta",
+    "optionId": "cmvv1uw43000gnay3vmlnxbk6",
+    "locale": "it",
+    "label": "Ferro, acciaio e alluminio",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw44000inay3zln69e0x",
+    "optionId": "cmvv1uw43000gnay3vmlnxbk6",
+    "locale": "en",
+    "label": "Iron, steel and aluminium",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw44000knay3vy7rss8n",
+    "optionId": "cmvv1uw44000jnay3co9cqism",
+    "locale": "it",
+    "label": "Pneumatici",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw44000lnay3bog29ase",
+    "optionId": "cmvv1uw44000jnay3co9cqism",
+    "locale": "en",
+    "label": "Tyres",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw44000nnay3w9sacccy",
+    "optionId": "cmvv1uw44000mnay3tghmi2jd",
+    "locale": "it",
+    "label": "Prodotti da costruzione",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw44000onay35seb79oh",
+    "optionId": "cmvv1uw44000mnay3tghmi2jd",
+    "locale": "en",
+    "label": "Construction products",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw45000qnay33g1zu9dt",
+    "optionId": "cmvv1uw45000pnay3renn0sfw",
+    "locale": "it",
+    "label": "Altro",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw45000rnay33nbjfghb",
+    "optionId": "cmvv1uw45000pnay3renn0sfw",
+    "locale": "en",
+    "label": "Other",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw4a000wnay303fj0bmk",
+    "optionId": "cmvv1uw4a000vnay3hxgdenuk",
+    "locale": "it",
+    "label": "Produttore",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw4a000xnay3v6dioovg",
+    "optionId": "cmvv1uw4a000vnay3hxgdenuk",
+    "locale": "en",
+    "label": "Manufacturer",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw4a000znay3rri09uhs",
+    "optionId": "cmvv1uw4a000ynay312v0ddug",
+    "locale": "it",
+    "label": "Brand",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw4a0010nay3pgto1egz",
+    "optionId": "cmvv1uw4a000ynay312v0ddug",
+    "locale": "en",
+    "label": "Brand",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw4b0012nay3qfa10swd",
+    "optionId": "cmvv1uw4a0011nay3mj2i1a29",
+    "locale": "it",
+    "label": "Importatore",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw4b0013nay31w5zg57k",
+    "optionId": "cmvv1uw4a0011nay3mj2i1a29",
+    "locale": "en",
+    "label": "Importer",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw4b0015nay3ur85b16z",
+    "optionId": "cmvv1uw4b0014nay3kmi4ut46",
+    "locale": "it",
+    "label": "Distributore",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw4b0016nay3nnpltrg2",
+    "optionId": "cmvv1uw4b0014nay3kmi4ut46",
+    "locale": "en",
+    "label": "Distributor",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw4c0018nay316svj9r4",
+    "optionId": "cmvv1uw4b0017nay3gjyynonq",
+    "locale": "it",
+    "label": "Rivenditore",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw4c0019nay3f0v7j683",
+    "optionId": "cmvv1uw4b0017nay3gjyynonq",
+    "locale": "en",
+    "label": "Retailer",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw4f001enay3zlete3kz",
+    "optionId": "cmvv1uw4f001dnay3x9djga26",
+    "locale": "it",
+    "label": "Produciamo internamente",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw4f001fnay354x4gs4z",
+    "optionId": "cmvv1uw4f001dnay3x9djga26",
+    "locale": "en",
+    "label": "We manufacture in-house",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw4f001hnay3vjslexbo",
+    "optionId": "cmvv1uw4f001gnay3n6t25pdz",
+    "locale": "it",
+    "label": "Ci affidiamo a fornitori",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw4f001inay3h7j5eti8",
+    "optionId": "cmvv1uw4f001gnay3n6t25pdz",
+    "locale": "en",
+    "label": "We rely on suppliers",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw4g001knay3j6me4vjn",
+    "optionId": "cmvv1uw4g001jnay39yg5yvy3",
+    "locale": "it",
+    "label": "Entrambi",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw4g001lnay34zf5qr9i",
+    "optionId": "cmvv1uw4g001jnay39yg5yvy3",
+    "locale": "en",
+    "label": "Both",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw4q001wnay3uuhs57au",
+    "optionId": "cmvv1uw4q001vnay3j2yj3vmc",
+    "locale": "it",
+    "label": "Sì",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw4q001xnay322c5ijg1",
+    "optionId": "cmvv1uw4q001vnay3j2yj3vmc",
+    "locale": "en",
+    "label": "Yes",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw4r001znay3zw3jus21",
+    "optionId": "cmvv1uw4q001ynay3rq3lwwhw",
+    "locale": "it",
+    "label": "No",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw4r0020nay3dws6xu1q",
+    "optionId": "cmvv1uw4q001ynay3rq3lwwhw",
+    "locale": "en",
+    "label": "No",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw4u0025nay3nfoxqv5t",
+    "optionId": "cmvv1uw4u0024nay3gc6anmw7",
+    "locale": "it",
+    "label": "Statici",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw4u0026nay3ss5obxy4",
+    "optionId": "cmvv1uw4u0024nay3gc6anmw7",
+    "locale": "en",
+    "label": "Static",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw4y0028nay304xkqb5l",
+    "optionId": "cmvv1uw4v0027nay3nowfr97c",
+    "locale": "it",
+    "label": "Dinamici",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw4y0029nay3g9q04vz0",
+    "optionId": "cmvv1uw4v0027nay3nowfr97c",
+    "locale": "en",
+    "label": "Dynamic",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw4y002bnay355heyap5",
+    "optionId": "cmvv1uw4y002anay3vpucuj1j",
+    "locale": "it",
+    "label": "Entrambi",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw4y002cnay38erdusa3",
+    "optionId": "cmvv1uw4y002anay3vpucuj1j",
+    "locale": "en",
+    "label": "Both",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw53002hnay3jibib4xs",
+    "optionId": "cmvv1uw53002gnay3symu3481",
+    "locale": "it",
+    "label": "Fornitori — file Excel o email",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw53002inay3ispzf14c",
+    "optionId": "cmvv1uw53002gnay3symu3481",
+    "locale": "en",
+    "label": "Suppliers — Excel files or email",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw53002knay3qw88iu1h",
+    "optionId": "cmvv1uw53002jnay342z3cldk",
+    "locale": "it",
+    "label": "Fornitori — API o portale",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw53002lnay3zczc85d7",
+    "optionId": "cmvv1uw53002jnay342z3cldk",
+    "locale": "en",
+    "label": "Suppliers — API or portal",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw54002nnay33epmh9ig",
+    "optionId": "cmvv1uw54002mnay3hrggzgdv",
+    "locale": "it",
+    "label": "ERP / gestionale",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw54002onay3qw4no2tb",
+    "optionId": "cmvv1uw54002mnay3hrggzgdv",
+    "locale": "en",
+    "label": "ERP",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw54002qnay3aj3idaun",
+    "optionId": "cmvv1uw54002pnay3th2b1u1f",
+    "locale": "it",
+    "label": "MES (produzione)",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw54002rnay3ul1iyyww",
+    "optionId": "cmvv1uw54002pnay3th2b1u1f",
+    "locale": "en",
+    "label": "MES (manufacturing)",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw56002tnay34v8gbeug",
+    "optionId": "cmvv1uw56002snay3mvuzk7a7",
+    "locale": "it",
+    "label": "PLM (sviluppo prodotto)",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw56002unay3gx2cwr4v",
+    "optionId": "cmvv1uw56002snay3mvuzk7a7",
+    "locale": "en",
+    "label": "PLM (product development)",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw56002wnay3bb7g19oi",
+    "optionId": "cmvv1uw56002vnay3mzuoe9c8",
+    "locale": "it",
+    "label": "Inserimento manuale",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw56002xnay3ta7ezksp",
+    "optionId": "cmvv1uw56002vnay3mzuoe9c8",
+    "locale": "en",
+    "label": "Manual entry",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5a0032nay33ho6a4kh",
+    "optionId": "cmvv1uw5a0031nay3j3is2df8",
+    "locale": "it",
+    "label": "Centralizzati in un unico sistema",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5a0033nay37ygtxs67",
+    "optionId": "cmvv1uw5a0031nay3j3is2df8",
+    "locale": "en",
+    "label": "Centralized in a single system",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5a0035nay3nmr5sxak",
+    "optionId": "cmvv1uw5a0034nay38g3inghs",
+    "locale": "it",
+    "label": "Distribuiti su più sistemi",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5a0036nay3dliby61l",
+    "optionId": "cmvv1uw5a0034nay38g3inghs",
+    "locale": "en",
+    "label": "Spread across several systems",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5b0038nay38xw905f9",
+    "optionId": "cmvv1uw5a0037nay3x8sspr86",
+    "locale": "it",
+    "label": "Non organizzati",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5b0039nay3t9n2twue",
+    "optionId": "cmvv1uw5a0037nay3x8sspr86",
+    "locale": "en",
+    "label": "Not organized",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5h003enay3dqmrvude",
+    "optionId": "cmvv1uw5h003dnay3ilzif9c2",
+    "locale": "it",
+    "label": "Composizione e materiali",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5h003fnay3wr2oel93",
+    "optionId": "cmvv1uw5h003dnay3ilzif9c2",
+    "locale": "en",
+    "label": "Composition and materials",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5h003hnay3jnw9q6f5",
+    "optionId": "cmvv1uw5h003gnay3xcnnmjgw",
+    "locale": "it",
+    "label": "Origine e provenienza",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5h003inay3jtatt20s",
+    "optionId": "cmvv1uw5h003gnay3xcnnmjgw",
+    "locale": "en",
+    "label": "Origin and provenance",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5i003knay30e15tdz2",
+    "optionId": "cmvv1uw5i003jnay38vk46qrj",
+    "locale": "it",
+    "label": "Metriche di sostenibilità (es. impronta di carbonio)",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5i003lnay3u28rahfo",
+    "optionId": "cmvv1uw5i003jnay38vk46qrj",
+    "locale": "en",
+    "label": "Sustainability metrics (e.g. carbon footprint)",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5i003nnay3uqelp5af",
+    "optionId": "cmvv1uw5i003mnay344la6v1p",
+    "locale": "it",
+    "label": "Istruzioni di fine vita e riciclo",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5i003onay3wq6xdlks",
+    "optionId": "cmvv1uw5i003mnay344la6v1p",
+    "locale": "en",
+    "label": "End-of-life and recycling instructions",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5i003qnay3q6plpt6a",
+    "optionId": "cmvv1uw5i003pnay3he8v31we",
+    "locale": "it",
+    "label": "Documentazione di conformità",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5i003rnay38tgglny8",
+    "optionId": "cmvv1uw5i003pnay3he8v31we",
+    "locale": "en",
+    "label": "Compliance documentation",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5j003tnay3pocl4vaa",
+    "optionId": "cmvv1uw5j003snay3spozsiqm",
+    "locale": "it",
+    "label": "Informazioni di riparazione e ricambi",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5j003unay39vjjckug",
+    "optionId": "cmvv1uw5j003snay3spozsiqm",
+    "locale": "en",
+    "label": "Repair and spare parts information",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5m003znay3c53qlg3s",
+    "optionId": "cmvv1uw5m003ynay3bbgmguc0",
+    "locale": "it",
+    "label": "Sì, un QR code",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5m0040nay3qoswjcko",
+    "optionId": "cmvv1uw5m003ynay3bbgmguc0",
+    "locale": "en",
+    "label": "Yes, a QR code",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5m0042nay3qx364uj1",
+    "optionId": "cmvv1uw5m0041nay39d8dqczw",
+    "locale": "it",
+    "label": "Sì, altro (RFID, NFC, …)",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5m0043nay3t7w4n3ra",
+    "optionId": "cmvv1uw5m0041nay39d8dqczw",
+    "locale": "en",
+    "label": "Yes, something else (RFID, NFC, …)",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5n0045nay3z00qi29q",
+    "optionId": "cmvv1uw5n0044nay3iplrfqzr",
+    "locale": "it",
+    "label": "No",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5n0046nay3mke7izm0",
+    "optionId": "cmvv1uw5n0044nay3iplrfqzr",
+    "locale": "en",
+    "label": "No",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5q004bnay31e1js9ej",
+    "optionId": "cmvv1uw5q004anay34bjor40f",
+    "locale": "it",
+    "label": "Requisiti ESPR",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5q004cnay30uud4j73",
+    "optionId": "cmvv1uw5q004anay34bjor40f",
+    "locale": "en",
+    "label": "ESPR requirements",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5q004enay3vawltr47",
+    "optionId": "cmvv1uw5q004dnay39sq0f0fe",
+    "locale": "it",
+    "label": "Requisiti del Regolamento Batterie (UE) 2023/1542",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5q004fnay3tkiin4n5",
+    "optionId": "cmvv1uw5q004dnay39sq0f0fe",
+    "locale": "en",
+    "label": "Battery Regulation (EU) 2023/1542 requirements",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5r004hnay3pifdi7dw",
+    "optionId": "cmvv1uw5r004gnay3c6g39exr",
+    "locale": "it",
+    "label": "Non lo so",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5r004inay3sbsjtox8",
+    "optionId": "cmvv1uw5r004gnay3c6g39exr",
+    "locale": "en",
+    "label": "I don't know",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5u004nnay3wqf6nyvv",
+    "optionId": "cmvv1uw5u004mnay3j9r8f0s5",
+    "locale": "it",
+    "label": "Per modello",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5u004onay3imo993cr",
+    "optionId": "cmvv1uw5u004mnay3j9r8f0s5",
+    "locale": "en",
+    "label": "Per model",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5u004qnay3tj72vfdi",
+    "optionId": "cmvv1uw5u004pnay381c5v4qg",
+    "locale": "it",
+    "label": "Per lotto",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5u004rnay32b1b5b76",
+    "optionId": "cmvv1uw5u004pnay381c5v4qg",
+    "locale": "en",
+    "label": "Per batch",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5v004tnay3zq8ops9z",
+    "optionId": "cmvv1uw5u004snay3ymsrl0gn",
+    "locale": "it",
+    "label": "Per singolo prodotto",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5v004unay338sr76o0",
+    "optionId": "cmvv1uw5u004snay3ymsrl0gn",
+    "locale": "en",
+    "label": "Per individual item",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5v004wnay34vgbs0ts",
+    "optionId": "cmvv1uw5v004vnay381s8p8ot",
+    "locale": "it",
+    "label": "Non lo so",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5v004xnay31s898myp",
+    "optionId": "cmvv1uw5v004vnay381s8p8ot",
+    "locale": "en",
+    "label": "I don't know",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5y0052nay3cqjhu4zf",
+    "optionId": "cmvv1uw5y0051nay3ieo63bpu",
+    "locale": "it",
+    "label": "GS1 Digital Link",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5y0053nay3u2ffsaif",
+    "optionId": "cmvv1uw5y0051nay3ieo63bpu",
+    "locale": "en",
+    "label": "GS1 Digital Link",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5z0055nay3rtt7pzsn",
+    "optionId": "cmvv1uw5y0054nay3v8wvt8jz",
+    "locale": "it",
+    "label": "Schema proprio su dominio aziendale",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5z0056nay3rpld1t9z",
+    "optionId": "cmvv1uw5y0054nay3v8wvt8jz",
+    "locale": "en",
+    "label": "Own scheme on company domain",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5z0058nay3el42k89y",
+    "optionId": "cmvv1uw5z0057nay3a93ea9fs",
+    "locale": "it",
+    "label": "Non lo so",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw5z0059nay38k0i29mq",
+    "optionId": "cmvv1uw5z0057nay3a93ea9fs",
+    "locale": "en",
+    "label": "I don't know",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw61005enay3wg2m5826",
+    "optionId": "cmvv1uw60005dnay3gia888l2",
+    "locale": "it",
+    "label": "Piattaforma proprietaria",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw61005fnay3hwhtx4y4",
+    "optionId": "cmvv1uw60005dnay3gia888l2",
+    "locale": "en",
+    "label": "Proprietary platform",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw61005hnay3ipv1vg3v",
+    "optionId": "cmvv1uw61005gnay3d3lo0jea",
+    "locale": "it",
+    "label": "Licenza SaaS",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw61005inay36lnjtnzi",
+    "optionId": "cmvv1uw61005gnay3d3lo0jea",
+    "locale": "en",
+    "label": "SaaS licence",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw61005knay3pwsgzgmf",
+    "optionId": "cmvv1uw61005jnay3w3hdkv9o",
+    "locale": "it",
+    "label": "Licenza PaaS",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw61005lnay3rwzl8mhi",
+    "optionId": "cmvv1uw61005jnay3w3hdkv9o",
+    "locale": "en",
+    "label": "PaaS licence",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw61005nnay3xd9syuix",
+    "optionId": "cmvv1uw61005mnay3getbt9mx",
+    "locale": "it",
+    "label": "Non ancora deciso",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw61005onay32k0b5m3g",
+    "optionId": "cmvv1uw61005mnay3getbt9mx",
+    "locale": "en",
+    "label": "Not decided yet",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw63005tnay3umfcnl5e",
+    "optionId": "cmvv1uw63005snay385ffsjol",
+    "locale": "it",
+    "label": "Integrazione diretta",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw63005unay3hkody8mg",
+    "optionId": "cmvv1uw63005snay385ffsjol",
+    "locale": "en",
+    "label": "Direct integration",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw63005wnay3ehi838mk",
+    "optionId": "cmvv1uw63005vnay38309tkw7",
+    "locale": "it",
+    "label": "Tramite il fornitore della piattaforma",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw63005xnay36tbpqzvi",
+    "optionId": "cmvv1uw63005vnay38309tkw7",
+    "locale": "en",
+    "label": "Through the platform provider",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw64005znay3hdik7a09",
+    "optionId": "cmvv1uw63005ynay3h5uen1rw",
+    "locale": "it",
+    "label": "Non ancora pianificata",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw640060nay308vypi03",
+    "optionId": "cmvv1uw63005ynay3h5uen1rw",
+    "locale": "en",
+    "label": "Not planned yet",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw640062nay3gt76eqb5",
+    "optionId": "cmvv1uw640061nay3xs5ahlcy",
+    "locale": "it",
+    "label": "Non so cosa sia",
+    "description": null
+  },
+  {
+    "id": "cmvv1uw640063nay33azodo4l",
+    "optionId": "cmvv1uw640061nay3xs5ahlcy",
+    "locale": "en",
+    "label": "I don't know what it is",
+    "description": null
+  },
+  {
+    "id": "573bf2a2-c03f-472f-a6e8-e00553e217f1",
+    "optionId": "15541c75-7920-4e0a-ae35-153377d66481",
+    "locale": "it",
+    "label": "Altro",
+    "description": null
+  },
+  {
+    "id": "d6dfea48-fbd8-4906-9dd8-01df628f6dd7",
+    "optionId": "15541c75-7920-4e0a-ae35-153377d66481",
+    "locale": "en",
+    "label": "Other",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1ty00g10ey30hpjbwws",
+    "optionId": "cmvv7z1tx00g00ey3b8eqkqma",
+    "locale": "it",
+    "label": "Batterie",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1ty00g20ey3lewjv3p0",
+    "optionId": "cmvv7z1tx00g00ey3b8eqkqma",
+    "locale": "en",
+    "label": "Batteries",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1tz00g40ey313jrc3lo",
+    "optionId": "cmvv7z1tz00g30ey3yx4r74uj",
+    "locale": "it",
+    "label": "Tessile e moda",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1tz00g50ey3u0jzpm03",
+    "optionId": "cmvv7z1tz00g30ey3yx4r74uj",
+    "locale": "en",
+    "label": "Textile and fashion",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1u000g70ey3z5cud421",
+    "optionId": "cmvv7z1u000g60ey3bq85duvu",
+    "locale": "it",
+    "label": "Elettronica",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1u000g80ey33kfu6ehv",
+    "optionId": "cmvv7z1u000g60ey3bq85duvu",
+    "locale": "en",
+    "label": "Electronics",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1u100ga0ey3d1z530k8",
+    "optionId": "cmvv7z1u000g90ey3h5coaz1l",
+    "locale": "it",
+    "label": "Arredamento",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1u100gb0ey3i5uk9nru",
+    "optionId": "cmvv7z1u000g90ey3h5coaz1l",
+    "locale": "en",
+    "label": "Furniture",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1u200gd0ey3y55340rd",
+    "optionId": "cmvv7z1u100gc0ey3zf30pgea",
+    "locale": "it",
+    "label": "Ferro, acciaio e alluminio",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1u200ge0ey3d6it5bop",
+    "optionId": "cmvv7z1u100gc0ey3zf30pgea",
+    "locale": "en",
+    "label": "Iron, steel and aluminium",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1u300gg0ey38xurxigz",
+    "optionId": "cmvv7z1u300gf0ey3ozv8bzb9",
+    "locale": "it",
+    "label": "Pneumatici",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1u300gh0ey3obsc0q20",
+    "optionId": "cmvv7z1u300gf0ey3ozv8bzb9",
+    "locale": "en",
+    "label": "Tyres",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1u400gj0ey36baa3qca",
+    "optionId": "cmvv7z1u300gi0ey32iyhq5aj",
+    "locale": "it",
+    "label": "Prodotti da costruzione",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1u400gk0ey3428k3q96",
+    "optionId": "cmvv7z1u300gi0ey32iyhq5aj",
+    "locale": "en",
+    "label": "Construction products",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1u400gm0ey380y5outm",
+    "optionId": "cmvv7z1u400gl0ey34yn9hkul",
+    "locale": "it",
+    "label": "Altro",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1u400gn0ey39mtzqbpp",
+    "optionId": "cmvv7z1u400gl0ey34yn9hkul",
+    "locale": "en",
+    "label": "Other",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1u800gs0ey369es78r6",
+    "optionId": "cmvv7z1u600gr0ey39pboto4g",
+    "locale": "it",
+    "label": "Produttore",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1u800gt0ey3dsf6l2hu",
+    "optionId": "cmvv7z1u600gr0ey39pboto4g",
+    "locale": "en",
+    "label": "Manufacturer",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1u900gv0ey3tyuoxmzf",
+    "optionId": "cmvv7z1u800gu0ey36vkomt6t",
+    "locale": "it",
+    "label": "Brand",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1u900gw0ey3mlia4ee6",
+    "optionId": "cmvv7z1u800gu0ey36vkomt6t",
+    "locale": "en",
+    "label": "Brand",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1u900gy0ey3q06bue7j",
+    "optionId": "cmvv7z1u900gx0ey3ga5xhlzq",
+    "locale": "it",
+    "label": "Importatore",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1u900gz0ey3djc5yuyc",
+    "optionId": "cmvv7z1u900gx0ey3ga5xhlzq",
+    "locale": "en",
+    "label": "Importer",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1ua00h10ey3wbsoylr0",
+    "optionId": "cmvv7z1u900h00ey3eeo2axb3",
+    "locale": "it",
+    "label": "Distributore",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1ua00h20ey3ce3nr4e6",
+    "optionId": "cmvv7z1u900h00ey3eeo2axb3",
+    "locale": "en",
+    "label": "Distributor",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1ua00h40ey37nphqd75",
+    "optionId": "cmvv7z1ua00h30ey38aav6x2t",
+    "locale": "it",
+    "label": "Rivenditore",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1ua00h50ey3ql5dwg54",
+    "optionId": "cmvv7z1ua00h30ey38aav6x2t",
+    "locale": "en",
+    "label": "Retailer",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1ub00h70ey3a7ic7mib",
+    "optionId": "cmvv7z1ua00h60ey3llt9mlsr",
+    "locale": "it",
+    "label": "Altro",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1ub00h80ey35ry6z8x4",
+    "optionId": "cmvv7z1ua00h60ey3llt9mlsr",
+    "locale": "en",
+    "label": "Other",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1uf00hj0ey3u4ohrz4e",
+    "optionId": "cmvv7z1ue00hi0ey33t116qwa",
+    "locale": "it",
+    "label": "Sì",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1uf00hk0ey351uu4sma",
+    "optionId": "cmvv7z1ue00hi0ey33t116qwa",
+    "locale": "en",
+    "label": "Yes",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1uf00hm0ey3ezf8au48",
+    "optionId": "cmvv7z1uf00hl0ey36e4pmlew",
+    "locale": "it",
+    "label": "No",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1uf00hn0ey3naz1f7m9",
+    "optionId": "cmvv7z1uf00hl0ey36e4pmlew",
+    "locale": "en",
+    "label": "No",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1uh00hs0ey3ld41xnyy",
+    "optionId": "cmvv7z1ug00hr0ey3mwh432ec",
+    "locale": "it",
+    "label": "Statici",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1uh00ht0ey3qjh9ka80",
+    "optionId": "cmvv7z1ug00hr0ey3mwh432ec",
+    "locale": "en",
+    "label": "Static",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1uh00hv0ey3npxkkvby",
+    "optionId": "cmvv7z1uh00hu0ey38ggcmsf5",
+    "locale": "it",
+    "label": "Dinamici",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1uh00hw0ey3gl9dxh9k",
+    "optionId": "cmvv7z1uh00hu0ey38ggcmsf5",
+    "locale": "en",
+    "label": "Dynamic",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1ui00hy0ey3hg3yixxp",
+    "optionId": "cmvv7z1uh00hx0ey3k6rhv5zz",
+    "locale": "it",
+    "label": "Entrambi",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1ui00hz0ey32aopqs0l",
+    "optionId": "cmvv7z1uh00hx0ey3k6rhv5zz",
+    "locale": "en",
+    "label": "Both",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1uk00i40ey3mfe0bquc",
+    "optionId": "cmvv7z1uj00i30ey3g5pwjdgk",
+    "locale": "it",
+    "label": "Fornitori — file Excel o email",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1uk00i50ey3zkkopyup",
+    "optionId": "cmvv7z1uj00i30ey3g5pwjdgk",
+    "locale": "en",
+    "label": "Suppliers — Excel files or email",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1uk00i70ey3pp4zmej9",
+    "optionId": "cmvv7z1uk00i60ey3k91xeqaq",
+    "locale": "it",
+    "label": "Fornitori — API o portale",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0lq00830ey3o23y4d4c",
+    "optionId": "cmvv7v0lp00820ey3heldsdxg",
+    "locale": "it",
+    "label": "Batterie",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0lq00840ey3g4yqs825",
+    "optionId": "cmvv7v0lp00820ey3heldsdxg",
+    "locale": "en",
+    "label": "Batteries",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0lq00860ey3hwd5ycji",
+    "optionId": "cmvv7v0lq00850ey3uj179jff",
+    "locale": "it",
+    "label": "Tessile e moda",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0lq00870ey3qkvhhrav",
+    "optionId": "cmvv7v0lq00850ey3uj179jff",
+    "locale": "en",
+    "label": "Textile and fashion",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0lr00890ey36u1b7qg0",
+    "optionId": "cmvv7v0lr00880ey3ycpu2lqt",
+    "locale": "it",
+    "label": "Elettronica",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0lr008a0ey3r06379it",
+    "optionId": "cmvv7v0lr00880ey3ycpu2lqt",
+    "locale": "en",
+    "label": "Electronics",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0lr008c0ey3w6gz59dh",
+    "optionId": "cmvv7v0lr008b0ey33nmrn8hy",
+    "locale": "it",
+    "label": "Arredamento",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0lr008d0ey3stvnzmic",
+    "optionId": "cmvv7v0lr008b0ey33nmrn8hy",
+    "locale": "en",
+    "label": "Furniture",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0ls008f0ey3ln0r9xsb",
+    "optionId": "cmvv7v0lr008e0ey3j1l9i26o",
+    "locale": "it",
+    "label": "Ferro, acciaio e alluminio",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0ls008g0ey33qbl07sv",
+    "optionId": "cmvv7v0lr008e0ey3j1l9i26o",
+    "locale": "en",
+    "label": "Iron, steel and aluminium",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0ls008i0ey3n6y7gj16",
+    "optionId": "cmvv7v0ls008h0ey3vtva8uj4",
+    "locale": "it",
+    "label": "Pneumatici",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0ls008j0ey3h23zwqkk",
+    "optionId": "cmvv7v0ls008h0ey3vtva8uj4",
+    "locale": "en",
+    "label": "Tyres",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0ls008l0ey3az0qc970",
+    "optionId": "cmvv7v0ls008k0ey33k2ob2iw",
+    "locale": "it",
+    "label": "Prodotti da costruzione",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0ls008m0ey3i42hwj8r",
+    "optionId": "cmvv7v0ls008k0ey33k2ob2iw",
+    "locale": "en",
+    "label": "Construction products",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0lt008o0ey3lee839dy",
+    "optionId": "cmvv7v0lt008n0ey3uarfi4f7",
+    "locale": "it",
+    "label": "Altro",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0lt008p0ey3cjd1hfzg",
+    "optionId": "cmvv7v0lt008n0ey3uarfi4f7",
+    "locale": "en",
+    "label": "Other",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0lu008u0ey3zuhudtxj",
+    "optionId": "cmvv7v0lu008t0ey3uanf9ruh",
+    "locale": "it",
+    "label": "Produttore",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0lu008v0ey3mog6rc8i",
+    "optionId": "cmvv7v0lu008t0ey3uanf9ruh",
+    "locale": "en",
+    "label": "Manufacturer",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0lu008x0ey3e07pt86y",
+    "optionId": "cmvv7v0lu008w0ey33ruqswin",
+    "locale": "it",
+    "label": "Brand",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0lu008y0ey3linsbuv4",
+    "optionId": "cmvv7v0lu008w0ey33ruqswin",
+    "locale": "en",
+    "label": "Brand",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0lv00900ey3uio6vhvq",
+    "optionId": "cmvv7v0lv008z0ey342ut3e4k",
+    "locale": "it",
+    "label": "Importatore",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0lv00910ey3fc2b3to5",
+    "optionId": "cmvv7v0lv008z0ey342ut3e4k",
+    "locale": "en",
+    "label": "Importer",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0lw00930ey33ousmtru",
+    "optionId": "cmvv7v0lv00920ey3f5f5k2dt",
+    "locale": "it",
+    "label": "Distributore",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0lw00940ey3hbip3qwv",
+    "optionId": "cmvv7v0lv00920ey3f5f5k2dt",
+    "locale": "en",
+    "label": "Distributor",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0lw00960ey3sdzeiti0",
+    "optionId": "cmvv7v0lw00950ey36liiz76k",
+    "locale": "it",
+    "label": "Rivenditore",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0lw00970ey3go9dhakd",
+    "optionId": "cmvv7v0lw00950ey36liiz76k",
+    "locale": "en",
+    "label": "Retailer",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0lw00990ey3hrmsd0nc",
+    "optionId": "cmvv7v0lw00980ey3vhsl53ru",
+    "locale": "it",
+    "label": "Altro",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0lw009a0ey3uacmfsxv",
+    "optionId": "cmvv7v0lw00980ey3vhsl53ru",
+    "locale": "en",
+    "label": "Other",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0ly009f0ey30m2ean05",
+    "optionId": "cmvv7v0ly009e0ey3ocv892fp",
+    "locale": "it",
+    "label": "Produciamo internamente",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0ly009g0ey3gz87c0c1",
+    "optionId": "cmvv7v0ly009e0ey3ocv892fp",
+    "locale": "en",
+    "label": "We manufacture in-house",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0ly009i0ey3s1d6x8zl",
+    "optionId": "cmvv7v0ly009h0ey372cw839p",
+    "locale": "it",
+    "label": "Ci affidiamo a fornitori",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0ly009j0ey32ishuht1",
+    "optionId": "cmvv7v0ly009h0ey372cw839p",
+    "locale": "en",
+    "label": "We rely on suppliers",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0ly009l0ey30xwtbha1",
+    "optionId": "cmvv7v0ly009k0ey36wpdf3tn",
+    "locale": "it",
+    "label": "Entrambi",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0ly009m0ey3uw7q4u0f",
+    "optionId": "cmvv7v0ly009k0ey36wpdf3tn",
+    "locale": "en",
+    "label": "Both",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m2009x0ey37kcdz3fm",
+    "optionId": "cmvv7v0m1009w0ey3rgfpvvhg",
+    "locale": "it",
+    "label": "Sì",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m2009y0ey3f69fnu7g",
+    "optionId": "cmvv7v0m1009w0ey3rgfpvvhg",
+    "locale": "en",
+    "label": "Yes",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m200a00ey3rwgac6s5",
+    "optionId": "cmvv7v0m2009z0ey3pgqw5c4d",
+    "locale": "it",
+    "label": "No",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m200a10ey3yi10t5d6",
+    "optionId": "cmvv7v0m2009z0ey3pgqw5c4d",
+    "locale": "en",
+    "label": "No",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m300a60ey3dfbix1ao",
+    "optionId": "cmvv7v0m300a50ey3nbg7cvxi",
+    "locale": "it",
+    "label": "Statici",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m300a70ey3dfm8kd8t",
+    "optionId": "cmvv7v0m300a50ey3nbg7cvxi",
+    "locale": "en",
+    "label": "Static",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m300a90ey3qn8ejoav",
+    "optionId": "cmvv7v0m300a80ey3gp7t2jk1",
+    "locale": "it",
+    "label": "Dinamici",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m300aa0ey3lsv14j2t",
+    "optionId": "cmvv7v0m300a80ey3gp7t2jk1",
+    "locale": "en",
+    "label": "Dynamic",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m300ac0ey3izj17xou",
+    "optionId": "cmvv7v0m300ab0ey320sxpzk1",
+    "locale": "it",
+    "label": "Entrambi",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m300ad0ey33tzafui4",
+    "optionId": "cmvv7v0m300ab0ey320sxpzk1",
+    "locale": "en",
+    "label": "Both",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m500ai0ey34b8jrksi",
+    "optionId": "cmvv7v0m500ah0ey33hr4hca6",
+    "locale": "it",
+    "label": "Fornitori — file Excel o email",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m500aj0ey3hi64wush",
+    "optionId": "cmvv7v0m500ah0ey33hr4hca6",
+    "locale": "en",
+    "label": "Suppliers — Excel files or email",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m500al0ey3s1gs733t",
+    "optionId": "cmvv7v0m500ak0ey3yk7bzlje",
+    "locale": "it",
+    "label": "Fornitori — API o portale",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m500am0ey30r0ntrgk",
+    "optionId": "cmvv7v0m500ak0ey3yk7bzlje",
+    "locale": "en",
+    "label": "Suppliers — API or portal",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m600ao0ey31swg2mgr",
+    "optionId": "cmvv7v0m500an0ey3p1hf1m06",
+    "locale": "it",
+    "label": "ERP / gestionale",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m600ap0ey3g2t9w4cl",
+    "optionId": "cmvv7v0m500an0ey3p1hf1m06",
+    "locale": "en",
+    "label": "ERP",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m600ar0ey304p6f6z6",
+    "optionId": "cmvv7v0m600aq0ey3qq2le8ft",
+    "locale": "it",
+    "label": "MES (produzione)",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m600as0ey3m6mumwpx",
+    "optionId": "cmvv7v0m600aq0ey3qq2le8ft",
+    "locale": "en",
+    "label": "MES (manufacturing)",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m600au0ey3omzplmwu",
+    "optionId": "cmvv7v0m600at0ey3oyh38f8e",
+    "locale": "it",
+    "label": "PLM (sviluppo prodotto)",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m600av0ey3gz9g455f",
+    "optionId": "cmvv7v0m600at0ey3oyh38f8e",
+    "locale": "en",
+    "label": "PLM (product development)",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m600ax0ey3yf7dbjmb",
+    "optionId": "cmvv7v0m600aw0ey3r6qinoo7",
+    "locale": "it",
+    "label": "Inserimento manuale",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m600ay0ey3n9ylnoox",
+    "optionId": "cmvv7v0m600aw0ey3r6qinoo7",
+    "locale": "en",
+    "label": "Manual entry",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m700b30ey33y3dr328",
+    "optionId": "cmvv7v0m700b20ey3cxvdmogp",
+    "locale": "it",
+    "label": "Centralizzati in un unico sistema",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m700b40ey3ukcoehau",
+    "optionId": "cmvv7v0m700b20ey3cxvdmogp",
+    "locale": "en",
+    "label": "Centralized in a single system",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m800b60ey3s4eb3k49",
+    "optionId": "cmvv7v0m800b50ey3kd3u4h7p",
+    "locale": "it",
+    "label": "Distribuiti su più sistemi",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m800b70ey37b8xsduu",
+    "optionId": "cmvv7v0m800b50ey3kd3u4h7p",
+    "locale": "en",
+    "label": "Spread across several systems",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m800b90ey3c3c1flx2",
+    "optionId": "cmvv7v0m800b80ey33qwk6e6c",
+    "locale": "it",
+    "label": "Non organizzati",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m800ba0ey3020qpfw0",
+    "optionId": "cmvv7v0m800b80ey33qwk6e6c",
+    "locale": "en",
+    "label": "Not organized",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m900bf0ey30ra8sjpf",
+    "optionId": "cmvv7v0m900be0ey36sm5x5pn",
+    "locale": "it",
+    "label": "Composizione e materiali",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m900bg0ey3g8g5z3tb",
+    "optionId": "cmvv7v0m900be0ey36sm5x5pn",
+    "locale": "en",
+    "label": "Composition and materials",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m900bi0ey3qowjegbc",
+    "optionId": "cmvv7v0m900bh0ey30cskw5ta",
+    "locale": "it",
+    "label": "Origine e provenienza",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m900bj0ey3iwt873hr",
+    "optionId": "cmvv7v0m900bh0ey30cskw5ta",
+    "locale": "en",
+    "label": "Origin and provenance",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m900bl0ey39zr9yx87",
+    "optionId": "cmvv7v0m900bk0ey38zke010b",
+    "locale": "it",
+    "label": "Metriche di sostenibilità (es. impronta di carbonio)",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m900bm0ey3qrvon893",
+    "optionId": "cmvv7v0m900bk0ey38zke010b",
+    "locale": "en",
+    "label": "Sustainability metrics (e.g. carbon footprint)",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m900bo0ey3y9xfnxp9",
+    "optionId": "cmvv7v0m900bn0ey3iu9fok2g",
+    "locale": "it",
+    "label": "Istruzioni di fine vita e riciclo",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0m900bp0ey3liug4r5q",
+    "optionId": "cmvv7v0m900bn0ey3iu9fok2g",
+    "locale": "en",
+    "label": "End-of-life and recycling instructions",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0ma00br0ey38mpgggf5",
+    "optionId": "cmvv7v0ma00bq0ey340lvs1a8",
+    "locale": "it",
+    "label": "Documentazione di conformità",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0ma00bs0ey3f2r4qdsg",
+    "optionId": "cmvv7v0ma00bq0ey340lvs1a8",
+    "locale": "en",
+    "label": "Compliance documentation",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0ma00bu0ey3ea7v6h1e",
+    "optionId": "cmvv7v0ma00bt0ey3mffpuz5d",
+    "locale": "it",
+    "label": "Informazioni di riparazione e ricambi",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0ma00bv0ey38dclepdi",
+    "optionId": "cmvv7v0ma00bt0ey3mffpuz5d",
+    "locale": "en",
+    "label": "Repair and spare parts information",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0mb00c00ey3lezs72ue",
+    "optionId": "cmvv7v0mb00bz0ey3yb044yle",
+    "locale": "it",
+    "label": "Sì, un QR code",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0mb00c10ey3ugxp76go",
+    "optionId": "cmvv7v0mb00bz0ey3yb044yle",
+    "locale": "en",
+    "label": "Yes, a QR code",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0mb00c30ey3ob2m3u0i",
+    "optionId": "cmvv7v0mb00c20ey3o92jw0i7",
+    "locale": "it",
+    "label": "Sì, altro (RFID, NFC, …)",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0mb00c40ey37f2a42bx",
+    "optionId": "cmvv7v0mb00c20ey3o92jw0i7",
+    "locale": "en",
+    "label": "Yes, something else (RFID, NFC, …)",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0mb00c60ey3vi6cr3hv",
+    "optionId": "cmvv7v0mb00c50ey3ugjgdnw0",
+    "locale": "it",
+    "label": "No",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0mb00c70ey3b2jfmx6v",
+    "optionId": "cmvv7v0mb00c50ey3ugjgdnw0",
+    "locale": "en",
+    "label": "No",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0md00cc0ey3eeeqym7j",
+    "optionId": "cmvv7v0mc00cb0ey3158t1ovx",
+    "locale": "it",
+    "label": "Requisiti ESPR",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0md00cd0ey34lgj1nho",
+    "optionId": "cmvv7v0mc00cb0ey3158t1ovx",
+    "locale": "en",
+    "label": "ESPR requirements",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0md00cf0ey367clm6kd",
+    "optionId": "cmvv7v0md00ce0ey3fbnr0g79",
+    "locale": "it",
+    "label": "Requisiti del Regolamento Batterie (UE) 2023/1542",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0md00cg0ey3zehrhd73",
+    "optionId": "cmvv7v0md00ce0ey3fbnr0g79",
+    "locale": "en",
+    "label": "Battery Regulation (EU) 2023/1542 requirements",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0md00ci0ey3tg92tc9u",
+    "optionId": "cmvv7v0md00ch0ey3awq7mk5a",
+    "locale": "it",
+    "label": "Non lo so",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0md00cj0ey3nfn08srl",
+    "optionId": "cmvv7v0md00ch0ey3awq7mk5a",
+    "locale": "en",
+    "label": "I don't know",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0mf00co0ey3co7m6inu",
+    "optionId": "cmvv7v0me00cn0ey3jrn79trp",
+    "locale": "it",
+    "label": "Per modello",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0mf00cp0ey3vjulacvn",
+    "optionId": "cmvv7v0me00cn0ey3jrn79trp",
+    "locale": "en",
+    "label": "Per model",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0mf00cr0ey391x1txsn",
+    "optionId": "cmvv7v0mf00cq0ey3rtyb4idk",
+    "locale": "it",
+    "label": "Per lotto",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0mf00cs0ey3omz3914g",
+    "optionId": "cmvv7v0mf00cq0ey3rtyb4idk",
+    "locale": "en",
+    "label": "Per batch",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0mh00cu0ey3a1pzan2u",
+    "optionId": "cmvv7v0mg00ct0ey3m7dncjzy",
+    "locale": "it",
+    "label": "Per singolo prodotto",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0mh00cv0ey3t5d1hftt",
+    "optionId": "cmvv7v0mg00ct0ey3m7dncjzy",
+    "locale": "en",
+    "label": "Per individual item",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0mj00cx0ey3qvi58h5w",
+    "optionId": "cmvv7v0mi00cw0ey3nwdt79ry",
+    "locale": "it",
+    "label": "Non lo so",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0mj00cy0ey3a4e2dnjc",
+    "optionId": "cmvv7v0mi00cw0ey3nwdt79ry",
+    "locale": "en",
+    "label": "I don't know",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0mn00d30ey3goqsmcqd",
+    "optionId": "cmvv7v0mn00d20ey341h2k250",
+    "locale": "it",
+    "label": "GS1 Digital Link",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0mn00d40ey323cesmab",
+    "optionId": "cmvv7v0mn00d20ey341h2k250",
+    "locale": "en",
+    "label": "GS1 Digital Link",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0mo00d60ey3w0dqma64",
+    "optionId": "cmvv7v0mo00d50ey3f5vff19f",
+    "locale": "it",
+    "label": "Schema proprio su dominio aziendale",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0mo00d70ey3h2im8f67",
+    "optionId": "cmvv7v0mo00d50ey3f5vff19f",
+    "locale": "en",
+    "label": "Own scheme on company domain",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0mp00d90ey364o4fv8b",
+    "optionId": "cmvv7v0mo00d80ey33g03t8l5",
+    "locale": "it",
+    "label": "Non lo so",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0mp00da0ey3slu725ee",
+    "optionId": "cmvv7v0mo00d80ey33g03t8l5",
+    "locale": "en",
+    "label": "I don't know",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0mv00df0ey32lij0ddi",
+    "optionId": "cmvv7v0mv00de0ey3pihyz4q1",
+    "locale": "it",
+    "label": "Piattaforma proprietaria",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0mv00dg0ey3z92kcpj5",
+    "optionId": "cmvv7v0mv00de0ey3pihyz4q1",
+    "locale": "en",
+    "label": "Proprietary platform",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0mw00di0ey3p1hgdm92",
+    "optionId": "cmvv7v0mv00dh0ey306ckxntu",
+    "locale": "it",
+    "label": "Licenza SaaS",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0mw00dj0ey3ijyhjzj2",
+    "optionId": "cmvv7v0mv00dh0ey306ckxntu",
+    "locale": "en",
+    "label": "SaaS licence",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0mx00dl0ey3df2qixrn",
+    "optionId": "cmvv7v0mw00dk0ey3pa7cp66d",
+    "locale": "it",
+    "label": "Licenza PaaS",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0mx00dm0ey3y021pz9e",
+    "optionId": "cmvv7v0mw00dk0ey3pa7cp66d",
+    "locale": "en",
+    "label": "PaaS licence",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0my00do0ey32sjb0o20",
+    "optionId": "cmvv7v0my00dn0ey3n34ubf24",
+    "locale": "it",
+    "label": "Non ancora deciso",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0my00dp0ey3vzvqkp7j",
+    "optionId": "cmvv7v0my00dn0ey3n34ubf24",
+    "locale": "en",
+    "label": "Not decided yet",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0n000du0ey3f33dovcl",
+    "optionId": "cmvv7v0n000dt0ey3ikvvu25l",
+    "locale": "it",
+    "label": "Integrazione diretta",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0n000dv0ey3njptj0t0",
+    "optionId": "cmvv7v0n000dt0ey3ikvvu25l",
+    "locale": "en",
+    "label": "Direct integration",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0n100dx0ey3ocx4pqwe",
+    "optionId": "cmvv7v0n100dw0ey3cptqxzhz",
+    "locale": "it",
+    "label": "Tramite il fornitore della piattaforma",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0n100dy0ey3eqtu00t1",
+    "optionId": "cmvv7v0n100dw0ey3cptqxzhz",
+    "locale": "en",
+    "label": "Through the platform provider",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0n100e00ey3j8mly5dv",
+    "optionId": "cmvv7v0n100dz0ey3zizve4op",
+    "locale": "it",
+    "label": "Non ancora pianificata",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0n100e10ey3ccq790hm",
+    "optionId": "cmvv7v0n100dz0ey3zizve4op",
+    "locale": "en",
+    "label": "Not planned yet",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0n100e30ey3uu8yebc6",
+    "optionId": "cmvv7v0n100e20ey3xjr6l30s",
+    "locale": "it",
+    "label": "Non so cosa sia",
+    "description": null
+  },
+  {
+    "id": "cmvv7v0n100e40ey33s9ew92n",
+    "optionId": "cmvv7v0n100e20ey3xjr6l30s",
+    "locale": "en",
+    "label": "I don't know what it is",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1uk00i80ey3dpp51prt",
+    "optionId": "cmvv7z1uk00i60ey3k91xeqaq",
+    "locale": "en",
+    "label": "Suppliers — API or portal",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1ul00ia0ey3n0qzxnk9",
+    "optionId": "cmvv7z1ul00i90ey35frirjv4",
+    "locale": "it",
+    "label": "ERP / gestionale",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1ul00ib0ey3gzkef07b",
+    "optionId": "cmvv7z1ul00i90ey35frirjv4",
+    "locale": "en",
+    "label": "ERP",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1ul00id0ey3bhml5c4y",
+    "optionId": "cmvv7z1ul00ic0ey3miy2sv4u",
+    "locale": "it",
+    "label": "MES (produzione)",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1ul00ie0ey3y2roas21",
+    "optionId": "cmvv7z1ul00ic0ey3miy2sv4u",
+    "locale": "en",
+    "label": "MES (manufacturing)",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1um00ig0ey32e09f18v",
+    "optionId": "cmvv7z1ul00if0ey3ix0hdemv",
+    "locale": "it",
+    "label": "PLM (sviluppo prodotto)",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1um00ih0ey3lczmo83s",
+    "optionId": "cmvv7z1ul00if0ey3ix0hdemv",
+    "locale": "en",
+    "label": "PLM (product development)",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1um00ij0ey3bkmcv02m",
+    "optionId": "cmvv7z1um00ii0ey335q08cok",
+    "locale": "it",
+    "label": "Inserimento manuale",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1um00ik0ey3l42dl07z",
+    "optionId": "cmvv7z1um00ii0ey335q08cok",
+    "locale": "en",
+    "label": "Manual entry",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1uo00ip0ey3k594ivyl",
+    "optionId": "cmvv7z1un00io0ey3zau8w19n",
+    "locale": "it",
+    "label": "Centralizzati in un unico sistema",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1uo00iq0ey3c9x1nhe0",
+    "optionId": "cmvv7z1un00io0ey3zau8w19n",
+    "locale": "en",
+    "label": "Centralized in a single system",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1uo00is0ey3tyl1efbs",
+    "optionId": "cmvv7z1uo00ir0ey3hiuh32a5",
+    "locale": "it",
+    "label": "Distribuiti su più sistemi",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1uo00it0ey3m0gb6ns9",
+    "optionId": "cmvv7z1uo00ir0ey3hiuh32a5",
+    "locale": "en",
+    "label": "Spread across several systems",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1up00iv0ey36eru7btd",
+    "optionId": "cmvv7z1uo00iu0ey3vunudf26",
+    "locale": "it",
+    "label": "Non organizzati",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1up00iw0ey31jfvxex4",
+    "optionId": "cmvv7z1uo00iu0ey3vunudf26",
+    "locale": "en",
+    "label": "Not organized",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1uq00j10ey3j1ij8ux1",
+    "optionId": "cmvv7z1uq00j00ey3pqz8c0i8",
+    "locale": "it",
+    "label": "Composizione e materiali",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1uq00j20ey3w4av1fcs",
+    "optionId": "cmvv7z1uq00j00ey3pqz8c0i8",
+    "locale": "en",
+    "label": "Composition and materials",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1uq00j40ey3in3mbsat",
+    "optionId": "cmvv7z1uq00j30ey371kr7lj1",
+    "locale": "it",
+    "label": "Origine e provenienza",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1uq00j50ey36lt9dyty",
+    "optionId": "cmvv7z1uq00j30ey371kr7lj1",
+    "locale": "en",
+    "label": "Origin and provenance",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1ur00j70ey3ryqq8j9a",
+    "optionId": "cmvv7z1ur00j60ey3w6xtcf5m",
+    "locale": "it",
+    "label": "Metriche di sostenibilità (es. impronta di carbonio)",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1ur00j80ey32cksxeax",
+    "optionId": "cmvv7z1ur00j60ey3w6xtcf5m",
+    "locale": "en",
+    "label": "Sustainability metrics (e.g. carbon footprint)",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1us00ja0ey3qpaui0t9",
+    "optionId": "cmvv7z1us00j90ey3bd0hffxn",
+    "locale": "it",
+    "label": "Istruzioni di fine vita e riciclo",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1us00jb0ey3b3hgvg2t",
+    "optionId": "cmvv7z1us00j90ey3bd0hffxn",
+    "locale": "en",
+    "label": "End-of-life and recycling instructions",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1us00jd0ey3yvuk6vec",
+    "optionId": "cmvv7z1us00jc0ey3wd9mkwyj",
+    "locale": "it",
+    "label": "Documentazione di conformità",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1us00je0ey3wu6brwsy",
+    "optionId": "cmvv7z1us00jc0ey3wd9mkwyj",
+    "locale": "en",
+    "label": "Compliance documentation",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1ut00jg0ey3pwgu0ss5",
+    "optionId": "cmvv7z1us00jf0ey3q2zdzxj2",
+    "locale": "it",
+    "label": "Informazioni di riparazione e ricambi",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1ut00jh0ey3w4vwdvi2",
+    "optionId": "cmvv7z1us00jf0ey3q2zdzxj2",
+    "locale": "en",
+    "label": "Repair and spare parts information",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1uu00jm0ey35cw0aeqy",
+    "optionId": "cmvv7z1uu00jl0ey3mvlqkt2e",
+    "locale": "it",
+    "label": "Sì, un QR code",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1uu00jn0ey3phmvgzpt",
+    "optionId": "cmvv7z1uu00jl0ey3mvlqkt2e",
+    "locale": "en",
+    "label": "Yes, a QR code",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1uv00jp0ey3185u1qno",
+    "optionId": "cmvv7z1uu00jo0ey3d92wkj8e",
+    "locale": "it",
+    "label": "Sì, altro (RFID, NFC, …)",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1uv00jq0ey3rnd1urqw",
+    "optionId": "cmvv7z1uu00jo0ey3d92wkj8e",
+    "locale": "en",
+    "label": "Yes, something else (RFID, NFC, …)",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1uv00js0ey3joesd9vh",
+    "optionId": "cmvv7z1uv00jr0ey3hr74qrzp",
+    "locale": "it",
+    "label": "No",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1uv00jt0ey3gstgggoe",
+    "optionId": "cmvv7z1uv00jr0ey3hr74qrzp",
+    "locale": "en",
+    "label": "No",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1v300jy0ey319ehdpg1",
+    "optionId": "cmvv7z1v300jx0ey3stczz2ks",
+    "locale": "it",
+    "label": "Requisiti ESPR",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1v300jz0ey37nycjlks",
+    "optionId": "cmvv7z1v300jx0ey3stczz2ks",
+    "locale": "en",
+    "label": "ESPR requirements",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1v400k10ey3b0xrtzlr",
+    "optionId": "cmvv7z1v400k00ey34fe2vbcu",
+    "locale": "it",
+    "label": "Requisiti del Regolamento Batterie (UE) 2023/1542",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1v400k20ey3s7h1wcg5",
+    "optionId": "cmvv7z1v400k00ey34fe2vbcu",
+    "locale": "en",
+    "label": "Battery Regulation (EU) 2023/1542 requirements",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1v400k40ey3jnohzmyt",
+    "optionId": "cmvv7z1v400k30ey3d7nluozu",
+    "locale": "it",
+    "label": "Non lo so",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1v400k50ey3tcmog9a5",
+    "optionId": "cmvv7z1v400k30ey3d7nluozu",
+    "locale": "en",
+    "label": "I don't know",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1v600ka0ey3qlmsbdkl",
+    "optionId": "cmvv7z1v500k90ey3g4f5oeuv",
+    "locale": "it",
+    "label": "Per modello",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1v600kb0ey3vgn7cii5",
+    "optionId": "cmvv7z1v500k90ey3g4f5oeuv",
+    "locale": "en",
+    "label": "Per model",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1v600kd0ey34rbllxog",
+    "optionId": "cmvv7z1v600kc0ey3toplgu89",
+    "locale": "it",
+    "label": "Per lotto",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1v600ke0ey3i937q5sy",
+    "optionId": "cmvv7z1v600kc0ey3toplgu89",
+    "locale": "en",
+    "label": "Per batch",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1v700kg0ey3ss7wagkr",
+    "optionId": "cmvv7z1v600kf0ey3xr0wi10k",
+    "locale": "it",
+    "label": "Per singolo prodotto",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1v700kh0ey3iwl13n2y",
+    "optionId": "cmvv7z1v600kf0ey3xr0wi10k",
+    "locale": "en",
+    "label": "Per individual item",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1v700kj0ey3qz2003pn",
+    "optionId": "cmvv7z1v700ki0ey3zc1zc5z0",
+    "locale": "it",
+    "label": "Non lo so",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1v700kk0ey3yn878tnu",
+    "optionId": "cmvv7z1v700ki0ey3zc1zc5z0",
+    "locale": "en",
+    "label": "I don't know",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1v800kp0ey3d1942phh",
+    "optionId": "cmvv7z1v800ko0ey3xlz8gx4p",
+    "locale": "it",
+    "label": "GS1 Digital Link",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1v800kq0ey358loiy35",
+    "optionId": "cmvv7z1v800ko0ey3xlz8gx4p",
+    "locale": "en",
+    "label": "GS1 Digital Link",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1v900ks0ey3thg5j84h",
+    "optionId": "cmvv7z1v900kr0ey3cpmnvjr3",
+    "locale": "it",
+    "label": "Schema proprio su dominio aziendale",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1v900kt0ey3x3d0mnhl",
+    "optionId": "cmvv7z1v900kr0ey3cpmnvjr3",
+    "locale": "en",
+    "label": "Own scheme on company domain",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1v900kv0ey3ylyvu4ns",
+    "optionId": "cmvv7z1v900ku0ey3f4y5hg6i",
+    "locale": "it",
+    "label": "Non lo so",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1v900kw0ey350nq6egv",
+    "optionId": "cmvv7z1v900ku0ey3f4y5hg6i",
+    "locale": "en",
+    "label": "I don't know",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1va00l10ey37c80809z",
+    "optionId": "cmvv7z1va00l00ey3qnqmwd8j",
+    "locale": "it",
+    "label": "Piattaforma proprietaria",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1va00l20ey325euwe8v",
+    "optionId": "cmvv7z1va00l00ey3qnqmwd8j",
+    "locale": "en",
+    "label": "Proprietary platform",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1va00l40ey3n6zg69h9",
+    "optionId": "cmvv7z1va00l30ey3y6dkrsms",
+    "locale": "it",
+    "label": "Licenza SaaS",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1va00l50ey3l5ai8ti2",
+    "optionId": "cmvv7z1va00l30ey3y6dkrsms",
+    "locale": "en",
+    "label": "SaaS licence",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1va00l70ey3qdvsfdle",
+    "optionId": "cmvv7z1va00l60ey3xclu4o91",
+    "locale": "it",
+    "label": "Licenza PaaS",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1va00l80ey3ovdsn1sm",
+    "optionId": "cmvv7z1va00l60ey3xclu4o91",
+    "locale": "en",
+    "label": "PaaS licence",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1va00la0ey3lyrag0po",
+    "optionId": "cmvv7z1va00l90ey3cdairc5l",
+    "locale": "it",
+    "label": "Non ancora deciso",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1va00lb0ey3gtdhgpq3",
+    "optionId": "cmvv7z1va00l90ey3cdairc5l",
+    "locale": "en",
+    "label": "Not decided yet",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1vc00lg0ey3aoua4tbg",
+    "optionId": "cmvv7z1vb00lf0ey3cjdbkbkt",
+    "locale": "it",
+    "label": "Integrazione diretta",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1vc00lh0ey33ous3gfp",
+    "optionId": "cmvv7z1vb00lf0ey3cjdbkbkt",
+    "locale": "en",
+    "label": "Direct integration",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1vc00lj0ey323sm266u",
+    "optionId": "cmvv7z1vc00li0ey3lyw6o03m",
+    "locale": "it",
+    "label": "Tramite il fornitore della piattaforma",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1vc00lk0ey3k1imkqtu",
+    "optionId": "cmvv7z1vc00li0ey3lyw6o03m",
+    "locale": "en",
+    "label": "Through the platform provider",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1vc00lm0ey32ge0075d",
+    "optionId": "cmvv7z1vc00ll0ey3c5onhkrd",
+    "locale": "it",
+    "label": "Non ancora pianificata",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1vc00ln0ey31aiu9sfl",
+    "optionId": "cmvv7z1vc00ll0ey3c5onhkrd",
+    "locale": "en",
+    "label": "Not planned yet",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1vc00lp0ey3s8xhlard",
+    "optionId": "cmvv7z1vc00lo0ey37gq2f2ft",
+    "locale": "it",
+    "label": "Non so cosa sia",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1vc00lq0ey38stef8vl",
+    "optionId": "cmvv7z1vc00lo0ey37gq2f2ft",
+    "locale": "en",
+    "label": "I don't know what it is",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1vf00lv0ey3ksudj9ov",
+    "optionId": "cmvv7z1vf00lu0ey3yzjjs054",
+    "locale": "it",
+    "label": "Produciamo internamente",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1vf00lw0ey3dt9t6hf9",
+    "optionId": "cmvv7z1vf00lu0ey3yzjjs054",
+    "locale": "en",
+    "label": "We manufacture in-house",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1vf00ly0ey381iz9o8n",
+    "optionId": "cmvv7z1vf00lx0ey32i6i3bsw",
+    "locale": "it",
+    "label": "Ci affidiamo a fornitori",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1vf00lz0ey3sgo7qxeg",
+    "optionId": "cmvv7z1vf00lx0ey32i6i3bsw",
+    "locale": "en",
+    "label": "We rely on suppliers",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1vf00m10ey3aoh3llb4",
+    "optionId": "cmvv7z1vf00m00ey3bx1hml58",
+    "locale": "it",
+    "label": "Entrambi",
+    "description": null
+  },
+  {
+    "id": "cmvv7z1vf00m20ey3esfd717r",
+    "optionId": "cmvv7z1vf00m00ey3bx1hml58",
+    "locale": "en",
+    "label": "Both",
+    "description": null
+  },
+  {
+    "id": "cmvv84sfp0009m2y3hegtyr80",
+    "optionId": "cmvv84sfo0008m2y38fiwug99",
+    "locale": "it",
+    "label": "Per modello",
+    "description": null
+  },
+  {
+    "id": "cmvv84sfp000am2y3hrk25dnz",
+    "optionId": "cmvv84sfo0008m2y38fiwug99",
+    "locale": "en",
+    "label": "Per model",
+    "description": null
+  },
+  {
+    "id": "cmvv84sfq000cm2y3vro4ukg0",
+    "optionId": "cmvv84sfp000bm2y3whtw6ir4",
+    "locale": "it",
+    "label": "Per lotto",
+    "description": null
+  },
+  {
+    "id": "cmvv84sfq000dm2y3wh0if5l5",
+    "optionId": "cmvv84sfp000bm2y3whtw6ir4",
+    "locale": "en",
+    "label": "Per batch",
+    "description": null
+  },
+  {
+    "id": "cmvv84sfr000fm2y3lsj5w92o",
+    "optionId": "cmvv84sfr000em2y3cwxp78xd",
+    "locale": "it",
+    "label": "Per singolo prodotto",
+    "description": null
+  },
+  {
+    "id": "cmvv84sfr000gm2y30br4scx8",
+    "optionId": "cmvv84sfr000em2y3cwxp78xd",
+    "locale": "en",
+    "label": "Per individual item",
+    "description": null
+  },
+  {
+    "id": "cmvv84sfr000im2y36f3jf9xn",
+    "optionId": "cmvv84sfr000hm2y3tyk6dnxi",
+    "locale": "it",
+    "label": "Non lo so",
+    "description": null
+  },
+  {
+    "id": "cmvv84sfr000jm2y3bp4nbb5v",
+    "optionId": "cmvv84sfr000hm2y3tyk6dnxi",
+    "locale": "en",
+    "label": "I don't know",
+    "description": null
+  },
+  {
+    "id": "cmvv84sfu000om2y390qa9hxr",
+    "optionId": "cmvv84sfu000nm2y31k12g57s",
+    "locale": "it",
+    "label": "GS1 Digital Link",
+    "description": null
+  },
+  {
+    "id": "cmvv84sfu000pm2y3qcllr7ii",
+    "optionId": "cmvv84sfu000nm2y31k12g57s",
+    "locale": "en",
+    "label": "GS1 Digital Link",
+    "description": null
+  },
+  {
+    "id": "cmvv84sfv000rm2y3nafak936",
+    "optionId": "cmvv84sfu000qm2y35jwbf5wo",
+    "locale": "it",
+    "label": "Schema proprio su dominio aziendale",
+    "description": null
+  },
+  {
+    "id": "cmvv84sfv000sm2y3tfscok39",
+    "optionId": "cmvv84sfu000qm2y35jwbf5wo",
+    "locale": "en",
+    "label": "Own scheme on company domain",
+    "description": null
+  },
+  {
+    "id": "cmvv84sfv000um2y37t3885jf",
+    "optionId": "cmvv84sfv000tm2y3vch67qup",
+    "locale": "it",
+    "label": "Non lo so",
+    "description": null
+  },
+  {
+    "id": "cmvv84sfv000vm2y3pvtttmv8",
+    "optionId": "cmvv84sfv000tm2y3vch67qup",
+    "locale": "en",
+    "label": "I don't know",
+    "description": null
+  },
+  {
+    "id": "cmvv84sfw0010m2y3gfkioldv",
+    "optionId": "cmvv84sfw000zm2y33v7bz1zn",
+    "locale": "it",
+    "label": "Piattaforma proprietaria",
+    "description": null
+  },
+  {
+    "id": "cmvv84sfw0011m2y3c4wj89d4",
+    "optionId": "cmvv84sfw000zm2y33v7bz1zn",
+    "locale": "en",
+    "label": "Proprietary platform",
+    "description": null
+  },
+  {
+    "id": "cmvv84sfx0013m2y3eu0oxlep",
+    "optionId": "cmvv84sfx0012m2y359yh4etg",
+    "locale": "it",
+    "label": "Licenza SaaS",
+    "description": null
+  },
+  {
+    "id": "cmvv84sfx0014m2y3h2wpv7yo",
+    "optionId": "cmvv84sfx0012m2y359yh4etg",
+    "locale": "en",
+    "label": "SaaS licence",
+    "description": null
+  },
+  {
+    "id": "cmvv84sfx0016m2y3tml09oz5",
+    "optionId": "cmvv84sfx0015m2y32mzb5brf",
+    "locale": "it",
+    "label": "Licenza PaaS",
+    "description": null
+  },
+  {
+    "id": "cmvv84sfx0017m2y30kvtc41y",
+    "optionId": "cmvv84sfx0015m2y32mzb5brf",
+    "locale": "en",
+    "label": "PaaS licence",
+    "description": null
+  },
+  {
+    "id": "cmvv84sfy0019m2y33vs1jos1",
+    "optionId": "cmvv84sfx0018m2y3g7ac9zr3",
+    "locale": "it",
+    "label": "Non ancora deciso",
+    "description": null
+  },
+  {
+    "id": "cmvv84sfy001am2y3b6vqbnj7",
+    "optionId": "cmvv84sfx0018m2y3g7ac9zr3",
+    "locale": "en",
+    "label": "Not decided yet",
+    "description": null
+  },
+  {
+    "id": "cmvv84sg3001fm2y3mgrp9r6t",
+    "optionId": "cmvv84sg2001em2y3yvrtsved",
+    "locale": "it",
+    "label": "Batterie",
+    "description": null
+  },
+  {
+    "id": "cmvv84sg3001gm2y3bx72vytq",
+    "optionId": "cmvv84sg2001em2y3yvrtsved",
+    "locale": "en",
+    "label": "Batteries",
+    "description": null
+  },
+  {
+    "id": "cmvv84sg3001im2y3l27jumfv",
+    "optionId": "cmvv84sg3001hm2y3q50iauef",
+    "locale": "it",
+    "label": "Tessile e moda",
+    "description": null
+  },
+  {
+    "id": "cmvv84sg3001jm2y3zou1euka",
+    "optionId": "cmvv84sg3001hm2y3q50iauef",
+    "locale": "en",
+    "label": "Textile and fashion",
+    "description": null
+  },
+  {
+    "id": "cmvv84sg4001lm2y34qa8s710",
+    "optionId": "cmvv84sg4001km2y3nfiyyz72",
+    "locale": "it",
+    "label": "Elettronica",
+    "description": null
+  },
+  {
+    "id": "cmvv84sg4001mm2y3y6pl8szb",
+    "optionId": "cmvv84sg4001km2y3nfiyyz72",
+    "locale": "en",
+    "label": "Electronics",
+    "description": null
+  },
+  {
+    "id": "cmvv84sg4001om2y33iix4sdq",
+    "optionId": "cmvv84sg4001nm2y3at1n9zdd",
+    "locale": "it",
+    "label": "Arredamento",
+    "description": null
+  },
+  {
+    "id": "cmvv84sg4001pm2y3c1qi1rkn",
+    "optionId": "cmvv84sg4001nm2y3at1n9zdd",
+    "locale": "en",
+    "label": "Furniture",
+    "description": null
+  },
+  {
+    "id": "cmvv84sg5001rm2y35jwfz3cd",
+    "optionId": "cmvv84sg5001qm2y342ixx5v7",
+    "locale": "it",
+    "label": "Ferro, acciaio e alluminio",
+    "description": null
+  },
+  {
+    "id": "cmvv84sg5001sm2y3u4gxgajw",
+    "optionId": "cmvv84sg5001qm2y342ixx5v7",
+    "locale": "en",
+    "label": "Iron, steel and aluminium",
+    "description": null
+  },
+  {
+    "id": "cmvv84sg5001um2y3ppxlkctv",
+    "optionId": "cmvv84sg5001tm2y3ylbr0q6z",
+    "locale": "it",
+    "label": "Pneumatici",
+    "description": null
+  },
+  {
+    "id": "cmvv84sg5001vm2y31eyh80zd",
+    "optionId": "cmvv84sg5001tm2y3ylbr0q6z",
+    "locale": "en",
+    "label": "Tyres",
+    "description": null
+  },
+  {
+    "id": "cmvv84sg6001xm2y360kr103a",
+    "optionId": "cmvv84sg6001wm2y36jh2eh0u",
+    "locale": "it",
+    "label": "Prodotti da costruzione",
+    "description": null
+  },
+  {
+    "id": "cmvv84sg6001ym2y3s1hvgj9o",
+    "optionId": "cmvv84sg6001wm2y36jh2eh0u",
+    "locale": "en",
+    "label": "Construction products",
+    "description": null
+  },
+  {
+    "id": "cmvv84sg60020m2y3ytkkzcyi",
+    "optionId": "cmvv84sg6001zm2y3ewj0w2hh",
+    "locale": "it",
+    "label": "Altro",
+    "description": null
+  },
+  {
+    "id": "cmvv84sg60021m2y3uz4et795",
+    "optionId": "cmvv84sg6001zm2y3ewj0w2hh",
+    "locale": "en",
+    "label": "Other",
+    "description": null
+  },
+  {
+    "id": "cmvv84sga0026m2y3scm9r646",
+    "optionId": "cmvv84sga0025m2y32d7q9bki",
+    "locale": "it",
+    "label": "Produttore",
+    "description": null
+  },
+  {
+    "id": "cmvv84sga0027m2y3fozoivc8",
+    "optionId": "cmvv84sga0025m2y32d7q9bki",
+    "locale": "en",
+    "label": "Manufacturer",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgb0029m2y33td3djwa",
+    "optionId": "cmvv84sgb0028m2y3wut7o42c",
+    "locale": "it",
+    "label": "Brand",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgb002am2y3zztcea7n",
+    "optionId": "cmvv84sgb0028m2y3wut7o42c",
+    "locale": "en",
+    "label": "Brand",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgb002cm2y328b9w4z6",
+    "optionId": "cmvv84sgb002bm2y3foo6y2ho",
+    "locale": "it",
+    "label": "Importatore",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgb002dm2y3dwanirk5",
+    "optionId": "cmvv84sgb002bm2y3foo6y2ho",
+    "locale": "en",
+    "label": "Importer",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgb002fm2y3jjz96sng",
+    "optionId": "cmvv84sgb002em2y3w67yww4n",
+    "locale": "it",
+    "label": "Distributore",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgb002gm2y31v18slcw",
+    "optionId": "cmvv84sgb002em2y3w67yww4n",
+    "locale": "en",
+    "label": "Distributor",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgc002im2y37u94fqli",
+    "optionId": "cmvv84sgc002hm2y3oysvzpvo",
+    "locale": "it",
+    "label": "Rivenditore",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgc002jm2y3qwi604ei",
+    "optionId": "cmvv84sgc002hm2y3oysvzpvo",
+    "locale": "en",
+    "label": "Retailer",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgc002lm2y37a2n4cnn",
+    "optionId": "cmvv84sgc002km2y3m47uvcoj",
+    "locale": "it",
+    "label": "Altro",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgc002mm2y38ktyc6ac",
+    "optionId": "cmvv84sgc002km2y3m47uvcoj",
+    "locale": "en",
+    "label": "Other",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgi002xm2y3tlbaobdq",
+    "optionId": "cmvv84sgi002wm2y3qvf7walg",
+    "locale": "it",
+    "label": "Sì",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgi002ym2y3pzlcvhbq",
+    "optionId": "cmvv84sgi002wm2y3qvf7walg",
+    "locale": "en",
+    "label": "Yes",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgj0030m2y3lyyspbua",
+    "optionId": "cmvv84sgj002zm2y39q9sbhfo",
+    "locale": "it",
+    "label": "No",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgj0031m2y3jga5m7l0",
+    "optionId": "cmvv84sgj002zm2y39q9sbhfo",
+    "locale": "en",
+    "label": "No",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgm0036m2y3nj76du98",
+    "optionId": "cmvv84sgm0035m2y315d8hsae",
+    "locale": "it",
+    "label": "Statici",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgm0037m2y31uh71kkg",
+    "optionId": "cmvv84sgm0035m2y315d8hsae",
+    "locale": "en",
+    "label": "Static",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgm0039m2y30viqij6h",
+    "optionId": "cmvv84sgm0038m2y37evr7oeg",
+    "locale": "it",
+    "label": "Dinamici",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgm003am2y35tbmtgax",
+    "optionId": "cmvv84sgm0038m2y37evr7oeg",
+    "locale": "en",
+    "label": "Dynamic",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgn003cm2y3mm6ucly6",
+    "optionId": "cmvv84sgm003bm2y3h300b67u",
+    "locale": "it",
+    "label": "Entrambi",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgn003dm2y3xhfculra",
+    "optionId": "cmvv84sgm003bm2y3h300b67u",
+    "locale": "en",
+    "label": "Both",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgq003im2y3vomamemy",
+    "optionId": "cmvv84sgq003hm2y3u5qa6q2d",
+    "locale": "it",
+    "label": "Fornitori — file Excel o email",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgq003jm2y3ynmlc305",
+    "optionId": "cmvv84sgq003hm2y3u5qa6q2d",
+    "locale": "en",
+    "label": "Suppliers — Excel files or email",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgq003lm2y3luf6d93j",
+    "optionId": "cmvv84sgq003km2y3ioxfwp6w",
+    "locale": "it",
+    "label": "Fornitori — API o portale",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgq003mm2y3n363g4l3",
+    "optionId": "cmvv84sgq003km2y3ioxfwp6w",
+    "locale": "en",
+    "label": "Suppliers — API or portal",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgr003om2y3hvsrjf6i",
+    "optionId": "cmvv84sgq003nm2y3n6lyn6ks",
+    "locale": "it",
+    "label": "ERP / gestionale",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgr003pm2y37u2evdh6",
+    "optionId": "cmvv84sgq003nm2y3n6lyn6ks",
+    "locale": "en",
+    "label": "ERP",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgr003rm2y3vz7bej4t",
+    "optionId": "cmvv84sgr003qm2y3rwojwmam",
+    "locale": "it",
+    "label": "MES (produzione)",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgr003sm2y3yf6aytxn",
+    "optionId": "cmvv84sgr003qm2y3rwojwmam",
+    "locale": "en",
+    "label": "MES (manufacturing)",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgr003um2y3sprk2yd4",
+    "optionId": "cmvv84sgr003tm2y3wcuojd45",
+    "locale": "it",
+    "label": "PLM (sviluppo prodotto)",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgr003vm2y323wjo0cb",
+    "optionId": "cmvv84sgr003tm2y3wcuojd45",
+    "locale": "en",
+    "label": "PLM (product development)",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgs003xm2y3366ego2s",
+    "optionId": "cmvv84sgr003wm2y3cwa9x5dj",
+    "locale": "it",
+    "label": "Inserimento manuale",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgs003ym2y3hxcy996v",
+    "optionId": "cmvv84sgr003wm2y3cwa9x5dj",
+    "locale": "en",
+    "label": "Manual entry",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgv0043m2y3etqeo2v7",
+    "optionId": "cmvv84sgv0042m2y3hpupuymd",
+    "locale": "it",
+    "label": "Centralizzati in un unico sistema",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgv0044m2y3ujtpfksj",
+    "optionId": "cmvv84sgv0042m2y3hpupuymd",
+    "locale": "en",
+    "label": "Centralized in a single system",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgw0046m2y3ozn5l0l8",
+    "optionId": "cmvv84sgv0045m2y365yavjzb",
+    "locale": "it",
+    "label": "Distribuiti su più sistemi",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgw0047m2y3f0fsouhd",
+    "optionId": "cmvv84sgv0045m2y365yavjzb",
+    "locale": "en",
+    "label": "Spread across several systems",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgw0049m2y382ubiwho",
+    "optionId": "cmvv84sgw0048m2y3dukhcb33",
+    "locale": "it",
+    "label": "Non organizzati",
+    "description": null
+  },
+  {
+    "id": "cmvv84sgw004am2y39w5bssd7",
+    "optionId": "cmvv84sgw0048m2y3dukhcb33",
+    "locale": "en",
+    "label": "Not organized",
+    "description": null
+  },
+  {
+    "id": "cmvv84sh0004fm2y3n6ukjgdu",
+    "optionId": "cmvv84sh0004em2y30i7670o5",
+    "locale": "it",
+    "label": "Composizione e materiali",
+    "description": null
+  },
+  {
+    "id": "cmvv84sh0004gm2y3ubupgtd8",
+    "optionId": "cmvv84sh0004em2y30i7670o5",
+    "locale": "en",
+    "label": "Composition and materials",
+    "description": null
+  },
+  {
+    "id": "cmvv84sh1004im2y3to1cgzx8",
+    "optionId": "cmvv84sh0004hm2y3nvko6ah8",
+    "locale": "it",
+    "label": "Origine e provenienza",
+    "description": null
+  },
+  {
+    "id": "cmvv84sh1004jm2y3o4pugd8a",
+    "optionId": "cmvv84sh0004hm2y3nvko6ah8",
+    "locale": "en",
+    "label": "Origin and provenance",
+    "description": null
+  },
+  {
+    "id": "cmvv84sh1004lm2y3zsh95jji",
+    "optionId": "cmvv84sh1004km2y3zptuhbe8",
+    "locale": "it",
+    "label": "Metriche di sostenibilità (es. impronta di carbonio)",
+    "description": null
+  },
+  {
+    "id": "cmvv84sh1004mm2y3ihvoady3",
+    "optionId": "cmvv84sh1004km2y3zptuhbe8",
+    "locale": "en",
+    "label": "Sustainability metrics (e.g. carbon footprint)",
+    "description": null
+  },
+  {
+    "id": "cmvv84sh2004om2y3kss66sqz",
+    "optionId": "cmvv84sh2004nm2y383kjnssm",
+    "locale": "it",
+    "label": "Istruzioni di fine vita e riciclo",
+    "description": null
+  },
+  {
+    "id": "cmvv84sh2004pm2y338a252n0",
+    "optionId": "cmvv84sh2004nm2y383kjnssm",
+    "locale": "en",
+    "label": "End-of-life and recycling instructions",
+    "description": null
+  },
+  {
+    "id": "cmvv84sh2004rm2y3dtzun5f6",
+    "optionId": "cmvv84sh2004qm2y34avbo6il",
+    "locale": "it",
+    "label": "Documentazione di conformità",
+    "description": null
+  },
+  {
+    "id": "cmvv84sh2004sm2y3tim5i208",
+    "optionId": "cmvv84sh2004qm2y34avbo6il",
+    "locale": "en",
+    "label": "Compliance documentation",
+    "description": null
+  },
+  {
+    "id": "cmvv84sh3004um2y34i8cg8yo",
+    "optionId": "cmvv84sh2004tm2y3ioh5gq9u",
+    "locale": "it",
+    "label": "Informazioni di riparazione e ricambi",
+    "description": null
+  },
+  {
+    "id": "cmvv84sh3004vm2y3psperhlb",
+    "optionId": "cmvv84sh2004tm2y3ioh5gq9u",
+    "locale": "en",
+    "label": "Repair and spare parts information",
+    "description": null
+  },
+  {
+    "id": "cmvv84sh60050m2y3q7b8cg9d",
+    "optionId": "cmvv84sh6004zm2y3h6itd6aa",
+    "locale": "it",
+    "label": "Sì, un QR code",
+    "description": null
+  },
+  {
+    "id": "cmvv84sh60051m2y39xiec0u4",
+    "optionId": "cmvv84sh6004zm2y3h6itd6aa",
+    "locale": "en",
+    "label": "Yes, a QR code",
+    "description": null
+  },
+  {
+    "id": "cmvv84sh60053m2y3a08jssr1",
+    "optionId": "cmvv84sh60052m2y3y54ivcdn",
+    "locale": "it",
+    "label": "Sì, altro (RFID, NFC, …)",
+    "description": null
+  },
+  {
+    "id": "cmvv84sh60054m2y3dibz6dd6",
+    "optionId": "cmvv84sh60052m2y3y54ivcdn",
+    "locale": "en",
+    "label": "Yes, something else (RFID, NFC, …)",
+    "description": null
+  },
+  {
+    "id": "cmvv84sh70056m2y3o9ap55b2",
+    "optionId": "cmvv84sh70055m2y398ojfqnp",
+    "locale": "it",
+    "label": "No",
+    "description": null
+  },
+  {
+    "id": "cmvv84sh70057m2y3vxvw4l07",
+    "optionId": "cmvv84sh70055m2y398ojfqnp",
+    "locale": "en",
+    "label": "No",
+    "description": null
+  },
+  {
+    "id": "cmvv84sha005cm2y3mczisu8o",
+    "optionId": "cmvv84sha005bm2y31zhewpt0",
+    "locale": "it",
+    "label": "Requisiti ESPR",
+    "description": null
+  },
+  {
+    "id": "cmvv84sha005dm2y36tm5fe1h",
+    "optionId": "cmvv84sha005bm2y31zhewpt0",
+    "locale": "en",
+    "label": "ESPR requirements",
+    "description": null
+  },
+  {
+    "id": "cmvv84shb005fm2y36tjvuyo3",
+    "optionId": "cmvv84sha005em2y3viomr3d4",
+    "locale": "it",
+    "label": "Requisiti del Regolamento Batterie (UE) 2023/1542",
+    "description": null
+  },
+  {
+    "id": "cmvv84shb005gm2y3xrm38b47",
+    "optionId": "cmvv84sha005em2y3viomr3d4",
+    "locale": "en",
+    "label": "Battery Regulation (EU) 2023/1542 requirements",
+    "description": null
+  },
+  {
+    "id": "cmvv84shb005im2y3ydsog2q3",
+    "optionId": "cmvv84shb005hm2y3tnism49d",
+    "locale": "it",
+    "label": "Non lo so",
+    "description": null
+  },
+  {
+    "id": "cmvv84shb005jm2y32aeyuwfl",
+    "optionId": "cmvv84shb005hm2y3tnism49d",
+    "locale": "en",
+    "label": "I don't know",
+    "description": null
+  },
+  {
+    "id": "cmvv84shd005om2y380xw51kt",
+    "optionId": "cmvv84shc005nm2y3jk8neqch",
+    "locale": "it",
+    "label": "Integrazione diretta",
+    "description": null
+  },
+  {
+    "id": "cmvv84shd005pm2y38ir1hxun",
+    "optionId": "cmvv84shc005nm2y3jk8neqch",
+    "locale": "en",
+    "label": "Direct integration",
+    "description": null
+  },
+  {
+    "id": "cmvv84shd005rm2y3igoiullz",
+    "optionId": "cmvv84shd005qm2y3nrehxn51",
+    "locale": "it",
+    "label": "Tramite il fornitore della piattaforma",
+    "description": null
+  },
+  {
+    "id": "cmvv84shd005sm2y3mnrvvtrg",
+    "optionId": "cmvv84shd005qm2y3nrehxn51",
+    "locale": "en",
+    "label": "Through the platform provider",
+    "description": null
+  },
+  {
+    "id": "cmvv84shd005um2y3grd64gdi",
+    "optionId": "cmvv84shd005tm2y3mhk6mabp",
+    "locale": "it",
+    "label": "Non ancora pianificata",
+    "description": null
+  },
+  {
+    "id": "cmvv84shd005vm2y3b2ddmyc1",
+    "optionId": "cmvv84shd005tm2y3mhk6mabp",
+    "locale": "en",
+    "label": "Not planned yet",
+    "description": null
+  },
+  {
+    "id": "cmvv84she005xm2y3k7syhku2",
+    "optionId": "cmvv84she005wm2y323v58pxk",
+    "locale": "it",
+    "label": "Non so cosa sia",
+    "description": null
+  },
+  {
+    "id": "cmvv84she005ym2y31n0bzdur",
+    "optionId": "cmvv84she005wm2y323v58pxk",
+    "locale": "en",
+    "label": "I don't know what it is",
+    "description": null
+  },
+  {
+    "id": "cmvv84shg0063m2y3nga37tzr",
+    "optionId": "cmvv84shg0062m2y3whq367km",
+    "locale": "it",
+    "label": "Produciamo internamente",
+    "description": null
+  },
+  {
+    "id": "cmvv84shg0064m2y3xrheetlk",
+    "optionId": "cmvv84shg0062m2y3whq367km",
+    "locale": "en",
+    "label": "We manufacture in-house",
+    "description": null
+  },
+  {
+    "id": "cmvv84shh0066m2y3yncfbklo",
+    "optionId": "cmvv84shh0065m2y3p86qade7",
+    "locale": "it",
+    "label": "Ci affidiamo a fornitori",
+    "description": null
+  },
+  {
+    "id": "cmvv84shh0067m2y3eyc5lgo0",
+    "optionId": "cmvv84shh0065m2y3p86qade7",
+    "locale": "en",
+    "label": "We rely on suppliers",
+    "description": null
+  },
+  {
+    "id": "cmvv84shh0069m2y3gxhlmn7f",
+    "optionId": "cmvv84shh0068m2y37eocnyex",
+    "locale": "it",
+    "label": "Entrambi",
+    "description": null
+  },
+  {
+    "id": "cmvv84shh006am2y3f217ocj2",
+    "optionId": "cmvv84shh0068m2y37eocnyex",
+    "locale": "en",
+    "label": "Both",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s00004boy3slftjhqw",
+    "optionId": "cmvv8w8s00003boy3xoeyuc1r",
+    "locale": "it",
+    "label": "Batterie portatili",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s00005boy3x0i31rw6",
+    "optionId": "cmvv8w8s00003boy3xoeyuc1r",
+    "locale": "en",
+    "label": "Portable batteries",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s20007boy35ixbham1",
+    "optionId": "cmvv8w8s20006boy3ts68so8s",
+    "locale": "it",
+    "label": "Batterie per mezzi di trasporto leggeri (e-bike, monopattini)",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s20008boy3pgp8h9x6",
+    "optionId": "cmvv8w8s20006boy3ts68so8s",
+    "locale": "en",
+    "label": "Light means of transport batteries (e-bikes, scooters)",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s2000aboy3l1s5ctey",
+    "optionId": "cmvv8w8s20009boy30xss6lt7",
+    "locale": "it",
+    "label": "Batterie per veicoli elettrici",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s2000bboy3zthaxqyr",
+    "optionId": "cmvv8w8s20009boy30xss6lt7",
+    "locale": "en",
+    "label": "Electric vehicle batteries",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s3000dboy3giiiga1b",
+    "optionId": "cmvv8w8s3000cboy3iqhicz34",
+    "locale": "it",
+    "label": "Batterie industriali oltre 2 kWh",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s3000eboy3hyjp4d8q",
+    "optionId": "cmvv8w8s3000cboy3iqhicz34",
+    "locale": "en",
+    "label": "Industrial batteries above 2 kWh",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s3000gboy3fry8u39a",
+    "optionId": "cmvv8w8s3000fboy36vn7lggq",
+    "locale": "it",
+    "label": "Batterie di avviamento, illuminazione e accensione (SLI)",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s3000hboy310rtzlvx",
+    "optionId": "cmvv8w8s3000fboy36vn7lggq",
+    "locale": "en",
+    "label": "Starting, lighting and ignition (SLI) batteries",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s4000jboy3ofj5l6id",
+    "optionId": "cmvv8w8s4000iboy3p82npcz8",
+    "locale": "it",
+    "label": "Abbigliamento",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s4000kboy3w5qtduh6",
+    "optionId": "cmvv8w8s4000iboy3p82npcz8",
+    "locale": "en",
+    "label": "Apparel",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s4000mboy3a4yhe1lm",
+    "optionId": "cmvv8w8s4000lboy3i3z6mrv2",
+    "locale": "it",
+    "label": "Calzature",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s4000nboy33ucsmczi",
+    "optionId": "cmvv8w8s4000lboy3i3z6mrv2",
+    "locale": "en",
+    "label": "Footwear",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s5000pboy3krie953k",
+    "optionId": "cmvv8w8s5000oboy3528ybq9n",
+    "locale": "it",
+    "label": "Tessili per la casa",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s5000qboy3rmid3239",
+    "optionId": "cmvv8w8s5000oboy3528ybq9n",
+    "locale": "en",
+    "label": "Home textiles",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s5000sboy3hd5ictqf",
+    "optionId": "cmvv8w8s5000rboy3qccxpz89",
+    "locale": "it",
+    "label": "Accessori (borse, cinture…)",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s5000tboy3fn30kkyf",
+    "optionId": "cmvv8w8s5000rboy3qccxpz89",
+    "locale": "en",
+    "label": "Accessories (bags, belts…)",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s6000vboy33220b5sw",
+    "optionId": "cmvv8w8s5000uboy3sdnp737e",
+    "locale": "it",
+    "label": "Smartphone e tablet",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s6000wboy3tmpopl8f",
+    "optionId": "cmvv8w8s5000uboy3sdnp737e",
+    "locale": "en",
+    "label": "Smartphones and tablets",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s6000yboy3iuhx3ne8",
+    "optionId": "cmvv8w8s6000xboy31nlu841j",
+    "locale": "it",
+    "label": "Computer e server",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s6000zboy3jdwboi32",
+    "optionId": "cmvv8w8s6000xboy31nlu841j",
+    "locale": "en",
+    "label": "Computers and servers",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s60011boy3wrjablqf",
+    "optionId": "cmvv8w8s60010boy3pl5pokrr",
+    "locale": "it",
+    "label": "Elettrodomestici",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s70012boy3hufs5tzz",
+    "optionId": "cmvv8w8s60010boy3pl5pokrr",
+    "locale": "en",
+    "label": "Household appliances",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s70014boy3ci559odc",
+    "optionId": "cmvv8w8s70013boy37nwkxy64",
+    "locale": "it",
+    "label": "Display e TV",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s70015boy3jvvsespv",
+    "optionId": "cmvv8w8s70013boy37nwkxy64",
+    "locale": "en",
+    "label": "Displays and TVs",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s70017boy3ugehzrz4",
+    "optionId": "cmvv8w8s70016boy318ps8ol7",
+    "locale": "it",
+    "label": "Altri apparecchi elettronici",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s70018boy3zohdp8zh",
+    "optionId": "cmvv8w8s70016boy318ps8ol7",
+    "locale": "en",
+    "label": "Other electronic equipment",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s8001aboy3u65rs9ax",
+    "optionId": "cmvv8w8s80019boy3nl2f4y7y",
+    "locale": "it",
+    "label": "Mobili",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s8001bboy396v3g2h8",
+    "optionId": "cmvv8w8s80019boy3nl2f4y7y",
+    "locale": "en",
+    "label": "Furniture",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s8001dboy3dm71o425",
+    "optionId": "cmvv8w8s8001cboy3hf2dr4qj",
+    "locale": "it",
+    "label": "Materassi",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s8001eboy3pxh8xg7d",
+    "optionId": "cmvv8w8s8001cboy3hf2dr4qj",
+    "locale": "en",
+    "label": "Mattresses",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s9001gboy3xlm5y5dv",
+    "optionId": "cmvv8w8s8001fboy3te19nfzv",
+    "locale": "it",
+    "label": "Prodotti in ferro e acciaio",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s9001hboy33vxjisog",
+    "optionId": "cmvv8w8s8001fboy3te19nfzv",
+    "locale": "en",
+    "label": "Iron and steel products",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s9001jboy35xgqsz7j",
+    "optionId": "cmvv8w8s9001iboy3x6y9cu3i",
+    "locale": "it",
+    "label": "Prodotti in alluminio",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s9001kboy32zo982gn",
+    "optionId": "cmvv8w8s9001iboy3x6y9cu3i",
+    "locale": "en",
+    "label": "Aluminium products",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s9001mboy31rh0j7nm",
+    "optionId": "cmvv8w8s9001lboy3whcbmk3k",
+    "locale": "it",
+    "label": "Pneumatici per auto",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8s9001nboy3wifi2x96",
+    "optionId": "cmvv8w8s9001lboy3whcbmk3k",
+    "locale": "en",
+    "label": "Car tyres",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8sa001pboy30plizgdz",
+    "optionId": "cmvv8w8sa001oboy3kcjf44u8",
+    "locale": "it",
+    "label": "Pneumatici per veicoli commerciali e industriali",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8sa001qboy3c5zmdq56",
+    "optionId": "cmvv8w8sa001oboy3kcjf44u8",
+    "locale": "en",
+    "label": "Commercial and industrial vehicle tyres",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8sa001sboy3kiwovrsf",
+    "optionId": "cmvv8w8sa001rboy3vyhxdkem",
+    "locale": "it",
+    "label": "Materiali da costruzione (es. cemento, isolanti, laterizi)",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8sa001tboy36o3ncdn2",
+    "optionId": "cmvv8w8sa001rboy3vyhxdkem",
+    "locale": "en",
+    "label": "Construction materials (e.g. cement, insulation, bricks)",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8sb001vboy30bwph60w",
+    "optionId": "cmvv8w8sb001uboy3h5uyz60h",
+    "locale": "it",
+    "label": "Componenti e prodotti prefabbricati",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8sb001wboy39o2ajw60",
+    "optionId": "cmvv8w8sb001uboy3h5uyz60h",
+    "locale": "en",
+    "label": "Prefabricated components and products",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8sc001yboy3jilpt6bd",
+    "optionId": "cmvv8w8sb001xboy35dqeld6c",
+    "locale": "it",
+    "label": "Altra categoria",
+    "description": null
+  },
+  {
+    "id": "cmvv8w8sc001zboy3vawid4cg",
+    "optionId": "cmvv8w8sb001xboy35dqeld6c",
+    "locale": "en",
+    "label": "Other category",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu660023euy3crhna2gd",
+    "optionId": "cmvv9bu650022euy33qi82t5a",
+    "locale": "it",
+    "label": "Batterie portatili",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu660024euy30mjwf09z",
+    "optionId": "cmvv9bu650022euy33qi82t5a",
+    "locale": "en",
+    "label": "Portable batteries",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu670026euy3idlsrotz",
+    "optionId": "cmvv9bu660025euy3ddxdi21c",
+    "locale": "it",
+    "label": "Batterie per mezzi di trasporto leggeri (e-bike, monopattini)",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu670027euy3oaedaec1",
+    "optionId": "cmvv9bu660025euy3ddxdi21c",
+    "locale": "en",
+    "label": "Light means of transport batteries (e-bikes, scooters)",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6b0029euy37x3go9ew",
+    "optionId": "cmvv9bu6b0028euy3j0803fp6",
+    "locale": "it",
+    "label": "Batterie per veicoli elettrici",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6b002aeuy32eth54cg",
+    "optionId": "cmvv9bu6b0028euy3j0803fp6",
+    "locale": "en",
+    "label": "Electric vehicle batteries",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6c002ceuy39ht2sjc0",
+    "optionId": "cmvv9bu6c002beuy36lglsaac",
+    "locale": "it",
+    "label": "Batterie industriali oltre 2 kWh",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6c002deuy3f72er77l",
+    "optionId": "cmvv9bu6c002beuy36lglsaac",
+    "locale": "en",
+    "label": "Industrial batteries above 2 kWh",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6d002feuy3tpzgyzxh",
+    "optionId": "cmvv9bu6d002eeuy3a5ygq3o4",
+    "locale": "it",
+    "label": "Batterie di avviamento, illuminazione e accensione (SLI)",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6d002geuy3rl4zta4v",
+    "optionId": "cmvv9bu6d002eeuy3a5ygq3o4",
+    "locale": "en",
+    "label": "Starting, lighting and ignition (SLI) batteries",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6d002ieuy35vbmvzgh",
+    "optionId": "cmvv9bu6d002heuy3dlbdib3x",
+    "locale": "it",
+    "label": "Abbigliamento",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6d002jeuy3j2jci0ds",
+    "optionId": "cmvv9bu6d002heuy3dlbdib3x",
+    "locale": "en",
+    "label": "Apparel",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6d002leuy30bv7sle3",
+    "optionId": "cmvv9bu6d002keuy3pzfgax51",
+    "locale": "it",
+    "label": "Calzature",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6d002meuy3qqft2max",
+    "optionId": "cmvv9bu6d002keuy3pzfgax51",
+    "locale": "en",
+    "label": "Footwear",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6e002oeuy38qa3jgxo",
+    "optionId": "cmvv9bu6e002neuy38lokg7su",
+    "locale": "it",
+    "label": "Tessili per la casa",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6e002peuy3jxp77p14",
+    "optionId": "cmvv9bu6e002neuy38lokg7su",
+    "locale": "en",
+    "label": "Home textiles",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6e002reuy32lo5r5sc",
+    "optionId": "cmvv9bu6e002qeuy30uaf4f1u",
+    "locale": "it",
+    "label": "Accessori (borse, cinture…)",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6e002seuy3f2k20h1h",
+    "optionId": "cmvv9bu6e002qeuy30uaf4f1u",
+    "locale": "en",
+    "label": "Accessories (bags, belts…)",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6f002ueuy3rfb424pe",
+    "optionId": "cmvv9bu6e002teuy30phzj25s",
+    "locale": "it",
+    "label": "Smartphone e tablet",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6f002veuy32bytqkns",
+    "optionId": "cmvv9bu6e002teuy30phzj25s",
+    "locale": "en",
+    "label": "Smartphones and tablets",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6f002xeuy3koizwsli",
+    "optionId": "cmvv9bu6f002weuy3gmscrt9e",
+    "locale": "it",
+    "label": "Computer e server",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6f002yeuy3qls53rql",
+    "optionId": "cmvv9bu6f002weuy3gmscrt9e",
+    "locale": "en",
+    "label": "Computers and servers",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6f0030euy3f8dj1qn7",
+    "optionId": "cmvv9bu6f002zeuy30fscghhj",
+    "locale": "it",
+    "label": "Elettrodomestici",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6f0031euy3mkc2fl45",
+    "optionId": "cmvv9bu6f002zeuy30fscghhj",
+    "locale": "en",
+    "label": "Household appliances",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6g0033euy3hbeawz4z",
+    "optionId": "cmvv9bu6f0032euy3w1cq1xln",
+    "locale": "it",
+    "label": "Display e TV",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6g0034euy32l2d0hvk",
+    "optionId": "cmvv9bu6f0032euy3w1cq1xln",
+    "locale": "en",
+    "label": "Displays and TVs",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6g0036euy3um81ea6a",
+    "optionId": "cmvv9bu6g0035euy3q5h0p9ie",
+    "locale": "it",
+    "label": "Altri apparecchi elettronici",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6g0037euy3ps9841lu",
+    "optionId": "cmvv9bu6g0035euy3q5h0p9ie",
+    "locale": "en",
+    "label": "Other electronic equipment",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6g0039euy3ifw0yxrv",
+    "optionId": "cmvv9bu6g0038euy3hzkq0vpr",
+    "locale": "it",
+    "label": "Mobili",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6g003aeuy3tlh0qdbh",
+    "optionId": "cmvv9bu6g0038euy3hzkq0vpr",
+    "locale": "en",
+    "label": "Furniture",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6g003ceuy3domojx5f",
+    "optionId": "cmvv9bu6g003beuy3qv9lnnde",
+    "locale": "it",
+    "label": "Materassi",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6g003deuy3mbza3f5z",
+    "optionId": "cmvv9bu6g003beuy3qv9lnnde",
+    "locale": "en",
+    "label": "Mattresses",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6h003feuy3py3d1w1u",
+    "optionId": "cmvv9bu6h003eeuy3uiqu2aoc",
+    "locale": "it",
+    "label": "Prodotti in ferro e acciaio",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6h003geuy3pcadzlhv",
+    "optionId": "cmvv9bu6h003eeuy3uiqu2aoc",
+    "locale": "en",
+    "label": "Iron and steel products",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6h003ieuy3wxh4xsj4",
+    "optionId": "cmvv9bu6h003heuy33ypa6bwb",
+    "locale": "it",
+    "label": "Prodotti in alluminio",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6h003jeuy3v4g2u8zr",
+    "optionId": "cmvv9bu6h003heuy33ypa6bwb",
+    "locale": "en",
+    "label": "Aluminium products",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6h003leuy3fk2tnexy",
+    "optionId": "cmvv9bu6h003keuy3qqug4p6l",
+    "locale": "it",
+    "label": "Pneumatici per auto",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6h003meuy3m9ihll14",
+    "optionId": "cmvv9bu6h003keuy3qqug4p6l",
+    "locale": "en",
+    "label": "Car tyres",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6h003oeuy3rmqql7e3",
+    "optionId": "cmvv9bu6h003neuy3so7hw0ii",
+    "locale": "it",
+    "label": "Pneumatici per veicoli commerciali e industriali",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6i003peuy33cxzpjfc",
+    "optionId": "cmvv9bu6h003neuy3so7hw0ii",
+    "locale": "en",
+    "label": "Commercial and industrial vehicle tyres",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6i003reuy3y6n7ghn6",
+    "optionId": "cmvv9bu6i003qeuy3x3gupep7",
+    "locale": "it",
+    "label": "Materiali da costruzione (es. cemento, isolanti, laterizi)",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6i003seuy3sa2eam4i",
+    "optionId": "cmvv9bu6i003qeuy3x3gupep7",
+    "locale": "en",
+    "label": "Construction materials (e.g. cement, insulation, bricks)",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6i003ueuy367srf7vi",
+    "optionId": "cmvv9bu6i003teuy3m454dhmm",
+    "locale": "it",
+    "label": "Componenti e prodotti prefabbricati",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6i003veuy3o85rsdu0",
+    "optionId": "cmvv9bu6i003teuy3m454dhmm",
+    "locale": "en",
+    "label": "Prefabricated components and products",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6j003xeuy3rtmam8nk",
+    "optionId": "cmvv9bu6j003weuy3r0nqye12",
+    "locale": "it",
+    "label": "Altra categoria",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6j003yeuy3u4kx268q",
+    "optionId": "cmvv9bu6j003weuy3r0nqye12",
+    "locale": "en",
+    "label": "Other category",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6n0043euy3nwxjrnqz",
+    "optionId": "cmvv9bu6n0042euy323fchbb4",
+    "locale": "it",
+    "label": "Batterie",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6n0044euy3ggvti13y",
+    "optionId": "cmvv9bu6n0042euy323fchbb4",
+    "locale": "en",
+    "label": "Batteries",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6n0046euy3ol2owtk9",
+    "optionId": "cmvv9bu6n0045euy3hbbk0ho9",
+    "locale": "it",
+    "label": "Tessile e moda",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6n0047euy3i7y0pifr",
+    "optionId": "cmvv9bu6n0045euy3hbbk0ho9",
+    "locale": "en",
+    "label": "Textile and fashion",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6n0049euy3iaa9d0wu",
+    "optionId": "cmvv9bu6n0048euy3iq4ecgl9",
+    "locale": "it",
+    "label": "Elettronica",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6n004aeuy36c704hni",
+    "optionId": "cmvv9bu6n0048euy3iq4ecgl9",
+    "locale": "en",
+    "label": "Electronics",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6o004ceuy33esx3iyl",
+    "optionId": "cmvv9bu6o004beuy32mp2m8ax",
+    "locale": "it",
+    "label": "Arredamento",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6o004deuy399au8xmt",
+    "optionId": "cmvv9bu6o004beuy32mp2m8ax",
+    "locale": "en",
+    "label": "Furniture",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6o004feuy3cya37hqh",
+    "optionId": "cmvv9bu6o004eeuy330cklyyo",
+    "locale": "it",
+    "label": "Ferro, acciaio e alluminio",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6o004geuy3qre0gc1c",
+    "optionId": "cmvv9bu6o004eeuy330cklyyo",
+    "locale": "en",
+    "label": "Iron, steel and aluminium",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6o004ieuy35kyjb1ex",
+    "optionId": "cmvv9bu6o004heuy3x1zq9im6",
+    "locale": "it",
+    "label": "Pneumatici",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6o004jeuy3pq7qyh43",
+    "optionId": "cmvv9bu6o004heuy3x1zq9im6",
+    "locale": "en",
+    "label": "Tyres",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6o004leuy3d3nnwc8f",
+    "optionId": "cmvv9bu6o004keuy3v27vzxgn",
+    "locale": "it",
+    "label": "Prodotti da costruzione",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6o004meuy3c5gfojd8",
+    "optionId": "cmvv9bu6o004keuy3v27vzxgn",
+    "locale": "en",
+    "label": "Construction products",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6o004oeuy39rhn2xbj",
+    "optionId": "cmvv9bu6o004neuy3nqj1r99d",
+    "locale": "it",
+    "label": "Altro",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6o004peuy33168jy7e",
+    "optionId": "cmvv9bu6o004neuy3nqj1r99d",
+    "locale": "en",
+    "label": "Other",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6r004ueuy3jhtseyee",
+    "optionId": "cmvv9bu6r004teuy3x6mocr77",
+    "locale": "it",
+    "label": "Produttore",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6r004veuy3al5kyrhj",
+    "optionId": "cmvv9bu6r004teuy3x6mocr77",
+    "locale": "en",
+    "label": "Manufacturer",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6s004xeuy3w3aj5vgd",
+    "optionId": "cmvv9bu6s004weuy30b3q5vye",
+    "locale": "it",
+    "label": "Brand",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6s004yeuy3p1gdkdaj",
+    "optionId": "cmvv9bu6s004weuy30b3q5vye",
+    "locale": "en",
+    "label": "Brand",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6s0050euy3rja4kpyj",
+    "optionId": "cmvv9bu6s004zeuy3xk4qlzkx",
+    "locale": "it",
+    "label": "Importatore",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6s0051euy38hphxj3z",
+    "optionId": "cmvv9bu6s004zeuy3xk4qlzkx",
+    "locale": "en",
+    "label": "Importer",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6t0053euy3x3qcp54r",
+    "optionId": "cmvv9bu6t0052euy3lontm7ei",
+    "locale": "it",
+    "label": "Distributore",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6t0054euy3u3gll272",
+    "optionId": "cmvv9bu6t0052euy3lontm7ei",
+    "locale": "en",
+    "label": "Distributor",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6t0056euy36d866i73",
+    "optionId": "cmvv9bu6t0055euy3xm57c2ta",
+    "locale": "it",
+    "label": "Rivenditore",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6t0057euy3menpsihc",
+    "optionId": "cmvv9bu6t0055euy3xm57c2ta",
+    "locale": "en",
+    "label": "Retailer",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6u0059euy36q5y5bn6",
+    "optionId": "cmvv9bu6t0058euy3x0m739ag",
+    "locale": "it",
+    "label": "Altro",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6u005aeuy35avp4ykk",
+    "optionId": "cmvv9bu6t0058euy3x0m739ag",
+    "locale": "en",
+    "label": "Other",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6x005feuy3s0hvd0b7",
+    "optionId": "cmvv9bu6w005eeuy3fomh901m",
+    "locale": "it",
+    "label": "Produciamo internamente",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6x005geuy3rb292qi0",
+    "optionId": "cmvv9bu6w005eeuy3fomh901m",
+    "locale": "en",
+    "label": "We manufacture in-house",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6x005ieuy3twwq7ai6",
+    "optionId": "cmvv9bu6x005heuy3rtongn0f",
+    "locale": "it",
+    "label": "Ci affidiamo a fornitori",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6x005jeuy3ukydqimg",
+    "optionId": "cmvv9bu6x005heuy3rtongn0f",
+    "locale": "en",
+    "label": "We rely on suppliers",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6x005leuy3jf6omj2d",
+    "optionId": "cmvv9bu6x005keuy3mi1w58yd",
+    "locale": "it",
+    "label": "Entrambi",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu6x005meuy3zbrqn48f",
+    "optionId": "cmvv9bu6x005keuy3mi1w58yd",
+    "locale": "en",
+    "label": "Both",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu73005reuy3rrsbgjjs",
+    "optionId": "cmvv9bu73005qeuy3jjthdlyi",
+    "locale": "it",
+    "label": "Per modello",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu73005seuy3huaj1jbl",
+    "optionId": "cmvv9bu73005qeuy3jjthdlyi",
+    "locale": "en",
+    "label": "Per model",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu74005ueuy3tvwlkbni",
+    "optionId": "cmvv9bu73005teuy3oi148t7e",
+    "locale": "it",
+    "label": "Per lotto",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu74005veuy3lpjcftxd",
+    "optionId": "cmvv9bu73005teuy3oi148t7e",
+    "locale": "en",
+    "label": "Per batch",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu74005xeuy3oelu9mhz",
+    "optionId": "cmvv9bu74005weuy3uerau6z3",
+    "locale": "it",
+    "label": "Per singolo prodotto",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu74005yeuy3tv3bh35g",
+    "optionId": "cmvv9bu74005weuy3uerau6z3",
+    "locale": "en",
+    "label": "Per individual item",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu750060euy3v9sdhnxs",
+    "optionId": "cmvv9bu75005zeuy3wda2ohg2",
+    "locale": "it",
+    "label": "Non lo so",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu750061euy3d5478w9l",
+    "optionId": "cmvv9bu75005zeuy3wda2ohg2",
+    "locale": "en",
+    "label": "I don't know",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7g006reuy3rcgz8oof",
+    "optionId": "cmvv9bu7g006qeuy3j7xb2zif",
+    "locale": "it",
+    "label": "Sì",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7g006seuy3lk2e8q7n",
+    "optionId": "cmvv9bu7g006qeuy3j7xb2zif",
+    "locale": "en",
+    "label": "Yes",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7g006ueuy3s2mrtzun",
+    "optionId": "cmvv9bu7g006teuy3cx0fy2ir",
+    "locale": "it",
+    "label": "No",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7g006veuy3ontlv74e",
+    "optionId": "cmvv9bu7g006teuy3cx0fy2ir",
+    "locale": "en",
+    "label": "No",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7j0070euy3q2lzrrbb",
+    "optionId": "cmvv9bu7i006zeuy30zkex4cb",
+    "locale": "it",
+    "label": "Statici",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7j0071euy3w7n6brq8",
+    "optionId": "cmvv9bu7i006zeuy30zkex4cb",
+    "locale": "en",
+    "label": "Static",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7j0073euy3rww4v6ju",
+    "optionId": "cmvv9bu7j0072euy3lhnensv7",
+    "locale": "it",
+    "label": "Dinamici",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7j0074euy31tlwx2eo",
+    "optionId": "cmvv9bu7j0072euy3lhnensv7",
+    "locale": "en",
+    "label": "Dynamic",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7j0076euy3yrzwk1v6",
+    "optionId": "cmvv9bu7j0075euy36cggolsw",
+    "locale": "it",
+    "label": "Entrambi",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7j0077euy3sw268ikh",
+    "optionId": "cmvv9bu7j0075euy36cggolsw",
+    "locale": "en",
+    "label": "Both",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7m007ceuy3rxl8lif0",
+    "optionId": "cmvv9bu7m007beuy3y3hi5iku",
+    "locale": "it",
+    "label": "Fornitori — file Excel o email",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7m007deuy3crvb0g1l",
+    "optionId": "cmvv9bu7m007beuy3y3hi5iku",
+    "locale": "en",
+    "label": "Suppliers — Excel files or email",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7n007feuy3xt2mhpcq",
+    "optionId": "cmvv9bu7n007eeuy3f3ht1oop",
+    "locale": "it",
+    "label": "Fornitori — API o portale",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7n007geuy373hbbs2g",
+    "optionId": "cmvv9bu7n007eeuy3f3ht1oop",
+    "locale": "en",
+    "label": "Suppliers — API or portal",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7n007ieuy3ir53mfog",
+    "optionId": "cmvv9bu7n007heuy30ai4ao6w",
+    "locale": "it",
+    "label": "ERP / gestionale",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7n007jeuy3imd9f63b",
+    "optionId": "cmvv9bu7n007heuy30ai4ao6w",
+    "locale": "en",
+    "label": "ERP",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7o007leuy3pfcyzrku",
+    "optionId": "cmvv9bu7n007keuy3d6vj56mi",
+    "locale": "it",
+    "label": "MES (produzione)",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7o007meuy3cu27y2e2",
+    "optionId": "cmvv9bu7n007keuy3d6vj56mi",
+    "locale": "en",
+    "label": "MES (manufacturing)",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7o007oeuy33hqb00nm",
+    "optionId": "cmvv9bu7o007neuy3ykfc6vai",
+    "locale": "it",
+    "label": "PLM (sviluppo prodotto)",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7o007peuy3yct3th57",
+    "optionId": "cmvv9bu7o007neuy3ykfc6vai",
+    "locale": "en",
+    "label": "PLM (product development)",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7o007reuy3bgbrqycc",
+    "optionId": "cmvv9bu7o007qeuy3skw5qz5m",
+    "locale": "it",
+    "label": "Inserimento manuale",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7o007seuy3gf9g7411",
+    "optionId": "cmvv9bu7o007qeuy3skw5qz5m",
+    "locale": "en",
+    "label": "Manual entry",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7r007xeuy3eiq6la57",
+    "optionId": "cmvv9bu7r007weuy3p8lbu3oi",
+    "locale": "it",
+    "label": "Centralizzati in un unico sistema",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7r007yeuy30j3mud5k",
+    "optionId": "cmvv9bu7r007weuy3p8lbu3oi",
+    "locale": "en",
+    "label": "Centralized in a single system",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7s0080euy3afkt9g17",
+    "optionId": "cmvv9bu7s007zeuy38h7ecphz",
+    "locale": "it",
+    "label": "Distribuiti su più sistemi",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7s0081euy3ye8knrof",
+    "optionId": "cmvv9bu7s007zeuy38h7ecphz",
+    "locale": "en",
+    "label": "Spread across several systems",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7t0083euy3u17shxn2",
+    "optionId": "cmvv9bu7s0082euy3603c2xaz",
+    "locale": "it",
+    "label": "Non organizzati",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7t0084euy3j6bylvjg",
+    "optionId": "cmvv9bu7s0082euy3603c2xaz",
+    "locale": "en",
+    "label": "Not organized",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7x0089euy3mnvkqb84",
+    "optionId": "cmvv9bu7x0088euy3o1bopxwg",
+    "locale": "it",
+    "label": "Composizione e materiali",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7x008aeuy3czn9dt5w",
+    "optionId": "cmvv9bu7x0088euy3o1bopxwg",
+    "locale": "en",
+    "label": "Composition and materials",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7x008ceuy3wp1dtxoy",
+    "optionId": "cmvv9bu7x008beuy3sut2nt4q",
+    "locale": "it",
+    "label": "Origine e provenienza",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7x008deuy35xzpmxj1",
+    "optionId": "cmvv9bu7x008beuy3sut2nt4q",
+    "locale": "en",
+    "label": "Origin and provenance",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7y008feuy3mkvmncsk",
+    "optionId": "cmvv9bu7x008eeuy3f08nsesq",
+    "locale": "it",
+    "label": "Metriche di sostenibilità (es. impronta di carbonio)",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7y008geuy3d869dji4",
+    "optionId": "cmvv9bu7x008eeuy3f08nsesq",
+    "locale": "en",
+    "label": "Sustainability metrics (e.g. carbon footprint)",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7y008ieuy37stxnz3y",
+    "optionId": "cmvv9bu7y008heuy3yugmxlcd",
+    "locale": "it",
+    "label": "Istruzioni di fine vita e riciclo",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7y008jeuy3nkmbb0pu",
+    "optionId": "cmvv9bu7y008heuy3yugmxlcd",
+    "locale": "en",
+    "label": "End-of-life and recycling instructions",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7y008leuy3n86jld2d",
+    "optionId": "cmvv9bu7y008keuy37iu013qn",
+    "locale": "it",
+    "label": "Documentazione di conformità",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7y008meuy380emrrqz",
+    "optionId": "cmvv9bu7y008keuy37iu013qn",
+    "locale": "en",
+    "label": "Compliance documentation",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7z008oeuy3qiqufqlx",
+    "optionId": "cmvv9bu7y008neuy3m8vs1op2",
+    "locale": "it",
+    "label": "Informazioni di riparazione e ricambi",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu7z008peuy3tusgnudu",
+    "optionId": "cmvv9bu7y008neuy3m8vs1op2",
+    "locale": "en",
+    "label": "Repair and spare parts information",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu81008ueuy32e1o6pdz",
+    "optionId": "cmvv9bu81008teuy362am86qo",
+    "locale": "it",
+    "label": "Sì, un QR code",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu81008veuy3tf3l5wc3",
+    "optionId": "cmvv9bu81008teuy362am86qo",
+    "locale": "en",
+    "label": "Yes, a QR code",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu81008xeuy3zmthvu87",
+    "optionId": "cmvv9bu81008weuy3lwzm0r3e",
+    "locale": "it",
+    "label": "Sì, altro (RFID, NFC, …)",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu81008yeuy3htd5auhu",
+    "optionId": "cmvv9bu81008weuy3lwzm0r3e",
+    "locale": "en",
+    "label": "Yes, something else (RFID, NFC, …)",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu810090euy3q6e5br6h",
+    "optionId": "cmvv9bu81008zeuy3z5cxky6b",
+    "locale": "it",
+    "label": "No",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu810091euy37uwotgl2",
+    "optionId": "cmvv9bu81008zeuy3z5cxky6b",
+    "locale": "en",
+    "label": "No",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu87009ieuy3g6ij8r91",
+    "optionId": "cmvv9bu87009heuy3xvwyonmr",
+    "locale": "it",
+    "label": "GS1 Digital Link",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu87009jeuy35s5s8ai0",
+    "optionId": "cmvv9bu87009heuy3xvwyonmr",
+    "locale": "en",
+    "label": "GS1 Digital Link",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu88009leuy3k0zszi0f",
+    "optionId": "cmvv9bu88009keuy3dim1ou8z",
+    "locale": "it",
+    "label": "Schema proprio su dominio aziendale",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu88009meuy3f66kubvx",
+    "optionId": "cmvv9bu88009keuy3dim1ou8z",
+    "locale": "en",
+    "label": "Own scheme on company domain",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu89009oeuy3f80blo74",
+    "optionId": "cmvv9bu89009neuy3b960r3ry",
+    "locale": "it",
+    "label": "Non lo so",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu89009peuy3impg10nj",
+    "optionId": "cmvv9bu89009neuy3b960r3ry",
+    "locale": "en",
+    "label": "I don't know",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu8b009ueuy3krnulxos",
+    "optionId": "cmvv9bu8b009teuy32fx0lfc0",
+    "locale": "it",
+    "label": "Piattaforma proprietaria",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu8b009veuy3ixwi4so1",
+    "optionId": "cmvv9bu8b009teuy32fx0lfc0",
+    "locale": "en",
+    "label": "Proprietary platform",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu8c009xeuy31cgfpy30",
+    "optionId": "cmvv9bu8b009weuy3kv161odi",
+    "locale": "it",
+    "label": "Licenza SaaS",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu8c009yeuy3q3xbmqmz",
+    "optionId": "cmvv9bu8b009weuy3kv161odi",
+    "locale": "en",
+    "label": "SaaS licence",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu8c00a0euy3fvhyybh0",
+    "optionId": "cmvv9bu8c009zeuy3wfapcoa4",
+    "locale": "it",
+    "label": "Licenza PaaS",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu8c00a1euy3tickfyn6",
+    "optionId": "cmvv9bu8c009zeuy3wfapcoa4",
+    "locale": "en",
+    "label": "PaaS licence",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu8c00a3euy3c6spkrsq",
+    "optionId": "cmvv9bu8c00a2euy3gdmpmwjl",
+    "locale": "it",
+    "label": "Non ancora deciso",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu8c00a4euy371y9miis",
+    "optionId": "cmvv9bu8c00a2euy3gdmpmwjl",
+    "locale": "en",
+    "label": "Not decided yet",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu8e00a9euy3a7rcs5f2",
+    "optionId": "cmvv9bu8e00a8euy369rdu7tb",
+    "locale": "it",
+    "label": "Integrazione diretta",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu8e00aaeuy3s9ejy6hc",
+    "optionId": "cmvv9bu8e00a8euy369rdu7tb",
+    "locale": "en",
+    "label": "Direct integration",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu8e00aceuy3a7eq3ir8",
+    "optionId": "cmvv9bu8e00abeuy3jbj99r2k",
+    "locale": "it",
+    "label": "Tramite il fornitore della piattaforma",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu8e00adeuy34udy3k53",
+    "optionId": "cmvv9bu8e00abeuy3jbj99r2k",
+    "locale": "en",
+    "label": "Through the platform provider",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu8f00afeuy3t3cz152i",
+    "optionId": "cmvv9bu8e00aeeuy341di48fb",
+    "locale": "it",
+    "label": "Non ancora pianificata",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu8f00ageuy3ewym20gl",
+    "optionId": "cmvv9bu8e00aeeuy341di48fb",
+    "locale": "en",
+    "label": "Not planned yet",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu8f00aieuy3yoegc981",
+    "optionId": "cmvv9bu8f00aheuy39w3iht5x",
+    "locale": "it",
+    "label": "Non so cosa sia",
+    "description": null
+  },
+  {
+    "id": "cmvv9bu8f00ajeuy343j4tg89",
+    "optionId": "cmvv9bu8f00aheuy39w3iht5x",
+    "locale": "en",
+    "label": "I don't know what it is",
+    "description": null
+  },
+  {
+    "id": "cmvva1cid00014iy3cq4iu01r",
+    "optionId": "cmvva1cic00004iy3wh1hfgpe",
+    "locale": "it",
+    "label": "Dipende dal prodotto",
+    "description": null
+  },
+  {
+    "id": "cmvva1cid00024iy371l9hltw",
+    "optionId": "cmvva1cic00004iy3wh1hfgpe",
+    "locale": "en",
+    "label": "Depends on the product",
+    "description": null
+  },
+  {
+    "id": "cmvvd6sc2000173y3s6so6gnp",
+    "optionId": "cmvvd6sc1000073y37el8iabp",
+    "locale": "it",
+    "label": "Fornitori — documenti PDF",
+    "description": null
+  },
+  {
+    "id": "cmvvd6sc2000273y3iewb1ubj",
+    "optionId": "cmvvd6sc1000073y37el8iabp",
+    "locale": "en",
+    "label": "Suppliers — PDF documents",
+    "description": null
+  },
+  {
+    "id": "cmvvel4l50006qhy3wro7rkhn",
+    "optionId": "cmvvel4l40005qhy3i1vnm0j8",
+    "locale": "it",
+    "label": "Batterie portatili",
+    "description": null
+  },
+  {
+    "id": "cmvvel4l50007qhy37udrqsvj",
+    "optionId": "cmvvel4l40005qhy3i1vnm0j8",
+    "locale": "en",
+    "label": "Portable batteries",
+    "description": null
+  },
+  {
+    "id": "cmvvel4l50009qhy37madnirw",
+    "optionId": "cmvvel4l50008qhy3h8x0cc0b",
+    "locale": "it",
+    "label": "Batterie per mezzi di trasporto leggeri (e-bike, monopattini)",
+    "description": null
+  },
+  {
+    "id": "cmvvel4l5000aqhy3hp5f1nwp",
+    "optionId": "cmvvel4l50008qhy3h8x0cc0b",
+    "locale": "en",
+    "label": "Light means of transport batteries (e-bikes, scooters)",
+    "description": null
+  },
+  {
+    "id": "cmvvel4l6000cqhy3cokokfgv",
+    "optionId": "cmvvel4l6000bqhy3d8bpjkv5",
+    "locale": "it",
+    "label": "Batterie per veicoli elettrici",
+    "description": null
+  },
+  {
+    "id": "cmvvel4l6000dqhy3g08hu4m3",
+    "optionId": "cmvvel4l6000bqhy3d8bpjkv5",
+    "locale": "en",
+    "label": "Electric vehicle batteries",
+    "description": null
+  },
+  {
+    "id": "cmvvel4l6000fqhy3u716hk4q",
+    "optionId": "cmvvel4l6000eqhy3m0ruqtj6",
+    "locale": "it",
+    "label": "Batterie industriali oltre 2 kWh",
+    "description": null
+  },
+  {
+    "id": "cmvvel4l6000gqhy32h7kwmpt",
+    "optionId": "cmvvel4l6000eqhy3m0ruqtj6",
+    "locale": "en",
+    "label": "Industrial batteries above 2 kWh",
+    "description": null
+  },
+  {
+    "id": "cmvvel4l8000iqhy3xcbmhh6r",
+    "optionId": "cmvvel4l7000hqhy367uhex9d",
+    "locale": "it",
+    "label": "Batterie di avviamento, illuminazione e accensione (SLI)",
+    "description": null
+  },
+  {
+    "id": "cmvvel4l8000jqhy3defjqx0h",
+    "optionId": "cmvvel4l7000hqhy367uhex9d",
+    "locale": "en",
+    "label": "Starting, lighting and ignition (SLI) batteries",
+    "description": null
+  },
+  {
+    "id": "cmvvel4l8000lqhy33ukvt56v",
+    "optionId": "cmvvel4l8000kqhy3k77gtgmr",
+    "locale": "it",
+    "label": "Abbigliamento",
+    "description": null
+  },
+  {
+    "id": "cmvvel4l8000mqhy3oabcy6ot",
+    "optionId": "cmvvel4l8000kqhy3k77gtgmr",
+    "locale": "en",
+    "label": "Apparel",
+    "description": null
+  },
+  {
+    "id": "cmvvel4l9000oqhy3ga3447nm",
+    "optionId": "cmvvel4l9000nqhy31htl74jb",
+    "locale": "it",
+    "label": "Calzature",
+    "description": null
+  },
+  {
+    "id": "cmvvel4l9000pqhy399qse72b",
+    "optionId": "cmvvel4l9000nqhy31htl74jb",
+    "locale": "en",
+    "label": "Footwear",
+    "description": null
+  },
+  {
+    "id": "cmvvel4l9000rqhy37t0bee7a",
+    "optionId": "cmvvel4l9000qqhy3m0vn64y4",
+    "locale": "it",
+    "label": "Tessili per la casa",
+    "description": null
+  },
+  {
+    "id": "cmvvel4l9000sqhy38rqgwlea",
+    "optionId": "cmvvel4l9000qqhy3m0vn64y4",
+    "locale": "en",
+    "label": "Home textiles",
+    "description": null
+  },
+  {
+    "id": "cmvvel4la000uqhy3ol0rx1w7",
+    "optionId": "cmvvel4l9000tqhy36f00ty2o",
+    "locale": "it",
+    "label": "Accessori (borse, cinture…)",
+    "description": null
+  },
+  {
+    "id": "cmvvel4la000vqhy3gufxobkt",
+    "optionId": "cmvvel4l9000tqhy36f00ty2o",
+    "locale": "en",
+    "label": "Accessories (bags, belts…)",
+    "description": null
+  },
+  {
+    "id": "cmvvel4la000xqhy39ze323j4",
+    "optionId": "cmvvel4la000wqhy3luov7vad",
+    "locale": "it",
+    "label": "Smartphone e tablet",
+    "description": null
+  },
+  {
+    "id": "cmvvel4la000yqhy3lq5ooc0j",
+    "optionId": "cmvvel4la000wqhy3luov7vad",
+    "locale": "en",
+    "label": "Smartphones and tablets",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lb0010qhy3q2udprwq",
+    "optionId": "cmvvel4la000zqhy30m992lmf",
+    "locale": "it",
+    "label": "Computer e server",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lb0011qhy33w1oa772",
+    "optionId": "cmvvel4la000zqhy30m992lmf",
+    "locale": "en",
+    "label": "Computers and servers",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lb0013qhy3fys4smef",
+    "optionId": "cmvvel4lb0012qhy338wefkwi",
+    "locale": "it",
+    "label": "Elettrodomestici",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lb0014qhy3x23uv05e",
+    "optionId": "cmvvel4lb0012qhy338wefkwi",
+    "locale": "en",
+    "label": "Household appliances",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lc0016qhy3umtkqhyq",
+    "optionId": "cmvvel4lb0015qhy3adlvad2e",
+    "locale": "it",
+    "label": "Display e TV",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lc0017qhy3epcrzhtn",
+    "optionId": "cmvvel4lb0015qhy3adlvad2e",
+    "locale": "en",
+    "label": "Displays and TVs",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lc0019qhy31gjtdaos",
+    "optionId": "cmvvel4lc0018qhy3oo42508s",
+    "locale": "it",
+    "label": "Altri apparecchi elettronici",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lc001aqhy3t2xaffon",
+    "optionId": "cmvvel4lc0018qhy3oo42508s",
+    "locale": "en",
+    "label": "Other electronic equipment",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lc001cqhy3y9j8v8f6",
+    "optionId": "cmvvel4lc001bqhy357g33n4q",
+    "locale": "it",
+    "label": "Mobili",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lc001dqhy3qjg4bwp6",
+    "optionId": "cmvvel4lc001bqhy357g33n4q",
+    "locale": "en",
+    "label": "Furniture",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lc001fqhy3fgv6is6k",
+    "optionId": "cmvvel4lc001eqhy3d1ux7uo6",
+    "locale": "it",
+    "label": "Materassi",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lc001gqhy3lrdr139d",
+    "optionId": "cmvvel4lc001eqhy3d1ux7uo6",
+    "locale": "en",
+    "label": "Mattresses",
+    "description": null
+  },
+  {
+    "id": "cmvvel4ld001iqhy368fhdwxl",
+    "optionId": "cmvvel4lc001hqhy382wdrkor",
+    "locale": "it",
+    "label": "Prodotti in ferro e acciaio",
+    "description": null
+  },
+  {
+    "id": "cmvvel4ld001jqhy32omw0bxr",
+    "optionId": "cmvvel4lc001hqhy382wdrkor",
+    "locale": "en",
+    "label": "Iron and steel products",
+    "description": null
+  },
+  {
+    "id": "cmvvel4ld001lqhy398cvgdaa",
+    "optionId": "cmvvel4ld001kqhy3qykrncna",
+    "locale": "it",
+    "label": "Prodotti in alluminio",
+    "description": null
+  },
+  {
+    "id": "cmvvel4ld001mqhy30mtdsqhf",
+    "optionId": "cmvvel4ld001kqhy3qykrncna",
+    "locale": "en",
+    "label": "Aluminium products",
+    "description": null
+  },
+  {
+    "id": "cmvvel4ld001oqhy3dut2jlhj",
+    "optionId": "cmvvel4ld001nqhy39k0zjymd",
+    "locale": "it",
+    "label": "Pneumatici per auto",
+    "description": null
+  },
+  {
+    "id": "cmvvel4ld001pqhy3h24hncm5",
+    "optionId": "cmvvel4ld001nqhy39k0zjymd",
+    "locale": "en",
+    "label": "Car tyres",
+    "description": null
+  },
+  {
+    "id": "cmvvel4le001rqhy3ruj895wj",
+    "optionId": "cmvvel4le001qqhy3h04q22ew",
+    "locale": "it",
+    "label": "Pneumatici per veicoli commerciali e industriali",
+    "description": null
+  },
+  {
+    "id": "cmvvel4le001sqhy38u7wxnk9",
+    "optionId": "cmvvel4le001qqhy3h04q22ew",
+    "locale": "en",
+    "label": "Commercial and industrial vehicle tyres",
+    "description": null
+  },
+  {
+    "id": "cmvvel4le001uqhy3gz8b6qey",
+    "optionId": "cmvvel4le001tqhy32ynlmw82",
+    "locale": "it",
+    "label": "Materiali da costruzione (es. cemento, isolanti, laterizi)",
+    "description": null
+  },
+  {
+    "id": "cmvvel4le001vqhy3jrape7nk",
+    "optionId": "cmvvel4le001tqhy32ynlmw82",
+    "locale": "en",
+    "label": "Construction materials (e.g. cement, insulation, bricks)",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lf001xqhy3a3seg8hj",
+    "optionId": "cmvvel4lf001wqhy362qed20v",
+    "locale": "it",
+    "label": "Componenti e prodotti prefabbricati",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lf001yqhy3gx7wugs2",
+    "optionId": "cmvvel4lf001wqhy362qed20v",
+    "locale": "en",
+    "label": "Prefabricated components and products",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lf0020qhy3foro0dc2",
+    "optionId": "cmvvel4lf001zqhy3azu21pia",
+    "locale": "it",
+    "label": "Altra categoria",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lf0021qhy3xndlw1hc",
+    "optionId": "cmvvel4lf001zqhy3azu21pia",
+    "locale": "en",
+    "label": "Other category",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lk0026qhy30152lzlr",
+    "optionId": "cmvvel4lk0025qhy322p7pnz0",
+    "locale": "it",
+    "label": "Batterie",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lk0027qhy30xxg4jwo",
+    "optionId": "cmvvel4lk0025qhy322p7pnz0",
+    "locale": "en",
+    "label": "Batteries",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lk0029qhy3sdai5obe",
+    "optionId": "cmvvel4lk0028qhy3logr6ya3",
+    "locale": "it",
+    "label": "Tessile e moda",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lk002aqhy3old5dwfj",
+    "optionId": "cmvvel4lk0028qhy3logr6ya3",
+    "locale": "en",
+    "label": "Textile and fashion",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lk002cqhy3xs1xy1jp",
+    "optionId": "cmvvel4lk002bqhy3hg9ubh2u",
+    "locale": "it",
+    "label": "Elettronica",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lk002dqhy3hr47v6t9",
+    "optionId": "cmvvel4lk002bqhy3hg9ubh2u",
+    "locale": "en",
+    "label": "Electronics",
+    "description": null
+  },
+  {
+    "id": "cmvvel4ll002fqhy3sp559c1z",
+    "optionId": "cmvvel4ll002eqhy34kl6gngp",
+    "locale": "it",
+    "label": "Arredamento",
+    "description": null
+  },
+  {
+    "id": "cmvvel4ll002gqhy3rkv3cg8h",
+    "optionId": "cmvvel4ll002eqhy34kl6gngp",
+    "locale": "en",
+    "label": "Furniture",
+    "description": null
+  },
+  {
+    "id": "cmvvel4ll002iqhy3goqn2d8h",
+    "optionId": "cmvvel4ll002hqhy3z5fxrlt1",
+    "locale": "it",
+    "label": "Ferro, acciaio e alluminio",
+    "description": null
+  },
+  {
+    "id": "cmvvel4ll002jqhy31r8z45fa",
+    "optionId": "cmvvel4ll002hqhy3z5fxrlt1",
+    "locale": "en",
+    "label": "Iron, steel and aluminium",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lm002lqhy3js0kb06f",
+    "optionId": "cmvvel4ll002kqhy38bisqxvz",
+    "locale": "it",
+    "label": "Pneumatici",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lm002mqhy3gvivvbyb",
+    "optionId": "cmvvel4ll002kqhy38bisqxvz",
+    "locale": "en",
+    "label": "Tyres",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lm002oqhy3999hm70d",
+    "optionId": "cmvvel4lm002nqhy3tcwjb0az",
+    "locale": "it",
+    "label": "Prodotti da costruzione",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lm002pqhy31w0pae1l",
+    "optionId": "cmvvel4lm002nqhy3tcwjb0az",
+    "locale": "en",
+    "label": "Construction products",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lm002rqhy384dk2fvi",
+    "optionId": "cmvvel4lm002qqhy3ybajzdnz",
+    "locale": "it",
+    "label": "Altro",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lm002sqhy3bnk7uyg4",
+    "optionId": "cmvvel4lm002qqhy3ybajzdnz",
+    "locale": "en",
+    "label": "Other",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lq002xqhy3v9lptl06",
+    "optionId": "cmvvel4lq002wqhy3g4kafaf4",
+    "locale": "it",
+    "label": "Produttore",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lq002yqhy3m7i07hai",
+    "optionId": "cmvvel4lq002wqhy3g4kafaf4",
+    "locale": "en",
+    "label": "Manufacturer",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lr0030qhy336cy3j3g",
+    "optionId": "cmvvel4lr002zqhy38gvb023r",
+    "locale": "it",
+    "label": "Brand",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lr0031qhy33ls9sjxh",
+    "optionId": "cmvvel4lr002zqhy38gvb023r",
+    "locale": "en",
+    "label": "Brand",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lr0033qhy3wzyowtsx",
+    "optionId": "cmvvel4lr0032qhy3hb1ayg5l",
+    "locale": "it",
+    "label": "Importatore",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lr0034qhy38iydy02c",
+    "optionId": "cmvvel4lr0032qhy3hb1ayg5l",
+    "locale": "en",
+    "label": "Importer",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lr0036qhy3o71l1e0h",
+    "optionId": "cmvvel4lr0035qhy3yx5q02w3",
+    "locale": "it",
+    "label": "Distributore",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lr0037qhy32geh1nah",
+    "optionId": "cmvvel4lr0035qhy3yx5q02w3",
+    "locale": "en",
+    "label": "Distributor",
+    "description": null
+  },
+  {
+    "id": "cmvvel4ls0039qhy38b4726zj",
+    "optionId": "cmvvel4lr0038qhy3056z8o8d",
+    "locale": "it",
+    "label": "Rivenditore",
+    "description": null
+  },
+  {
+    "id": "cmvvel4ls003aqhy3swf9yl5d",
+    "optionId": "cmvvel4lr0038qhy3056z8o8d",
+    "locale": "en",
+    "label": "Retailer",
+    "description": null
+  },
+  {
+    "id": "cmvvel4ls003cqhy3vm998lkc",
+    "optionId": "cmvvel4ls003bqhy306xtmktq",
+    "locale": "it",
+    "label": "Altro",
+    "description": null
+  },
+  {
+    "id": "cmvvel4ls003dqhy3hynbx9uh",
+    "optionId": "cmvvel4ls003bqhy306xtmktq",
+    "locale": "en",
+    "label": "Other",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lv003iqhy3s6kmc8ge",
+    "optionId": "cmvvel4lv003hqhy3c0n6yyuv",
+    "locale": "it",
+    "label": "Produciamo internamente",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lv003jqhy3vss8y3li",
+    "optionId": "cmvvel4lv003hqhy3c0n6yyuv",
+    "locale": "en",
+    "label": "We manufacture in-house",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lw003lqhy3wm3ukkph",
+    "optionId": "cmvvel4lv003kqhy30zbqp75v",
+    "locale": "it",
+    "label": "Ci affidiamo a fornitori",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lw003mqhy308itbxvd",
+    "optionId": "cmvvel4lv003kqhy30zbqp75v",
+    "locale": "en",
+    "label": "We rely on suppliers",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lw003oqhy3vxwrtsap",
+    "optionId": "cmvvel4lw003nqhy3iaaw30k1",
+    "locale": "it",
+    "label": "Entrambi",
+    "description": null
+  },
+  {
+    "id": "cmvvel4lw003pqhy385amsrs4",
+    "optionId": "cmvvel4lw003nqhy3iaaw30k1",
+    "locale": "en",
+    "label": "Both",
+    "description": null
+  },
+  {
+    "id": "cmvvel4m1003uqhy3knx9rsm7",
+    "optionId": "cmvvel4m0003tqhy3ldm88m05",
+    "locale": "it",
+    "label": "Fornitori — file Excel o email",
+    "description": null
+  },
+  {
+    "id": "cmvvel4m1003vqhy3p5kkjxp8",
+    "optionId": "cmvvel4m0003tqhy3ldm88m05",
+    "locale": "en",
+    "label": "Suppliers — Excel files or email",
+    "description": null
+  },
+  {
+    "id": "cmvvel4m30049qhy328sbopoi",
+    "optionId": "cmvvel4m30048qhy36amwvagt",
+    "locale": "it",
+    "label": "Inserimento manuale",
+    "description": null
+  },
+  {
+    "id": "cmvvel4m3004aqhy3bfhld119",
+    "optionId": "cmvvel4m30048qhy36amwvagt",
+    "locale": "en",
+    "label": "Manual entry",
+    "description": null
+  },
+  {
+    "id": "cmvvel4m4004cqhy3c9vd79au",
+    "optionId": "cmvvel4m3004bqhy3s3eyb18y",
+    "locale": "it",
+    "label": "Fornitori — documenti PDF",
+    "description": null
+  },
+  {
+    "id": "cmvvel4m4004dqhy38yictr7e",
+    "optionId": "cmvvel4m3004bqhy3s3eyb18y",
+    "locale": "en",
+    "label": "Suppliers — PDF documents",
+    "description": null
+  },
+  {
+    "id": "cmvvel4m7004iqhy3s8nzq5yn",
+    "optionId": "cmvvel4m7004hqhy38wmxdnyj",
+    "locale": "it",
+    "label": "Centralizzati in un unico sistema",
+    "description": null
+  },
+  {
+    "id": "cmvvel4m7004jqhy3nh7vp0ti",
+    "optionId": "cmvvel4m7004hqhy38wmxdnyj",
+    "locale": "en",
+    "label": "Centralized in a single system",
+    "description": null
+  },
+  {
+    "id": "cmvvel4m8004lqhy3xf6g4gdk",
+    "optionId": "cmvvel4m7004kqhy3m14jbywj",
+    "locale": "it",
+    "label": "Distribuiti su più sistemi",
+    "description": null
+  },
+  {
+    "id": "cmvvel4m8004mqhy3hng4yzff",
+    "optionId": "cmvvel4m7004kqhy3m14jbywj",
+    "locale": "en",
+    "label": "Spread across several systems",
+    "description": null
+  },
+  {
+    "id": "cmvvel4m8004oqhy396br9q8o",
+    "optionId": "cmvvel4m8004nqhy3g2rk0mqq",
+    "locale": "it",
+    "label": "Non organizzati",
+    "description": null
+  },
+  {
+    "id": "cmvvel4m8004pqhy3v4rts3qh",
+    "optionId": "cmvvel4m8004nqhy3g2rk0mqq",
+    "locale": "en",
+    "label": "Not organized",
+    "description": null
+  },
+  {
+    "id": "cmvvel4mh004uqhy379fjm8fo",
+    "optionId": "cmvvel4mh004tqhy3y0n54u1b",
+    "locale": "it",
+    "label": "Composizione e materiali",
+    "description": null
+  },
+  {
+    "id": "cmvvel4mh004vqhy3ltajj2fg",
+    "optionId": "cmvvel4mh004tqhy3y0n54u1b",
+    "locale": "en",
+    "label": "Composition and materials",
+    "description": null
+  },
+  {
+    "id": "cmvvel4mh004xqhy3gjwjccz0",
+    "optionId": "cmvvel4mh004wqhy3wqebmuap",
+    "locale": "it",
+    "label": "Origine e provenienza",
+    "description": null
+  },
+  {
+    "id": "cmvvel4mh004yqhy3cwppfrb6",
+    "optionId": "cmvvel4mh004wqhy3wqebmuap",
+    "locale": "en",
+    "label": "Origin and provenance",
+    "description": null
+  },
+  {
+    "id": "cmvvel4mi0050qhy3yggev6md",
+    "optionId": "cmvvel4mi004zqhy3jv6vob0d",
+    "locale": "it",
+    "label": "Metriche di sostenibilità (es. impronta di carbonio)",
+    "description": null
+  },
+  {
+    "id": "cmvvel4mi0051qhy3enpqz8pj",
+    "optionId": "cmvvel4mi004zqhy3jv6vob0d",
+    "locale": "en",
+    "label": "Sustainability metrics (e.g. carbon footprint)",
+    "description": null
+  },
+  {
+    "id": "cmvvel4mi0053qhy3n9p94lpy",
+    "optionId": "cmvvel4mi0052qhy38q9978tc",
+    "locale": "it",
+    "label": "Istruzioni di fine vita e riciclo",
+    "description": null
+  },
+  {
+    "id": "cmvvel4mi0054qhy36i74kgah",
+    "optionId": "cmvvel4mi0052qhy38q9978tc",
+    "locale": "en",
+    "label": "End-of-life and recycling instructions",
+    "description": null
+  },
+  {
+    "id": "cmvvel4mk0056qhy3226dhmvr",
+    "optionId": "cmvvel4mi0055qhy3c9gt87tl",
+    "locale": "it",
+    "label": "Documentazione di conformità",
+    "description": null
+  },
+  {
+    "id": "cmvvel4mk0057qhy3kznohabr",
+    "optionId": "cmvvel4mi0055qhy3c9gt87tl",
+    "locale": "en",
+    "label": "Compliance documentation",
+    "description": null
+  },
+  {
+    "id": "cmvvel4ml0059qhy3q7whviqz",
+    "optionId": "cmvvel4ml0058qhy3r7ivp5tc",
+    "locale": "it",
+    "label": "Informazioni di riparazione e ricambi",
+    "description": null
+  },
+  {
+    "id": "cmvvel4ml005aqhy3g3cbpwcg",
+    "optionId": "cmvvel4ml0058qhy3r7ivp5tc",
+    "locale": "en",
+    "label": "Repair and spare parts information",
+    "description": null
+  },
+  {
+    "id": "cmvvel4mo005fqhy3jj73l8mp",
+    "optionId": "cmvvel4mo005eqhy3j0ja2rna",
+    "locale": "it",
+    "label": "Sì, un QR code",
+    "description": null
+  },
+  {
+    "id": "cmvvel4mo005gqhy3azou9myu",
+    "optionId": "cmvvel4mo005eqhy3j0ja2rna",
+    "locale": "en",
+    "label": "Yes, a QR code",
+    "description": null
+  },
+  {
+    "id": "cmvvel4mo005iqhy360y9k9c7",
+    "optionId": "cmvvel4mo005hqhy3ejxygnl4",
+    "locale": "it",
+    "label": "Sì, altro (RFID, NFC, …)",
+    "description": null
+  },
+  {
+    "id": "cmvvel4mo005jqhy3l7dkd8gs",
+    "optionId": "cmvvel4mo005hqhy3ejxygnl4",
+    "locale": "en",
+    "label": "Yes, something else (RFID, NFC, …)",
+    "description": null
+  },
+  {
+    "id": "cmvvel4mp005lqhy3qshkaoh3",
+    "optionId": "cmvvel4mp005kqhy3716lhdlh",
+    "locale": "it",
+    "label": "No",
+    "description": null
+  },
+  {
+    "id": "cmvvel4mp005mqhy3iiamlhgo",
+    "optionId": "cmvvel4mp005kqhy3716lhdlh",
+    "locale": "en",
+    "label": "No",
+    "description": null
+  },
+  {
+    "id": "cmvvel4mu005xqhy39iy5txaf",
+    "optionId": "cmvvel4mt005wqhy34yy15cxd",
+    "locale": "it",
+    "label": "Non lo so",
+    "description": null
+  },
+  {
+    "id": "cmvvel4mu005yqhy3fzw5y4vj",
+    "optionId": "cmvvel4mt005wqhy34yy15cxd",
+    "locale": "en",
+    "label": "I don't know",
+    "description": null
+  },
+  {
+    "id": "cmvvel4mz006cqhy3bygwnwg4",
+    "optionId": "cmvvel4my006bqhy3iby3atbq",
+    "locale": "it",
+    "label": "Non ancora deciso",
+    "description": null
+  },
+  {
+    "id": "cmvvel4mz006dqhy3lw3ur2qk",
+    "optionId": "cmvvel4my006bqhy3iby3atbq",
+    "locale": "en",
+    "label": "Not decided yet",
+    "description": null
+  },
+  {
+    "id": "cmvvel4n0006iqhy3r27tzdji",
+    "optionId": "cmvvel4n0006hqhy36b6quc91",
+    "locale": "it",
+    "label": "Integrazione diretta",
+    "description": null
+  },
+  {
+    "id": "cmvvel4n0006jqhy3py2wnljy",
+    "optionId": "cmvvel4n0006hqhy36b6quc91",
+    "locale": "en",
+    "label": "Direct integration",
+    "description": null
+  },
+  {
+    "id": "cmvvel4n1006lqhy3j8oge0c1",
+    "optionId": "cmvvel4n0006kqhy3kk6yk153",
+    "locale": "it",
+    "label": "Tramite il fornitore della piattaforma",
+    "description": null
+  },
+  {
+    "id": "cmvvel4n1006mqhy3swyjz1r9",
+    "optionId": "cmvvel4n0006kqhy3kk6yk153",
+    "locale": "en",
+    "label": "Through the platform provider",
+    "description": null
+  },
+  {
+    "id": "cmvvel4n1006oqhy331mp36c8",
+    "optionId": "cmvvel4n1006nqhy3un7absfe",
+    "locale": "it",
+    "label": "Non ancora pianificata",
+    "description": null
+  },
+  {
+    "id": "cmvvel4n1006pqhy35j0d26js",
+    "optionId": "cmvvel4n1006nqhy3un7absfe",
+    "locale": "en",
+    "label": "Not planned yet",
+    "description": null
+  },
+  {
+    "id": "cmvvel4n1006rqhy339hnm9gg",
+    "optionId": "cmvvel4n1006qqhy33b8qpp4r",
+    "locale": "it",
+    "label": "Non so cosa sia",
+    "description": null
+  },
+  {
+    "id": "cmvvel4n1006sqhy3n8twaxsh",
+    "optionId": "cmvvel4n1006qqhy33b8qpp4r",
+    "locale": "en",
+    "label": "I don't know what it is",
+    "description": null
+  },
+  {
+    "id": "cmvvel4na0073qhy3jdeymx0e",
+    "optionId": "cmvvel4na0072qhy3oj12oaf4",
+    "locale": "it",
+    "label": "Per modello",
+    "description": null
+  },
+  {
+    "id": "cmvvel4na0074qhy3hvxb6j2u",
+    "optionId": "cmvvel4na0072qhy3oj12oaf4",
+    "locale": "en",
+    "label": "Per model",
+    "description": null
+  },
+  {
+    "id": "cmvvel4nb0076qhy3fur6brkg",
+    "optionId": "cmvvel4nb0075qhy3ckb0y74l",
+    "locale": "it",
+    "label": "Per lotto",
+    "description": null
+  },
+  {
+    "id": "cmvvel4nb0077qhy3ly2vune0",
+    "optionId": "cmvvel4nb0075qhy3ckb0y74l",
+    "locale": "en",
+    "label": "Per batch",
+    "description": null
+  },
+  {
+    "id": "cmvvel4nc0079qhy3gyzwoynd",
+    "optionId": "cmvvel4nc0078qhy3s3ps0680",
+    "locale": "it",
+    "label": "Per singolo prodotto",
+    "description": null
+  },
+  {
+    "id": "cmvvel4nc007aqhy3dgjwdsng",
+    "optionId": "cmvvel4nc0078qhy3s3ps0680",
+    "locale": "en",
+    "label": "Per individual item",
+    "description": null
+  },
+  {
+    "id": "cmvvel4nc007cqhy3mb76w1ut",
+    "optionId": "cmvvel4nc007bqhy3rdfw0scy",
+    "locale": "it",
+    "label": "Non lo so",
+    "description": null
+  },
+  {
+    "id": "cmvvel4nc007dqhy3j3px6g20",
+    "optionId": "cmvvel4nc007bqhy3rdfw0scy",
+    "locale": "en",
+    "label": "I don't know",
+    "description": null
+  },
+  {
+    "id": "cmvvel4nk0083qhy319brjvz2",
+    "optionId": "cmvvel4nk0082qhy3v9ldap6u",
+    "locale": "it",
+    "label": "Sì",
+    "description": null
+  },
+  {
+    "id": "cmvvel4nk0084qhy3pp8zb6jy",
+    "optionId": "cmvvel4nk0082qhy3v9ldap6u",
+    "locale": "en",
+    "label": "Yes",
+    "description": null
+  },
+  {
+    "id": "cmvvel4nl0086qhy3q1n6gl9j",
+    "optionId": "cmvvel4nl0085qhy32d9ilof8",
+    "locale": "it",
+    "label": "No",
+    "description": null
+  },
+  {
+    "id": "cmvvel4nl0087qhy374p9nwz8",
+    "optionId": "cmvvel4nl0085qhy32d9ilof8",
+    "locale": "en",
+    "label": "No",
+    "description": null
+  },
+  {
+    "id": "cmvvel4nl0089qhy34bdrtpc5",
+    "optionId": "cmvvel4nl0088qhy3p4j2evwn",
+    "locale": "it",
+    "label": "Dipende dal prodotto",
+    "description": null
+  },
+  {
+    "id": "cmvvel4nl008aqhy3nxjzsq5e",
+    "optionId": "cmvvel4nl0088qhy3p4j2evwn",
+    "locale": "en",
+    "label": "Depends on the product",
+    "description": null
+  },
+  {
+    "id": "cmvvel4nr008uqhy3asmgdi8z",
+    "optionId": "cmvvel4nr008tqhy32o05it9c",
+    "locale": "it",
+    "label": "Statici",
+    "description": null
+  },
+  {
+    "id": "cmvvel4nr008vqhy3xuau4qza",
+    "optionId": "cmvvel4nr008tqhy32o05it9c",
+    "locale": "en",
+    "label": "Static",
+    "description": null
+  },
+  {
+    "id": "cmvvel4nr008xqhy37aiuzhsa",
+    "optionId": "cmvvel4nr008wqhy3od1ai8dc",
+    "locale": "it",
+    "label": "Dinamici",
+    "description": null
+  },
+  {
+    "id": "cmvvel4nr008yqhy3p63crolg",
+    "optionId": "cmvvel4nr008wqhy3od1ai8dc",
+    "locale": "en",
+    "label": "Dynamic",
+    "description": null
+  },
+  {
+    "id": "cmvvel4ns0090qhy3i5dplmc3",
+    "optionId": "cmvvel4nr008zqhy3hsye6qt2",
+    "locale": "it",
+    "label": "Entrambi",
+    "description": null
+  },
+  {
+    "id": "cmvvel4ns0091qhy3r5tdzlwz",
+    "optionId": "cmvvel4nr008zqhy3hsye6qt2",
+    "locale": "en",
+    "label": "Both",
+    "description": null
+  },
+  {
+    "id": "cmvvel4m20040qhy3qsbczbuf",
+    "optionId": "cmvvel4m1003zqhy38f34x7xu",
+    "locale": "it",
+    "label": "ERP / gestionale",
+    "description": "Gestionale aziendale: anagrafiche, acquisti, ordini."
+  },
+  {
+    "id": "cmvvel4m20041qhy3qof3qk4z",
+    "optionId": "cmvvel4m1003zqhy38f34x7xu",
+    "locale": "en",
+    "label": "ERP",
+    "description": "Company management system: master data, purchasing, orders."
+  },
+  {
+    "id": "cmvvel4m20043qhy3h5hceo29",
+    "optionId": "cmvvel4m20042qhy3fi7tpmcy",
+    "locale": "it",
+    "label": "MES (produzione)",
+    "description": "Sistema che governa la produzione in reparto: lotti, macchine, tempi."
+  },
+  {
+    "id": "cmvvel4m20044qhy3i9kf6j2w",
+    "optionId": "cmvvel4m20042qhy3fi7tpmcy",
+    "locale": "en",
+    "label": "MES (manufacturing)",
+    "description": "System running production on the shop floor: batches, machines, times."
+  },
+  {
+    "id": "cmvvel4m30046qhy3d3otv552",
+    "optionId": "cmvvel4m20045qhy3o7096il7",
+    "locale": "it",
+    "label": "PLM (sviluppo prodotto)",
+    "description": "Gestione del ciclo di vita del prodotto: distinte, specifiche, progetti."
+  },
+  {
+    "id": "cmvvel4m30047qhy35zrnyda6",
+    "optionId": "cmvvel4m20045qhy3o7096il7",
+    "locale": "en",
+    "label": "PLM (product development)",
+    "description": "Product lifecycle management: bills of materials, specifications, designs."
+  },
+  {
+    "id": "cmvvel4m1003xqhy39kqitdlz",
+    "optionId": "cmvvel4m1003wqhy3w7bghnzs",
+    "locale": "it",
+    "label": "Fornitori — API o portale",
+    "description": "I fornitori inviano i dati in automatico o li inseriscono in un portale."
+  },
+  {
+    "id": "cmvvel4m1003yqhy35x10nany",
+    "optionId": "cmvvel4m1003wqhy3w7bghnzs",
+    "locale": "en",
+    "label": "Suppliers — API or portal",
+    "description": "Suppliers send data automatically or enter it in a portal."
+  },
+  {
+    "id": "cmvvel4my0063qhy3n65ezomz",
+    "optionId": "cmvvel4mx0062qhy3mmvqgroo",
+    "locale": "it",
+    "label": "Piattaforma proprietaria",
+    "description": "Sviluppata e gestita internamente o su misura."
+  },
+  {
+    "id": "cmvvel4my0064qhy3sycr772u",
+    "optionId": "cmvvel4mx0062qhy3mmvqgroo",
+    "locale": "en",
+    "label": "Proprietary platform",
+    "description": "Developed and run in-house or custom-built."
+  },
+  {
+    "id": "cmvvel4my0066qhy3uzi1acy8",
+    "optionId": "cmvvel4my0065qhy3jt00olti",
+    "locale": "it",
+    "label": "Licenza SaaS",
+    "description": "Piattaforma pronta all'uso, in abbonamento."
+  },
+  {
+    "id": "cmvvel4my0067qhy3v211v74o",
+    "optionId": "cmvvel4my0065qhy3jt00olti",
+    "locale": "en",
+    "label": "SaaS licence",
+    "description": "Ready-to-use platform, by subscription."
+  },
+  {
+    "id": "cmvvel4my0069qhy3f0nhj961",
+    "optionId": "cmvvel4my0068qhy3512o9ojn",
+    "locale": "it",
+    "label": "Licenza PaaS",
+    "description": "Servizi cloud su cui sviluppare la vostra soluzione."
+  },
+  {
+    "id": "cmvvel4my006aqhy3gqp4ohy7",
+    "optionId": "cmvvel4my0068qhy3512o9ojn",
+    "locale": "en",
+    "label": "PaaS licence",
+    "description": "Cloud services on which to build your own solution."
+  },
+  {
+    "id": "cmvveys5y0001zwy3xvjvqcxi",
+    "optionId": "cmvveys5x0000zwy3m1vifvou",
+    "locale": "it",
+    "label": "Sostanze preoccupanti",
+    "description": null
+  },
+  {
+    "id": "cmvveys5y0002zwy3heuu1ttm",
+    "optionId": "cmvveys5x0000zwy3m1vifvou",
+    "locale": "en",
+    "label": "Substances of concern",
+    "description": null
+  },
+  {
+    "id": "cmvveys5z0004zwy3zlmyg0oy",
+    "optionId": "cmvveys5z0003zwy3pfzozu01",
+    "locale": "it",
+    "label": "Contenuto riciclato",
+    "description": null
+  },
+  {
+    "id": "cmvveys5z0005zwy3snxws09x",
+    "optionId": "cmvveys5z0003zwy3pfzozu01",
+    "locale": "en",
+    "label": "Recycled content",
+    "description": null
+  },
+  {
+    "id": "cmvveys600007zwy3yy676rqk",
+    "optionId": "cmvveys600006zwy3bko6wt3c",
+    "locale": "it",
+    "label": "Durabilità e prestazioni",
+    "description": null
+  },
+  {
+    "id": "cmvveys600008zwy37l1ogbxt",
+    "optionId": "cmvveys600006zwy3bko6wt3c",
+    "locale": "en",
+    "label": "Durability and performance",
+    "description": null
+  },
+  {
+    "id": "cmvveys61000azwy3p3yg9m5v",
+    "optionId": "cmvveys610009zwy3ikzzppwj",
+    "locale": "it",
+    "label": "Istruzioni d'uso e sicurezza",
+    "description": null
+  },
+  {
+    "id": "cmvveys61000bzwy3eq9ojne3",
+    "optionId": "cmvveys610009zwy3ikzzppwj",
+    "locale": "en",
+    "label": "Use and safety instructions",
+    "description": null
+  },
+  {
+    "id": "cmvveys63000dzwy3jcg2whym",
+    "optionId": "cmvveys62000czwy33o9kbhx1",
+    "locale": "it",
+    "label": "Stato di salute della batteria",
+    "description": null
+  },
+  {
+    "id": "cmvveys63000ezwy3qbkela1d",
+    "optionId": "cmvveys62000czwy33o9kbhx1",
+    "locale": "en",
+    "label": "Battery state of health",
+    "description": null
+  },
+  {
+    "id": "cmvveys6a000mzwy36eaggamh",
+    "optionId": "cmvveys69000lzwy367zdli03",
+    "locale": "it",
+    "label": "Sostenibilità / ESG",
+    "description": null
+  },
+  {
+    "id": "cmvveys6a000nzwy3tavg714q",
+    "optionId": "cmvveys69000lzwy367zdli03",
+    "locale": "en",
+    "label": "Sustainability / ESG",
+    "description": null
+  },
+  {
+    "id": "cmvveys6a000pzwy3ll4h6lxr",
+    "optionId": "cmvveys6a000ozwy3o3bo3jxc",
+    "locale": "it",
+    "label": "Qualità e compliance",
+    "description": null
+  },
+  {
+    "id": "cmvveys6a000qzwy3xuyycz59",
+    "optionId": "cmvveys6a000ozwy3o3bo3jxc",
+    "locale": "en",
+    "label": "Quality and compliance",
+    "description": null
+  },
+  {
+    "id": "cmvveys6a000szwy3vrzxg8qe",
+    "optionId": "cmvveys6a000rzwy34yox0ee9",
+    "locale": "it",
+    "label": "IT / sistemi informativi",
+    "description": null
+  },
+  {
+    "id": "cmvveys6a000tzwy338vuta6k",
+    "optionId": "cmvveys6a000rzwy34yox0ee9",
+    "locale": "en",
+    "label": "IT / information systems",
+    "description": null
+  },
+  {
+    "id": "cmvveys6b000vzwy31a1sfpq8",
+    "optionId": "cmvveys6b000uzwy3os5ivg8m",
+    "locale": "it",
+    "label": "Prodotto / R&D",
+    "description": null
+  },
+  {
+    "id": "cmvveys6b000wzwy3pykgufke",
+    "optionId": "cmvveys6b000uzwy3os5ivg8m",
+    "locale": "en",
+    "label": "Product / R&D",
+    "description": null
+  },
+  {
+    "id": "cmvveys6c000yzwy3kyc3e4oj",
+    "optionId": "cmvveys6c000xzwy3q8k388ik",
+    "locale": "it",
+    "label": "Non ancora definito",
+    "description": null
+  },
+  {
+    "id": "cmvveys6c000zzwy3wcfvzzzs",
+    "optionId": "cmvveys6c000xzwy3q8k388ik",
+    "locale": "en",
+    "label": "Not defined yet",
+    "description": null
+  },
+  {
+    "id": "cmvveys6h0014zwy341j5do85",
+    "optionId": "cmvveys6h0013zwy3b483zabj",
+    "locale": "it",
+    "label": "Nessuno: i dati sono tutti interni",
+    "description": null
+  },
+  {
+    "id": "cmvveys6h0015zwy3hir5g5wp",
+    "optionId": "cmvveys6h0013zwy3b483zabj",
+    "locale": "en",
+    "label": "None: all data is internal",
+    "description": null
+  },
+  {
+    "id": "cmvveys6i0017zwy3eu6zyc2w",
+    "optionId": "cmvveys6h0016zwy3fxtv5zyq",
+    "locale": "it",
+    "label": "Da 1 a 10",
+    "description": null
+  },
+  {
+    "id": "cmvveys6i0018zwy3n2qxvebf",
+    "optionId": "cmvveys6h0016zwy3fxtv5zyq",
+    "locale": "en",
+    "label": "1 to 10",
+    "description": null
+  },
+  {
+    "id": "cmvveys6i001azwy3t519d06r",
+    "optionId": "cmvveys6i0019zwy3rz4pswlg",
+    "locale": "it",
+    "label": "Da 11 a 50",
+    "description": null
+  },
+  {
+    "id": "cmvveys6i001bzwy3xh3iaw2a",
+    "optionId": "cmvveys6i0019zwy3rz4pswlg",
+    "locale": "en",
+    "label": "11 to 50",
+    "description": null
+  },
+  {
+    "id": "cmvveys6j001dzwy3n7wvpae2",
+    "optionId": "cmvveys6i001czwy3m63j57yq",
+    "locale": "it",
+    "label": "Oltre 50",
+    "description": null
+  },
+  {
+    "id": "cmvveys6j001ezwy35j6jiyxf",
+    "optionId": "cmvveys6i001czwy3m63j57yq",
+    "locale": "en",
+    "label": "More than 50",
+    "description": null
+  },
+  {
+    "id": "cmvveys71001jzwy3oejcjy52",
+    "optionId": "cmvveys70001izwy3plrjm2sm",
+    "locale": "it",
+    "label": "Sul prodotto",
+    "description": null
+  },
+  {
+    "id": "cmvveys71001kzwy39q9wrhbe",
+    "optionId": "cmvveys70001izwy3plrjm2sm",
+    "locale": "en",
+    "label": "On the product",
+    "description": null
+  },
+  {
+    "id": "cmvveys71001mzwy3w3gykakm",
+    "optionId": "cmvveys71001lzwy3sjb3zzku",
+    "locale": "it",
+    "label": "Sull'imballaggio",
+    "description": null
+  },
+  {
+    "id": "cmvveys71001nzwy3xa19v464",
+    "optionId": "cmvveys71001lzwy3sjb3zzku",
+    "locale": "en",
+    "label": "On the packaging",
+    "description": null
+  },
+  {
+    "id": "cmvveys72001pzwy3yly8qyfp",
+    "optionId": "cmvveys72001ozwy33tfaff2d",
+    "locale": "it",
+    "label": "Sulla documentazione",
+    "description": null
+  },
+  {
+    "id": "cmvveys72001qzwy3vn4kmmmf",
+    "optionId": "cmvveys72001ozwy33tfaff2d",
+    "locale": "en",
+    "label": "On the documentation",
+    "description": null
+  },
+  {
+    "id": "cmvveys75001szwy3klviug83",
+    "optionId": "cmvveys73001rzwy3n5xcu066",
+    "locale": "it",
+    "label": "Non lo so",
+    "description": null
+  },
+  {
+    "id": "cmvveys75001tzwy3yawhwutt",
+    "optionId": "cmvveys73001rzwy3n5xcu066",
+    "locale": "en",
+    "label": "I don't know",
+    "description": null
+  },
+  {
+    "id": "cmvveys7c0021zwy3omrm710v",
+    "optionId": "cmvveys7c0020zwy3lh0agsto",
+    "locale": "it",
+    "label": "Consumatori",
+    "description": null
+  },
+  {
+    "id": "cmvveys7c0022zwy32wwlx18t",
+    "optionId": "cmvveys7c0020zwy3lh0agsto",
+    "locale": "en",
+    "label": "Consumers",
+    "description": null
+  },
+  {
+    "id": "cmvveys7d0024zwy3akcmghr2",
+    "optionId": "cmvveys7d0023zwy3g9p6rrb1",
+    "locale": "it",
+    "label": "Clienti e partner B2B",
+    "description": null
+  },
+  {
+    "id": "cmvveys7d0025zwy370s86kem",
+    "optionId": "cmvveys7d0023zwy3g9p6rrb1",
+    "locale": "en",
+    "label": "B2B customers and partners",
+    "description": null
+  },
+  {
+    "id": "cmvveys7d0027zwy3xd5t4ntq",
+    "optionId": "cmvveys7d0026zwy3hmdh1sp5",
+    "locale": "it",
+    "label": "Riparatori e manutentori",
+    "description": null
+  },
+  {
+    "id": "cmvveys7d0028zwy3pvcjv89c",
+    "optionId": "cmvveys7d0026zwy3hmdh1sp5",
+    "locale": "en",
+    "label": "Repairers and maintainers",
+    "description": null
+  },
+  {
+    "id": "cmvveys7d002azwy3wdetz7af",
+    "optionId": "cmvveys7d0029zwy3t8de2n3u",
+    "locale": "it",
+    "label": "Riciclatori e gestori di fine vita",
+    "description": null
+  },
+  {
+    "id": "cmvveys7d002bzwy3gowggogq",
+    "optionId": "cmvveys7d0029zwy3t8de2n3u",
+    "locale": "en",
+    "label": "Recyclers and end-of-life operators",
+    "description": null
+  },
+  {
+    "id": "cmvveys7e002dzwy3qpblod32",
+    "optionId": "cmvveys7d002czwy3rjzdhxxi",
+    "locale": "it",
+    "label": "Autorità di vigilanza e dogane",
+    "description": null
+  },
+  {
+    "id": "cmvveys7e002ezwy3hn3knjxu",
+    "optionId": "cmvveys7d002czwy3rjzdhxxi",
+    "locale": "en",
+    "label": "Market surveillance authorities and customs",
+    "description": null
+  },
+  {
+    "id": "cmvvel4ms005rqhy3cadu1e4m",
+    "optionId": "cmvvel4ms005qqhy311u1w4pg",
+    "locale": "it",
+    "label": "GS1 Digital Link",
+    "description": "Standard che codifica il codice prodotto (GTIN) in un indirizzo web leggibile da QR code. <br> https://id.brand.com/01/0401234567"
+  },
+  {
+    "id": "cmvvel4mt005uqhy3ydjdwdwe",
+    "optionId": "cmvvel4ms005tqhy3devllwws",
+    "locale": "it",
+    "label": "Schema proprio su dominio aziendale",
+    "description": "Indirizzi sul dominio aziendale, con uno schema definito da voi."
+  },
+  {
+    "id": "cmvvel4mt005vqhy3bfymyrpq",
+    "optionId": "cmvvel4ms005tqhy3devllwws",
+    "locale": "en",
+    "label": "Own scheme on company domain",
+    "description": "Addresses on your company domain, with a scheme you define."
+  },
+  {
+    "id": "cmvvel4ms005sqhy35fuzte77",
+    "optionId": "cmvvel4ms005qqhy311u1w4pg",
+    "locale": "en",
+    "label": "GS1 Digital Link",
+    "description": "Standard that encodes the product code (GTIN) in a web address readable from a QR code. <br> https://id.brand.com/01/0401234567"
+  },
+  {
+    "id": "cmvw37lht000kq3y3cb5hnp90",
+    "optionId": "cmvw37lhq000jq3y3euc6x6mc",
+    "locale": "it",
+    "label": "Self-issued / EN IEC 61406",
+    "description": null
+  },
+  {
+    "id": "cmvw37lhv000lq3y3kfnzxqo8",
+    "optionId": "cmvw37lhq000jq3y3euc6x6mc",
+    "locale": "en",
+    "label": "Self-issued / EN IEC 61406",
+    "description": null
+  },
+  {
+    "id": "cmvw380qe000nq3y3n7f6z3fw",
+    "optionId": "cmvw380qd000mq3y3vgtdpzl4",
+    "locale": "it",
+    "label": "ISO/IEC 15459 (ASC MH10)",
+    "description": null
+  },
+  {
+    "id": "cmvw380qf000oq3y3ft0avxud",
+    "optionId": "cmvw380qd000mq3y3vgtdpzl4",
+    "locale": "en",
+    "label": "ISO/IEC 15459 (ASC MH10)",
+    "description": null
+  },
+  {
+    "id": "cmvw38q0c000qq3y37w4j5w0v",
+    "optionId": "cmvw38q0a000pq3y31nter2gx",
+    "locale": "it",
+    "label": "Decentralized Identifiers (DID)",
+    "description": null
+  },
+  {
+    "id": "cmvw38q0c000rq3y3tzjafptk",
+    "optionId": "cmvw38q0a000pq3y31nter2gx",
+    "locale": "en",
+    "label": "Decentralized Identifiers (DID)",
+    "description": null
+  },
+  {
+    "id": "cmvw390d1000tq3y3d0ee0z9v",
+    "optionId": "cmvw390d0000sq3y3b05teht5",
+    "locale": "it",
+    "label": "DOI (Digital Object Identifier)",
+    "description": null
+  },
+  {
+    "id": "cmvw390d2000uq3y3y24whqgo",
+    "optionId": "cmvw390d0000sq3y3b05teht5",
+    "locale": "en",
+    "label": "DOI (Digital Object Identifier)",
+    "description": null
+  }
+]
