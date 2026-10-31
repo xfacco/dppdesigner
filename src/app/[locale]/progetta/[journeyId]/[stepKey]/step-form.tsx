@@ -14,6 +14,14 @@ import type { AnswerValue } from "@/lib/wizard/rules";
 import { cn } from "@/lib/utils";
 import { saveStep } from "../../actions";
 
+// Descrizione di un'opzione: Markdown in cui ogni a capo (o <br> scritto dall'admin) resta un a capo
+const optionDescription = (text: string) =>
+  text
+    .replace(/<br\s*\/?>/gi, "\n")
+    .split("\n")
+    .map((l) => l.trim())
+    .join("  \n");
+
 type Props = {
   journeyId: string;
   step: StepDef;
@@ -89,6 +97,21 @@ export function StepForm({ journeyId, step, initialValue, prevHref, isLast, sugg
       {step.type === "MATRIX" && (
         <div className="grid gap-4">
           <p className="text-sm text-muted-foreground">{singlePerRow ? t("matrixHintSingle") : t("matrixHint")}</p>
+          {/* Legenda delle colonne: nella griglia c'è spazio solo per l'etichetta */}
+          {step.options.some((o) => o.description) && (
+            <dl className="grid gap-3 rounded-md border bg-muted/40 p-4 text-sm sm:grid-cols-2">
+              {step.options
+                .filter((o) => o.description)
+                .map((o) => (
+                  <div key={o.key} className="grid content-start gap-0.5">
+                    <dt className="font-medium">{o.label}</dt>
+                    <dd>
+                      <Markdown className="prose-compact text-muted-foreground">{optionDescription(o.description!)}</Markdown>
+                    </dd>
+                  </div>
+                ))}
+            </dl>
+          )}
           {/* Intestazione delle colonne, solo su schermi larghi */}
           <div
             aria-hidden
@@ -197,7 +220,9 @@ export function StepForm({ journeyId, step, initialValue, prevHref, isLast, sugg
                     </span>
                   )}
                 </span>
-                {o.description && <span className="text-sm text-muted-foreground">{o.description}</span>}
+                {o.description && (
+                  <Markdown className="prose-compact text-sm text-muted-foreground">{optionDescription(o.description)}</Markdown>
+                )}
               </span>
             </label>
           ))}

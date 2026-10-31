@@ -175,6 +175,19 @@
 }
 
 /* Riferimenti normativi dentro uno step: più compatti del testo delle pagine */
+/* Markdown compatto (descrizioni delle opzioni): eredita dimensione e colore del contenitore */
+.prose-content.prose-compact {
+  font-size: inherit;
+  line-height: 1.5;
+  letter-spacing: normal;
+}
+.prose-content.prose-compact > * {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.prose-content.prose-compact > * + * {
+  margin-top: 0.25rem;
+}
 .prose-content.step-references {
   font-size: inherit;
   line-height: 1.55;

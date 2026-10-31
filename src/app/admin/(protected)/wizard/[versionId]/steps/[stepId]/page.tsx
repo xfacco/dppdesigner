@@ -246,7 +246,12 @@ export default async function StepEditor({
                           <div key={l} className="grid gap-2">
                             <Label className="text-xs uppercase">{l}</Label>
                             <Input name={`label_${l}`} defaultValue={ot(l)?.label} placeholder="Etichetta" />
-                            <Input name={`description_${l}`} defaultValue={ot(l)?.description ?? ""} placeholder="Descrizione (facoltativa)" />
+                            <Textarea
+                              name={`description_${l}`}
+                              defaultValue={ot(l)?.description ?? ""}
+                              rows={2}
+                              placeholder="Descrizione (facoltativa): Markdown, a capo con Invio"
+                            />
                           </div>
                         ))}
                       </div>
