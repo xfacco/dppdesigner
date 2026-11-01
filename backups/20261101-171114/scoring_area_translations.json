@@ -1,0 +1,218 @@
+[
+  {
+    "id": "cmvv1uw660065nay3k3r6p8bt",
+    "areaId": "cmvv1uw660064nay34vyug6td",
+    "locale": "it",
+    "label": "Dati"
+  },
+  {
+    "id": "cmvv1uw660066nay3dyegw6x2",
+    "areaId": "cmvv1uw660064nay34vyug6td",
+    "locale": "en",
+    "label": "Data"
+  },
+  {
+    "id": "cmvv1uw6a0068nay3clfq7qno",
+    "areaId": "cmvv1uw6a0067nay32lm3rpj4",
+    "locale": "it",
+    "label": "Processi e organizzazione"
+  },
+  {
+    "id": "cmvv1uw6a0069nay34f39bpgx",
+    "areaId": "cmvv1uw6a0067nay32lm3rpj4",
+    "locale": "en",
+    "label": "Processes and organization"
+  },
+  {
+    "id": "cmvv1uw6c006bnay3hglkvlj6",
+    "areaId": "cmvv1uw6b006anay3wynk3hzr",
+    "locale": "it",
+    "label": "Tecnologia e infrastruttura"
+  },
+  {
+    "id": "cmvv1uw6c006cnay36s7ieus8",
+    "areaId": "cmvv1uw6b006anay3wynk3hzr",
+    "locale": "en",
+    "label": "Technology and infrastructure"
+  },
+  {
+    "id": "cmvv7v0n300e60ey32kl32499",
+    "areaId": "cmvv7v0n200e50ey3vklpueav",
+    "locale": "it",
+    "label": "Dati"
+  },
+  {
+    "id": "cmvv7v0n300e70ey3tbdwqvtx",
+    "areaId": "cmvv7v0n200e50ey3vklpueav",
+    "locale": "en",
+    "label": "Data"
+  },
+  {
+    "id": "cmvv7v0n400eh0ey3z7f1mmyf",
+    "areaId": "cmvv7v0n400eg0ey3u87zh6zs",
+    "locale": "it",
+    "label": "Processi e organizzazione"
+  },
+  {
+    "id": "cmvv7v0n400ei0ey3xfap9gcl",
+    "areaId": "cmvv7v0n400eg0ey3u87zh6zs",
+    "locale": "en",
+    "label": "Processes and organization"
+  },
+  {
+    "id": "cmvv7v0n600ep0ey3tdtz8uyl",
+    "areaId": "cmvv7v0n500eo0ey336gj3ht1",
+    "locale": "it",
+    "label": "Tecnologia e infrastruttura"
+  },
+  {
+    "id": "cmvv7v0n600eq0ey3npqkfilf",
+    "areaId": "cmvv7v0n500eo0ey336gj3ht1",
+    "locale": "en",
+    "label": "Technology and infrastructure"
+  },
+  {
+    "id": "cmvv7z1vg00m40ey3vopz0yyg",
+    "areaId": "cmvv7z1vg00m30ey38zu02jld",
+    "locale": "it",
+    "label": "Dati"
+  },
+  {
+    "id": "cmvv7z1vg00m50ey33q8y2mxe",
+    "areaId": "cmvv7z1vg00m30ey38zu02jld",
+    "locale": "en",
+    "label": "Data"
+  },
+  {
+    "id": "cmvv7z1vi00mf0ey3a241htbp",
+    "areaId": "cmvv7z1vh00me0ey32lpr6ox2",
+    "locale": "it",
+    "label": "Processi e organizzazione"
+  },
+  {
+    "id": "cmvv7z1vi00mg0ey31dcjo8lj",
+    "areaId": "cmvv7z1vh00me0ey32lpr6ox2",
+    "locale": "en",
+    "label": "Processes and organization"
+  },
+  {
+    "id": "cmvv7z1vi00mn0ey33zvdpuc7",
+    "areaId": "cmvv7z1vi00mm0ey3hi89bquz",
+    "locale": "it",
+    "label": "Tecnologia e infrastruttura"
+  },
+  {
+    "id": "cmvv7z1vi00mo0ey3qcbmo4xs",
+    "areaId": "cmvv7z1vi00mm0ey3hi89bquz",
+    "locale": "en",
+    "label": "Technology and infrastructure"
+  },
+  {
+    "id": "cmvv84shk006cm2y32x10n7li",
+    "areaId": "cmvv84shj006bm2y3i8zyifli",
+    "locale": "it",
+    "label": "Dati"
+  },
+  {
+    "id": "cmvv84shk006dm2y3hd9904hy",
+    "areaId": "cmvv84shj006bm2y3i8zyifli",
+    "locale": "en",
+    "label": "Data"
+  },
+  {
+    "id": "cmvv84shn006nm2y3xh0pzgb0",
+    "areaId": "cmvv84shn006mm2y3v3hn29fw",
+    "locale": "it",
+    "label": "Processi e organizzazione"
+  },
+  {
+    "id": "cmvv84shn006om2y3pl7wbntf",
+    "areaId": "cmvv84shn006mm2y3v3hn29fw",
+    "locale": "en",
+    "label": "Processes and organization"
+  },
+  {
+    "id": "cmvv84shq006vm2y3oroqkkgi",
+    "areaId": "cmvv84shp006um2y3pklvhwrg",
+    "locale": "it",
+    "label": "Tecnologia e infrastruttura"
+  },
+  {
+    "id": "cmvv84shq006wm2y3g58ll1dw",
+    "areaId": "cmvv84shp006um2y3pklvhwrg",
+    "locale": "en",
+    "label": "Technology and infrastructure"
+  },
+  {
+    "id": "cmvv9bu8l00areuy3j1lhrw1j",
+    "areaId": "cmvv9bu8k00aqeuy3f13nrk83",
+    "locale": "it",
+    "label": "Dati"
+  },
+  {
+    "id": "cmvv9bu8l00aseuy3t8sqsjas",
+    "areaId": "cmvv9bu8k00aqeuy3f13nrk83",
+    "locale": "en",
+    "label": "Data"
+  },
+  {
+    "id": "cmvv9bu8o00b2euy3dzklpud6",
+    "areaId": "cmvv9bu8n00b1euy3f38bjqod",
+    "locale": "it",
+    "label": "Processi e organizzazione"
+  },
+  {
+    "id": "cmvv9bu8o00b3euy3irj7my05",
+    "areaId": "cmvv9bu8n00b1euy3f38bjqod",
+    "locale": "en",
+    "label": "Processes and organization"
+  },
+  {
+    "id": "cmvv9bu8q00baeuy3qlicgyuh",
+    "areaId": "cmvv9bu8p00b9euy342xc3w20",
+    "locale": "it",
+    "label": "Tecnologia e infrastruttura"
+  },
+  {
+    "id": "cmvv9bu8q00bbeuy347r3vlwe",
+    "areaId": "cmvv9bu8p00b9euy342xc3w20",
+    "locale": "en",
+    "label": "Technology and infrastructure"
+  },
+  {
+    "id": "cmvvel4ny009fqhy3awnizwcz",
+    "areaId": "cmvvel4nx009eqhy32e4bzbe2",
+    "locale": "it",
+    "label": "Dati"
+  },
+  {
+    "id": "cmvvel4ny009gqhy309unibwv",
+    "areaId": "cmvvel4nx009eqhy32e4bzbe2",
+    "locale": "en",
+    "label": "Data"
+  },
+  {
+    "id": "cmvvel4o1009qqhy3kcr7p8j6",
+    "areaId": "cmvvel4o1009pqhy37gmm62xx",
+    "locale": "it",
+    "label": "Processi e organizzazione"
+  },
+  {
+    "id": "cmvvel4o1009rqhy38367m4wj",
+    "areaId": "cmvvel4o1009pqhy37gmm62xx",
+    "locale": "en",
+    "label": "Processes and organization"
+  },
+  {
+    "id": "cmvvel4o3009yqhy3ov4m275f",
+    "areaId": "cmvvel4o2009xqhy3keasrgaf",
+    "locale": "it",
+    "label": "Tecnologia e infrastruttura"
+  },
+  {
+    "id": "cmvvel4o3009zqhy3o9pslnn5",
+    "areaId": "cmvvel4o2009xqhy3keasrgaf",
+    "locale": "en",
+    "label": "Technology and infrastructure"
+  }
+]

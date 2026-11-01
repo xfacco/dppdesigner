@@ -1,0 +1,1280 @@
+[
+  {
+    "id": "cmvv1uw3z0001nay302pn5ya0",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "key": "industry",
+    "position": 0,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv1uw49000snay3umv1r90x",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "key": "company_type",
+    "position": 1,
+    "type": "MULTI_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv1uw4e001anay3xf5oepq2",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "key": "production_model",
+    "position": 2,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv1uw4i001mnay3m93c90wy",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "key": "sku_count",
+    "position": 3,
+    "type": "NUMBER",
+    "required": true,
+    "visibleIf": null,
+    "config": {
+      "max": 10000000,
+      "min": 1
+    }
+  },
+  {
+    "id": "cmvv1uw4m001pnay3vy3nbxj1",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "key": "sample_product",
+    "position": 4,
+    "type": "FIELDS",
+    "required": true,
+    "visibleIf": null,
+    "config": {
+      "fields": [
+        {
+          "key": "name",
+          "type": "text",
+          "label": {
+            "en": "Commercial name",
+            "it": "Nome commerciale"
+          },
+          "required": true
+        },
+        {
+          "key": "category",
+          "type": "text",
+          "label": {
+            "en": "Category",
+            "it": "Categoria"
+          },
+          "required": false
+        },
+        {
+          "key": "main_materials",
+          "type": "text",
+          "label": {
+            "en": "Main materials",
+            "it": "Materiali principali"
+          },
+          "required": false
+        }
+      ],
+      "maxLength": 120
+    }
+  },
+  {
+    "id": "cmvv1uw4p001snay354wenea7",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "key": "maintenance",
+    "position": 5,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv1uw4t0021nay3m03p0qrp",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "key": "data_dynamics",
+    "position": 6,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv1uw52002dnay3enyannv5",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "key": "data_sources",
+    "position": 7,
+    "type": "MULTI_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv1uw59002ynay3xkgeuvzv",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "key": "data_organization",
+    "position": 8,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv1uw5f003anay36zm9rcx4",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "key": "data_model",
+    "position": 9,
+    "type": "MULTI_CHOICE",
+    "required": false,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv1uw5l003vnay3xwyz24a4",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "key": "qr_presence",
+    "position": 10,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv1uw5p0047nay3s8a55g2i",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "key": "qr_code_type",
+    "position": 11,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv1uw5t004jnay3r43lqx1b",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "key": "dpp_granularity",
+    "position": 12,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv1uw5x004ynay3epr6yrwd",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "key": "url_scheme",
+    "position": 13,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv1uw60005anay3luqifwto",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "key": "hosting",
+    "position": 14,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv1uw62005pnay33fc5ib9l",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "key": "registry_integration",
+    "position": 15,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv9bu64001zeuy3gcjr5qiz",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "key": "product_categories",
+    "position": 1,
+    "type": "MULTI_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv8w8rx0000boy3vn539ajp",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "key": "product_categories",
+    "position": 1,
+    "type": "MULTI_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv9bu6m003zeuy3mk9bjhur",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "key": "industry",
+    "position": 0,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv9bu6r004qeuy3bmqxvr4i",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "key": "company_type",
+    "position": 2,
+    "type": "MULTI_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv9bu6w005beuy36yrd8i47",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "key": "production_model",
+    "position": 3,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": {
+      "op": "in",
+      "step": "company_type",
+      "value": [
+        "manufacturer",
+        "other"
+      ]
+    },
+    "config": null
+  },
+  {
+    "id": "cmvv7v0lo007z0ey3nwk3tjmm",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "key": "industry",
+    "position": 0,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv7v0lt008q0ey3rpwxotvs",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "key": "company_type",
+    "position": 1,
+    "type": "MULTI_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv7v0lz009n0ey327pmhpzi",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "key": "sku_count",
+    "position": 3,
+    "type": "NUMBER",
+    "required": true,
+    "visibleIf": null,
+    "config": {
+      "max": 10000000,
+      "min": 1
+    }
+  },
+  {
+    "id": "cmvv7v0m0009q0ey3cedr10s9",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "key": "sample_product",
+    "position": 4,
+    "type": "FIELDS",
+    "required": true,
+    "visibleIf": null,
+    "config": {
+      "fields": [
+        {
+          "key": "name",
+          "type": "text",
+          "label": {
+            "en": "Commercial name",
+            "it": "Nome commerciale"
+          },
+          "required": true
+        },
+        {
+          "key": "category",
+          "type": "text",
+          "label": {
+            "en": "Category",
+            "it": "Categoria"
+          },
+          "required": false
+        },
+        {
+          "key": "main_materials",
+          "type": "text",
+          "label": {
+            "en": "Main materials",
+            "it": "Materiali principali"
+          },
+          "required": false
+        }
+      ],
+      "maxLength": 120
+    }
+  },
+  {
+    "id": "cmvv7v0m1009t0ey3c9q6l7y0",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "key": "maintenance",
+    "position": 5,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv7v0m200a20ey3m54u29zp",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "key": "data_dynamics",
+    "position": 6,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv7v0m400ae0ey3zz7ffcsm",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "key": "data_sources",
+    "position": 7,
+    "type": "MULTI_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv7v0m700az0ey3rggap3u8",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "key": "data_organization",
+    "position": 8,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv7v0m800bb0ey353i20qcq",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "key": "data_model",
+    "position": 9,
+    "type": "MULTI_CHOICE",
+    "required": false,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv7v0ma00bw0ey3qvevbwz3",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "key": "qr_presence",
+    "position": 10,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv7v0mc00c80ey3tngldcso",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "key": "qr_code_type",
+    "position": 11,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv7v0me00ck0ey34pedd1l4",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "key": "dpp_granularity",
+    "position": 12,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv7v0mm00cz0ey3jait9kjy",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "key": "url_scheme",
+    "position": 13,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv7v0mr00db0ey3m0afrglo",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "key": "hosting",
+    "position": 14,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv7v0n000dq0ey3ditjsjuu",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "key": "registry_integration",
+    "position": 15,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv7z1v500k60ey3t8pc503v",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "key": "dpp_granularity",
+    "position": 12,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv7z1v800kl0ey34ysb79oh",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "key": "url_scheme",
+    "position": 13,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv7z1v900kx0ey3zg1v50dr",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "key": "hosting",
+    "position": 14,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv7v0lx009b0ey33id3aqxb",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "key": "production_model",
+    "position": 2,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": {
+      "op": "eq",
+      "step": "company_type",
+      "value": "manufacturer"
+    },
+    "config": null
+  },
+  {
+    "id": "cmvv7z1tv00fx0ey337jkpa3h",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "key": "industry",
+    "position": 0,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv7z1u500go0ey3d2lhg93h",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "key": "company_type",
+    "position": 1,
+    "type": "MULTI_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv7z1ub00h90ey3pohhzfvk",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "key": "sku_count",
+    "position": 3,
+    "type": "NUMBER",
+    "required": true,
+    "visibleIf": null,
+    "config": {
+      "max": 10000000,
+      "min": 1
+    }
+  },
+  {
+    "id": "cmvv7z1ud00hc0ey3drvmw86e",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "key": "sample_product",
+    "position": 4,
+    "type": "FIELDS",
+    "required": true,
+    "visibleIf": null,
+    "config": {
+      "fields": [
+        {
+          "key": "name",
+          "type": "text",
+          "label": {
+            "en": "Commercial name",
+            "it": "Nome commerciale"
+          },
+          "required": true
+        },
+        {
+          "key": "category",
+          "type": "text",
+          "label": {
+            "en": "Category",
+            "it": "Categoria"
+          },
+          "required": false
+        },
+        {
+          "key": "main_materials",
+          "type": "text",
+          "label": {
+            "en": "Main materials",
+            "it": "Materiali principali"
+          },
+          "required": false
+        }
+      ],
+      "maxLength": 120
+    }
+  },
+  {
+    "id": "cmvv7z1ue00hf0ey30jkmzho1",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "key": "maintenance",
+    "position": 5,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv7z1ug00ho0ey3e5898ee4",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "key": "data_dynamics",
+    "position": 6,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv7z1ui00i00ey3o8vh6fo8",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "key": "data_sources",
+    "position": 7,
+    "type": "MULTI_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv7z1un00il0ey35qzvjofp",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "key": "data_organization",
+    "position": 8,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv7z1up00ix0ey3eah4cief",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "key": "data_model",
+    "position": 9,
+    "type": "MULTI_CHOICE",
+    "required": false,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv7z1ut00ji0ey36pgluolj",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "key": "qr_presence",
+    "position": 10,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv7z1v200ju0ey34tee6u6m",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "key": "qr_code_type",
+    "position": 11,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv7z1vb00lc0ey33vxup12y",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "key": "registry_integration",
+    "position": 15,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv7z1ve00lr0ey3oyfzhsc5",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "key": "production_model",
+    "position": 2,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": {
+      "op": "in",
+      "step": "company_type",
+      "value": [
+        "manufacturer",
+        "other"
+      ]
+    },
+    "config": null
+  },
+  {
+    "id": "cmvv9bu7m0078euy3r0k182od",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "key": "data_sources",
+    "position": 7,
+    "type": "MULTI_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv9bu7q007teuy3jt08x2zq",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "key": "data_organization",
+    "position": 8,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv9bu7w0085euy3no2gy3gz",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "key": "data_model",
+    "position": 9,
+    "type": "MULTI_CHOICE",
+    "required": false,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv9bu80008qeuy31aozm8pk",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "key": "qr_presence",
+    "position": 10,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv9bu87009eeuy3r5x64cen",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "key": "url_scheme",
+    "position": 12,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv9bu8b009qeuy31pbg6n84",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "key": "hosting",
+    "position": 13,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv9bu8d00a5euy3qdcxu8d0",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "key": "registry_integration",
+    "position": 14,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv9bu8g00akeuy3om675fu0",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "key": "sku_count",
+    "position": 15,
+    "type": "NUMBER",
+    "required": true,
+    "visibleIf": null,
+    "config": {
+      "max": 10000000,
+      "min": 1
+    }
+  },
+  {
+    "id": "cmvv9bu8i00aneuy3m7erf8d5",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "key": "sample_product",
+    "position": 16,
+    "type": "FIELDS",
+    "required": true,
+    "visibleIf": null,
+    "config": {
+      "fields": [
+        {
+          "key": "name",
+          "type": "text",
+          "label": {
+            "en": "Commercial name",
+            "it": "Nome commerciale"
+          },
+          "required": true
+        },
+        {
+          "key": "category",
+          "type": "text",
+          "label": {
+            "en": "Category",
+            "it": "Categoria"
+          },
+          "required": false
+        },
+        {
+          "key": "main_materials",
+          "type": "text",
+          "label": {
+            "en": "Main materials",
+            "it": "Materiali principali"
+          },
+          "required": false
+        }
+      ],
+      "maxLength": 120
+    }
+  },
+  {
+    "id": "cmvv9bu71005neuy3nvruz0nv",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "key": "dpp_granularity",
+    "position": 4,
+    "type": "MATRIX",
+    "required": true,
+    "visibleIf": null,
+    "config": {
+      "rowsFrom": "product_categories"
+    }
+  },
+  {
+    "id": "cmvv9bu7d006neuy3e15k4o0h",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "key": "maintenance",
+    "position": 5,
+    "type": "MATRIX",
+    "required": true,
+    "visibleIf": null,
+    "config": {
+      "multiple": false,
+      "rowsFrom": "product_categories"
+    }
+  },
+  {
+    "id": "cmvv9bu7i006weuy3rvl70rl8",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "key": "data_dynamics",
+    "position": 6,
+    "type": "MATRIX",
+    "required": true,
+    "visibleIf": null,
+    "config": {
+      "multiple": false,
+      "rowsFrom": "product_categories"
+    }
+  },
+  {
+    "id": "cmvv84sg1001bm2y38g3agmza",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "key": "industry",
+    "position": 0,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv84sga0022m2y3jc454tn6",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "key": "company_type",
+    "position": 2,
+    "type": "MULTI_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv84shg005zm2y3kcfmyfxl",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "key": "production_model",
+    "position": 3,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": {
+      "op": "in",
+      "step": "company_type",
+      "value": [
+        "manufacturer",
+        "other"
+      ]
+    },
+    "config": null
+  },
+  {
+    "id": "cmvv84sfm0005m2y36cr0x2j9",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "key": "dpp_granularity",
+    "position": 4,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv84sgi002tm2y3hg3t08wy",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "key": "maintenance",
+    "position": 5,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv84sgl0032m2y3lq6f249m",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "key": "data_dynamics",
+    "position": 6,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv84sgp003em2y3m6h649o8",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "key": "data_sources",
+    "position": 7,
+    "type": "MULTI_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv84sgu003zm2y367jm4y3d",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "key": "data_organization",
+    "position": 8,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv84sgz004bm2y3shg735j4",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "key": "data_model",
+    "position": 9,
+    "type": "MULTI_CHOICE",
+    "required": false,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv84sh5004wm2y3a4ptcwgr",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "key": "qr_presence",
+    "position": 10,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv84sh90058m2y3mvx3teoe",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "key": "qr_code_type",
+    "position": 11,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv84sft000km2y35ln84hkc",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "key": "url_scheme",
+    "position": 12,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv84sfw000wm2y3mvrfw93t",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "key": "hosting",
+    "position": 13,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv84shc005km2y32ldbort1",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "key": "registry_integration",
+    "position": 14,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvv84sgd002nm2y3s3aviv8b",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "key": "sku_count",
+    "position": 15,
+    "type": "NUMBER",
+    "required": true,
+    "visibleIf": null,
+    "config": {
+      "max": 10000000,
+      "min": 1
+    }
+  },
+  {
+    "id": "cmvv84sgf002qm2y3jtzol6t6",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "key": "sample_product",
+    "position": 16,
+    "type": "FIELDS",
+    "required": true,
+    "visibleIf": null,
+    "config": {
+      "fields": [
+        {
+          "key": "name",
+          "type": "text",
+          "label": {
+            "en": "Commercial name",
+            "it": "Nome commerciale"
+          },
+          "required": true
+        },
+        {
+          "key": "category",
+          "type": "text",
+          "label": {
+            "en": "Category",
+            "it": "Categoria"
+          },
+          "required": false
+        },
+        {
+          "key": "main_materials",
+          "type": "text",
+          "label": {
+            "en": "Main materials",
+            "it": "Materiali principali"
+          },
+          "required": false
+        }
+      ],
+      "maxLength": 120
+    }
+  },
+  {
+    "id": "cmvvel4lj0022qhy34uexglbw",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "key": "industry",
+    "position": 0,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvveys65000fzwy3177bk4me",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "key": "industry_other",
+    "position": 1,
+    "type": "TEXT",
+    "required": false,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "other"
+    },
+    "config": {
+      "maxLength": 80
+    }
+  },
+  {
+    "id": "cmvvel4l10002qhy3p9n5usk6",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "key": "product_categories",
+    "position": 2,
+    "type": "MULTI_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvvel4lp002tqhy3l4aked0d",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "key": "company_type",
+    "position": 3,
+    "type": "MULTI_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvvel4lu003eqhy3mk1mi897",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "key": "production_model",
+    "position": 4,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": {
+      "op": "in",
+      "step": "company_type",
+      "value": [
+        "manufacturer",
+        "other"
+      ]
+    },
+    "config": null
+  },
+  {
+    "id": "cmvveys69000izwy3nnecdx5p",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "key": "dpp_owner",
+    "position": 5,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvvel4na006zqhy3d1bihza0",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "key": "dpp_granularity",
+    "position": 6,
+    "type": "MATRIX",
+    "required": true,
+    "visibleIf": null,
+    "config": {
+      "rowsFrom": "product_categories"
+    }
+  },
+  {
+    "id": "cmvvel4nk007zqhy3ncoou8vr",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "key": "maintenance",
+    "position": 7,
+    "type": "MATRIX",
+    "required": true,
+    "visibleIf": null,
+    "config": {
+      "multiple": false,
+      "rowsFrom": "product_categories"
+    }
+  },
+  {
+    "id": "cmvvel4nq008qqhy3c6kxca1z",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "key": "data_dynamics",
+    "position": 8,
+    "type": "MATRIX",
+    "required": true,
+    "visibleIf": null,
+    "config": {
+      "multiple": false,
+      "rowsFrom": "product_categories"
+    }
+  },
+  {
+    "id": "cmvvel4lz003qqhy361i2j7tz",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "key": "data_sources",
+    "position": 9,
+    "type": "MULTI_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvveys6g0010zwy3f0cyehtf",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "key": "supplier_count",
+    "position": 10,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvvel4m6004eqhy32lmrnjbk",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "key": "data_organization",
+    "position": 11,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvvel4mb004qqhy3k331cnu2",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "key": "data_model",
+    "position": 12,
+    "type": "MULTI_CHOICE",
+    "required": false,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvvel4mn005bqhy3nnrklb6s",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "key": "qr_presence",
+    "position": 13,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvveys6n001fzwy37zs044a0",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "key": "carrier_placement",
+    "position": 14,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvvel4mr005nqhy3nq4xtk9g",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "key": "url_scheme",
+    "position": 15,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvvel4mx005zqhy3bmb6hig9",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "key": "hosting",
+    "position": 16,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvveys7c001xzwy3i2xn7w3g",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "key": "data_access",
+    "position": 17,
+    "type": "MULTI_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvvel4mz006eqhy3a7gxb26p",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "key": "registry_integration",
+    "position": 18,
+    "type": "SINGLE_CHOICE",
+    "required": true,
+    "visibleIf": null,
+    "config": null
+  },
+  {
+    "id": "cmvvel4n3006tqhy3e53pbjuj",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "key": "sku_count",
+    "position": 19,
+    "type": "NUMBER",
+    "required": true,
+    "visibleIf": null,
+    "config": {
+      "max": 10000000,
+      "min": 1
+    }
+  },
+  {
+    "id": "cmvvel4n5006wqhy3bcykb6bb",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "key": "sample_product",
+    "position": 20,
+    "type": "FIELDS",
+    "required": true,
+    "visibleIf": null,
+    "config": {
+      "fields": [
+        {
+          "key": "name",
+          "type": "text",
+          "label": {
+            "en": "Commercial name",
+            "it": "Nome commerciale"
+          },
+          "required": true
+        },
+        {
+          "key": "code",
+          "type": "text",
+          "label": {
+            "en": "Product code (SKU or GTIN)",
+            "it": "Codice prodotto (SKU o GTIN)"
+          },
+          "required": false
+        },
+        {
+          "key": "main_materials",
+          "type": "text",
+          "label": {
+            "en": "Main materials",
+            "it": "Materiali principali"
+          },
+          "required": false
+        }
+      ],
+      "maxLength": 120
+    }
+  }
+]

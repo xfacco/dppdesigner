@@ -299,8 +299,34 @@
   },
   "home": {
     "byline": "ESPR · Regulation (EU) 2024/1781",
-    "globe": "ASCII globe centred on Europe, circled by a ring with ESPR, the Batteries Regulation, the EU registry and EN digital passport standards",
+    "globe": "ASCII globe centred on Europe, circled by orbiting words: EU Registry, Digital Product Passport, ESPR, QR code, DPP Designer, 2024/1781 and more",
     "secondary": "What is the DPP",
-    "ring": "ESPR 2024/1781 · EU REGISTRY · EN 18219 · EN 18220 · EN 18222 · BATTERIES REG. 2023/1542 · QR → DPP · "
+    "ring": "EU REGISTRY · DIGITAL PRODUCT PASSPORT · ESPR · QR CODE · DPP DESIGNER · 2024/1781 · TRACEABILITY · CIRCULAR ECONOMY · CARBON FOOTPRINT · "
+  },
+  "guide": {
+    "nav": "Question guide",
+    "breadcrumb": "Breadcrumb",
+    "home": "Home",
+    "section": "Guide",
+    "title": "Digital Product Passport questions",
+    "lede": "Every question in Design your DPP, one per page: what it asks, the possible answers, the guidance and the legal references.",
+    "byline": "Guide · {count} questions",
+    "question": "Question {number} of {total}",
+    "answers": "Possible answers",
+    "answerMatrix": "You answer for each product category you chose.",
+    "answerText": "You answer with free text.",
+    "answerNumber": "You answer with a number.",
+    "answerFields": "You answer by filling in a few descriptive fields.",
+    "notes": "Guidance",
+    "mandatory": "Required by law",
+    "help": "Note",
+    "references": "Legal references",
+    "ctaTitle": "Answer for your project",
+    "ctaText": "This question is part of Design your DPP: answer them all to get the blueprint, the score and the recommended next steps.",
+    "prev": "Previous question",
+    "next": "Next question",
+    "all": "All questions",
+    "updated": "Updated {date} · wizard version {version}",
+    "readArticle": "Read the guide to this question"
   }
 }

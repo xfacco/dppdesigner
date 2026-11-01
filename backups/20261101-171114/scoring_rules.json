@@ -1,0 +1,1348 @@
+[
+  {
+    "id": "cmvv1uw6e006dnay31lpk1ulm",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "areaId": "cmvv1uw660064nay34vyug6td",
+    "condition": {
+      "op": "eq",
+      "step": "data_organization",
+      "value": "centralized"
+    },
+    "points": 4,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv1uw6e006enay3a7h99dhr",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "areaId": "cmvv1uw660064nay34vyug6td",
+    "condition": {
+      "op": "eq",
+      "step": "data_organization",
+      "value": "decentralized"
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv1uw6e006fnay3obnuiq9z",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "areaId": "cmvv1uw660064nay34vyug6td",
+    "condition": {
+      "op": "includes",
+      "step": "data_sources",
+      "value": [
+        "erp",
+        "mes",
+        "plm"
+      ]
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv1uw6e006gnay30g3fe7e1",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "areaId": "cmvv1uw660064nay34vyug6td",
+    "condition": {
+      "op": "includes",
+      "step": "data_sources",
+      "value": "suppliers_api"
+    },
+    "points": 1,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv1uw6e006hnay3r80umkgg",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "areaId": "cmvv1uw660064nay34vyug6td",
+    "condition": {
+      "op": "includes",
+      "step": "data_model",
+      "value": "materials"
+    },
+    "points": 1,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv1uw6e006inay3g9d44rpe",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "areaId": "cmvv1uw660064nay34vyug6td",
+    "condition": {
+      "op": "includes",
+      "step": "data_model",
+      "value": "origin"
+    },
+    "points": 1,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv1uw6e006jnay3687p31te",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "areaId": "cmvv1uw660064nay34vyug6td",
+    "condition": {
+      "op": "includes",
+      "step": "data_model",
+      "value": "sustainability"
+    },
+    "points": 1,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv1uw6e006knay3ah5la7yq",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "areaId": "cmvv1uw660064nay34vyug6td",
+    "condition": {
+      "op": "includes",
+      "step": "data_model",
+      "value": "end_of_life"
+    },
+    "points": 1,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv1uw6e006lnay30vgbns90",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "areaId": "cmvv1uw6a0067nay32lm3rpj4",
+    "condition": {
+      "op": "eq",
+      "step": "production_model",
+      "value": "in_house"
+    },
+    "points": 3,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv1uw6e006mnay3os0bgfs6",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "areaId": "cmvv1uw6a0067nay32lm3rpj4",
+    "condition": {
+      "op": "eq",
+      "step": "production_model",
+      "value": "both"
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv1uw6e006nnay3qoa6x8ww",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "areaId": "cmvv1uw6a0067nay32lm3rpj4",
+    "condition": {
+      "op": "in",
+      "step": "qr_presence",
+      "value": [
+        "qr",
+        "other_carrier"
+      ]
+    },
+    "points": 3,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv1uw6e006onay3gogbfns8",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "areaId": "cmvv1uw6a0067nay32lm3rpj4",
+    "condition": {
+      "op": "in",
+      "step": "qr_code_type",
+      "value": [
+        "espr",
+        "battery_regulation"
+      ]
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv1uw6e006pnay370ejstjs",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "areaId": "cmvv1uw6a0067nay32lm3rpj4",
+    "condition": {
+      "op": "in",
+      "step": "dpp_granularity",
+      "value": [
+        "model",
+        "batch",
+        "item"
+      ]
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv1uw6e006qnay39a0m9fse",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "areaId": "cmvv1uw6b006anay3wynk3hzr",
+    "condition": {
+      "op": "in",
+      "step": "hosting",
+      "value": [
+        "proprietary",
+        "saas",
+        "paas"
+      ]
+    },
+    "points": 4,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv1uw6e006rnay3i892nj1p",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "areaId": "cmvv1uw6b006anay3wynk3hzr",
+    "condition": {
+      "op": "in",
+      "step": "registry_integration",
+      "value": [
+        "direct",
+        "via_provider"
+      ]
+    },
+    "points": 4,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv1uw6e006snay391wm807q",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "areaId": "cmvv1uw6b006anay3wynk3hzr",
+    "condition": {
+      "op": "in",
+      "step": "url_scheme",
+      "value": [
+        "gs1_digital_link",
+        "own_domain"
+      ]
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7v0n300e80ey3gm2blqvy",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "areaId": "cmvv7v0n200e50ey3vklpueav",
+    "condition": {
+      "op": "eq",
+      "step": "data_organization",
+      "value": "centralized"
+    },
+    "points": 4,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7v0n300e90ey3qjnk1ixs",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "areaId": "cmvv7v0n200e50ey3vklpueav",
+    "condition": {
+      "op": "eq",
+      "step": "data_organization",
+      "value": "decentralized"
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7v0n300ea0ey3h0yfuutj",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "areaId": "cmvv7v0n200e50ey3vklpueav",
+    "condition": {
+      "op": "includes",
+      "step": "data_sources",
+      "value": [
+        "erp",
+        "mes",
+        "plm"
+      ]
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7v0n300eb0ey3i00z34jt",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "areaId": "cmvv7v0n200e50ey3vklpueav",
+    "condition": {
+      "op": "includes",
+      "step": "data_sources",
+      "value": "suppliers_api"
+    },
+    "points": 1,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7v0n300ec0ey36mgquidw",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "areaId": "cmvv7v0n200e50ey3vklpueav",
+    "condition": {
+      "op": "includes",
+      "step": "data_model",
+      "value": "materials"
+    },
+    "points": 1,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7v0n300ed0ey3yrsx7ztc",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "areaId": "cmvv7v0n200e50ey3vklpueav",
+    "condition": {
+      "op": "includes",
+      "step": "data_model",
+      "value": "origin"
+    },
+    "points": 1,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7v0n300ee0ey356pqbk76",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "areaId": "cmvv7v0n200e50ey3vklpueav",
+    "condition": {
+      "op": "includes",
+      "step": "data_model",
+      "value": "sustainability"
+    },
+    "points": 1,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7v0n300ef0ey3c3ze574h",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "areaId": "cmvv7v0n200e50ey3vklpueav",
+    "condition": {
+      "op": "includes",
+      "step": "data_model",
+      "value": "end_of_life"
+    },
+    "points": 1,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7v0n500ej0ey3qkiyimi8",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "areaId": "cmvv7v0n400eg0ey3u87zh6zs",
+    "condition": {
+      "op": "eq",
+      "step": "production_model",
+      "value": "in_house"
+    },
+    "points": 3,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7v0n500ek0ey3inudja6v",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "areaId": "cmvv7v0n400eg0ey3u87zh6zs",
+    "condition": {
+      "op": "eq",
+      "step": "production_model",
+      "value": "both"
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7v0n500el0ey3fbiph56t",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "areaId": "cmvv7v0n400eg0ey3u87zh6zs",
+    "condition": {
+      "op": "in",
+      "step": "qr_presence",
+      "value": [
+        "qr",
+        "other_carrier"
+      ]
+    },
+    "points": 3,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7v0n500em0ey3ai2lwt53",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "areaId": "cmvv7v0n400eg0ey3u87zh6zs",
+    "condition": {
+      "op": "in",
+      "step": "qr_code_type",
+      "value": [
+        "espr",
+        "battery_regulation"
+      ]
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7v0n500en0ey3f2j4azi9",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "areaId": "cmvv7v0n400eg0ey3u87zh6zs",
+    "condition": {
+      "op": "in",
+      "step": "dpp_granularity",
+      "value": [
+        "model",
+        "batch",
+        "item"
+      ]
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7v0n600er0ey3ue1br139",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "areaId": "cmvv7v0n500eo0ey336gj3ht1",
+    "condition": {
+      "op": "in",
+      "step": "hosting",
+      "value": [
+        "proprietary",
+        "saas",
+        "paas"
+      ]
+    },
+    "points": 4,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7v0n600es0ey34inviidt",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "areaId": "cmvv7v0n500eo0ey336gj3ht1",
+    "condition": {
+      "op": "in",
+      "step": "registry_integration",
+      "value": [
+        "direct",
+        "via_provider"
+      ]
+    },
+    "points": 4,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7v0n600et0ey3mhoc7mgh",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "areaId": "cmvv7v0n500eo0ey336gj3ht1",
+    "condition": {
+      "op": "in",
+      "step": "url_scheme",
+      "value": [
+        "gs1_digital_link",
+        "own_domain"
+      ]
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7z1vg00m60ey3vq2is0rt",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "areaId": "cmvv7z1vg00m30ey38zu02jld",
+    "condition": {
+      "op": "eq",
+      "step": "data_organization",
+      "value": "centralized"
+    },
+    "points": 4,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7z1vg00m70ey3vlrce761",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "areaId": "cmvv7z1vg00m30ey38zu02jld",
+    "condition": {
+      "op": "eq",
+      "step": "data_organization",
+      "value": "decentralized"
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7z1vg00m80ey3jfya4ftl",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "areaId": "cmvv7z1vg00m30ey38zu02jld",
+    "condition": {
+      "op": "includes",
+      "step": "data_sources",
+      "value": [
+        "erp",
+        "mes",
+        "plm"
+      ]
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7z1vh00m90ey3xfykf8rv",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "areaId": "cmvv7z1vg00m30ey38zu02jld",
+    "condition": {
+      "op": "includes",
+      "step": "data_sources",
+      "value": "suppliers_api"
+    },
+    "points": 1,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7z1vh00ma0ey3fldd1b0q",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "areaId": "cmvv7z1vg00m30ey38zu02jld",
+    "condition": {
+      "op": "includes",
+      "step": "data_model",
+      "value": "materials"
+    },
+    "points": 1,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7z1vh00mb0ey3kv3terdg",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "areaId": "cmvv7z1vg00m30ey38zu02jld",
+    "condition": {
+      "op": "includes",
+      "step": "data_model",
+      "value": "origin"
+    },
+    "points": 1,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7z1vh00mc0ey33rfa8id6",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "areaId": "cmvv7z1vg00m30ey38zu02jld",
+    "condition": {
+      "op": "includes",
+      "step": "data_model",
+      "value": "sustainability"
+    },
+    "points": 1,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7z1vh00md0ey36teub48u",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "areaId": "cmvv7z1vg00m30ey38zu02jld",
+    "condition": {
+      "op": "includes",
+      "step": "data_model",
+      "value": "end_of_life"
+    },
+    "points": 1,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7z1vi00mh0ey35t0d4ukz",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "areaId": "cmvv7z1vh00me0ey32lpr6ox2",
+    "condition": {
+      "op": "eq",
+      "step": "production_model",
+      "value": "in_house"
+    },
+    "points": 3,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7z1vi00mi0ey3bqjmdwu2",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "areaId": "cmvv7z1vh00me0ey32lpr6ox2",
+    "condition": {
+      "op": "eq",
+      "step": "production_model",
+      "value": "both"
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7z1vi00mj0ey3e122g9xy",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "areaId": "cmvv7z1vh00me0ey32lpr6ox2",
+    "condition": {
+      "op": "in",
+      "step": "qr_presence",
+      "value": [
+        "qr",
+        "other_carrier"
+      ]
+    },
+    "points": 3,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7z1vi00mk0ey3ietwi5p7",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "areaId": "cmvv7z1vh00me0ey32lpr6ox2",
+    "condition": {
+      "op": "in",
+      "step": "qr_code_type",
+      "value": [
+        "espr",
+        "battery_regulation"
+      ]
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7z1vi00ml0ey36wtzu322",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "areaId": "cmvv7z1vh00me0ey32lpr6ox2",
+    "condition": {
+      "op": "in",
+      "step": "dpp_granularity",
+      "value": [
+        "model",
+        "batch",
+        "item"
+      ]
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7z1vi00mp0ey3mzwrca83",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "areaId": "cmvv7z1vi00mm0ey3hi89bquz",
+    "condition": {
+      "op": "in",
+      "step": "hosting",
+      "value": [
+        "proprietary",
+        "saas",
+        "paas"
+      ]
+    },
+    "points": 4,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7z1vi00mq0ey37gfjgcmn",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "areaId": "cmvv7z1vi00mm0ey3hi89bquz",
+    "condition": {
+      "op": "in",
+      "step": "registry_integration",
+      "value": [
+        "direct",
+        "via_provider"
+      ]
+    },
+    "points": 4,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv7z1vi00mr0ey3epmabhpm",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "areaId": "cmvv7z1vi00mm0ey3hi89bquz",
+    "condition": {
+      "op": "in",
+      "step": "url_scheme",
+      "value": [
+        "gs1_digital_link",
+        "own_domain"
+      ]
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv84shk006em2y3f3zbgujq",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "areaId": "cmvv84shj006bm2y3i8zyifli",
+    "condition": {
+      "op": "eq",
+      "step": "data_organization",
+      "value": "centralized"
+    },
+    "points": 4,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv84shk006fm2y3cozwysop",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "areaId": "cmvv84shj006bm2y3i8zyifli",
+    "condition": {
+      "op": "eq",
+      "step": "data_organization",
+      "value": "decentralized"
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv84shk006gm2y3j8vc3bwu",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "areaId": "cmvv84shj006bm2y3i8zyifli",
+    "condition": {
+      "op": "includes",
+      "step": "data_sources",
+      "value": [
+        "erp",
+        "mes",
+        "plm"
+      ]
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv84shk006hm2y3t1djrc9d",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "areaId": "cmvv84shj006bm2y3i8zyifli",
+    "condition": {
+      "op": "includes",
+      "step": "data_sources",
+      "value": "suppliers_api"
+    },
+    "points": 1,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv84shk006im2y3krfjmunx",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "areaId": "cmvv84shj006bm2y3i8zyifli",
+    "condition": {
+      "op": "includes",
+      "step": "data_model",
+      "value": "materials"
+    },
+    "points": 1,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv84shk006jm2y3ogrt0adj",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "areaId": "cmvv84shj006bm2y3i8zyifli",
+    "condition": {
+      "op": "includes",
+      "step": "data_model",
+      "value": "origin"
+    },
+    "points": 1,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv84shk006km2y3mhgqcy1t",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "areaId": "cmvv84shj006bm2y3i8zyifli",
+    "condition": {
+      "op": "includes",
+      "step": "data_model",
+      "value": "sustainability"
+    },
+    "points": 1,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv84shk006lm2y3txtfuowh",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "areaId": "cmvv84shj006bm2y3i8zyifli",
+    "condition": {
+      "op": "includes",
+      "step": "data_model",
+      "value": "end_of_life"
+    },
+    "points": 1,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv84shn006pm2y3ruyokipx",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "areaId": "cmvv84shn006mm2y3v3hn29fw",
+    "condition": {
+      "op": "eq",
+      "step": "production_model",
+      "value": "in_house"
+    },
+    "points": 3,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv84shn006qm2y3yvuwjvdn",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "areaId": "cmvv84shn006mm2y3v3hn29fw",
+    "condition": {
+      "op": "eq",
+      "step": "production_model",
+      "value": "both"
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv84shn006rm2y3r1etx09a",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "areaId": "cmvv84shn006mm2y3v3hn29fw",
+    "condition": {
+      "op": "in",
+      "step": "qr_presence",
+      "value": [
+        "qr",
+        "other_carrier"
+      ]
+    },
+    "points": 3,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv84shn006sm2y3aemrsmn8",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "areaId": "cmvv84shn006mm2y3v3hn29fw",
+    "condition": {
+      "op": "in",
+      "step": "qr_code_type",
+      "value": [
+        "espr",
+        "battery_regulation"
+      ]
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv84shn006tm2y32qz90mb1",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "areaId": "cmvv84shn006mm2y3v3hn29fw",
+    "condition": {
+      "op": "in",
+      "step": "dpp_granularity",
+      "value": [
+        "model",
+        "batch",
+        "item"
+      ]
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv84shq006xm2y3fse18ah1",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "areaId": "cmvv84shp006um2y3pklvhwrg",
+    "condition": {
+      "op": "in",
+      "step": "hosting",
+      "value": [
+        "proprietary",
+        "saas",
+        "paas"
+      ]
+    },
+    "points": 4,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv84shq006ym2y3k2fnvypd",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "areaId": "cmvv84shp006um2y3pklvhwrg",
+    "condition": {
+      "op": "in",
+      "step": "registry_integration",
+      "value": [
+        "direct",
+        "via_provider"
+      ]
+    },
+    "points": 4,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv84shq006zm2y3g9g35m7k",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "areaId": "cmvv84shp006um2y3pklvhwrg",
+    "condition": {
+      "op": "in",
+      "step": "url_scheme",
+      "value": [
+        "gs1_digital_link",
+        "own_domain"
+      ]
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv9bu8l00ateuy3158lyu78",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "areaId": "cmvv9bu8k00aqeuy3f13nrk83",
+    "condition": {
+      "op": "eq",
+      "step": "data_organization",
+      "value": "centralized"
+    },
+    "points": 4,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv9bu8l00aueuy3pr1k9euw",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "areaId": "cmvv9bu8k00aqeuy3f13nrk83",
+    "condition": {
+      "op": "eq",
+      "step": "data_organization",
+      "value": "decentralized"
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv9bu8l00aveuy3qjrgxrxt",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "areaId": "cmvv9bu8k00aqeuy3f13nrk83",
+    "condition": {
+      "op": "includes",
+      "step": "data_sources",
+      "value": [
+        "erp",
+        "mes",
+        "plm"
+      ]
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv9bu8l00aweuy3gr6el6ra",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "areaId": "cmvv9bu8k00aqeuy3f13nrk83",
+    "condition": {
+      "op": "includes",
+      "step": "data_sources",
+      "value": "suppliers_api"
+    },
+    "points": 1,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv9bu8l00axeuy3nj804jg7",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "areaId": "cmvv9bu8k00aqeuy3f13nrk83",
+    "condition": {
+      "op": "includes",
+      "step": "data_model",
+      "value": "materials"
+    },
+    "points": 1,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv9bu8l00ayeuy3ju494v66",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "areaId": "cmvv9bu8k00aqeuy3f13nrk83",
+    "condition": {
+      "op": "includes",
+      "step": "data_model",
+      "value": "origin"
+    },
+    "points": 1,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv9bu8l00azeuy3eavlp4mh",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "areaId": "cmvv9bu8k00aqeuy3f13nrk83",
+    "condition": {
+      "op": "includes",
+      "step": "data_model",
+      "value": "sustainability"
+    },
+    "points": 1,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv9bu8l00b0euy3xoz8nx79",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "areaId": "cmvv9bu8k00aqeuy3f13nrk83",
+    "condition": {
+      "op": "includes",
+      "step": "data_model",
+      "value": "end_of_life"
+    },
+    "points": 1,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv9bu8o00b4euy3qdz8vh7o",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "areaId": "cmvv9bu8n00b1euy3f38bjqod",
+    "condition": {
+      "op": "eq",
+      "step": "production_model",
+      "value": "in_house"
+    },
+    "points": 3,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv9bu8o00b5euy3khf961uz",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "areaId": "cmvv9bu8n00b1euy3f38bjqod",
+    "condition": {
+      "op": "eq",
+      "step": "production_model",
+      "value": "both"
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv9bu8o00b6euy3zk5yjwz9",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "areaId": "cmvv9bu8n00b1euy3f38bjqod",
+    "condition": {
+      "op": "in",
+      "step": "qr_presence",
+      "value": [
+        "qr",
+        "other_carrier"
+      ]
+    },
+    "points": 3,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv9bu8o00b7euy3ur6jdjis",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "areaId": "cmvv9bu8n00b1euy3f38bjqod",
+    "condition": {
+      "op": "in",
+      "step": "qr_code_type",
+      "value": [
+        "espr",
+        "battery_regulation"
+      ]
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv9bu8o00b8euy30drxqwke",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "areaId": "cmvv9bu8n00b1euy3f38bjqod",
+    "condition": {
+      "op": "in",
+      "step": "dpp_granularity",
+      "value": [
+        "model",
+        "batch",
+        "item"
+      ]
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv9bu8q00bceuy3fx3dgnrm",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "areaId": "cmvv9bu8p00b9euy342xc3w20",
+    "condition": {
+      "op": "in",
+      "step": "hosting",
+      "value": [
+        "proprietary",
+        "saas",
+        "paas"
+      ]
+    },
+    "points": 4,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv9bu8q00bdeuy3ff3mvesa",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "areaId": "cmvv9bu8p00b9euy342xc3w20",
+    "condition": {
+      "op": "in",
+      "step": "registry_integration",
+      "value": [
+        "direct",
+        "via_provider"
+      ]
+    },
+    "points": 4,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvv9bu8q00beeuy37xiiaiqt",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "areaId": "cmvv9bu8p00b9euy342xc3w20",
+    "condition": {
+      "op": "in",
+      "step": "url_scheme",
+      "value": [
+        "gs1_digital_link",
+        "own_domain"
+      ]
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvvel4ny009hqhy3ipt7t88h",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "areaId": "cmvvel4nx009eqhy32e4bzbe2",
+    "condition": {
+      "op": "eq",
+      "step": "data_organization",
+      "value": "centralized"
+    },
+    "points": 4,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvvel4ny009iqhy359xbrd0m",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "areaId": "cmvvel4nx009eqhy32e4bzbe2",
+    "condition": {
+      "op": "eq",
+      "step": "data_organization",
+      "value": "decentralized"
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvvel4ny009jqhy3424n613e",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "areaId": "cmvvel4nx009eqhy32e4bzbe2",
+    "condition": {
+      "op": "includes",
+      "step": "data_sources",
+      "value": [
+        "erp",
+        "mes",
+        "plm"
+      ]
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvvel4ny009kqhy34y9fntar",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "areaId": "cmvvel4nx009eqhy32e4bzbe2",
+    "condition": {
+      "op": "includes",
+      "step": "data_sources",
+      "value": "suppliers_api"
+    },
+    "points": 1,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvvel4ny009lqhy3tqybosgf",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "areaId": "cmvvel4nx009eqhy32e4bzbe2",
+    "condition": {
+      "op": "includes",
+      "step": "data_model",
+      "value": "materials"
+    },
+    "points": 1,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvvel4ny009mqhy3jd0ixftz",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "areaId": "cmvvel4nx009eqhy32e4bzbe2",
+    "condition": {
+      "op": "includes",
+      "step": "data_model",
+      "value": "origin"
+    },
+    "points": 1,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvvel4ny009nqhy39xwqz6zi",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "areaId": "cmvvel4nx009eqhy32e4bzbe2",
+    "condition": {
+      "op": "includes",
+      "step": "data_model",
+      "value": "sustainability"
+    },
+    "points": 1,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvvel4ny009oqhy3n7rf36s8",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "areaId": "cmvvel4nx009eqhy32e4bzbe2",
+    "condition": {
+      "op": "includes",
+      "step": "data_model",
+      "value": "end_of_life"
+    },
+    "points": 1,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvvel4o1009sqhy3tczvcvns",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "areaId": "cmvvel4o1009pqhy37gmm62xx",
+    "condition": {
+      "op": "eq",
+      "step": "production_model",
+      "value": "in_house"
+    },
+    "points": 3,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvvel4o1009tqhy3uuk77mbm",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "areaId": "cmvvel4o1009pqhy37gmm62xx",
+    "condition": {
+      "op": "eq",
+      "step": "production_model",
+      "value": "both"
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvvel4o300a0qhy3lhj7otlm",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "areaId": "cmvvel4o2009xqhy3keasrgaf",
+    "condition": {
+      "op": "in",
+      "step": "hosting",
+      "value": [
+        "proprietary",
+        "saas",
+        "paas"
+      ]
+    },
+    "points": 4,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvvel4o1009uqhy3ofqla2lf",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "areaId": "cmvvel4o1009pqhy37gmm62xx",
+    "condition": {
+      "op": "in",
+      "step": "qr_presence",
+      "value": [
+        "qr",
+        "other_carrier"
+      ]
+    },
+    "points": 2,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvvel4o1009wqhy35c2b8u5w",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "areaId": "cmvvel4o1009pqhy37gmm62xx",
+    "condition": {
+      "all": [
+        {
+          "op": "answered",
+          "step": "dpp_granularity"
+        },
+        {
+          "op": "excludes",
+          "step": "dpp_granularity",
+          "value": "unsure"
+        }
+      ]
+    },
+    "points": 2,
+    "note": "Livello definito per tutte le categorie (nessun «Non lo so»)"
+  },
+  {
+    "id": "cmvveys7s002izwy3oxi5f762",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "areaId": "cmvvel4o1009pqhy37gmm62xx",
+    "condition": {
+      "all": [
+        {
+          "op": "excludes",
+          "step": "company_type",
+          "value": [
+            "manufacturer",
+            "other"
+          ]
+        },
+        {
+          "op": "includes",
+          "step": "data_sources",
+          "value": "suppliers_api"
+        }
+      ]
+    },
+    "points": 3,
+    "note": "Chi non produce: fornitori collegati via API o portale"
+  },
+  {
+    "id": "cmvveys7s002jzwy3xqxbomaw",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "areaId": "cmvvel4o1009pqhy37gmm62xx",
+    "condition": {
+      "all": [
+        {
+          "op": "answered",
+          "step": "dpp_owner"
+        },
+        {
+          "op": "neq",
+          "step": "dpp_owner",
+          "value": "undefined"
+        }
+      ]
+    },
+    "points": 3,
+    "note": "Responsabile del progetto definito"
+  },
+  {
+    "id": "cmvveys7t002kzwy3zxybdayk",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "areaId": "cmvvel4o2009xqhy3keasrgaf",
+    "condition": {
+      "op": "includes",
+      "step": "data_access",
+      "value": [
+        "b2b",
+        "repairers",
+        "recyclers",
+        "authorities"
+      ]
+    },
+    "points": 2,
+    "note": "Accessi differenziati oltre ai consumatori"
+  },
+  {
+    "id": "cmvvel4o300a1qhy3pqnm3y7v",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "areaId": "cmvvel4o2009xqhy3keasrgaf",
+    "condition": {
+      "op": "in",
+      "step": "registry_integration",
+      "value": [
+        "direct",
+        "via_provider"
+      ]
+    },
+    "points": 3,
+    "note": "Esempio"
+  },
+  {
+    "id": "cmvvel4o300a2qhy3ttxhzdz8",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "areaId": "cmvvel4o2009xqhy3keasrgaf",
+    "condition": {
+      "op": "in",
+      "step": "url_scheme",
+      "value": [
+        "gs1_digital_link",
+        "own_domain"
+      ]
+    },
+    "points": 1,
+    "note": "Esempio"
+  }
+]

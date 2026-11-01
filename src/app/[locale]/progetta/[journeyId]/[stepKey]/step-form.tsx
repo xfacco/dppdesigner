@@ -11,16 +11,9 @@ import { Checkbox, Field, FieldError, Input, Label, Textarea } from "@/component
 import { Link, useRouter } from "@/i18n/navigation";
 import { answerSchema, DEFAULT_TEXT_MAX, type StepDef } from "@/lib/wizard/engine";
 import type { AnswerValue } from "@/lib/wizard/rules";
+import { optionDescription } from "@/lib/option-description";
 import { cn } from "@/lib/utils";
 import { saveStep } from "../../actions";
-
-// Descrizione di un'opzione: Markdown in cui ogni a capo (o <br> scritto dall'admin) resta un a capo
-const optionDescription = (text: string) =>
-  text
-    .replace(/<br\s*\/?>/gi, "\n")
-    .split("\n")
-    .map((l) => l.trim())
-    .join("  \n");
 
 type Props = {
   journeyId: string;

@@ -51,7 +51,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
             )}
           </div>
         </div>
-        <div className="mx-auto w-full max-w-[560px] overflow-hidden rounded-2xl md:max-w-none">
+        <div className="mx-auto w-full max-w-[560px] md:max-w-none">
           <AsciiGlobe label={tHome("globe")} ring={tHome("ring")} />
         </div>
       </section>

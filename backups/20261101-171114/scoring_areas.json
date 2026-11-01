@@ -1,0 +1,146 @@
+[
+  {
+    "id": "cmvv1uw660064nay34vyug6td",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "key": "data",
+    "position": 0,
+    "weight": 1,
+    "maxPoints": 10
+  },
+  {
+    "id": "cmvv1uw6a0067nay32lm3rpj4",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "key": "process",
+    "position": 1,
+    "weight": 1,
+    "maxPoints": 10
+  },
+  {
+    "id": "cmvv1uw6b006anay3wynk3hzr",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "key": "technology",
+    "position": 2,
+    "weight": 1,
+    "maxPoints": 10
+  },
+  {
+    "id": "cmvv7v0n200e50ey3vklpueav",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "key": "data",
+    "position": 0,
+    "weight": 1,
+    "maxPoints": 10
+  },
+  {
+    "id": "cmvv7v0n400eg0ey3u87zh6zs",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "key": "process",
+    "position": 1,
+    "weight": 1,
+    "maxPoints": 10
+  },
+  {
+    "id": "cmvv7v0n500eo0ey336gj3ht1",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "key": "technology",
+    "position": 2,
+    "weight": 1,
+    "maxPoints": 10
+  },
+  {
+    "id": "cmvv7z1vg00m30ey38zu02jld",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "key": "data",
+    "position": 0,
+    "weight": 1,
+    "maxPoints": 10
+  },
+  {
+    "id": "cmvv7z1vh00me0ey32lpr6ox2",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "key": "process",
+    "position": 1,
+    "weight": 1,
+    "maxPoints": 10
+  },
+  {
+    "id": "cmvv7z1vi00mm0ey3hi89bquz",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "key": "technology",
+    "position": 2,
+    "weight": 1,
+    "maxPoints": 10
+  },
+  {
+    "id": "cmvv84shj006bm2y3i8zyifli",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "key": "data",
+    "position": 0,
+    "weight": 1,
+    "maxPoints": 10
+  },
+  {
+    "id": "cmvv84shn006mm2y3v3hn29fw",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "key": "process",
+    "position": 1,
+    "weight": 1,
+    "maxPoints": 10
+  },
+  {
+    "id": "cmvv84shp006um2y3pklvhwrg",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "key": "technology",
+    "position": 2,
+    "weight": 1,
+    "maxPoints": 10
+  },
+  {
+    "id": "cmvv9bu8k00aqeuy3f13nrk83",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "key": "data",
+    "position": 0,
+    "weight": 1,
+    "maxPoints": 10
+  },
+  {
+    "id": "cmvv9bu8n00b1euy3f38bjqod",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "key": "process",
+    "position": 1,
+    "weight": 1,
+    "maxPoints": 10
+  },
+  {
+    "id": "cmvv9bu8p00b9euy342xc3w20",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "key": "technology",
+    "position": 2,
+    "weight": 1,
+    "maxPoints": 10
+  },
+  {
+    "id": "cmvvel4nx009eqhy32e4bzbe2",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "key": "data",
+    "position": 0,
+    "weight": 1,
+    "maxPoints": 10
+  },
+  {
+    "id": "cmvvel4o1009pqhy37gmm62xx",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "key": "process",
+    "position": 1,
+    "weight": 1,
+    "maxPoints": 10
+  },
+  {
+    "id": "cmvvel4o2009xqhy3keasrgaf",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "key": "technology",
+    "position": 2,
+    "weight": 1,
+    "maxPoints": 10
+  }
+]

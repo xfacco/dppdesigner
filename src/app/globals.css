@@ -188,6 +188,10 @@
 .prose-content.prose-compact > * + * {
   margin-top: 0.25rem;
 }
+/* Esempi lunghi (URL, identificativi) vanno a capo invece di uscire dal riquadro */
+.prose-content.prose-compact code {
+  overflow-wrap: anywhere;
+}
 .prose-content.step-references {
   font-size: inherit;
   line-height: 1.55;

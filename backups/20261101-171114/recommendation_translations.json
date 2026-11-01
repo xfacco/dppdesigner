@@ -1,0 +1,716 @@
+[
+  {
+    "id": "cmvv1uw6g006unay3nrfmz1sb",
+    "recommendationId": "cmvv1uw6g006tnay3h287u6yi",
+    "locale": "it",
+    "title": "Verifica gli obblighi del passaporto batterie",
+    "body": "Il Regolamento (UE) 2023/1542 prevede un passaporto dedicato per alcune categorie di batterie. Verifica categoria, scadenze e dati richiesti."
+  },
+  {
+    "id": "cmvv1uw6g006vnay3z687colq",
+    "recommendationId": "cmvv1uw6g006tnay3h287u6yi",
+    "locale": "en",
+    "title": "Check the battery passport obligations",
+    "body": "Regulation (EU) 2023/1542 sets out a dedicated passport for certain battery categories. Check category, deadlines and required data."
+  },
+  {
+    "id": "cmvv1uw6i006xnay3j1n6a07e",
+    "recommendationId": "cmvv1uw6h006wnay3j6mxmfd1",
+    "locale": "it",
+    "title": "Mappa e centralizza i dati di prodotto",
+    "body": "Prima di scegliere una piattaforma, censisci dove si trovano oggi i dati richiesti dal DPP e chi ne è responsabile."
+  },
+  {
+    "id": "cmvv1uw6i006ynay3ga4hwa6g",
+    "recommendationId": "cmvv1uw6h006wnay3j6mxmfd1",
+    "locale": "en",
+    "title": "Map and centralize product data",
+    "body": "Before choosing a platform, map where the DPP data lives today and who owns it."
+  },
+  {
+    "id": "cmvv1uw6i0070nay3l7zhof7i",
+    "recommendationId": "cmvv1uw6i006znay39h9egf0w",
+    "locale": "it",
+    "title": "Definisci il data carrier",
+    "body": "Serve un data carrier (es. QR code) con un identificativo univoco e persistente: valuta impatti su packaging, etichette e linee produttive."
+  },
+  {
+    "id": "cmvv1uw6i0071nay3shqdrmvd",
+    "recommendationId": "cmvv1uw6i006znay39h9egf0w",
+    "locale": "en",
+    "title": "Define the data carrier",
+    "body": "You need a data carrier (e.g. a QR code) with a unique, persistent identifier: assess impacts on packaging, labels and production lines."
+  },
+  {
+    "id": "cmvv1uw6j0073nay3efe4dson",
+    "recommendationId": "cmvv1uw6j0072nay3r7pjowup",
+    "locale": "it",
+    "title": "Struttura la raccolta dati dai fornitori",
+    "body": "Excel ed email non scalano: definisci un formato standard e, dove possibile, un portale o un'API per i fornitori."
+  },
+  {
+    "id": "cmvv1uw6j0074nay3sgv43ryh",
+    "recommendationId": "cmvv1uw6j0072nay3r7pjowup",
+    "locale": "en",
+    "title": "Structure supplier data collection",
+    "body": "Excel and email do not scale: define a standard format and, where possible, a portal or API for suppliers."
+  },
+  {
+    "id": "cmvv1uw6k0076nay33r8c7ckb",
+    "recommendationId": "cmvv1uw6k0075nay32l9esaii",
+    "locale": "it",
+    "title": "Scegli il modello di hosting",
+    "body": "Confronta piattaforma proprietaria, SaaS e PaaS su costi, controllo dei dati, integrazione e tempi di avvio."
+  },
+  {
+    "id": "cmvv1uw6k0077nay3fn5ouqkk",
+    "recommendationId": "cmvv1uw6k0075nay32l9esaii",
+    "locale": "en",
+    "title": "Choose the hosting model",
+    "body": "Compare proprietary platform, SaaS and PaaS on cost, data control, integration and time to launch."
+  },
+  {
+    "id": "cmvv1uw6l0079nay3wv9j055h",
+    "recommendationId": "cmvv1uw6l0078nay3t99x3zej",
+    "locale": "it",
+    "title": "Pianifica l'integrazione con il Registry UE",
+    "body": "Il Registry UE collega l'identificativo del prodotto al data host che ospita il passaporto: inseriscilo nella roadmap."
+  },
+  {
+    "id": "cmvv1uw6l007anay3qk15v0mg",
+    "recommendationId": "cmvv1uw6l0078nay3t99x3zej",
+    "locale": "en",
+    "title": "Plan the EU Registry integration",
+    "body": "The EU Registry links the product identifier to the data host serving the passport: include it in your roadmap."
+  },
+  {
+    "id": "cmvv1uw6m007cnay35ovflh97",
+    "recommendationId": "cmvv1uw6l007bnay3jetvvmjl",
+    "locale": "it",
+    "title": "Prevedi l'aggiornamento del passaporto",
+    "body": "Con dati dinamici serve un processo (e permessi) per aggiornare il passaporto durante la vita del prodotto."
+  },
+  {
+    "id": "cmvv1uw6m007dnay3gybb8uaq",
+    "recommendationId": "cmvv1uw6l007bnay3jetvvmjl",
+    "locale": "en",
+    "title": "Plan for passport updates",
+    "body": "With dynamic data you need a process (and permissions) to update the passport during the product's life."
+  },
+  {
+    "id": "cmvv1uw6m007fnay3os68my48",
+    "recommendationId": "cmvv1uw6m007enay3ncjlovfj",
+    "locale": "it",
+    "title": "Approfondisci gli standard di identificazione",
+    "body": "Gli standard CEN/CENELEC sul DPP definiscono identificativi e risoluzione: scegli uno schema stabile nel tempo."
+  },
+  {
+    "id": "cmvv1uw6m007gnay3nvbquk8e",
+    "recommendationId": "cmvv1uw6m007enay3ncjlovfj",
+    "locale": "en",
+    "title": "Look into identification standards",
+    "body": "CEN/CENELEC DPP standards define identifiers and resolution: choose a scheme that stays stable over time."
+  },
+  {
+    "id": "cmvv7v0n700ev0ey38q6ho3vj",
+    "recommendationId": "cmvv7v0n600eu0ey3ephi1hk5",
+    "locale": "it",
+    "title": "Verifica gli obblighi del passaporto batterie",
+    "body": "Il Regolamento (UE) 2023/1542 prevede un passaporto dedicato per alcune categorie di batterie. Verifica categoria, scadenze e dati richiesti."
+  },
+  {
+    "id": "cmvv7v0n700ew0ey3o5a7vppe",
+    "recommendationId": "cmvv7v0n600eu0ey3ephi1hk5",
+    "locale": "en",
+    "title": "Check the battery passport obligations",
+    "body": "Regulation (EU) 2023/1542 sets out a dedicated passport for certain battery categories. Check category, deadlines and required data."
+  },
+  {
+    "id": "cmvv7v0n800ey0ey32hd9938t",
+    "recommendationId": "cmvv7v0n800ex0ey3mqz2kxxj",
+    "locale": "it",
+    "title": "Mappa e centralizza i dati di prodotto",
+    "body": "Prima di scegliere una piattaforma, censisci dove si trovano oggi i dati richiesti dal DPP e chi ne è responsabile."
+  },
+  {
+    "id": "cmvv7v0n800ez0ey35zal45pw",
+    "recommendationId": "cmvv7v0n800ex0ey3mqz2kxxj",
+    "locale": "en",
+    "title": "Map and centralize product data",
+    "body": "Before choosing a platform, map where the DPP data lives today and who owns it."
+  },
+  {
+    "id": "cmvv7v0n900f10ey3917c9kvm",
+    "recommendationId": "cmvv7v0n800f00ey3w7tp624r",
+    "locale": "it",
+    "title": "Definisci il data carrier",
+    "body": "Serve un data carrier (es. QR code) con un identificativo univoco e persistente: valuta impatti su packaging, etichette e linee produttive."
+  },
+  {
+    "id": "cmvv7v0n900f20ey35zmb22qo",
+    "recommendationId": "cmvv7v0n800f00ey3w7tp624r",
+    "locale": "en",
+    "title": "Define the data carrier",
+    "body": "You need a data carrier (e.g. a QR code) with a unique, persistent identifier: assess impacts on packaging, labels and production lines."
+  },
+  {
+    "id": "cmvv7v0na00f40ey3nw1iyohx",
+    "recommendationId": "cmvv7v0n900f30ey3kw4ogr62",
+    "locale": "it",
+    "title": "Struttura la raccolta dati dai fornitori",
+    "body": "Excel ed email non scalano: definisci un formato standard e, dove possibile, un portale o un'API per i fornitori."
+  },
+  {
+    "id": "cmvv7v0na00f50ey3kt5s3l2v",
+    "recommendationId": "cmvv7v0n900f30ey3kw4ogr62",
+    "locale": "en",
+    "title": "Structure supplier data collection",
+    "body": "Excel and email do not scale: define a standard format and, where possible, a portal or API for suppliers."
+  },
+  {
+    "id": "cmvv7v0na00f70ey34wl8fybc",
+    "recommendationId": "cmvv7v0na00f60ey3i5nstebz",
+    "locale": "it",
+    "title": "Scegli il modello di hosting",
+    "body": "Confronta piattaforma proprietaria, SaaS e PaaS su costi, controllo dei dati, integrazione e tempi di avvio."
+  },
+  {
+    "id": "cmvv7v0na00f80ey3ra34fp1w",
+    "recommendationId": "cmvv7v0na00f60ey3i5nstebz",
+    "locale": "en",
+    "title": "Choose the hosting model",
+    "body": "Compare proprietary platform, SaaS and PaaS on cost, data control, integration and time to launch."
+  },
+  {
+    "id": "cmvv7v0nb00fa0ey3ixy46ggc",
+    "recommendationId": "cmvv7v0nb00f90ey3on5hsv38",
+    "locale": "it",
+    "title": "Pianifica l'integrazione con il Registry UE",
+    "body": "Il Registry UE collega l'identificativo del prodotto al data host che ospita il passaporto: inseriscilo nella roadmap."
+  },
+  {
+    "id": "cmvv7v0nb00fb0ey3iqn7fxsf",
+    "recommendationId": "cmvv7v0nb00f90ey3on5hsv38",
+    "locale": "en",
+    "title": "Plan the EU Registry integration",
+    "body": "The EU Registry links the product identifier to the data host serving the passport: include it in your roadmap."
+  },
+  {
+    "id": "cmvv7v0nb00fd0ey3gimetcul",
+    "recommendationId": "cmvv7v0nb00fc0ey3fsteubbn",
+    "locale": "it",
+    "title": "Prevedi l'aggiornamento del passaporto",
+    "body": "Con dati dinamici serve un processo (e permessi) per aggiornare il passaporto durante la vita del prodotto."
+  },
+  {
+    "id": "cmvv7v0nb00fe0ey3u4k8q0vu",
+    "recommendationId": "cmvv7v0nb00fc0ey3fsteubbn",
+    "locale": "en",
+    "title": "Plan for passport updates",
+    "body": "With dynamic data you need a process (and permissions) to update the passport during the product's life."
+  },
+  {
+    "id": "cmvv7v0nc00fg0ey3wxg0sfqy",
+    "recommendationId": "cmvv7v0nc00ff0ey39649scxa",
+    "locale": "it",
+    "title": "Approfondisci gli standard di identificazione",
+    "body": "Gli standard CEN/CENELEC sul DPP definiscono identificativi e risoluzione: scegli uno schema stabile nel tempo."
+  },
+  {
+    "id": "cmvv7v0nc00fh0ey35ek7is95",
+    "recommendationId": "cmvv7v0nc00ff0ey39649scxa",
+    "locale": "en",
+    "title": "Look into identification standards",
+    "body": "CEN/CENELEC DPP standards define identifiers and resolution: choose a scheme that stays stable over time."
+  },
+  {
+    "id": "cmvv7z1vj00mt0ey3jta9ni9y",
+    "recommendationId": "cmvv7z1vj00ms0ey3k0y9nvuh",
+    "locale": "it",
+    "title": "Verifica gli obblighi del passaporto batterie",
+    "body": "Il Regolamento (UE) 2023/1542 prevede un passaporto dedicato per alcune categorie di batterie. Verifica categoria, scadenze e dati richiesti."
+  },
+  {
+    "id": "cmvv7z1vj00mu0ey3d04jfno5",
+    "recommendationId": "cmvv7z1vj00ms0ey3k0y9nvuh",
+    "locale": "en",
+    "title": "Check the battery passport obligations",
+    "body": "Regulation (EU) 2023/1542 sets out a dedicated passport for certain battery categories. Check category, deadlines and required data."
+  },
+  {
+    "id": "cmvv7z1vk00mw0ey3ie39vbll",
+    "recommendationId": "cmvv7z1vk00mv0ey31prsl9vy",
+    "locale": "it",
+    "title": "Mappa e centralizza i dati di prodotto",
+    "body": "Prima di scegliere una piattaforma, censisci dove si trovano oggi i dati richiesti dal DPP e chi ne è responsabile."
+  },
+  {
+    "id": "cmvv7z1vk00mx0ey3dlz87jb7",
+    "recommendationId": "cmvv7z1vk00mv0ey31prsl9vy",
+    "locale": "en",
+    "title": "Map and centralize product data",
+    "body": "Before choosing a platform, map where the DPP data lives today and who owns it."
+  },
+  {
+    "id": "cmvv7z1vl00mz0ey3qoy07dqt",
+    "recommendationId": "cmvv7z1vk00my0ey336fak780",
+    "locale": "it",
+    "title": "Definisci il data carrier",
+    "body": "Serve un data carrier (es. QR code) con un identificativo univoco e persistente: valuta impatti su packaging, etichette e linee produttive."
+  },
+  {
+    "id": "cmvv7z1vl00n00ey3rozgfplh",
+    "recommendationId": "cmvv7z1vk00my0ey336fak780",
+    "locale": "en",
+    "title": "Define the data carrier",
+    "body": "You need a data carrier (e.g. a QR code) with a unique, persistent identifier: assess impacts on packaging, labels and production lines."
+  },
+  {
+    "id": "cmvv7z1vl00n20ey3ma2stwq4",
+    "recommendationId": "cmvv7z1vl00n10ey3d7dqrqje",
+    "locale": "it",
+    "title": "Struttura la raccolta dati dai fornitori",
+    "body": "Excel ed email non scalano: definisci un formato standard e, dove possibile, un portale o un'API per i fornitori."
+  },
+  {
+    "id": "cmvv7z1vl00n30ey3zi4yy4eu",
+    "recommendationId": "cmvv7z1vl00n10ey3d7dqrqje",
+    "locale": "en",
+    "title": "Structure supplier data collection",
+    "body": "Excel and email do not scale: define a standard format and, where possible, a portal or API for suppliers."
+  },
+  {
+    "id": "cmvv7z1vl00n50ey3f44xsvwh",
+    "recommendationId": "cmvv7z1vl00n40ey3xvkt3u1m",
+    "locale": "it",
+    "title": "Scegli il modello di hosting",
+    "body": "Confronta piattaforma proprietaria, SaaS e PaaS su costi, controllo dei dati, integrazione e tempi di avvio."
+  },
+  {
+    "id": "cmvv7z1vl00n60ey36ztlnxg4",
+    "recommendationId": "cmvv7z1vl00n40ey3xvkt3u1m",
+    "locale": "en",
+    "title": "Choose the hosting model",
+    "body": "Compare proprietary platform, SaaS and PaaS on cost, data control, integration and time to launch."
+  },
+  {
+    "id": "cmvv7z1vm00n80ey35zq8fu79",
+    "recommendationId": "cmvv7z1vm00n70ey3dvtl5drb",
+    "locale": "it",
+    "title": "Pianifica l'integrazione con il Registry UE",
+    "body": "Il Registry UE collega l'identificativo del prodotto al data host che ospita il passaporto: inseriscilo nella roadmap."
+  },
+  {
+    "id": "cmvv7z1vm00n90ey3zelpdt81",
+    "recommendationId": "cmvv7z1vm00n70ey3dvtl5drb",
+    "locale": "en",
+    "title": "Plan the EU Registry integration",
+    "body": "The EU Registry links the product identifier to the data host serving the passport: include it in your roadmap."
+  },
+  {
+    "id": "cmvv7z1vm00nb0ey3bl6iorl5",
+    "recommendationId": "cmvv7z1vm00na0ey30msuv0yk",
+    "locale": "it",
+    "title": "Prevedi l'aggiornamento del passaporto",
+    "body": "Con dati dinamici serve un processo (e permessi) per aggiornare il passaporto durante la vita del prodotto."
+  },
+  {
+    "id": "cmvv7z1vm00nc0ey3ymjwy541",
+    "recommendationId": "cmvv7z1vm00na0ey30msuv0yk",
+    "locale": "en",
+    "title": "Plan for passport updates",
+    "body": "With dynamic data you need a process (and permissions) to update the passport during the product's life."
+  },
+  {
+    "id": "cmvv7z1vm00ne0ey3dftnqy46",
+    "recommendationId": "cmvv7z1vm00nd0ey3swkgkv4j",
+    "locale": "it",
+    "title": "Approfondisci gli standard di identificazione",
+    "body": "Gli standard CEN/CENELEC sul DPP definiscono identificativi e risoluzione: scegli uno schema stabile nel tempo."
+  },
+  {
+    "id": "cmvv7z1vm00nf0ey34q35fcx5",
+    "recommendationId": "cmvv7z1vm00nd0ey3swkgkv4j",
+    "locale": "en",
+    "title": "Look into identification standards",
+    "body": "CEN/CENELEC DPP standards define identifiers and resolution: choose a scheme that stays stable over time."
+  },
+  {
+    "id": "cmvv84shr0071m2y3zefkmnwg",
+    "recommendationId": "cmvv84shr0070m2y3o3gidg9w",
+    "locale": "it",
+    "title": "Verifica gli obblighi del passaporto batterie",
+    "body": "Il Regolamento (UE) 2023/1542 prevede un passaporto dedicato per alcune categorie di batterie. Verifica categoria, scadenze e dati richiesti."
+  },
+  {
+    "id": "cmvv84shr0072m2y3y97ibgng",
+    "recommendationId": "cmvv84shr0070m2y3o3gidg9w",
+    "locale": "en",
+    "title": "Check the battery passport obligations",
+    "body": "Regulation (EU) 2023/1542 sets out a dedicated passport for certain battery categories. Check category, deadlines and required data."
+  },
+  {
+    "id": "cmvv84sht0074m2y34ph6t8qx",
+    "recommendationId": "cmvv84shs0073m2y39wxieele",
+    "locale": "it",
+    "title": "Mappa e centralizza i dati di prodotto",
+    "body": "Prima di scegliere una piattaforma, censisci dove si trovano oggi i dati richiesti dal DPP e chi ne è responsabile."
+  },
+  {
+    "id": "cmvv84sht0075m2y3542dgo7z",
+    "recommendationId": "cmvv84shs0073m2y39wxieele",
+    "locale": "en",
+    "title": "Map and centralize product data",
+    "body": "Before choosing a platform, map where the DPP data lives today and who owns it."
+  },
+  {
+    "id": "cmvv84sht0077m2y3z8u2juqg",
+    "recommendationId": "cmvv84sht0076m2y36ck6nm6r",
+    "locale": "it",
+    "title": "Definisci il data carrier",
+    "body": "Serve un data carrier (es. QR code) con un identificativo univoco e persistente: valuta impatti su packaging, etichette e linee produttive."
+  },
+  {
+    "id": "cmvv84sht0078m2y3v5vwfj0b",
+    "recommendationId": "cmvv84sht0076m2y36ck6nm6r",
+    "locale": "en",
+    "title": "Define the data carrier",
+    "body": "You need a data carrier (e.g. a QR code) with a unique, persistent identifier: assess impacts on packaging, labels and production lines."
+  },
+  {
+    "id": "cmvv84shu007am2y342c9hy44",
+    "recommendationId": "cmvv84shu0079m2y3u9hnngt6",
+    "locale": "it",
+    "title": "Struttura la raccolta dati dai fornitori",
+    "body": "Excel ed email non scalano: definisci un formato standard e, dove possibile, un portale o un'API per i fornitori."
+  },
+  {
+    "id": "cmvv84shu007bm2y3d04dxpmn",
+    "recommendationId": "cmvv84shu0079m2y3u9hnngt6",
+    "locale": "en",
+    "title": "Structure supplier data collection",
+    "body": "Excel and email do not scale: define a standard format and, where possible, a portal or API for suppliers."
+  },
+  {
+    "id": "cmvv84shv007dm2y3fx5wseej",
+    "recommendationId": "cmvv84shu007cm2y3xfaa3495",
+    "locale": "it",
+    "title": "Scegli il modello di hosting",
+    "body": "Confronta piattaforma proprietaria, SaaS e PaaS su costi, controllo dei dati, integrazione e tempi di avvio."
+  },
+  {
+    "id": "cmvv84shv007em2y3xzyqpcx8",
+    "recommendationId": "cmvv84shu007cm2y3xfaa3495",
+    "locale": "en",
+    "title": "Choose the hosting model",
+    "body": "Compare proprietary platform, SaaS and PaaS on cost, data control, integration and time to launch."
+  },
+  {
+    "id": "cmvv84shv007gm2y3i32x6i2q",
+    "recommendationId": "cmvv84shv007fm2y3lra79642",
+    "locale": "it",
+    "title": "Pianifica l'integrazione con il Registry UE",
+    "body": "Il Registry UE collega l'identificativo del prodotto al data host che ospita il passaporto: inseriscilo nella roadmap."
+  },
+  {
+    "id": "cmvv84shv007hm2y3s9says0s",
+    "recommendationId": "cmvv84shv007fm2y3lra79642",
+    "locale": "en",
+    "title": "Plan the EU Registry integration",
+    "body": "The EU Registry links the product identifier to the data host serving the passport: include it in your roadmap."
+  },
+  {
+    "id": "cmvv84shw007jm2y3eqdhotdb",
+    "recommendationId": "cmvv84shw007im2y3stnq134k",
+    "locale": "it",
+    "title": "Prevedi l'aggiornamento del passaporto",
+    "body": "Con dati dinamici serve un processo (e permessi) per aggiornare il passaporto durante la vita del prodotto."
+  },
+  {
+    "id": "cmvv84shw007km2y3t0oc94og",
+    "recommendationId": "cmvv84shw007im2y3stnq134k",
+    "locale": "en",
+    "title": "Plan for passport updates",
+    "body": "With dynamic data you need a process (and permissions) to update the passport during the product's life."
+  },
+  {
+    "id": "cmvv84shx007mm2y3pqgr0g0c",
+    "recommendationId": "cmvv84shw007lm2y39ix1vesu",
+    "locale": "it",
+    "title": "Approfondisci gli standard di identificazione",
+    "body": "Gli standard CEN/CENELEC sul DPP definiscono identificativi e risoluzione: scegli uno schema stabile nel tempo."
+  },
+  {
+    "id": "cmvv84shx007nm2y34ie1l6hw",
+    "recommendationId": "cmvv84shw007lm2y39ix1vesu",
+    "locale": "en",
+    "title": "Look into identification standards",
+    "body": "CEN/CENELEC DPP standards define identifiers and resolution: choose a scheme that stays stable over time."
+  },
+  {
+    "id": "cmvv9bu8r00bgeuy36kml79u8",
+    "recommendationId": "cmvv9bu8r00bfeuy34g1pg94r",
+    "locale": "it",
+    "title": "Verifica gli obblighi del passaporto batterie",
+    "body": "Il Regolamento (UE) 2023/1542 prevede un passaporto dedicato per alcune categorie di batterie. Verifica categoria, scadenze e dati richiesti."
+  },
+  {
+    "id": "cmvv9bu8r00bheuy382tp5537",
+    "recommendationId": "cmvv9bu8r00bfeuy34g1pg94r",
+    "locale": "en",
+    "title": "Check the battery passport obligations",
+    "body": "Regulation (EU) 2023/1542 sets out a dedicated passport for certain battery categories. Check category, deadlines and required data."
+  },
+  {
+    "id": "cmvv9bu8s00bjeuy39klk5ki6",
+    "recommendationId": "cmvv9bu8s00bieuy3mpwl8sly",
+    "locale": "it",
+    "title": "Mappa e centralizza i dati di prodotto",
+    "body": "Prima di scegliere una piattaforma, censisci dove si trovano oggi i dati richiesti dal DPP e chi ne è responsabile."
+  },
+  {
+    "id": "cmvv9bu8s00bkeuy3l356em16",
+    "recommendationId": "cmvv9bu8s00bieuy3mpwl8sly",
+    "locale": "en",
+    "title": "Map and centralize product data",
+    "body": "Before choosing a platform, map where the DPP data lives today and who owns it."
+  },
+  {
+    "id": "cmvv9bu8t00bmeuy3k4lmhlo3",
+    "recommendationId": "cmvv9bu8t00bleuy3d5javpbe",
+    "locale": "it",
+    "title": "Definisci il data carrier",
+    "body": "Serve un data carrier (es. QR code) con un identificativo univoco e persistente: valuta impatti su packaging, etichette e linee produttive."
+  },
+  {
+    "id": "cmvv9bu8t00bneuy3awt5clnb",
+    "recommendationId": "cmvv9bu8t00bleuy3d5javpbe",
+    "locale": "en",
+    "title": "Define the data carrier",
+    "body": "You need a data carrier (e.g. a QR code) with a unique, persistent identifier: assess impacts on packaging, labels and production lines."
+  },
+  {
+    "id": "cmvv9bu8t00bpeuy3lgyoy5b8",
+    "recommendationId": "cmvv9bu8t00boeuy3fes3mwmw",
+    "locale": "it",
+    "title": "Struttura la raccolta dati dai fornitori",
+    "body": "Excel ed email non scalano: definisci un formato standard e, dove possibile, un portale o un'API per i fornitori."
+  },
+  {
+    "id": "cmvv9bu8t00bqeuy3gzljujev",
+    "recommendationId": "cmvv9bu8t00boeuy3fes3mwmw",
+    "locale": "en",
+    "title": "Structure supplier data collection",
+    "body": "Excel and email do not scale: define a standard format and, where possible, a portal or API for suppliers."
+  },
+  {
+    "id": "cmvv9bu8u00bseuy331oqcjip",
+    "recommendationId": "cmvv9bu8u00breuy3falskmtb",
+    "locale": "it",
+    "title": "Scegli il modello di hosting",
+    "body": "Confronta piattaforma proprietaria, SaaS e PaaS su costi, controllo dei dati, integrazione e tempi di avvio."
+  },
+  {
+    "id": "cmvv9bu8u00bteuy3axqy31ju",
+    "recommendationId": "cmvv9bu8u00breuy3falskmtb",
+    "locale": "en",
+    "title": "Choose the hosting model",
+    "body": "Compare proprietary platform, SaaS and PaaS on cost, data control, integration and time to launch."
+  },
+  {
+    "id": "cmvv9bu8u00bveuy39u2zvcab",
+    "recommendationId": "cmvv9bu8u00bueuy3kenbkl6q",
+    "locale": "it",
+    "title": "Pianifica l'integrazione con il Registry UE",
+    "body": "Il Registry UE collega l'identificativo del prodotto al data host che ospita il passaporto: inseriscilo nella roadmap."
+  },
+  {
+    "id": "cmvv9bu8u00bweuy3io9zjfb5",
+    "recommendationId": "cmvv9bu8u00bueuy3kenbkl6q",
+    "locale": "en",
+    "title": "Plan the EU Registry integration",
+    "body": "The EU Registry links the product identifier to the data host serving the passport: include it in your roadmap."
+  },
+  {
+    "id": "cmvv9bu8v00byeuy30bhklp1y",
+    "recommendationId": "cmvv9bu8v00bxeuy3pnlggxly",
+    "locale": "it",
+    "title": "Prevedi l'aggiornamento del passaporto",
+    "body": "Con dati dinamici serve un processo (e permessi) per aggiornare il passaporto durante la vita del prodotto."
+  },
+  {
+    "id": "cmvv9bu8v00bzeuy3bbh58kgi",
+    "recommendationId": "cmvv9bu8v00bxeuy3pnlggxly",
+    "locale": "en",
+    "title": "Plan for passport updates",
+    "body": "With dynamic data you need a process (and permissions) to update the passport during the product's life."
+  },
+  {
+    "id": "cmvv9bu8v00c1euy3htbacwoh",
+    "recommendationId": "cmvv9bu8v00c0euy3dbpse3nz",
+    "locale": "it",
+    "title": "Approfondisci gli standard di identificazione",
+    "body": "Gli standard CEN/CENELEC sul DPP definiscono identificativi e risoluzione: scegli uno schema stabile nel tempo."
+  },
+  {
+    "id": "cmvv9bu8v00c2euy3xpnmc2ms",
+    "recommendationId": "cmvv9bu8v00c0euy3dbpse3nz",
+    "locale": "en",
+    "title": "Look into identification standards",
+    "body": "CEN/CENELEC DPP standards define identifiers and resolution: choose a scheme that stays stable over time."
+  },
+  {
+    "id": "cmvvel4o400a4qhy30yuo68fu",
+    "recommendationId": "cmvvel4o400a3qhy3g62d15by",
+    "locale": "it",
+    "title": "Verifica gli obblighi del passaporto batterie",
+    "body": "Il Regolamento (UE) 2023/1542 prevede un passaporto dedicato per alcune categorie di batterie. Verifica categoria, scadenze e dati richiesti."
+  },
+  {
+    "id": "cmvvel4o400a5qhy3ckomqlgo",
+    "recommendationId": "cmvvel4o400a3qhy3g62d15by",
+    "locale": "en",
+    "title": "Check the battery passport obligations",
+    "body": "Regulation (EU) 2023/1542 sets out a dedicated passport for certain battery categories. Check category, deadlines and required data."
+  },
+  {
+    "id": "cmvvel4o500a7qhy3gtlezt0c",
+    "recommendationId": "cmvvel4o500a6qhy3hv51zed8",
+    "locale": "it",
+    "title": "Mappa e centralizza i dati di prodotto",
+    "body": "Prima di scegliere una piattaforma, censisci dove si trovano oggi i dati richiesti dal DPP e chi ne è responsabile."
+  },
+  {
+    "id": "cmvvel4o500a8qhy3e1bz8rts",
+    "recommendationId": "cmvvel4o500a6qhy3hv51zed8",
+    "locale": "en",
+    "title": "Map and centralize product data",
+    "body": "Before choosing a platform, map where the DPP data lives today and who owns it."
+  },
+  {
+    "id": "cmvvel4o600aaqhy3uw46aybx",
+    "recommendationId": "cmvvel4o600a9qhy3iis3mvrh",
+    "locale": "it",
+    "title": "Definisci il data carrier",
+    "body": "Serve un data carrier (es. QR code) con un identificativo univoco e persistente: valuta impatti su packaging, etichette e linee produttive."
+  },
+  {
+    "id": "cmvvel4o600abqhy3ej3f6ppn",
+    "recommendationId": "cmvvel4o600a9qhy3iis3mvrh",
+    "locale": "en",
+    "title": "Define the data carrier",
+    "body": "You need a data carrier (e.g. a QR code) with a unique, persistent identifier: assess impacts on packaging, labels and production lines."
+  },
+  {
+    "id": "cmvvel4o700adqhy37ymy58qv",
+    "recommendationId": "cmvvel4o600acqhy3fm9noheu",
+    "locale": "it",
+    "title": "Struttura la raccolta dati dai fornitori",
+    "body": "Excel ed email non scalano: definisci un formato standard e, dove possibile, un portale o un'API per i fornitori."
+  },
+  {
+    "id": "cmvvel4o700aeqhy3jo2xrhko",
+    "recommendationId": "cmvvel4o600acqhy3fm9noheu",
+    "locale": "en",
+    "title": "Structure supplier data collection",
+    "body": "Excel and email do not scale: define a standard format and, where possible, a portal or API for suppliers."
+  },
+  {
+    "id": "cmvvel4o700agqhy3tw2972kl",
+    "recommendationId": "cmvvel4o700afqhy3go6nk9gx",
+    "locale": "it",
+    "title": "Scegli il modello di hosting",
+    "body": "Confronta piattaforma proprietaria, SaaS e PaaS su costi, controllo dei dati, integrazione e tempi di avvio."
+  },
+  {
+    "id": "cmvvel4o700ahqhy3sb7tjw7x",
+    "recommendationId": "cmvvel4o700afqhy3go6nk9gx",
+    "locale": "en",
+    "title": "Choose the hosting model",
+    "body": "Compare proprietary platform, SaaS and PaaS on cost, data control, integration and time to launch."
+  },
+  {
+    "id": "cmvvel4o800akqhy3lzh623mw",
+    "recommendationId": "cmvvel4o800aiqhy3fy1ot3tk",
+    "locale": "en",
+    "title": "Plan the EU Registry integration",
+    "body": "The EU Registry links the product identifier to the data host serving the passport: include it in your roadmap."
+  },
+  {
+    "id": "cmvvel4o800amqhy3dfa7wvwo",
+    "recommendationId": "cmvvel4o800alqhy32apuko1b",
+    "locale": "it",
+    "title": "Prevedi l'aggiornamento del passaporto",
+    "body": "Con dati dinamici serve un processo (e permessi) per aggiornare il passaporto durante la vita del prodotto."
+  },
+  {
+    "id": "cmvvel4o800anqhy3im34d5wt",
+    "recommendationId": "cmvvel4o800alqhy32apuko1b",
+    "locale": "en",
+    "title": "Plan for passport updates",
+    "body": "With dynamic data you need a process (and permissions) to update the passport during the product's life."
+  },
+  {
+    "id": "cmvvel4o900apqhy3nkajbvxd",
+    "recommendationId": "cmvvel4o900aoqhy3gkwsyzu3",
+    "locale": "it",
+    "title": "Approfondisci gli standard di identificazione",
+    "body": "Gli standard CEN/CENELEC sul DPP definiscono identificativi e risoluzione: scegli uno schema stabile nel tempo."
+  },
+  {
+    "id": "cmvvel4o900aqqhy39tukeh8j",
+    "recommendationId": "cmvvel4o900aoqhy3gkwsyzu3",
+    "locale": "en",
+    "title": "Look into identification standards",
+    "body": "CEN/CENELEC DPP standards define identifiers and resolution: choose a scheme that stays stable over time."
+  },
+  {
+    "id": "cmvvel4o800ajqhy3yajxx1tf",
+    "recommendationId": "cmvvel4o800aiqhy3fy1ot3tk",
+    "locale": "it",
+    "title": "Pianifica l'integrazione con il Registro UE",
+    "body": "Il Registro UE collega l'identificativo del prodotto al data host che ospita il passaporto: inseriscilo nella roadmap."
+  },
+  {
+    "id": "cmvveys7v002mzwy3uo741vwp",
+    "recommendationId": "cmvveys7v002lzwy33q0chupj",
+    "locale": "it",
+    "title": "Nomina un responsabile del progetto DPP",
+    "body": "Il passaporto coinvolge prodotto, qualità, IT e fornitori: senza una persona che coordini, le decisioni restano ferme. Definisci un responsabile e un piccolo gruppo di lavoro."
+  },
+  {
+    "id": "cmvveys7v002nzwy325mrcf60",
+    "recommendationId": "cmvveys7v002lzwy33q0chupj",
+    "locale": "en",
+    "title": "Appoint a DPP project owner",
+    "body": "The passport involves product, quality, IT and suppliers: without someone coordinating, decisions stall. Appoint an owner and a small working group."
+  },
+  {
+    "id": "cmvveys7w002pzwy3r9qq6hxg",
+    "recommendationId": "cmvveys7w002ozwy3dha7pz8i",
+    "locale": "it",
+    "title": "Introduci un portale o un formato standard per i fornitori",
+    "body": "Con molti fornitori, file Excel e PDF diventano ingestibili: un portale o un template unico riduce errori e tempi di raccolta."
+  },
+  {
+    "id": "cmvveys7w002qzwy3o1bw7evv",
+    "recommendationId": "cmvveys7w002ozwy3dha7pz8i",
+    "locale": "en",
+    "title": "Introduce a portal or standard format for suppliers",
+    "body": "With many suppliers, Excel files and PDFs become unmanageable: a portal or a single template reduces errors and collection time."
+  },
+  {
+    "id": "cmvveys7y002szwy31niko5uq",
+    "recommendationId": "cmvveys7x002rzwy3qrusnc1s",
+    "locale": "it",
+    "title": "Chiarisci il livello del passaporto",
+    "body": "Per almeno una categoria non è chiaro se il passaporto sarà per modello, lotto o singolo prodotto. È una scelta che incide su identificativi, data carrier e costi: verificala sull'atto delegato del settore."
+  },
+  {
+    "id": "cmvveys7y002tzwy37vmxulnb",
+    "recommendationId": "cmvveys7x002rzwy3qrusnc1s",
+    "locale": "en",
+    "title": "Clarify the passport level",
+    "body": "For at least one category it is unclear whether the passport will be per model, batch or item. This choice affects identifiers, data carriers and costs: check it against the sector's delegated act."
+  }
+]

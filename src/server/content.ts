@@ -2,9 +2,10 @@ import "server-only";
 import { cache } from "react";
 import { db } from "@/lib/db";
 import { routing } from "@/i18n/routing";
+import { GUIDE_SEGMENT, guideSegment } from "@/lib/guide";
 
 /** Slug che non possono essere usati dalle pagine perché occupati da route applicative. */
-export const RESERVED_SLUGS = ["progetta", "readiness", "login", "register", "forgot-password", "reset-password", "account", "api", "admin"];
+export const RESERVED_SLUGS = ["progetta", "guida", "guide", "readiness", "login", "register", "forgot-password", "reset-password", "account", "api", "admin"];
 
 /**
  * Pagine di sistema: il loro testo si modifica da Admin → Contenuti, ma sono servite
@@ -43,6 +44,8 @@ export const getPageByKey = cache(async (locale: string, key: string) => {
 export async function translatePath(path: string, to: string): Promise<string> {
   const [, from, first, ...rest] = path.split("/");
   if (!routing.locales.includes(from as never) || !first) return `/${to}`;
+  // La guida ha il segmento tradotto (/it/guida, /en/guide); gli articoli hanno lo stesso slug
+  if (Object.values(GUIDE_SEGMENT).includes(first as never)) return ["", to, guideSegment(to), ...rest].join("/");
   if (RESERVED_SLUGS.includes(first)) return ["", to, first, ...rest].join("/");
 
   const page = await db.pageTranslation.findFirst({

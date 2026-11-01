@@ -1,0 +1,3422 @@
+[
+  {
+    "id": "cmvv1uw410004nay33oa5k8u6",
+    "stepId": "cmvv1uw3z0001nay302pn5ya0",
+    "key": "battery",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw420007nay3l362jro8",
+    "stepId": "cmvv1uw3z0001nay302pn5ya0",
+    "key": "textile",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw42000anay31ofiabbc",
+    "stepId": "cmvv1uw3z0001nay302pn5ya0",
+    "key": "electronics",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw43000dnay3lyhhf2sk",
+    "stepId": "cmvv1uw3z0001nay302pn5ya0",
+    "key": "furniture",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw43000gnay3vmlnxbk6",
+    "stepId": "cmvv1uw3z0001nay302pn5ya0",
+    "key": "steel_aluminium",
+    "position": 4,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw44000jnay3co9cqism",
+    "stepId": "cmvv1uw3z0001nay302pn5ya0",
+    "key": "tyres",
+    "position": 5,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw44000mnay3tghmi2jd",
+    "stepId": "cmvv1uw3z0001nay302pn5ya0",
+    "key": "construction",
+    "position": 6,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw45000pnay3renn0sfw",
+    "stepId": "cmvv1uw3z0001nay302pn5ya0",
+    "key": "other",
+    "position": 7,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw4a000vnay3hxgdenuk",
+    "stepId": "cmvv1uw49000snay3umv1r90x",
+    "key": "manufacturer",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw4a000ynay312v0ddug",
+    "stepId": "cmvv1uw49000snay3umv1r90x",
+    "key": "brand",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw4a0011nay3mj2i1a29",
+    "stepId": "cmvv1uw49000snay3umv1r90x",
+    "key": "importer",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw4b0014nay3kmi4ut46",
+    "stepId": "cmvv1uw49000snay3umv1r90x",
+    "key": "distributor",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw4b0017nay3gjyynonq",
+    "stepId": "cmvv1uw49000snay3umv1r90x",
+    "key": "retailer",
+    "position": 4,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw4f001dnay3x9djga26",
+    "stepId": "cmvv1uw4e001anay3xf5oepq2",
+    "key": "in_house",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw4f001gnay3n6t25pdz",
+    "stepId": "cmvv1uw4e001anay3xf5oepq2",
+    "key": "suppliers",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw4g001jnay39yg5yvy3",
+    "stepId": "cmvv1uw4e001anay3xf5oepq2",
+    "key": "both",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw4q001vnay3j2yj3vmc",
+    "stepId": "cmvv1uw4p001snay354wenea7",
+    "key": "yes",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw4q001ynay3rq3lwwhw",
+    "stepId": "cmvv1uw4p001snay354wenea7",
+    "key": "no",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw4u0024nay3gc6anmw7",
+    "stepId": "cmvv1uw4t0021nay3m03p0qrp",
+    "key": "static",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw4v0027nay3nowfr97c",
+    "stepId": "cmvv1uw4t0021nay3m03p0qrp",
+    "key": "dynamic",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw4y002anay3vpucuj1j",
+    "stepId": "cmvv1uw4t0021nay3m03p0qrp",
+    "key": "mixed",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw53002gnay3symu3481",
+    "stepId": "cmvv1uw52002dnay3enyannv5",
+    "key": "suppliers_excel",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw53002jnay342z3cldk",
+    "stepId": "cmvv1uw52002dnay3enyannv5",
+    "key": "suppliers_api",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw54002mnay3hrggzgdv",
+    "stepId": "cmvv1uw52002dnay3enyannv5",
+    "key": "erp",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw54002pnay3th2b1u1f",
+    "stepId": "cmvv1uw52002dnay3enyannv5",
+    "key": "mes",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw56002snay3mvuzk7a7",
+    "stepId": "cmvv1uw52002dnay3enyannv5",
+    "key": "plm",
+    "position": 4,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw56002vnay3mzuoe9c8",
+    "stepId": "cmvv1uw52002dnay3enyannv5",
+    "key": "manual",
+    "position": 5,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw5a0031nay3j3is2df8",
+    "stepId": "cmvv1uw59002ynay3xkgeuvzv",
+    "key": "centralized",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw5a0034nay38g3inghs",
+    "stepId": "cmvv1uw59002ynay3xkgeuvzv",
+    "key": "decentralized",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw5a0037nay3x8sspr86",
+    "stepId": "cmvv1uw59002ynay3xkgeuvzv",
+    "key": "unorganized",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw5h003dnay3ilzif9c2",
+    "stepId": "cmvv1uw5f003anay36zm9rcx4",
+    "key": "materials",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw5h003gnay3xcnnmjgw",
+    "stepId": "cmvv1uw5f003anay36zm9rcx4",
+    "key": "origin",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw5i003jnay38vk46qrj",
+    "stepId": "cmvv1uw5f003anay36zm9rcx4",
+    "key": "sustainability",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw5i003mnay344la6v1p",
+    "stepId": "cmvv1uw5f003anay36zm9rcx4",
+    "key": "end_of_life",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw5i003pnay3he8v31we",
+    "stepId": "cmvv1uw5f003anay36zm9rcx4",
+    "key": "compliance_docs",
+    "position": 4,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw5j003snay3spozsiqm",
+    "stepId": "cmvv1uw5f003anay36zm9rcx4",
+    "key": "repair_info",
+    "position": 5,
+    "visibleIf": {
+      "op": "eq",
+      "step": "maintenance",
+      "value": "yes"
+    }
+  },
+  {
+    "id": "cmvv1uw5m003ynay3bbgmguc0",
+    "stepId": "cmvv1uw5l003vnay3xwyz24a4",
+    "key": "qr",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw5m0041nay39d8dqczw",
+    "stepId": "cmvv1uw5l003vnay3xwyz24a4",
+    "key": "other_carrier",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw5n0044nay3iplrfqzr",
+    "stepId": "cmvv1uw5l003vnay3xwyz24a4",
+    "key": "none",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw5q004anay34bjor40f",
+    "stepId": "cmvv1uw5p0047nay3s8a55g2i",
+    "key": "espr",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw5q004dnay39sq0f0fe",
+    "stepId": "cmvv1uw5p0047nay3s8a55g2i",
+    "key": "battery_regulation",
+    "position": 1,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "battery"
+    }
+  },
+  {
+    "id": "cmvv1uw5r004gnay3c6g39exr",
+    "stepId": "cmvv1uw5p0047nay3s8a55g2i",
+    "key": "unsure",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw5u004mnay3j9r8f0s5",
+    "stepId": "cmvv1uw5t004jnay3r43lqx1b",
+    "key": "model",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw5u004pnay381c5v4qg",
+    "stepId": "cmvv1uw5t004jnay3r43lqx1b",
+    "key": "batch",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw5u004snay3ymsrl0gn",
+    "stepId": "cmvv1uw5t004jnay3r43lqx1b",
+    "key": "item",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw5v004vnay381s8p8ot",
+    "stepId": "cmvv1uw5t004jnay3r43lqx1b",
+    "key": "unsure",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw5y0051nay3ieo63bpu",
+    "stepId": "cmvv1uw5x004ynay3epr6yrwd",
+    "key": "gs1_digital_link",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw5y0054nay3v8wvt8jz",
+    "stepId": "cmvv1uw5x004ynay3epr6yrwd",
+    "key": "own_domain",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw5z0057nay3a93ea9fs",
+    "stepId": "cmvv1uw5x004ynay3epr6yrwd",
+    "key": "unsure",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw60005dnay3gia888l2",
+    "stepId": "cmvv1uw60005anay3luqifwto",
+    "key": "proprietary",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw61005gnay3d3lo0jea",
+    "stepId": "cmvv1uw60005anay3luqifwto",
+    "key": "saas",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw61005jnay3w3hdkv9o",
+    "stepId": "cmvv1uw60005anay3luqifwto",
+    "key": "paas",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw61005mnay3getbt9mx",
+    "stepId": "cmvv1uw60005anay3luqifwto",
+    "key": "undecided",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw63005snay385ffsjol",
+    "stepId": "cmvv1uw62005pnay33fc5ib9l",
+    "key": "direct",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw63005vnay38309tkw7",
+    "stepId": "cmvv1uw62005pnay33fc5ib9l",
+    "key": "via_provider",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw63005ynay3h5uen1rw",
+    "stepId": "cmvv1uw62005pnay33fc5ib9l",
+    "key": "not_planned",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv1uw640061nay3xs5ahlcy",
+    "stepId": "cmvv1uw62005pnay33fc5ib9l",
+    "key": "unknown",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1tx00g00ey3b8eqkqma",
+    "stepId": "cmvv7z1tv00fx0ey337jkpa3h",
+    "key": "battery",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1tz00g30ey3yx4r74uj",
+    "stepId": "cmvv7z1tv00fx0ey337jkpa3h",
+    "key": "textile",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1u000g60ey3bq85duvu",
+    "stepId": "cmvv7z1tv00fx0ey337jkpa3h",
+    "key": "electronics",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1u000g90ey3h5coaz1l",
+    "stepId": "cmvv7z1tv00fx0ey337jkpa3h",
+    "key": "furniture",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1u100gc0ey3zf30pgea",
+    "stepId": "cmvv7z1tv00fx0ey337jkpa3h",
+    "key": "steel_aluminium",
+    "position": 4,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1u300gf0ey3ozv8bzb9",
+    "stepId": "cmvv7z1tv00fx0ey337jkpa3h",
+    "key": "tyres",
+    "position": 5,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1u300gi0ey32iyhq5aj",
+    "stepId": "cmvv7z1tv00fx0ey337jkpa3h",
+    "key": "construction",
+    "position": 6,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1u400gl0ey34yn9hkul",
+    "stepId": "cmvv7z1tv00fx0ey337jkpa3h",
+    "key": "other",
+    "position": 7,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1u600gr0ey39pboto4g",
+    "stepId": "cmvv7z1u500go0ey3d2lhg93h",
+    "key": "manufacturer",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1u800gu0ey36vkomt6t",
+    "stepId": "cmvv7z1u500go0ey3d2lhg93h",
+    "key": "brand",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1u900gx0ey3ga5xhlzq",
+    "stepId": "cmvv7z1u500go0ey3d2lhg93h",
+    "key": "importer",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1u900h00ey3eeo2axb3",
+    "stepId": "cmvv7z1u500go0ey3d2lhg93h",
+    "key": "distributor",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1ua00h30ey38aav6x2t",
+    "stepId": "cmvv7z1u500go0ey3d2lhg93h",
+    "key": "retailer",
+    "position": 4,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1ua00h60ey3llt9mlsr",
+    "stepId": "cmvv7z1u500go0ey3d2lhg93h",
+    "key": "other",
+    "position": 5,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1ue00hi0ey33t116qwa",
+    "stepId": "cmvv7z1ue00hf0ey30jkmzho1",
+    "key": "yes",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1uf00hl0ey36e4pmlew",
+    "stepId": "cmvv7z1ue00hf0ey30jkmzho1",
+    "key": "no",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1ug00hr0ey3mwh432ec",
+    "stepId": "cmvv7z1ug00ho0ey3e5898ee4",
+    "key": "static",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1uh00hu0ey38ggcmsf5",
+    "stepId": "cmvv7z1ug00ho0ey3e5898ee4",
+    "key": "dynamic",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1uh00hx0ey3k6rhv5zz",
+    "stepId": "cmvv7z1ug00ho0ey3e5898ee4",
+    "key": "mixed",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1uj00i30ey3g5pwjdgk",
+    "stepId": "cmvv7z1ui00i00ey3o8vh6fo8",
+    "key": "suppliers_excel",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1uk00i60ey3k91xeqaq",
+    "stepId": "cmvv7z1ui00i00ey3o8vh6fo8",
+    "key": "suppliers_api",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1ul00i90ey35frirjv4",
+    "stepId": "cmvv7z1ui00i00ey3o8vh6fo8",
+    "key": "erp",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1ul00ic0ey3miy2sv4u",
+    "stepId": "cmvv7z1ui00i00ey3o8vh6fo8",
+    "key": "mes",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1ul00if0ey3ix0hdemv",
+    "stepId": "cmvv7z1ui00i00ey3o8vh6fo8",
+    "key": "plm",
+    "position": 4,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1um00ii0ey335q08cok",
+    "stepId": "cmvv7z1ui00i00ey3o8vh6fo8",
+    "key": "manual",
+    "position": 5,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1un00io0ey3zau8w19n",
+    "stepId": "cmvv7z1un00il0ey35qzvjofp",
+    "key": "centralized",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1uo00ir0ey3hiuh32a5",
+    "stepId": "cmvv7z1un00il0ey35qzvjofp",
+    "key": "decentralized",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1uo00iu0ey3vunudf26",
+    "stepId": "cmvv7z1un00il0ey35qzvjofp",
+    "key": "unorganized",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1uq00j00ey3pqz8c0i8",
+    "stepId": "cmvv7z1up00ix0ey3eah4cief",
+    "key": "materials",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1uq00j30ey371kr7lj1",
+    "stepId": "cmvv7z1up00ix0ey3eah4cief",
+    "key": "origin",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1ur00j60ey3w6xtcf5m",
+    "stepId": "cmvv7z1up00ix0ey3eah4cief",
+    "key": "sustainability",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1us00j90ey3bd0hffxn",
+    "stepId": "cmvv7z1up00ix0ey3eah4cief",
+    "key": "end_of_life",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1us00jc0ey3wd9mkwyj",
+    "stepId": "cmvv7z1up00ix0ey3eah4cief",
+    "key": "compliance_docs",
+    "position": 4,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1us00jf0ey3q2zdzxj2",
+    "stepId": "cmvv7z1up00ix0ey3eah4cief",
+    "key": "repair_info",
+    "position": 5,
+    "visibleIf": {
+      "op": "eq",
+      "step": "maintenance",
+      "value": "yes"
+    }
+  },
+  {
+    "id": "15541c75-7920-4e0a-ae35-153377d66481",
+    "stepId": "cmvv1uw49000snay3umv1r90x",
+    "key": "other",
+    "position": 5,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0lp00820ey3heldsdxg",
+    "stepId": "cmvv7v0lo007z0ey3nwk3tjmm",
+    "key": "battery",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0lq00850ey3uj179jff",
+    "stepId": "cmvv7v0lo007z0ey3nwk3tjmm",
+    "key": "textile",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0lr00880ey3ycpu2lqt",
+    "stepId": "cmvv7v0lo007z0ey3nwk3tjmm",
+    "key": "electronics",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0lr008b0ey33nmrn8hy",
+    "stepId": "cmvv7v0lo007z0ey3nwk3tjmm",
+    "key": "furniture",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0lr008e0ey3j1l9i26o",
+    "stepId": "cmvv7v0lo007z0ey3nwk3tjmm",
+    "key": "steel_aluminium",
+    "position": 4,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0ls008h0ey3vtva8uj4",
+    "stepId": "cmvv7v0lo007z0ey3nwk3tjmm",
+    "key": "tyres",
+    "position": 5,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0ls008k0ey33k2ob2iw",
+    "stepId": "cmvv7v0lo007z0ey3nwk3tjmm",
+    "key": "construction",
+    "position": 6,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0lt008n0ey3uarfi4f7",
+    "stepId": "cmvv7v0lo007z0ey3nwk3tjmm",
+    "key": "other",
+    "position": 7,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0lu008t0ey3uanf9ruh",
+    "stepId": "cmvv7v0lt008q0ey3rpwxotvs",
+    "key": "manufacturer",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0lu008w0ey33ruqswin",
+    "stepId": "cmvv7v0lt008q0ey3rpwxotvs",
+    "key": "brand",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0lv008z0ey342ut3e4k",
+    "stepId": "cmvv7v0lt008q0ey3rpwxotvs",
+    "key": "importer",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0lv00920ey3f5f5k2dt",
+    "stepId": "cmvv7v0lt008q0ey3rpwxotvs",
+    "key": "distributor",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0lw00950ey36liiz76k",
+    "stepId": "cmvv7v0lt008q0ey3rpwxotvs",
+    "key": "retailer",
+    "position": 4,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0lw00980ey3vhsl53ru",
+    "stepId": "cmvv7v0lt008q0ey3rpwxotvs",
+    "key": "other",
+    "position": 5,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0ly009e0ey3ocv892fp",
+    "stepId": "cmvv7v0lx009b0ey33id3aqxb",
+    "key": "in_house",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0ly009h0ey372cw839p",
+    "stepId": "cmvv7v0lx009b0ey33id3aqxb",
+    "key": "suppliers",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0ly009k0ey36wpdf3tn",
+    "stepId": "cmvv7v0lx009b0ey33id3aqxb",
+    "key": "both",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0m1009w0ey3rgfpvvhg",
+    "stepId": "cmvv7v0m1009t0ey3c9q6l7y0",
+    "key": "yes",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0m2009z0ey3pgqw5c4d",
+    "stepId": "cmvv7v0m1009t0ey3c9q6l7y0",
+    "key": "no",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0m300a50ey3nbg7cvxi",
+    "stepId": "cmvv7v0m200a20ey3m54u29zp",
+    "key": "static",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0m300a80ey3gp7t2jk1",
+    "stepId": "cmvv7v0m200a20ey3m54u29zp",
+    "key": "dynamic",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0m300ab0ey320sxpzk1",
+    "stepId": "cmvv7v0m200a20ey3m54u29zp",
+    "key": "mixed",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0m500ah0ey33hr4hca6",
+    "stepId": "cmvv7v0m400ae0ey3zz7ffcsm",
+    "key": "suppliers_excel",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0m500ak0ey3yk7bzlje",
+    "stepId": "cmvv7v0m400ae0ey3zz7ffcsm",
+    "key": "suppliers_api",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0m500an0ey3p1hf1m06",
+    "stepId": "cmvv7v0m400ae0ey3zz7ffcsm",
+    "key": "erp",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0m600aq0ey3qq2le8ft",
+    "stepId": "cmvv7v0m400ae0ey3zz7ffcsm",
+    "key": "mes",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0m600at0ey3oyh38f8e",
+    "stepId": "cmvv7v0m400ae0ey3zz7ffcsm",
+    "key": "plm",
+    "position": 4,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0m600aw0ey3r6qinoo7",
+    "stepId": "cmvv7v0m400ae0ey3zz7ffcsm",
+    "key": "manual",
+    "position": 5,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0m700b20ey3cxvdmogp",
+    "stepId": "cmvv7v0m700az0ey3rggap3u8",
+    "key": "centralized",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0m800b50ey3kd3u4h7p",
+    "stepId": "cmvv7v0m700az0ey3rggap3u8",
+    "key": "decentralized",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0m800b80ey33qwk6e6c",
+    "stepId": "cmvv7v0m700az0ey3rggap3u8",
+    "key": "unorganized",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0m900be0ey36sm5x5pn",
+    "stepId": "cmvv7v0m800bb0ey353i20qcq",
+    "key": "materials",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0m900bh0ey30cskw5ta",
+    "stepId": "cmvv7v0m800bb0ey353i20qcq",
+    "key": "origin",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0m900bk0ey38zke010b",
+    "stepId": "cmvv7v0m800bb0ey353i20qcq",
+    "key": "sustainability",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0m900bn0ey3iu9fok2g",
+    "stepId": "cmvv7v0m800bb0ey353i20qcq",
+    "key": "end_of_life",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0ma00bq0ey340lvs1a8",
+    "stepId": "cmvv7v0m800bb0ey353i20qcq",
+    "key": "compliance_docs",
+    "position": 4,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0ma00bt0ey3mffpuz5d",
+    "stepId": "cmvv7v0m800bb0ey353i20qcq",
+    "key": "repair_info",
+    "position": 5,
+    "visibleIf": {
+      "op": "eq",
+      "step": "maintenance",
+      "value": "yes"
+    }
+  },
+  {
+    "id": "cmvv7v0mb00bz0ey3yb044yle",
+    "stepId": "cmvv7v0ma00bw0ey3qvevbwz3",
+    "key": "qr",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0mb00c20ey3o92jw0i7",
+    "stepId": "cmvv7v0ma00bw0ey3qvevbwz3",
+    "key": "other_carrier",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0mb00c50ey3ugjgdnw0",
+    "stepId": "cmvv7v0ma00bw0ey3qvevbwz3",
+    "key": "none",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0mc00cb0ey3158t1ovx",
+    "stepId": "cmvv7v0mc00c80ey3tngldcso",
+    "key": "espr",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0md00ce0ey3fbnr0g79",
+    "stepId": "cmvv7v0mc00c80ey3tngldcso",
+    "key": "battery_regulation",
+    "position": 1,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "battery"
+    }
+  },
+  {
+    "id": "cmvv7v0md00ch0ey3awq7mk5a",
+    "stepId": "cmvv7v0mc00c80ey3tngldcso",
+    "key": "unsure",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0me00cn0ey3jrn79trp",
+    "stepId": "cmvv7v0me00ck0ey34pedd1l4",
+    "key": "model",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0mf00cq0ey3rtyb4idk",
+    "stepId": "cmvv7v0me00ck0ey34pedd1l4",
+    "key": "batch",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0mg00ct0ey3m7dncjzy",
+    "stepId": "cmvv7v0me00ck0ey34pedd1l4",
+    "key": "item",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0mi00cw0ey3nwdt79ry",
+    "stepId": "cmvv7v0me00ck0ey34pedd1l4",
+    "key": "unsure",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0mn00d20ey341h2k250",
+    "stepId": "cmvv7v0mm00cz0ey3jait9kjy",
+    "key": "gs1_digital_link",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0mo00d50ey3f5vff19f",
+    "stepId": "cmvv7v0mm00cz0ey3jait9kjy",
+    "key": "own_domain",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0mo00d80ey33g03t8l5",
+    "stepId": "cmvv7v0mm00cz0ey3jait9kjy",
+    "key": "unsure",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0mv00de0ey3pihyz4q1",
+    "stepId": "cmvv7v0mr00db0ey3m0afrglo",
+    "key": "proprietary",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0mv00dh0ey306ckxntu",
+    "stepId": "cmvv7v0mr00db0ey3m0afrglo",
+    "key": "saas",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0mw00dk0ey3pa7cp66d",
+    "stepId": "cmvv7v0mr00db0ey3m0afrglo",
+    "key": "paas",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0my00dn0ey3n34ubf24",
+    "stepId": "cmvv7v0mr00db0ey3m0afrglo",
+    "key": "undecided",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0n000dt0ey3ikvvu25l",
+    "stepId": "cmvv7v0n000dq0ey3ditjsjuu",
+    "key": "direct",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0n100dw0ey3cptqxzhz",
+    "stepId": "cmvv7v0n000dq0ey3ditjsjuu",
+    "key": "via_provider",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0n100dz0ey3zizve4op",
+    "stepId": "cmvv7v0n000dq0ey3ditjsjuu",
+    "key": "not_planned",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7v0n100e20ey3xjr6l30s",
+    "stepId": "cmvv7v0n000dq0ey3ditjsjuu",
+    "key": "unknown",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1uu00jl0ey3mvlqkt2e",
+    "stepId": "cmvv7z1ut00ji0ey36pgluolj",
+    "key": "qr",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1uu00jo0ey3d92wkj8e",
+    "stepId": "cmvv7z1ut00ji0ey36pgluolj",
+    "key": "other_carrier",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1uv00jr0ey3hr74qrzp",
+    "stepId": "cmvv7z1ut00ji0ey36pgluolj",
+    "key": "none",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1v300jx0ey3stczz2ks",
+    "stepId": "cmvv7z1v200ju0ey34tee6u6m",
+    "key": "espr",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1v400k00ey34fe2vbcu",
+    "stepId": "cmvv7z1v200ju0ey34tee6u6m",
+    "key": "battery_regulation",
+    "position": 1,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "battery"
+    }
+  },
+  {
+    "id": "cmvv7z1v400k30ey3d7nluozu",
+    "stepId": "cmvv7z1v200ju0ey34tee6u6m",
+    "key": "unsure",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1v500k90ey3g4f5oeuv",
+    "stepId": "cmvv7z1v500k60ey3t8pc503v",
+    "key": "model",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1v600kc0ey3toplgu89",
+    "stepId": "cmvv7z1v500k60ey3t8pc503v",
+    "key": "batch",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1v600kf0ey3xr0wi10k",
+    "stepId": "cmvv7z1v500k60ey3t8pc503v",
+    "key": "item",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1v700ki0ey3zc1zc5z0",
+    "stepId": "cmvv7z1v500k60ey3t8pc503v",
+    "key": "unsure",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1v800ko0ey3xlz8gx4p",
+    "stepId": "cmvv7z1v800kl0ey34ysb79oh",
+    "key": "gs1_digital_link",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1v900kr0ey3cpmnvjr3",
+    "stepId": "cmvv7z1v800kl0ey34ysb79oh",
+    "key": "own_domain",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1v900ku0ey3f4y5hg6i",
+    "stepId": "cmvv7z1v800kl0ey34ysb79oh",
+    "key": "unsure",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1va00l00ey3qnqmwd8j",
+    "stepId": "cmvv7z1v900kx0ey3zg1v50dr",
+    "key": "proprietary",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1va00l30ey3y6dkrsms",
+    "stepId": "cmvv7z1v900kx0ey3zg1v50dr",
+    "key": "saas",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1va00l60ey3xclu4o91",
+    "stepId": "cmvv7z1v900kx0ey3zg1v50dr",
+    "key": "paas",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1va00l90ey3cdairc5l",
+    "stepId": "cmvv7z1v900kx0ey3zg1v50dr",
+    "key": "undecided",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1vb00lf0ey3cjdbkbkt",
+    "stepId": "cmvv7z1vb00lc0ey33vxup12y",
+    "key": "direct",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1vc00li0ey3lyw6o03m",
+    "stepId": "cmvv7z1vb00lc0ey33vxup12y",
+    "key": "via_provider",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1vc00ll0ey3c5onhkrd",
+    "stepId": "cmvv7z1vb00lc0ey33vxup12y",
+    "key": "not_planned",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1vc00lo0ey37gq2f2ft",
+    "stepId": "cmvv7z1vb00lc0ey33vxup12y",
+    "key": "unknown",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1vf00lu0ey3yzjjs054",
+    "stepId": "cmvv7z1ve00lr0ey3oyfzhsc5",
+    "key": "in_house",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1vf00lx0ey32i6i3bsw",
+    "stepId": "cmvv7z1ve00lr0ey3oyfzhsc5",
+    "key": "suppliers",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv7z1vf00m00ey3bx1hml58",
+    "stepId": "cmvv7z1ve00lr0ey3oyfzhsc5",
+    "key": "both",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sfo0008m2y38fiwug99",
+    "stepId": "cmvv84sfm0005m2y36cr0x2j9",
+    "key": "model",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sfp000bm2y3whtw6ir4",
+    "stepId": "cmvv84sfm0005m2y36cr0x2j9",
+    "key": "batch",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sfr000em2y3cwxp78xd",
+    "stepId": "cmvv84sfm0005m2y36cr0x2j9",
+    "key": "item",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sfr000hm2y3tyk6dnxi",
+    "stepId": "cmvv84sfm0005m2y36cr0x2j9",
+    "key": "unsure",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sfu000nm2y31k12g57s",
+    "stepId": "cmvv84sft000km2y35ln84hkc",
+    "key": "gs1_digital_link",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sfu000qm2y35jwbf5wo",
+    "stepId": "cmvv84sft000km2y35ln84hkc",
+    "key": "own_domain",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sfv000tm2y3vch67qup",
+    "stepId": "cmvv84sft000km2y35ln84hkc",
+    "key": "unsure",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sfw000zm2y33v7bz1zn",
+    "stepId": "cmvv84sfw000wm2y3mvrfw93t",
+    "key": "proprietary",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sfx0012m2y359yh4etg",
+    "stepId": "cmvv84sfw000wm2y3mvrfw93t",
+    "key": "saas",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sfx0015m2y32mzb5brf",
+    "stepId": "cmvv84sfw000wm2y3mvrfw93t",
+    "key": "paas",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sfx0018m2y3g7ac9zr3",
+    "stepId": "cmvv84sfw000wm2y3mvrfw93t",
+    "key": "undecided",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sg2001em2y3yvrtsved",
+    "stepId": "cmvv84sg1001bm2y38g3agmza",
+    "key": "battery",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sg3001hm2y3q50iauef",
+    "stepId": "cmvv84sg1001bm2y38g3agmza",
+    "key": "textile",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sg4001km2y3nfiyyz72",
+    "stepId": "cmvv84sg1001bm2y38g3agmza",
+    "key": "electronics",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sg4001nm2y3at1n9zdd",
+    "stepId": "cmvv84sg1001bm2y38g3agmza",
+    "key": "furniture",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sg5001qm2y342ixx5v7",
+    "stepId": "cmvv84sg1001bm2y38g3agmza",
+    "key": "steel_aluminium",
+    "position": 4,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sg5001tm2y3ylbr0q6z",
+    "stepId": "cmvv84sg1001bm2y38g3agmza",
+    "key": "tyres",
+    "position": 5,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sg6001wm2y36jh2eh0u",
+    "stepId": "cmvv84sg1001bm2y38g3agmza",
+    "key": "construction",
+    "position": 6,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sg6001zm2y3ewj0w2hh",
+    "stepId": "cmvv84sg1001bm2y38g3agmza",
+    "key": "other",
+    "position": 7,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sga0025m2y32d7q9bki",
+    "stepId": "cmvv84sga0022m2y3jc454tn6",
+    "key": "manufacturer",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sgb0028m2y3wut7o42c",
+    "stepId": "cmvv84sga0022m2y3jc454tn6",
+    "key": "brand",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sgb002bm2y3foo6y2ho",
+    "stepId": "cmvv84sga0022m2y3jc454tn6",
+    "key": "importer",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sgb002em2y3w67yww4n",
+    "stepId": "cmvv84sga0022m2y3jc454tn6",
+    "key": "distributor",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sgc002hm2y3oysvzpvo",
+    "stepId": "cmvv84sga0022m2y3jc454tn6",
+    "key": "retailer",
+    "position": 4,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sgc002km2y3m47uvcoj",
+    "stepId": "cmvv84sga0022m2y3jc454tn6",
+    "key": "other",
+    "position": 5,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sgi002wm2y3qvf7walg",
+    "stepId": "cmvv84sgi002tm2y3hg3t08wy",
+    "key": "yes",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sgj002zm2y39q9sbhfo",
+    "stepId": "cmvv84sgi002tm2y3hg3t08wy",
+    "key": "no",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sgm0035m2y315d8hsae",
+    "stepId": "cmvv84sgl0032m2y3lq6f249m",
+    "key": "static",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sgm0038m2y37evr7oeg",
+    "stepId": "cmvv84sgl0032m2y3lq6f249m",
+    "key": "dynamic",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sgm003bm2y3h300b67u",
+    "stepId": "cmvv84sgl0032m2y3lq6f249m",
+    "key": "mixed",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sgq003hm2y3u5qa6q2d",
+    "stepId": "cmvv84sgp003em2y3m6h649o8",
+    "key": "suppliers_excel",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sgq003km2y3ioxfwp6w",
+    "stepId": "cmvv84sgp003em2y3m6h649o8",
+    "key": "suppliers_api",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sgq003nm2y3n6lyn6ks",
+    "stepId": "cmvv84sgp003em2y3m6h649o8",
+    "key": "erp",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sgr003qm2y3rwojwmam",
+    "stepId": "cmvv84sgp003em2y3m6h649o8",
+    "key": "mes",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sgr003tm2y3wcuojd45",
+    "stepId": "cmvv84sgp003em2y3m6h649o8",
+    "key": "plm",
+    "position": 4,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sgr003wm2y3cwa9x5dj",
+    "stepId": "cmvv84sgp003em2y3m6h649o8",
+    "key": "manual",
+    "position": 5,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sgv0042m2y3hpupuymd",
+    "stepId": "cmvv84sgu003zm2y367jm4y3d",
+    "key": "centralized",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sgv0045m2y365yavjzb",
+    "stepId": "cmvv84sgu003zm2y367jm4y3d",
+    "key": "decentralized",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sgw0048m2y3dukhcb33",
+    "stepId": "cmvv84sgu003zm2y367jm4y3d",
+    "key": "unorganized",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sh0004em2y30i7670o5",
+    "stepId": "cmvv84sgz004bm2y3shg735j4",
+    "key": "materials",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sh0004hm2y3nvko6ah8",
+    "stepId": "cmvv84sgz004bm2y3shg735j4",
+    "key": "origin",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sh1004km2y3zptuhbe8",
+    "stepId": "cmvv84sgz004bm2y3shg735j4",
+    "key": "sustainability",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sh2004nm2y383kjnssm",
+    "stepId": "cmvv84sgz004bm2y3shg735j4",
+    "key": "end_of_life",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sh2004qm2y34avbo6il",
+    "stepId": "cmvv84sgz004bm2y3shg735j4",
+    "key": "compliance_docs",
+    "position": 4,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sh2004tm2y3ioh5gq9u",
+    "stepId": "cmvv84sgz004bm2y3shg735j4",
+    "key": "repair_info",
+    "position": 5,
+    "visibleIf": {
+      "op": "eq",
+      "step": "maintenance",
+      "value": "yes"
+    }
+  },
+  {
+    "id": "cmvv84sh6004zm2y3h6itd6aa",
+    "stepId": "cmvv84sh5004wm2y3a4ptcwgr",
+    "key": "qr",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sh60052m2y3y54ivcdn",
+    "stepId": "cmvv84sh5004wm2y3a4ptcwgr",
+    "key": "other_carrier",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sh70055m2y398ojfqnp",
+    "stepId": "cmvv84sh5004wm2y3a4ptcwgr",
+    "key": "none",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sha005bm2y31zhewpt0",
+    "stepId": "cmvv84sh90058m2y3mvx3teoe",
+    "key": "espr",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4nk0082qhy3v9ldap6u",
+    "stepId": "cmvvel4nk007zqhy3ncoou8vr",
+    "key": "yes",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84sha005em2y3viomr3d4",
+    "stepId": "cmvv84sh90058m2y3mvx3teoe",
+    "key": "battery_regulation",
+    "position": 1,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "battery"
+    }
+  },
+  {
+    "id": "cmvv84shb005hm2y3tnism49d",
+    "stepId": "cmvv84sh90058m2y3mvx3teoe",
+    "key": "unsure",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84shc005nm2y3jk8neqch",
+    "stepId": "cmvv84shc005km2y32ldbort1",
+    "key": "direct",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84shd005qm2y3nrehxn51",
+    "stepId": "cmvv84shc005km2y32ldbort1",
+    "key": "via_provider",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84shd005tm2y3mhk6mabp",
+    "stepId": "cmvv84shc005km2y32ldbort1",
+    "key": "not_planned",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84she005wm2y323v58pxk",
+    "stepId": "cmvv84shc005km2y32ldbort1",
+    "key": "unknown",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84shg0062m2y3whq367km",
+    "stepId": "cmvv84shg005zm2y3kcfmyfxl",
+    "key": "in_house",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84shh0065m2y3p86qade7",
+    "stepId": "cmvv84shg005zm2y3kcfmyfxl",
+    "key": "suppliers",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv84shh0068m2y37eocnyex",
+    "stepId": "cmvv84shg005zm2y3kcfmyfxl",
+    "key": "both",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv8w8s00003boy3xoeyuc1r",
+    "stepId": "cmvv8w8rx0000boy3vn539ajp",
+    "key": "battery_portable",
+    "position": 0,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "battery"
+    }
+  },
+  {
+    "id": "cmvv8w8s20006boy3ts68so8s",
+    "stepId": "cmvv8w8rx0000boy3vn539ajp",
+    "key": "battery_lmt",
+    "position": 1,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "battery"
+    }
+  },
+  {
+    "id": "cmvv8w8s20009boy30xss6lt7",
+    "stepId": "cmvv8w8rx0000boy3vn539ajp",
+    "key": "battery_ev",
+    "position": 2,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "battery"
+    }
+  },
+  {
+    "id": "cmvv8w8s3000cboy3iqhicz34",
+    "stepId": "cmvv8w8rx0000boy3vn539ajp",
+    "key": "battery_industrial",
+    "position": 3,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "battery"
+    }
+  },
+  {
+    "id": "cmvv8w8s3000fboy36vn7lggq",
+    "stepId": "cmvv8w8rx0000boy3vn539ajp",
+    "key": "battery_sli",
+    "position": 4,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "battery"
+    }
+  },
+  {
+    "id": "cmvv8w8s4000iboy3p82npcz8",
+    "stepId": "cmvv8w8rx0000boy3vn539ajp",
+    "key": "textile_apparel",
+    "position": 5,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "textile"
+    }
+  },
+  {
+    "id": "cmvv8w8s4000lboy3i3z6mrv2",
+    "stepId": "cmvv8w8rx0000boy3vn539ajp",
+    "key": "textile_footwear",
+    "position": 6,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "textile"
+    }
+  },
+  {
+    "id": "cmvv8w8s5000oboy3528ybq9n",
+    "stepId": "cmvv8w8rx0000boy3vn539ajp",
+    "key": "textile_home",
+    "position": 7,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "textile"
+    }
+  },
+  {
+    "id": "cmvv8w8s5000rboy3qccxpz89",
+    "stepId": "cmvv8w8rx0000boy3vn539ajp",
+    "key": "textile_accessories",
+    "position": 8,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "textile"
+    }
+  },
+  {
+    "id": "cmvv8w8s5000uboy3sdnp737e",
+    "stepId": "cmvv8w8rx0000boy3vn539ajp",
+    "key": "elec_mobile",
+    "position": 9,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "electronics"
+    }
+  },
+  {
+    "id": "cmvv8w8s6000xboy31nlu841j",
+    "stepId": "cmvv8w8rx0000boy3vn539ajp",
+    "key": "elec_computers",
+    "position": 10,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "electronics"
+    }
+  },
+  {
+    "id": "cmvv8w8s60010boy3pl5pokrr",
+    "stepId": "cmvv8w8rx0000boy3vn539ajp",
+    "key": "elec_appliances",
+    "position": 11,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "electronics"
+    }
+  },
+  {
+    "id": "cmvv8w8s70013boy37nwkxy64",
+    "stepId": "cmvv8w8rx0000boy3vn539ajp",
+    "key": "elec_displays",
+    "position": 12,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "electronics"
+    }
+  },
+  {
+    "id": "cmvv8w8s70016boy318ps8ol7",
+    "stepId": "cmvv8w8rx0000boy3vn539ajp",
+    "key": "elec_other",
+    "position": 13,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "electronics"
+    }
+  },
+  {
+    "id": "cmvv8w8s80019boy3nl2f4y7y",
+    "stepId": "cmvv8w8rx0000boy3vn539ajp",
+    "key": "furn_furniture",
+    "position": 14,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "furniture"
+    }
+  },
+  {
+    "id": "cmvv8w8s8001cboy3hf2dr4qj",
+    "stepId": "cmvv8w8rx0000boy3vn539ajp",
+    "key": "furn_mattresses",
+    "position": 15,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "furniture"
+    }
+  },
+  {
+    "id": "cmvv8w8s8001fboy3te19nfzv",
+    "stepId": "cmvv8w8rx0000boy3vn539ajp",
+    "key": "metal_steel",
+    "position": 16,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "steel_aluminium"
+    }
+  },
+  {
+    "id": "cmvv8w8s9001iboy3x6y9cu3i",
+    "stepId": "cmvv8w8rx0000boy3vn539ajp",
+    "key": "metal_aluminium",
+    "position": 17,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "steel_aluminium"
+    }
+  },
+  {
+    "id": "cmvv8w8s9001lboy3whcbmk3k",
+    "stepId": "cmvv8w8rx0000boy3vn539ajp",
+    "key": "tyres_car",
+    "position": 18,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "tyres"
+    }
+  },
+  {
+    "id": "cmvv8w8sa001oboy3kcjf44u8",
+    "stepId": "cmvv8w8rx0000boy3vn539ajp",
+    "key": "tyres_commercial",
+    "position": 19,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "tyres"
+    }
+  },
+  {
+    "id": "cmvv8w8sa001rboy3vyhxdkem",
+    "stepId": "cmvv8w8rx0000boy3vn539ajp",
+    "key": "constr_materials",
+    "position": 20,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "construction"
+    }
+  },
+  {
+    "id": "cmvv8w8sb001uboy3h5uyz60h",
+    "stepId": "cmvv8w8rx0000boy3vn539ajp",
+    "key": "constr_components",
+    "position": 21,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "construction"
+    }
+  },
+  {
+    "id": "cmvv8w8sb001xboy35dqeld6c",
+    "stepId": "cmvv8w8rx0000boy3vn539ajp",
+    "key": "other_category",
+    "position": 22,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "other"
+    }
+  },
+  {
+    "id": "cmvv9bu650022euy33qi82t5a",
+    "stepId": "cmvv9bu64001zeuy3gcjr5qiz",
+    "key": "battery_portable",
+    "position": 0,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "battery"
+    }
+  },
+  {
+    "id": "cmvv9bu660025euy3ddxdi21c",
+    "stepId": "cmvv9bu64001zeuy3gcjr5qiz",
+    "key": "battery_lmt",
+    "position": 1,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "battery"
+    }
+  },
+  {
+    "id": "cmvv9bu6b0028euy3j0803fp6",
+    "stepId": "cmvv9bu64001zeuy3gcjr5qiz",
+    "key": "battery_ev",
+    "position": 2,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "battery"
+    }
+  },
+  {
+    "id": "cmvv9bu6c002beuy36lglsaac",
+    "stepId": "cmvv9bu64001zeuy3gcjr5qiz",
+    "key": "battery_industrial",
+    "position": 3,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "battery"
+    }
+  },
+  {
+    "id": "cmvv9bu6d002eeuy3a5ygq3o4",
+    "stepId": "cmvv9bu64001zeuy3gcjr5qiz",
+    "key": "battery_sli",
+    "position": 4,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "battery"
+    }
+  },
+  {
+    "id": "cmvv9bu6d002heuy3dlbdib3x",
+    "stepId": "cmvv9bu64001zeuy3gcjr5qiz",
+    "key": "textile_apparel",
+    "position": 5,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "textile"
+    }
+  },
+  {
+    "id": "cmvv9bu6d002keuy3pzfgax51",
+    "stepId": "cmvv9bu64001zeuy3gcjr5qiz",
+    "key": "textile_footwear",
+    "position": 6,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "textile"
+    }
+  },
+  {
+    "id": "cmvv9bu6e002neuy38lokg7su",
+    "stepId": "cmvv9bu64001zeuy3gcjr5qiz",
+    "key": "textile_home",
+    "position": 7,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "textile"
+    }
+  },
+  {
+    "id": "cmvv9bu6e002qeuy30uaf4f1u",
+    "stepId": "cmvv9bu64001zeuy3gcjr5qiz",
+    "key": "textile_accessories",
+    "position": 8,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "textile"
+    }
+  },
+  {
+    "id": "cmvv9bu6e002teuy30phzj25s",
+    "stepId": "cmvv9bu64001zeuy3gcjr5qiz",
+    "key": "elec_mobile",
+    "position": 9,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "electronics"
+    }
+  },
+  {
+    "id": "cmvv9bu6f002weuy3gmscrt9e",
+    "stepId": "cmvv9bu64001zeuy3gcjr5qiz",
+    "key": "elec_computers",
+    "position": 10,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "electronics"
+    }
+  },
+  {
+    "id": "cmvv9bu6f002zeuy30fscghhj",
+    "stepId": "cmvv9bu64001zeuy3gcjr5qiz",
+    "key": "elec_appliances",
+    "position": 11,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "electronics"
+    }
+  },
+  {
+    "id": "cmvv9bu6f0032euy3w1cq1xln",
+    "stepId": "cmvv9bu64001zeuy3gcjr5qiz",
+    "key": "elec_displays",
+    "position": 12,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "electronics"
+    }
+  },
+  {
+    "id": "cmvv9bu6g0035euy3q5h0p9ie",
+    "stepId": "cmvv9bu64001zeuy3gcjr5qiz",
+    "key": "elec_other",
+    "position": 13,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "electronics"
+    }
+  },
+  {
+    "id": "cmvv9bu6g0038euy3hzkq0vpr",
+    "stepId": "cmvv9bu64001zeuy3gcjr5qiz",
+    "key": "furn_furniture",
+    "position": 14,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "furniture"
+    }
+  },
+  {
+    "id": "cmvv9bu6g003beuy3qv9lnnde",
+    "stepId": "cmvv9bu64001zeuy3gcjr5qiz",
+    "key": "furn_mattresses",
+    "position": 15,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "furniture"
+    }
+  },
+  {
+    "id": "cmvv9bu6h003eeuy3uiqu2aoc",
+    "stepId": "cmvv9bu64001zeuy3gcjr5qiz",
+    "key": "metal_steel",
+    "position": 16,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "steel_aluminium"
+    }
+  },
+  {
+    "id": "cmvv9bu6h003heuy33ypa6bwb",
+    "stepId": "cmvv9bu64001zeuy3gcjr5qiz",
+    "key": "metal_aluminium",
+    "position": 17,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "steel_aluminium"
+    }
+  },
+  {
+    "id": "cmvv9bu6h003keuy3qqug4p6l",
+    "stepId": "cmvv9bu64001zeuy3gcjr5qiz",
+    "key": "tyres_car",
+    "position": 18,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "tyres"
+    }
+  },
+  {
+    "id": "cmvv9bu6h003neuy3so7hw0ii",
+    "stepId": "cmvv9bu64001zeuy3gcjr5qiz",
+    "key": "tyres_commercial",
+    "position": 19,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "tyres"
+    }
+  },
+  {
+    "id": "cmvvel4nl0085qhy32d9ilof8",
+    "stepId": "cmvvel4nk007zqhy3ncoou8vr",
+    "key": "no",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu6i003qeuy3x3gupep7",
+    "stepId": "cmvv9bu64001zeuy3gcjr5qiz",
+    "key": "constr_materials",
+    "position": 20,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "construction"
+    }
+  },
+  {
+    "id": "cmvv9bu6i003teuy3m454dhmm",
+    "stepId": "cmvv9bu64001zeuy3gcjr5qiz",
+    "key": "constr_components",
+    "position": 21,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "construction"
+    }
+  },
+  {
+    "id": "cmvv9bu6j003weuy3r0nqye12",
+    "stepId": "cmvv9bu64001zeuy3gcjr5qiz",
+    "key": "other_category",
+    "position": 22,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "other"
+    }
+  },
+  {
+    "id": "cmvv9bu6n0042euy323fchbb4",
+    "stepId": "cmvv9bu6m003zeuy3mk9bjhur",
+    "key": "battery",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu6n0045euy3hbbk0ho9",
+    "stepId": "cmvv9bu6m003zeuy3mk9bjhur",
+    "key": "textile",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu6n0048euy3iq4ecgl9",
+    "stepId": "cmvv9bu6m003zeuy3mk9bjhur",
+    "key": "electronics",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu6o004beuy32mp2m8ax",
+    "stepId": "cmvv9bu6m003zeuy3mk9bjhur",
+    "key": "furniture",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu6o004eeuy330cklyyo",
+    "stepId": "cmvv9bu6m003zeuy3mk9bjhur",
+    "key": "steel_aluminium",
+    "position": 4,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu6o004heuy3x1zq9im6",
+    "stepId": "cmvv9bu6m003zeuy3mk9bjhur",
+    "key": "tyres",
+    "position": 5,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu6o004keuy3v27vzxgn",
+    "stepId": "cmvv9bu6m003zeuy3mk9bjhur",
+    "key": "construction",
+    "position": 6,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu6o004neuy3nqj1r99d",
+    "stepId": "cmvv9bu6m003zeuy3mk9bjhur",
+    "key": "other",
+    "position": 7,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu6r004teuy3x6mocr77",
+    "stepId": "cmvv9bu6r004qeuy3bmqxvr4i",
+    "key": "manufacturer",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu6s004weuy30b3q5vye",
+    "stepId": "cmvv9bu6r004qeuy3bmqxvr4i",
+    "key": "brand",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu6s004zeuy3xk4qlzkx",
+    "stepId": "cmvv9bu6r004qeuy3bmqxvr4i",
+    "key": "importer",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu6t0052euy3lontm7ei",
+    "stepId": "cmvv9bu6r004qeuy3bmqxvr4i",
+    "key": "distributor",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu6t0055euy3xm57c2ta",
+    "stepId": "cmvv9bu6r004qeuy3bmqxvr4i",
+    "key": "retailer",
+    "position": 4,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu6t0058euy3x0m739ag",
+    "stepId": "cmvv9bu6r004qeuy3bmqxvr4i",
+    "key": "other",
+    "position": 5,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu6w005eeuy3fomh901m",
+    "stepId": "cmvv9bu6w005beuy36yrd8i47",
+    "key": "in_house",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu6x005heuy3rtongn0f",
+    "stepId": "cmvv9bu6w005beuy36yrd8i47",
+    "key": "suppliers",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu6x005keuy3mi1w58yd",
+    "stepId": "cmvv9bu6w005beuy36yrd8i47",
+    "key": "both",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu73005qeuy3jjthdlyi",
+    "stepId": "cmvv9bu71005neuy3nvruz0nv",
+    "key": "model",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu73005teuy3oi148t7e",
+    "stepId": "cmvv9bu71005neuy3nvruz0nv",
+    "key": "batch",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu74005weuy3uerau6z3",
+    "stepId": "cmvv9bu71005neuy3nvruz0nv",
+    "key": "item",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu75005zeuy3wda2ohg2",
+    "stepId": "cmvv9bu71005neuy3nvruz0nv",
+    "key": "unsure",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu7g006qeuy3j7xb2zif",
+    "stepId": "cmvv9bu7d006neuy3e15k4o0h",
+    "key": "yes",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu7g006teuy3cx0fy2ir",
+    "stepId": "cmvv9bu7d006neuy3e15k4o0h",
+    "key": "no",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu7i006zeuy30zkex4cb",
+    "stepId": "cmvv9bu7i006weuy3rvl70rl8",
+    "key": "static",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu7j0072euy3lhnensv7",
+    "stepId": "cmvv9bu7i006weuy3rvl70rl8",
+    "key": "dynamic",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu7j0075euy36cggolsw",
+    "stepId": "cmvv9bu7i006weuy3rvl70rl8",
+    "key": "mixed",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu7m007beuy3y3hi5iku",
+    "stepId": "cmvv9bu7m0078euy3r0k182od",
+    "key": "suppliers_excel",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu7r007weuy3p8lbu3oi",
+    "stepId": "cmvv9bu7q007teuy3jt08x2zq",
+    "key": "centralized",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu7s007zeuy38h7ecphz",
+    "stepId": "cmvv9bu7q007teuy3jt08x2zq",
+    "key": "decentralized",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu7s0082euy3603c2xaz",
+    "stepId": "cmvv9bu7q007teuy3jt08x2zq",
+    "key": "unorganized",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu7x0088euy3o1bopxwg",
+    "stepId": "cmvv9bu7w0085euy3no2gy3gz",
+    "key": "materials",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu7x008beuy3sut2nt4q",
+    "stepId": "cmvv9bu7w0085euy3no2gy3gz",
+    "key": "origin",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu7x008eeuy3f08nsesq",
+    "stepId": "cmvv9bu7w0085euy3no2gy3gz",
+    "key": "sustainability",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu7y008heuy3yugmxlcd",
+    "stepId": "cmvv9bu7w0085euy3no2gy3gz",
+    "key": "end_of_life",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu7y008keuy37iu013qn",
+    "stepId": "cmvv9bu7w0085euy3no2gy3gz",
+    "key": "compliance_docs",
+    "position": 4,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu81008teuy362am86qo",
+    "stepId": "cmvv9bu80008qeuy31aozm8pk",
+    "key": "qr",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu81008weuy3lwzm0r3e",
+    "stepId": "cmvv9bu80008qeuy31aozm8pk",
+    "key": "other_carrier",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu81008zeuy3z5cxky6b",
+    "stepId": "cmvv9bu80008qeuy31aozm8pk",
+    "key": "none",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu87009heuy3xvwyonmr",
+    "stepId": "cmvv9bu87009eeuy3r5x64cen",
+    "key": "gs1_digital_link",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu88009keuy3dim1ou8z",
+    "stepId": "cmvv9bu87009eeuy3r5x64cen",
+    "key": "own_domain",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu89009neuy3b960r3ry",
+    "stepId": "cmvv9bu87009eeuy3r5x64cen",
+    "key": "unsure",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu8b009teuy32fx0lfc0",
+    "stepId": "cmvv9bu8b009qeuy31pbg6n84",
+    "key": "proprietary",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu8b009weuy3kv161odi",
+    "stepId": "cmvv9bu8b009qeuy31pbg6n84",
+    "key": "saas",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu8c009zeuy3wfapcoa4",
+    "stepId": "cmvv9bu8b009qeuy31pbg6n84",
+    "key": "paas",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu8c00a2euy3gdmpmwjl",
+    "stepId": "cmvv9bu8b009qeuy31pbg6n84",
+    "key": "undecided",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu8e00a8euy369rdu7tb",
+    "stepId": "cmvv9bu8d00a5euy3qdcxu8d0",
+    "key": "direct",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu8e00abeuy3jbj99r2k",
+    "stepId": "cmvv9bu8d00a5euy3qdcxu8d0",
+    "key": "via_provider",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu8e00aeeuy341di48fb",
+    "stepId": "cmvv9bu8d00a5euy3qdcxu8d0",
+    "key": "not_planned",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu8f00aheuy39w3iht5x",
+    "stepId": "cmvv9bu8d00a5euy3qdcxu8d0",
+    "key": "unknown",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvva1cic00004iy3wh1hfgpe",
+    "stepId": "cmvv9bu7d006neuy3e15k4o0h",
+    "key": "depends",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu7y008neuy3m8vs1op2",
+    "stepId": "cmvv9bu7w0085euy3no2gy3gz",
+    "key": "repair_info",
+    "position": 5,
+    "visibleIf": {
+      "op": "includes",
+      "step": "maintenance",
+      "value": [
+        "yes",
+        "depends"
+      ]
+    }
+  },
+  {
+    "id": "cmvv9bu7n007eeuy3f3ht1oop",
+    "stepId": "cmvv9bu7m0078euy3r0k182od",
+    "key": "suppliers_api",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu7n007heuy30ai4ao6w",
+    "stepId": "cmvv9bu7m0078euy3r0k182od",
+    "key": "erp",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu7n007keuy3d6vj56mi",
+    "stepId": "cmvv9bu7m0078euy3r0k182od",
+    "key": "mes",
+    "position": 4,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu7o007neuy3ykfc6vai",
+    "stepId": "cmvv9bu7m0078euy3r0k182od",
+    "key": "plm",
+    "position": 5,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvv9bu7o007qeuy3skw5qz5m",
+    "stepId": "cmvv9bu7m0078euy3r0k182od",
+    "key": "manual",
+    "position": 6,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvd6sc1000073y37el8iabp",
+    "stepId": "cmvv9bu7m0078euy3r0k182od",
+    "key": "suppliers_pdf",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4l40005qhy3i1vnm0j8",
+    "stepId": "cmvvel4l10002qhy3p9n5usk6",
+    "key": "battery_portable",
+    "position": 0,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "battery"
+    }
+  },
+  {
+    "id": "cmvvel4l50008qhy3h8x0cc0b",
+    "stepId": "cmvvel4l10002qhy3p9n5usk6",
+    "key": "battery_lmt",
+    "position": 1,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "battery"
+    }
+  },
+  {
+    "id": "cmvvel4l6000bqhy3d8bpjkv5",
+    "stepId": "cmvvel4l10002qhy3p9n5usk6",
+    "key": "battery_ev",
+    "position": 2,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "battery"
+    }
+  },
+  {
+    "id": "cmvvel4l6000eqhy3m0ruqtj6",
+    "stepId": "cmvvel4l10002qhy3p9n5usk6",
+    "key": "battery_industrial",
+    "position": 3,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "battery"
+    }
+  },
+  {
+    "id": "cmvvel4l7000hqhy367uhex9d",
+    "stepId": "cmvvel4l10002qhy3p9n5usk6",
+    "key": "battery_sli",
+    "position": 4,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "battery"
+    }
+  },
+  {
+    "id": "cmvvel4l8000kqhy3k77gtgmr",
+    "stepId": "cmvvel4l10002qhy3p9n5usk6",
+    "key": "textile_apparel",
+    "position": 5,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "textile"
+    }
+  },
+  {
+    "id": "cmvvel4l9000nqhy31htl74jb",
+    "stepId": "cmvvel4l10002qhy3p9n5usk6",
+    "key": "textile_footwear",
+    "position": 6,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "textile"
+    }
+  },
+  {
+    "id": "cmvvel4l9000qqhy3m0vn64y4",
+    "stepId": "cmvvel4l10002qhy3p9n5usk6",
+    "key": "textile_home",
+    "position": 7,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "textile"
+    }
+  },
+  {
+    "id": "cmvvel4l9000tqhy36f00ty2o",
+    "stepId": "cmvvel4l10002qhy3p9n5usk6",
+    "key": "textile_accessories",
+    "position": 8,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "textile"
+    }
+  },
+  {
+    "id": "cmvvel4la000wqhy3luov7vad",
+    "stepId": "cmvvel4l10002qhy3p9n5usk6",
+    "key": "elec_mobile",
+    "position": 9,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "electronics"
+    }
+  },
+  {
+    "id": "cmvvel4la000zqhy30m992lmf",
+    "stepId": "cmvvel4l10002qhy3p9n5usk6",
+    "key": "elec_computers",
+    "position": 10,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "electronics"
+    }
+  },
+  {
+    "id": "cmvvel4lb0012qhy338wefkwi",
+    "stepId": "cmvvel4l10002qhy3p9n5usk6",
+    "key": "elec_appliances",
+    "position": 11,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "electronics"
+    }
+  },
+  {
+    "id": "cmvvel4lb0015qhy3adlvad2e",
+    "stepId": "cmvvel4l10002qhy3p9n5usk6",
+    "key": "elec_displays",
+    "position": 12,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "electronics"
+    }
+  },
+  {
+    "id": "cmvvel4lc0018qhy3oo42508s",
+    "stepId": "cmvvel4l10002qhy3p9n5usk6",
+    "key": "elec_other",
+    "position": 13,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "electronics"
+    }
+  },
+  {
+    "id": "cmvvel4lc001bqhy357g33n4q",
+    "stepId": "cmvvel4l10002qhy3p9n5usk6",
+    "key": "furn_furniture",
+    "position": 14,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "furniture"
+    }
+  },
+  {
+    "id": "cmvvel4lc001eqhy3d1ux7uo6",
+    "stepId": "cmvvel4l10002qhy3p9n5usk6",
+    "key": "furn_mattresses",
+    "position": 15,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "furniture"
+    }
+  },
+  {
+    "id": "cmvvel4lc001hqhy382wdrkor",
+    "stepId": "cmvvel4l10002qhy3p9n5usk6",
+    "key": "metal_steel",
+    "position": 16,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "steel_aluminium"
+    }
+  },
+  {
+    "id": "cmvvel4ld001kqhy3qykrncna",
+    "stepId": "cmvvel4l10002qhy3p9n5usk6",
+    "key": "metal_aluminium",
+    "position": 17,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "steel_aluminium"
+    }
+  },
+  {
+    "id": "cmvvel4ld001nqhy39k0zjymd",
+    "stepId": "cmvvel4l10002qhy3p9n5usk6",
+    "key": "tyres_car",
+    "position": 18,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "tyres"
+    }
+  },
+  {
+    "id": "cmvvel4le001qqhy3h04q22ew",
+    "stepId": "cmvvel4l10002qhy3p9n5usk6",
+    "key": "tyres_commercial",
+    "position": 19,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "tyres"
+    }
+  },
+  {
+    "id": "cmvvel4le001tqhy32ynlmw82",
+    "stepId": "cmvvel4l10002qhy3p9n5usk6",
+    "key": "constr_materials",
+    "position": 20,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "construction"
+    }
+  },
+  {
+    "id": "cmvvel4lf001wqhy362qed20v",
+    "stepId": "cmvvel4l10002qhy3p9n5usk6",
+    "key": "constr_components",
+    "position": 21,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "construction"
+    }
+  },
+  {
+    "id": "cmvvel4lf001zqhy3azu21pia",
+    "stepId": "cmvvel4l10002qhy3p9n5usk6",
+    "key": "other_category",
+    "position": 22,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "other"
+    }
+  },
+  {
+    "id": "cmvvel4lk0025qhy322p7pnz0",
+    "stepId": "cmvvel4lj0022qhy34uexglbw",
+    "key": "battery",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4lk0028qhy3logr6ya3",
+    "stepId": "cmvvel4lj0022qhy34uexglbw",
+    "key": "textile",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4lk002bqhy3hg9ubh2u",
+    "stepId": "cmvvel4lj0022qhy34uexglbw",
+    "key": "electronics",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4ll002eqhy34kl6gngp",
+    "stepId": "cmvvel4lj0022qhy34uexglbw",
+    "key": "furniture",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4ll002hqhy3z5fxrlt1",
+    "stepId": "cmvvel4lj0022qhy34uexglbw",
+    "key": "steel_aluminium",
+    "position": 4,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4ll002kqhy38bisqxvz",
+    "stepId": "cmvvel4lj0022qhy34uexglbw",
+    "key": "tyres",
+    "position": 5,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4lm002nqhy3tcwjb0az",
+    "stepId": "cmvvel4lj0022qhy34uexglbw",
+    "key": "construction",
+    "position": 6,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4lm002qqhy3ybajzdnz",
+    "stepId": "cmvvel4lj0022qhy34uexglbw",
+    "key": "other",
+    "position": 7,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4lq002wqhy3g4kafaf4",
+    "stepId": "cmvvel4lp002tqhy3l4aked0d",
+    "key": "manufacturer",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4lr002zqhy38gvb023r",
+    "stepId": "cmvvel4lp002tqhy3l4aked0d",
+    "key": "brand",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4lr0032qhy3hb1ayg5l",
+    "stepId": "cmvvel4lp002tqhy3l4aked0d",
+    "key": "importer",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4lr0035qhy3yx5q02w3",
+    "stepId": "cmvvel4lp002tqhy3l4aked0d",
+    "key": "distributor",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4lr0038qhy3056z8o8d",
+    "stepId": "cmvvel4lp002tqhy3l4aked0d",
+    "key": "retailer",
+    "position": 4,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4ls003bqhy306xtmktq",
+    "stepId": "cmvvel4lp002tqhy3l4aked0d",
+    "key": "other",
+    "position": 5,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4lv003hqhy3c0n6yyuv",
+    "stepId": "cmvvel4lu003eqhy3mk1mi897",
+    "key": "in_house",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4lv003kqhy30zbqp75v",
+    "stepId": "cmvvel4lu003eqhy3mk1mi897",
+    "key": "suppliers",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4lw003nqhy3iaaw30k1",
+    "stepId": "cmvvel4lu003eqhy3mk1mi897",
+    "key": "both",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4m0003tqhy3ldm88m05",
+    "stepId": "cmvvel4lz003qqhy361i2j7tz",
+    "key": "suppliers_excel",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4m1003wqhy3w7bghnzs",
+    "stepId": "cmvvel4lz003qqhy361i2j7tz",
+    "key": "suppliers_api",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4m1003zqhy38f34x7xu",
+    "stepId": "cmvvel4lz003qqhy361i2j7tz",
+    "key": "erp",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4m20042qhy3fi7tpmcy",
+    "stepId": "cmvvel4lz003qqhy361i2j7tz",
+    "key": "mes",
+    "position": 4,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4m20045qhy3o7096il7",
+    "stepId": "cmvvel4lz003qqhy361i2j7tz",
+    "key": "plm",
+    "position": 5,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4m30048qhy36amwvagt",
+    "stepId": "cmvvel4lz003qqhy361i2j7tz",
+    "key": "manual",
+    "position": 6,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4m3004bqhy3s3eyb18y",
+    "stepId": "cmvvel4lz003qqhy361i2j7tz",
+    "key": "suppliers_pdf",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4m7004hqhy38wmxdnyj",
+    "stepId": "cmvvel4m6004eqhy32lmrnjbk",
+    "key": "centralized",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4m7004kqhy3m14jbywj",
+    "stepId": "cmvvel4m6004eqhy32lmrnjbk",
+    "key": "decentralized",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4m8004nqhy3g2rk0mqq",
+    "stepId": "cmvvel4m6004eqhy32lmrnjbk",
+    "key": "unorganized",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4mh004tqhy3y0n54u1b",
+    "stepId": "cmvvel4mb004qqhy3k331cnu2",
+    "key": "materials",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4mh004wqhy3wqebmuap",
+    "stepId": "cmvvel4mb004qqhy3k331cnu2",
+    "key": "origin",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4mi004zqhy3jv6vob0d",
+    "stepId": "cmvvel4mb004qqhy3k331cnu2",
+    "key": "sustainability",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4mi0052qhy38q9978tc",
+    "stepId": "cmvvel4mb004qqhy3k331cnu2",
+    "key": "end_of_life",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4mi0055qhy3c9gt87tl",
+    "stepId": "cmvvel4mb004qqhy3k331cnu2",
+    "key": "compliance_docs",
+    "position": 4,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4ml0058qhy3r7ivp5tc",
+    "stepId": "cmvvel4mb004qqhy3k331cnu2",
+    "key": "repair_info",
+    "position": 5,
+    "visibleIf": {
+      "op": "includes",
+      "step": "maintenance",
+      "value": [
+        "yes",
+        "depends"
+      ]
+    }
+  },
+  {
+    "id": "cmvvel4mo005eqhy3j0ja2rna",
+    "stepId": "cmvvel4mn005bqhy3nnrklb6s",
+    "key": "qr",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4mo005hqhy3ejxygnl4",
+    "stepId": "cmvvel4mn005bqhy3nnrklb6s",
+    "key": "other_carrier",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4mp005kqhy3716lhdlh",
+    "stepId": "cmvvel4mn005bqhy3nnrklb6s",
+    "key": "none",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4mx0062qhy3mmvqgroo",
+    "stepId": "cmvvel4mx005zqhy3bmb6hig9",
+    "key": "proprietary",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4my0065qhy3jt00olti",
+    "stepId": "cmvvel4mx005zqhy3bmb6hig9",
+    "key": "saas",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4my0068qhy3512o9ojn",
+    "stepId": "cmvvel4mx005zqhy3bmb6hig9",
+    "key": "paas",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4my006bqhy3iby3atbq",
+    "stepId": "cmvvel4mx005zqhy3bmb6hig9",
+    "key": "undecided",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4n0006hqhy36b6quc91",
+    "stepId": "cmvvel4mz006eqhy3a7gxb26p",
+    "key": "direct",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4n0006kqhy3kk6yk153",
+    "stepId": "cmvvel4mz006eqhy3a7gxb26p",
+    "key": "via_provider",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4n1006nqhy3un7absfe",
+    "stepId": "cmvvel4mz006eqhy3a7gxb26p",
+    "key": "not_planned",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4n1006qqhy33b8qpp4r",
+    "stepId": "cmvvel4mz006eqhy3a7gxb26p",
+    "key": "unknown",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4na0072qhy3oj12oaf4",
+    "stepId": "cmvvel4na006zqhy3d1bihza0",
+    "key": "model",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4nb0075qhy3ckb0y74l",
+    "stepId": "cmvvel4na006zqhy3d1bihza0",
+    "key": "batch",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4nc0078qhy3s3ps0680",
+    "stepId": "cmvvel4na006zqhy3d1bihza0",
+    "key": "item",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4nc007bqhy3rdfw0scy",
+    "stepId": "cmvvel4na006zqhy3d1bihza0",
+    "key": "unsure",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4nl0088qhy3p4j2evwn",
+    "stepId": "cmvvel4nk007zqhy3ncoou8vr",
+    "key": "depends",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4nr008tqhy32o05it9c",
+    "stepId": "cmvvel4nq008qqhy3c6kxca1z",
+    "key": "static",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4nr008wqhy3od1ai8dc",
+    "stepId": "cmvvel4nq008qqhy3c6kxca1z",
+    "key": "dynamic",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4nr008zqhy3hsye6qt2",
+    "stepId": "cmvvel4nq008qqhy3c6kxca1z",
+    "key": "mixed",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvveys5x0000zwy3m1vifvou",
+    "stepId": "cmvvel4mb004qqhy3k331cnu2",
+    "key": "substances",
+    "position": 6,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvveys5z0003zwy3pfzozu01",
+    "stepId": "cmvvel4mb004qqhy3k331cnu2",
+    "key": "recycled_content",
+    "position": 7,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvveys600006zwy3bko6wt3c",
+    "stepId": "cmvvel4mb004qqhy3k331cnu2",
+    "key": "durability",
+    "position": 8,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvveys610009zwy3ikzzppwj",
+    "stepId": "cmvvel4mb004qqhy3k331cnu2",
+    "key": "instructions",
+    "position": 9,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvveys62000czwy33o9kbhx1",
+    "stepId": "cmvvel4mb004qqhy3k331cnu2",
+    "key": "state_of_health",
+    "position": 10,
+    "visibleIf": {
+      "op": "eq",
+      "step": "industry",
+      "value": "battery"
+    }
+  },
+  {
+    "id": "cmvveys69000lzwy367zdli03",
+    "stepId": "cmvveys69000izwy3nnecdx5p",
+    "key": "sustainability",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvveys6a000ozwy3o3bo3jxc",
+    "stepId": "cmvveys69000izwy3nnecdx5p",
+    "key": "quality",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvveys6a000rzwy34yox0ee9",
+    "stepId": "cmvveys69000izwy3nnecdx5p",
+    "key": "it",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvveys6b000uzwy3os5ivg8m",
+    "stepId": "cmvveys69000izwy3nnecdx5p",
+    "key": "product",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvveys6c000xzwy3q8k388ik",
+    "stepId": "cmvveys69000izwy3nnecdx5p",
+    "key": "undefined",
+    "position": 4,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvveys6h0013zwy3b483zabj",
+    "stepId": "cmvveys6g0010zwy3f0cyehtf",
+    "key": "none",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvveys6h0016zwy3fxtv5zyq",
+    "stepId": "cmvveys6g0010zwy3f0cyehtf",
+    "key": "1_10",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvveys6i0019zwy3rz4pswlg",
+    "stepId": "cmvveys6g0010zwy3f0cyehtf",
+    "key": "11_50",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvveys6i001czwy3m63j57yq",
+    "stepId": "cmvveys6g0010zwy3f0cyehtf",
+    "key": "over_50",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvveys70001izwy3plrjm2sm",
+    "stepId": "cmvveys6n001fzwy37zs044a0",
+    "key": "product",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvveys71001lzwy3sjb3zzku",
+    "stepId": "cmvveys6n001fzwy37zs044a0",
+    "key": "packaging",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvveys72001ozwy33tfaff2d",
+    "stepId": "cmvveys6n001fzwy37zs044a0",
+    "key": "documentation",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvveys73001rzwy3n5xcu066",
+    "stepId": "cmvveys6n001fzwy37zs044a0",
+    "key": "unsure",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvveys7c0020zwy3lh0agsto",
+    "stepId": "cmvveys7c001xzwy3i2xn7w3g",
+    "key": "consumers",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvveys7d0023zwy3g9p6rrb1",
+    "stepId": "cmvveys7c001xzwy3i2xn7w3g",
+    "key": "b2b",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvveys7d0026zwy3hmdh1sp5",
+    "stepId": "cmvveys7c001xzwy3i2xn7w3g",
+    "key": "repairers",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvveys7d0029zwy3t8de2n3u",
+    "stepId": "cmvveys7c001xzwy3i2xn7w3g",
+    "key": "recyclers",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvveys7d002czwy3rjzdhxxi",
+    "stepId": "cmvveys7c001xzwy3i2xn7w3g",
+    "key": "authorities",
+    "position": 4,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4ms005tqhy3devllwws",
+    "stepId": "cmvvel4mr005nqhy3nq4xtk9g",
+    "key": "own_domain",
+    "position": 0,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvw37lhq000jq3y3euc6x6mc",
+    "stepId": "cmvvel4mr005nqhy3nq4xtk9g",
+    "key": "self_digital_link",
+    "position": 1,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvw380qd000mq3y3vgtdpzl4",
+    "stepId": "cmvvel4mr005nqhy3nq4xtk9g",
+    "key": "iso_digital_link",
+    "position": 2,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvw38q0a000pq3y31nter2gx",
+    "stepId": "cmvvel4mr005nqhy3nq4xtk9g",
+    "key": "decentralized_digital_link",
+    "position": 3,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvw390d0000sq3y3b05teht5",
+    "stepId": "cmvvel4mr005nqhy3nq4xtk9g",
+    "key": "doi_digital_link",
+    "position": 4,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4ms005qqhy311u1w4pg",
+    "stepId": "cmvvel4mr005nqhy3nq4xtk9g",
+    "key": "gs1_digital_link",
+    "position": 5,
+    "visibleIf": null
+  },
+  {
+    "id": "cmvvel4mt005wqhy34yy15cxd",
+    "stepId": "cmvvel4mr005nqhy3nq4xtk9g",
+    "key": "unsure",
+    "position": 6,
+    "visibleIf": null
+  }
+]

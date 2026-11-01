@@ -1,0 +1,66 @@
+[
+  {
+    "id": "cmvv1uw6v007knay3au6g3o42",
+    "key": "what_is_dpp",
+    "status": "PUBLISHED",
+    "showInMenu": true,
+    "position": 1,
+    "updatedAt": "2026-10-30T13:10:34.999Z"
+  },
+  {
+    "id": "cmvv1uw6w007nnay3p4u578mn",
+    "key": "espr",
+    "status": "PUBLISHED",
+    "showInMenu": true,
+    "position": 2,
+    "updatedAt": "2026-10-30T13:10:35.000Z"
+  },
+  {
+    "id": "cmvv1uw6y007qnay3etl6pxns",
+    "key": "sectors",
+    "status": "PUBLISHED",
+    "showInMenu": true,
+    "position": 3,
+    "updatedAt": "2026-10-30T13:10:35.002Z"
+  },
+  {
+    "id": "cmvv1uw6z007tnay3nwn3zc6o",
+    "key": "about",
+    "status": "PUBLISHED",
+    "showInMenu": true,
+    "position": 4,
+    "updatedAt": "2026-10-30T13:10:35.003Z"
+  },
+  {
+    "id": "cmvv1uw70007wnay32yx9xxuc",
+    "key": "contacts",
+    "status": "PUBLISHED",
+    "showInMenu": true,
+    "position": 5,
+    "updatedAt": "2026-10-30T13:10:35.004Z"
+  },
+  {
+    "id": "cmvv1uw73007znay3tbp173jv",
+    "key": "privacy",
+    "status": "PUBLISHED",
+    "showInMenu": false,
+    "position": 6,
+    "updatedAt": "2026-10-30T13:10:35.007Z"
+  },
+  {
+    "id": "cmvv36bl20000k0y3iwogktas",
+    "key": "wizard_intro",
+    "status": "PUBLISHED",
+    "showInMenu": false,
+    "position": 0,
+    "updatedAt": "2026-10-30T13:47:27.782Z"
+  },
+  {
+    "id": "cmvv1uw6s007hnay317zbsi7i",
+    "key": "home",
+    "status": "PUBLISHED",
+    "showInMenu": false,
+    "position": 0,
+    "updatedAt": "2026-10-30T21:40:42.648Z"
+  }
+]

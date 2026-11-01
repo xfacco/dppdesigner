@@ -1,0 +1,2440 @@
+[
+  {
+    "id": "cmvv1xy7w0001p8y3z819hvgs",
+    "journeyId": "cmvv1xy4i0000p8y3wsgre7qz",
+    "stepKey": "industry",
+    "value": "battery",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:12:57.596Z"
+  },
+  {
+    "id": "cmvv1xy880002p8y3hgl8rqp9",
+    "journeyId": "cmvv1xy4i0000p8y3wsgre7qz",
+    "stepKey": "company_type",
+    "value": [
+      "manufacturer"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:12:57.608Z"
+  },
+  {
+    "id": "cmvv1xy8k0003p8y3z9ozki4i",
+    "journeyId": "cmvv1xy4i0000p8y3wsgre7qz",
+    "stepKey": "production_model",
+    "value": "both",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:12:57.620Z"
+  },
+  {
+    "id": "cmvv1xy8v0004p8y3b9tejw8q",
+    "journeyId": "cmvv1xy4i0000p8y3wsgre7qz",
+    "stepKey": "sku_count",
+    "value": 250,
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:12:57.631Z"
+  },
+  {
+    "id": "cmvv1xy9b0005p8y3tk3lgby6",
+    "journeyId": "cmvv1xy4i0000p8y3wsgre7qz",
+    "stepKey": "sample_product",
+    "value": {
+      "name": "Batteria X",
+      "category": "",
+      "main_materials": ""
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:12:57.647Z"
+  },
+  {
+    "id": "cmvv1xy9w0007p8y3n4fx5eky",
+    "journeyId": "cmvv1xy4i0000p8y3wsgre7qz",
+    "stepKey": "data_dynamics",
+    "value": "mixed",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:12:57.668Z"
+  },
+  {
+    "id": "cmvv1xya60008p8y3j2lhv0np",
+    "journeyId": "cmvv1xy4i0000p8y3wsgre7qz",
+    "stepKey": "data_sources",
+    "value": [
+      "erp",
+      "suppliers_excel"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:12:57.678Z"
+  },
+  {
+    "id": "cmvv1xyaf0009p8y30dvghrza",
+    "journeyId": "cmvv1xy4i0000p8y3wsgre7qz",
+    "stepKey": "data_organization",
+    "value": "decentralized",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:12:57.687Z"
+  },
+  {
+    "id": "cmvv1xyaw000bp8y3sktxmczx",
+    "journeyId": "cmvv1xy4i0000p8y3wsgre7qz",
+    "stepKey": "qr_presence",
+    "value": "none",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:12:57.704Z"
+  },
+  {
+    "id": "cmvv1xyb6000cp8y3ag4eoits",
+    "journeyId": "cmvv1xy4i0000p8y3wsgre7qz",
+    "stepKey": "qr_code_type",
+    "value": "battery_regulation",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:12:57.714Z"
+  },
+  {
+    "id": "cmvv1xybg000dp8y3rudgmwv5",
+    "journeyId": "cmvv1xy4i0000p8y3wsgre7qz",
+    "stepKey": "dpp_granularity",
+    "value": "item",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:12:57.724Z"
+  },
+  {
+    "id": "cmvv1xybp000ep8y3eqc0ht7y",
+    "journeyId": "cmvv1xy4i0000p8y3wsgre7qz",
+    "stepKey": "url_scheme",
+    "value": "unsure",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:12:57.733Z"
+  },
+  {
+    "id": "cmvv1xybx000fp8y34yh7vhfx",
+    "journeyId": "cmvv1xy4i0000p8y3wsgre7qz",
+    "stepKey": "hosting",
+    "value": "undecided",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:12:57.741Z"
+  },
+  {
+    "id": "cmvv1xyc6000gp8y37v3e1q8f",
+    "journeyId": "cmvv1xy4i0000p8y3wsgre7qz",
+    "stepKey": "registry_integration",
+    "value": "unknown",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:12:57.750Z"
+  },
+  {
+    "id": "cmvv1xy9m0006p8y3yse0n5hy",
+    "journeyId": "cmvv1xy4i0000p8y3wsgre7qz",
+    "stepKey": "maintenance",
+    "value": "no",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:12:57.794Z"
+  },
+  {
+    "id": "cmvv4jqva0007j6y3yxijjici",
+    "journeyId": "cmvv3rxs700010oy3x4r8jdgi",
+    "stepKey": "production_model",
+    "value": "in_house",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T14:30:00.549Z"
+  },
+  {
+    "id": "cmvv1xyao000ap8y3t02847yn",
+    "journeyId": "cmvv1xy4i0000p8y3wsgre7qz",
+    "stepKey": "data_model",
+    "value": [
+      "materials"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:12:57.814Z"
+  },
+  {
+    "id": "cmvv26oeb0083p8y3rehuo7sd",
+    "journeyId": "cmvv26jj10082p8y3l2ytrvdw",
+    "stepKey": "industry",
+    "value": "battery",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:19:44.771Z"
+  },
+  {
+    "id": "cmvv26vjq0084p8y3u4bywb2l",
+    "journeyId": "cmvv26jj10082p8y3l2ytrvdw",
+    "stepKey": "company_type",
+    "value": [
+      "manufacturer",
+      "brand",
+      "importer"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:19:54.038Z"
+  },
+  {
+    "id": "cmvv273zf0085p8y3tlmncj78",
+    "journeyId": "cmvv26jj10082p8y3l2ytrvdw",
+    "stepKey": "production_model",
+    "value": "both",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:20:04.971Z"
+  },
+  {
+    "id": "cmvv278fl0086p8y3kly1n8r2",
+    "journeyId": "cmvv26jj10082p8y3l2ytrvdw",
+    "stepKey": "sku_count",
+    "value": 3000,
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:20:10.737Z"
+  },
+  {
+    "id": "cmvv27i7w0087p8y307d4vlb2",
+    "journeyId": "cmvv26jj10082p8y3l2ytrvdw",
+    "stepKey": "sample_product",
+    "value": {
+      "name": "Batteria 2kw",
+      "category": "",
+      "main_materials": ""
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:20:23.420Z"
+  },
+  {
+    "id": "cmvv27lhy0088p8y3qrjf2k46",
+    "journeyId": "cmvv26jj10082p8y3l2ytrvdw",
+    "stepKey": "maintenance",
+    "value": "yes",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:20:27.670Z"
+  },
+  {
+    "id": "cmvv27qbn0089p8y3y5drx7d5",
+    "journeyId": "cmvv26jj10082p8y3l2ytrvdw",
+    "stepKey": "data_dynamics",
+    "value": "mixed",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:20:33.923Z"
+  },
+  {
+    "id": "cmvv27zja008ap8y3uj3pqbns",
+    "journeyId": "cmvv26jj10082p8y3l2ytrvdw",
+    "stepKey": "data_sources",
+    "value": [
+      "suppliers_excel",
+      "suppliers_api",
+      "manual"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:20:45.862Z"
+  },
+  {
+    "id": "cmvv284d6008bp8y30zwfeikg",
+    "journeyId": "cmvv26jj10082p8y3l2ytrvdw",
+    "stepKey": "data_organization",
+    "value": "decentralized",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:20:52.122Z"
+  },
+  {
+    "id": "cmvv28mqk008cp8y33y4cg2t5",
+    "journeyId": "cmvv26jj10082p8y3l2ytrvdw",
+    "stepKey": "data_model",
+    "value": [
+      "materials",
+      "origin",
+      "sustainability",
+      "end_of_life",
+      "compliance_docs",
+      "repair_info"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:21:15.932Z"
+  },
+  {
+    "id": "cmvv28q5h008dp8y3umz9kw12",
+    "journeyId": "cmvv26jj10082p8y3l2ytrvdw",
+    "stepKey": "qr_presence",
+    "value": "qr",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:21:20.357Z"
+  },
+  {
+    "id": "cmvv28tg0008ep8y38h2t0bsq",
+    "journeyId": "cmvv26jj10082p8y3l2ytrvdw",
+    "stepKey": "qr_code_type",
+    "value": "espr",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:21:24.624Z"
+  },
+  {
+    "id": "cmvv28xk5008fp8y32d9588tt",
+    "journeyId": "cmvv26jj10082p8y3l2ytrvdw",
+    "stepKey": "dpp_granularity",
+    "value": "model",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:21:29.957Z"
+  },
+  {
+    "id": "cmvv290o4008gp8y367dlor68",
+    "journeyId": "cmvv26jj10082p8y3l2ytrvdw",
+    "stepKey": "url_scheme",
+    "value": "own_domain",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:21:33.988Z"
+  },
+  {
+    "id": "cmvv293gz008hp8y314fwzyw2",
+    "journeyId": "cmvv26jj10082p8y3l2ytrvdw",
+    "stepKey": "hosting",
+    "value": "saas",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:21:37.619Z"
+  },
+  {
+    "id": "cmvv297rh008ip8y3g4bhtw22",
+    "journeyId": "cmvv26jj10082p8y3l2ytrvdw",
+    "stepKey": "registry_integration",
+    "value": "direct",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:21:43.181Z"
+  },
+  {
+    "id": "cmvv2dlgz008kp8y3qza20x7j",
+    "journeyId": "cmvv29jjz008jp8y3g0s0iyam",
+    "stepKey": "industry",
+    "value": "battery",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:39:07.817Z"
+  },
+  {
+    "id": "cmvv2vnhi0001b5y3mnmvgq1i",
+    "journeyId": "cmvv29jjz008jp8y3g0s0iyam",
+    "stepKey": "company_type",
+    "value": [
+      "manufacturer"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:39:09.990Z"
+  },
+  {
+    "id": "cmvv2vooe0002b5y3c5ju9cur",
+    "journeyId": "cmvv29jjz008jp8y3g0s0iyam",
+    "stepKey": "production_model",
+    "value": "in_house",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:39:11.534Z"
+  },
+  {
+    "id": "cmvv2vr7f0003b5y3c1wr9gp5",
+    "journeyId": "cmvv29jjz008jp8y3g0s0iyam",
+    "stepKey": "sku_count",
+    "value": 3,
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:39:14.811Z"
+  },
+  {
+    "id": "cmvv2vv6a0004b5y3yfrzx021",
+    "journeyId": "cmvv29jjz008jp8y3g0s0iyam",
+    "stepKey": "sample_product",
+    "value": {
+      "name": "Prova",
+      "category": "",
+      "main_materials": ""
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:39:19.954Z"
+  },
+  {
+    "id": "cmvv2vxvu0005b5y34gcblz8f",
+    "journeyId": "cmvv29jjz008jp8y3g0s0iyam",
+    "stepKey": "maintenance",
+    "value": "yes",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:39:23.466Z"
+  },
+  {
+    "id": "cmvv2w14x0006b5y3gcnk81lx",
+    "journeyId": "cmvv29jjz008jp8y3g0s0iyam",
+    "stepKey": "data_dynamics",
+    "value": "static",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:39:27.681Z"
+  },
+  {
+    "id": "cmvv2w3fu0007b5y3t3rq157x",
+    "journeyId": "cmvv29jjz008jp8y3g0s0iyam",
+    "stepKey": "data_sources",
+    "value": [
+      "suppliers_excel",
+      "suppliers_api"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:39:30.666Z"
+  },
+  {
+    "id": "cmvv2w7k60008b5y3nzks6nmy",
+    "journeyId": "cmvv29jjz008jp8y3g0s0iyam",
+    "stepKey": "data_organization",
+    "value": "centralized",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:39:36.006Z"
+  },
+  {
+    "id": "cmvv2w9cz0009b5y3qz1j49xi",
+    "journeyId": "cmvv29jjz008jp8y3g0s0iyam",
+    "stepKey": "data_model",
+    "value": [
+      "materials",
+      "origin"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:39:38.339Z"
+  },
+  {
+    "id": "cmvv2wapu000ab5y3whsa9imc",
+    "journeyId": "cmvv29jjz008jp8y3g0s0iyam",
+    "stepKey": "qr_presence",
+    "value": "qr",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:39:40.098Z"
+  },
+  {
+    "id": "cmvv2wdsj000bb5y3vjgfkpaq",
+    "journeyId": "cmvv29jjz008jp8y3g0s0iyam",
+    "stepKey": "qr_code_type",
+    "value": "battery_regulation",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:39:44.083Z"
+  },
+  {
+    "id": "cmvv2wfi7000cb5y32s3fsn2q",
+    "journeyId": "cmvv29jjz008jp8y3g0s0iyam",
+    "stepKey": "dpp_granularity",
+    "value": "model",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:39:46.303Z"
+  },
+  {
+    "id": "cmvv2wh6e000db5y3jocg1fua",
+    "journeyId": "cmvv29jjz008jp8y3g0s0iyam",
+    "stepKey": "url_scheme",
+    "value": "own_domain",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:39:48.470Z"
+  },
+  {
+    "id": "cmvv2wiy7000eb5y3iwq1b3lb",
+    "journeyId": "cmvv29jjz008jp8y3g0s0iyam",
+    "stepKey": "hosting",
+    "value": "saas",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:39:50.767Z"
+  },
+  {
+    "id": "cmvv2wkjn000fb5y35ud8u2v1",
+    "journeyId": "cmvv29jjz008jp8y3g0s0iyam",
+    "stepKey": "registry_integration",
+    "value": "via_provider",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:39:52.835Z"
+  },
+  {
+    "id": "cmvv3c83b0003nwy3irc96fvy",
+    "journeyId": "cmvv3c2wk0002nwy3lctuser2",
+    "stepKey": "industry",
+    "value": "battery",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T13:52:03.191Z"
+  },
+  {
+    "id": "cmvv3s5i200020oy3gszbgpaf",
+    "journeyId": "cmvv3rxs700010oy3x4r8jdgi",
+    "stepKey": "industry",
+    "value": "battery",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T14:04:26.330Z"
+  },
+  {
+    "id": "cmvv4ji2x0006j6y38yzc4omz",
+    "journeyId": "cmvv3rxs700010oy3x4r8jdgi",
+    "stepKey": "company_type",
+    "value": [
+      "manufacturer"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T14:25:42.345Z"
+  },
+  {
+    "id": "cmvv4k0r20008j6y37mogrozm",
+    "journeyId": "cmvv3rxs700010oy3x4r8jdgi",
+    "stepKey": "sku_count",
+    "value": 30,
+    "needsReview": false,
+    "updatedAt": "2026-10-30T14:26:12.693Z"
+  },
+  {
+    "id": "cmvv4rqd100010ey3dehwtalz",
+    "journeyId": "cmvv4qc0r0003viy3mfwmjpsy",
+    "stepKey": "company_type",
+    "value": [
+      "manufacturer"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T14:32:33.405Z"
+  },
+  {
+    "id": "cmvv4qipj0005viy3mn5572qs",
+    "journeyId": "cmvv4qc0r0003viy3mfwmjpsy",
+    "stepKey": "industry",
+    "value": "battery",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T14:32:32.264Z"
+  },
+  {
+    "id": "cmvv4sfyp00050ey3w3l1bkt9",
+    "journeyId": "cmvv4qc0r0003viy3mfwmjpsy",
+    "stepKey": "production_model",
+    "value": "both",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T14:32:39.505Z"
+  },
+  {
+    "id": "cmvv4srzd00060ey31m509m3n",
+    "journeyId": "cmvv4qc0r0003viy3mfwmjpsy",
+    "stepKey": "sku_count",
+    "value": 4000,
+    "needsReview": false,
+    "updatedAt": "2026-10-30T14:32:55.081Z"
+  },
+  {
+    "id": "cmvv7pn4l00090ey3wty7099b",
+    "journeyId": "cmvv7n7x000070ey35g9ag9f1",
+    "stepKey": "company_type",
+    "value": [
+      "importer"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T15:59:54.418Z"
+  },
+  {
+    "id": "cmvv7o3ty00080ey3xipt92am",
+    "journeyId": "cmvv7n7x000070ey35g9ag9f1",
+    "stepKey": "industry",
+    "value": "battery",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T15:55:17.002Z"
+  },
+  {
+    "id": "cmvv7xlua00fr0ey3rdcq7xbs",
+    "journeyId": "cmvv7n7x000070ey35g9ag9f1",
+    "stepKey": "production_model",
+    "value": "in_house",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:00:39.250Z"
+  },
+  {
+    "id": "cmvv7yo9y00ft0ey395imzvyf",
+    "journeyId": "cmvv7ym8300fs0ey3xtywetco",
+    "stepKey": "industry",
+    "value": "battery",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:01:29.062Z"
+  },
+  {
+    "id": "cmvv7yqly00fu0ey3uhl2a0vz",
+    "journeyId": "cmvv7ym8300fs0ey3xtywetco",
+    "stepKey": "company_type",
+    "value": [
+      "manufacturer",
+      "brand"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:01:37.432Z"
+  },
+  {
+    "id": "cmvv84div0001m2y30vt3cse4",
+    "journeyId": "cmvv81i5f00o40ey3ll89il0o",
+    "stepKey": "industry",
+    "value": "textile",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:32:52.919Z"
+  },
+  {
+    "id": "cmvv84fsp0002m2y3kygxdkye",
+    "journeyId": "cmvv81i5f00o40ey3ll89il0o",
+    "stepKey": "company_type",
+    "value": [
+      "manufacturer",
+      "brand",
+      "importer"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:06:02.400Z"
+  },
+  {
+    "id": "cmvvdgz5e000yhhy393otqnqn",
+    "journeyId": "cmvvdgpz8000xhhy3f33yo9mv",
+    "stepKey": "industry",
+    "value": "battery",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:35:41.042Z"
+  },
+  {
+    "id": "cmvvc0rc4000u70y33yr0jkap",
+    "journeyId": "cmvvc0jir000s70y3w44fcx0u",
+    "stepKey": "product_categories",
+    "value": [
+      "metal_steel",
+      "metal_aluminium"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T19:00:28.194Z"
+  },
+  {
+    "id": "cmvvf2i3q002w5hy3vx3re0d5",
+    "journeyId": "cmvvf2d5s002v5hy3y7shybkl",
+    "stepKey": "industry",
+    "value": "battery",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T19:20:24.998Z"
+  },
+  {
+    "id": "cmvv8ecpg000exjy3382jgw4s",
+    "journeyId": "cmvv8e95s000dxjy3ev5cdzvu",
+    "stepKey": "industry",
+    "value": "battery",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:13:40.564Z"
+  },
+  {
+    "id": "cmvv8eefx000fxjy3ozfrafpv",
+    "journeyId": "cmvv8e95s000dxjy3ev5cdzvu",
+    "stepKey": "company_type",
+    "value": [
+      "manufacturer",
+      "brand",
+      "importer"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:14:18.248Z"
+  },
+  {
+    "id": "cmvv8gf2j000lxjy3tejvpj0w",
+    "journeyId": "cmvv8e95s000dxjy3ev5cdzvu",
+    "stepKey": "sku_count",
+    "value": 1000,
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:19:50.137Z"
+  },
+  {
+    "id": "cmvv8g21r000kxjy3h0t488yc",
+    "journeyId": "cmvv8e95s000dxjy3ev5cdzvu",
+    "stepKey": "production_model",
+    "value": "in_house",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:20:49.769Z"
+  },
+  {
+    "id": "cmvv8k8am000mxjy3z59nex07",
+    "journeyId": "cmvv8e95s000dxjy3ev5cdzvu",
+    "stepKey": "sample_product",
+    "value": {
+      "name": "Batteria 2kw",
+      "category": "",
+      "main_materials": ""
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:22:22.714Z"
+  },
+  {
+    "id": "cmvv8r8bm000sxjy3t6xgk9u9",
+    "journeyId": "cmvv81i5f00o40ey3ll89il0o",
+    "stepKey": "production_model",
+    "value": "in_house",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:23:41.410Z"
+  },
+  {
+    "id": "cmvv8ra58000txjy364uhebnk",
+    "journeyId": "cmvv81i5f00o40ey3ll89il0o",
+    "stepKey": "sku_count",
+    "value": 1,
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:23:43.772Z"
+  },
+  {
+    "id": "cmvv8rbip000uxjy31ju86ngw",
+    "journeyId": "cmvv81i5f00o40ey3ll89il0o",
+    "stepKey": "sample_product",
+    "value": {
+      "name": "22",
+      "category": "",
+      "main_materials": ""
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:23:45.553Z"
+  },
+  {
+    "id": "cmvv8rcuj000vxjy39f58smfm",
+    "journeyId": "cmvv81i5f00o40ey3ll89il0o",
+    "stepKey": "maintenance",
+    "value": "yes",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:23:47.275Z"
+  },
+  {
+    "id": "cmvv8rech000wxjy38oovnow1",
+    "journeyId": "cmvv81i5f00o40ey3ll89il0o",
+    "stepKey": "data_dynamics",
+    "value": "mixed",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:23:49.217Z"
+  },
+  {
+    "id": "cmvv8rfp7000xxjy3zxnx4wlj",
+    "journeyId": "cmvv81i5f00o40ey3ll89il0o",
+    "stepKey": "data_sources",
+    "value": [
+      "suppliers_api"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:23:50.971Z"
+  },
+  {
+    "id": "cmvv8rh12000yxjy3k5ie0hx3",
+    "journeyId": "cmvv81i5f00o40ey3ll89il0o",
+    "stepKey": "data_organization",
+    "value": "decentralized",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:23:52.694Z"
+  },
+  {
+    "id": "cmvv8ri3k000zxjy3pt8l6hzu",
+    "journeyId": "cmvv81i5f00o40ey3ll89il0o",
+    "stepKey": "data_model",
+    "value": [
+      "materials"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:23:54.080Z"
+  },
+  {
+    "id": "cmvv8rj7v0010xjy3c2juofle",
+    "journeyId": "cmvv81i5f00o40ey3ll89il0o",
+    "stepKey": "qr_presence",
+    "value": "other_carrier",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:23:55.531Z"
+  },
+  {
+    "id": "cmvv8rlnj0012xjy36usw5b7n",
+    "journeyId": "cmvv81i5f00o40ey3ll89il0o",
+    "stepKey": "dpp_granularity",
+    "value": "batch",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:23:58.687Z"
+  },
+  {
+    "id": "cmvv8rmt80013xjy33flw20k2",
+    "journeyId": "cmvv81i5f00o40ey3ll89il0o",
+    "stepKey": "url_scheme",
+    "value": "gs1_digital_link",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:24:00.188Z"
+  },
+  {
+    "id": "cmvv8ro790014xjy321lie6c1",
+    "journeyId": "cmvv81i5f00o40ey3ll89il0o",
+    "stepKey": "hosting",
+    "value": "proprietary",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:24:01.989Z"
+  },
+  {
+    "id": "cmvv8rp7x0015xjy3wtdpmz3c",
+    "journeyId": "cmvv81i5f00o40ey3ll89il0o",
+    "stepKey": "registry_integration",
+    "value": "via_provider",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:24:03.309Z"
+  },
+  {
+    "id": "cmvv8tc4h0016xjy3y2b8fdxd",
+    "journeyId": "cmvv7ym8300fs0ey3xtywetco",
+    "stepKey": "production_model",
+    "value": "in_house",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:25:19.649Z"
+  },
+  {
+    "id": "cmvv9098f000xeuy3ocg1v8fc",
+    "journeyId": "cmvv8zxff000ueuy3mkpc45lu",
+    "stepKey": "company_type",
+    "value": [
+      "manufacturer",
+      "brand"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:31:17.345Z"
+  },
+  {
+    "id": "cmvv90bka000yeuy3x1g4xl99",
+    "journeyId": "cmvv8zxff000ueuy3mkpc45lu",
+    "stepKey": "production_model",
+    "value": "in_house",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:31:19.115Z"
+  },
+  {
+    "id": "cmvv90e2h000zeuy3fsg8d461",
+    "journeyId": "cmvv8zxff000ueuy3mkpc45lu",
+    "stepKey": "sample_product",
+    "value": {
+      "name": "asdasd",
+      "category": "",
+      "main_materials": ""
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:31:20.362Z"
+  },
+  {
+    "id": "cmvv900wk000veuy3yrgsfdhb",
+    "journeyId": "cmvv8zxff000ueuy3mkpc45lu",
+    "stepKey": "industry",
+    "value": "construction",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:32:01.811Z"
+  },
+  {
+    "id": "cmvv9060v000weuy3y066n1qj",
+    "journeyId": "cmvv8zxff000ueuy3mkpc45lu",
+    "stepKey": "product_categories",
+    "value": [
+      "textile_apparel",
+      "textile_footwear"
+    ],
+    "needsReview": true,
+    "updatedAt": "2026-10-30T16:32:01.812Z"
+  },
+  {
+    "id": "cmvv92ntn0019euy3nt5c19uc",
+    "journeyId": "cmvv92krv0018euy31x45z6w4",
+    "stepKey": "industry",
+    "value": "textile",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:32:34.715Z"
+  },
+  {
+    "id": "cmvv8rkaf0011xjy32oxuv28z",
+    "journeyId": "cmvv81i5f00o40ey3ll89il0o",
+    "stepKey": "qr_code_type",
+    "value": "battery_regulation",
+    "needsReview": true,
+    "updatedAt": "2026-10-30T16:32:52.920Z"
+  },
+  {
+    "id": "cmvv94asa001jeuy35616pkkj",
+    "journeyId": "cmvv93r2n001deuy3xhensnl1",
+    "stepKey": "sample_product",
+    "value": {
+      "name": "Batteria 2kw",
+      "category": "",
+      "main_materials": ""
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:33:51.130Z"
+  },
+  {
+    "id": "cmvv93u1z001eeuy3b1707whr",
+    "journeyId": "cmvv93r2n001deuy3xhensnl1",
+    "stepKey": "industry",
+    "value": "construction",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:36:29.653Z"
+  },
+  {
+    "id": "cmvv93zgg001geuy3y74lmoqe",
+    "journeyId": "cmvv93r2n001deuy3xhensnl1",
+    "stepKey": "product_categories",
+    "value": [
+      "constr_materials",
+      "constr_components"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:37:28.321Z"
+  },
+  {
+    "id": "cmvv941wh001heuy31cxfkurm",
+    "journeyId": "cmvv93r2n001deuy3xhensnl1",
+    "stepKey": "company_type",
+    "value": [
+      "manufacturer",
+      "brand"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:37:29.549Z"
+  },
+  {
+    "id": "cmvv945i1001ieuy3wnywcu6z",
+    "journeyId": "cmvv93r2n001deuy3xhensnl1",
+    "stepKey": "production_model",
+    "value": "both",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T16:37:31.063Z"
+  },
+  {
+    "id": "cmvv9q99s0008ouy3nhhf9t3k",
+    "journeyId": "cmvv9q6pv0007ouy3k9yk83yc",
+    "stepKey": "industry",
+    "value": "furniture",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T17:12:19.291Z"
+  },
+  {
+    "id": "cmvvc7qrj000279y35g9qh693",
+    "journeyId": "cmvvc7iet000179y3zeaf2ogu",
+    "stepKey": "industry",
+    "value": "battery",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:00:30.655Z"
+  },
+  {
+    "id": "cmvvc7u1x000379y3hsmy8vx4",
+    "journeyId": "cmvvc7iet000179y3zeaf2ogu",
+    "stepKey": "product_categories",
+    "value": [
+      "battery_portable",
+      "battery_lmt",
+      "battery_ev"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:00:34.917Z"
+  },
+  {
+    "id": "cmvvc7yw0000479y3pnv2fct9",
+    "journeyId": "cmvvc7iet000179y3zeaf2ogu",
+    "stepKey": "company_type",
+    "value": [
+      "manufacturer",
+      "importer"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:00:41.184Z"
+  },
+  {
+    "id": "cmvvc82st000579y3pcspfn0r",
+    "journeyId": "cmvvc7iet000179y3zeaf2ogu",
+    "stepKey": "production_model",
+    "value": "both",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:00:46.253Z"
+  },
+  {
+    "id": "cmvv9qc290009ouy3cxotd8dr",
+    "journeyId": "cmvv9q6pv0007ouy3k9yk83yc",
+    "stepKey": "product_categories",
+    "value": [
+      "furn_furniture",
+      "furn_mattresses"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T17:12:24.413Z"
+  },
+  {
+    "id": "cmvv9rjp6000douy3ar5eox25",
+    "journeyId": "cmvv9q6pv0007ouy3k9yk83yc",
+    "stepKey": "dpp_granularity",
+    "value": {
+      "battery_ev": [
+        "batch",
+        "item"
+      ],
+      "battery_portable": [
+        "model"
+      ]
+    },
+    "needsReview": true,
+    "updatedAt": "2026-10-30T17:12:24.414Z"
+  },
+  {
+    "id": "cmvva4w4q000i70y3ybp6euzl",
+    "journeyId": "cmvv9q6pv0007ouy3k9yk83yc",
+    "stepKey": "maintenance",
+    "value": {
+      "battery_ev": [
+        "yes"
+      ],
+      "battery_portable": [
+        "no"
+      ]
+    },
+    "needsReview": true,
+    "updatedAt": "2026-10-30T17:12:24.414Z"
+  },
+  {
+    "id": "cmvv9qeq3000aouy3l7u0t88j",
+    "journeyId": "cmvv9q6pv0007ouy3k9yk83yc",
+    "stepKey": "company_type",
+    "value": [
+      "manufacturer",
+      "brand"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T17:12:26.113Z"
+  },
+  {
+    "id": "cmvv9qj0p000bouy3ayzh43vp",
+    "journeyId": "cmvv9q6pv0007ouy3k9yk83yc",
+    "stepKey": "production_model",
+    "value": "both",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T17:12:27.398Z"
+  },
+  {
+    "id": "cmvvcbgg5000679y32vic5etr",
+    "journeyId": "cmvvc7iet000179y3zeaf2ogu",
+    "stepKey": "dpp_granularity",
+    "value": {
+      "battery_ev": [
+        "item"
+      ],
+      "battery_lmt": [
+        "item"
+      ],
+      "battery_portable": [
+        "batch"
+      ]
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:06:44.376Z"
+  },
+  {
+    "id": "cmvvcfw4x0002djy3ozd327sp",
+    "journeyId": "cmvvc7iet000179y3zeaf2ogu",
+    "stepKey": "maintenance",
+    "value": {
+      "battery_ev": [
+        "yes"
+      ],
+      "battery_lmt": [
+        "yes"
+      ],
+      "battery_portable": [
+        "yes"
+      ]
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:06:50.865Z"
+  },
+  {
+    "id": "cmvvcg00h0003djy3lfivxu1n",
+    "journeyId": "cmvvc7iet000179y3zeaf2ogu",
+    "stepKey": "data_dynamics",
+    "value": {
+      "battery_ev": [
+        "mixed"
+      ],
+      "battery_lmt": [
+        "mixed"
+      ],
+      "battery_portable": [
+        "dynamic"
+      ]
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:06:55.889Z"
+  },
+  {
+    "id": "cmvvcg96l0004djy3grbfz3qd",
+    "journeyId": "cmvvc7iet000179y3zeaf2ogu",
+    "stepKey": "data_sources",
+    "value": [
+      "suppliers_excel",
+      "suppliers_api"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:07:07.773Z"
+  },
+  {
+    "id": "cmvvcgfgy0005djy3p7a8z5zl",
+    "journeyId": "cmvvc7iet000179y3zeaf2ogu",
+    "stepKey": "data_organization",
+    "value": "centralized",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:07:15.922Z"
+  },
+  {
+    "id": "cmvvcgnz10006djy3npc15u4z",
+    "journeyId": "cmvvc7iet000179y3zeaf2ogu",
+    "stepKey": "data_model",
+    "value": [
+      "compliance_docs"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:07:26.941Z"
+  },
+  {
+    "id": "cmvvcgzjf0007djy3n3mctc7b",
+    "journeyId": "cmvvc7iet000179y3zeaf2ogu",
+    "stepKey": "qr_presence",
+    "value": "qr",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:07:55.231Z"
+  },
+  {
+    "id": "cmvvci4dm000adjy336guuarm",
+    "journeyId": "cmvvchxvm0009djy38g1dyy1d",
+    "stepKey": "industry",
+    "value": "battery",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:11:06.679Z"
+  },
+  {
+    "id": "cmvvci74j000bdjy3r8riuxv2",
+    "journeyId": "cmvvchxvm0009djy38g1dyy1d",
+    "stepKey": "product_categories",
+    "value": [
+      "battery_portable",
+      "battery_lmt"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:11:07.669Z"
+  },
+  {
+    "id": "cmvvci9zd000cdjy39vs2ybg4",
+    "journeyId": "cmvvchxvm0009djy38g1dyy1d",
+    "stepKey": "company_type",
+    "value": [
+      "manufacturer",
+      "brand"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:11:08.391Z"
+  },
+  {
+    "id": "cmvvcicqs000ddjy3v2n4qjmp",
+    "journeyId": "cmvvchxvm0009djy38g1dyy1d",
+    "stepKey": "production_model",
+    "value": "both",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:11:09.420Z"
+  },
+  {
+    "id": "cmvvcifao000edjy3mu2rcmxf",
+    "journeyId": "cmvvchxvm0009djy38g1dyy1d",
+    "stepKey": "dpp_granularity",
+    "value": {
+      "battery_lmt": [
+        "item"
+      ],
+      "battery_portable": [
+        "item"
+      ]
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:11:11.349Z"
+  },
+  {
+    "id": "cmvvcih97000fdjy3pxetbagf",
+    "journeyId": "cmvvchxvm0009djy38g1dyy1d",
+    "stepKey": "maintenance",
+    "value": {
+      "battery_lmt": [
+        "yes"
+      ],
+      "battery_portable": [
+        "no"
+      ]
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:11:12.285Z"
+  },
+  {
+    "id": "cmvvciipv000gdjy3412sn68l",
+    "journeyId": "cmvvchxvm0009djy38g1dyy1d",
+    "stepKey": "data_dynamics",
+    "value": {
+      "battery_lmt": [
+        "mixed"
+      ],
+      "battery_portable": [
+        "dynamic"
+      ]
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:11:12.958Z"
+  },
+  {
+    "id": "cmvvcikuq000hdjy37cna4acw",
+    "journeyId": "cmvvchxvm0009djy38g1dyy1d",
+    "stepKey": "data_sources",
+    "value": [
+      "suppliers_excel",
+      "suppliers_api"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:11:13.502Z"
+  },
+  {
+    "id": "cmvvcivrg000idjy32rgbd52x",
+    "journeyId": "cmvvchxvm0009djy38g1dyy1d",
+    "stepKey": "data_organization",
+    "value": "centralized",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:11:14.564Z"
+  },
+  {
+    "id": "cmvvcj0tn000jdjy3jl40vepj",
+    "journeyId": "cmvvchxvm0009djy38g1dyy1d",
+    "stepKey": "data_model",
+    "value": [
+      "materials",
+      "origin",
+      "sustainability",
+      "end_of_life",
+      "compliance_docs",
+      "repair_info"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:11:16.664Z"
+  },
+  {
+    "id": "cmvvcj3bg000kdjy3ag5xho6g",
+    "journeyId": "cmvvchxvm0009djy38g1dyy1d",
+    "stepKey": "qr_presence",
+    "value": "qr",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:11:17.345Z"
+  },
+  {
+    "id": "cmvvcj8cc000ldjy3ck5o00bo",
+    "journeyId": "cmvvchxvm0009djy38g1dyy1d",
+    "stepKey": "url_scheme",
+    "value": "own_domain",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:11:18.066Z"
+  },
+  {
+    "id": "cmvvcjcb0000mdjy3wjzadf5n",
+    "journeyId": "cmvvchxvm0009djy38g1dyy1d",
+    "stepKey": "hosting",
+    "value": "saas",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:11:18.810Z"
+  },
+  {
+    "id": "cmvvcjgxj000ndjy3lvmr17t6",
+    "journeyId": "cmvvchxvm0009djy38g1dyy1d",
+    "stepKey": "registry_integration",
+    "value": "via_provider",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:11:19.427Z"
+  },
+  {
+    "id": "cmvvcjkq7000odjy37u4u23um",
+    "journeyId": "cmvvchxvm0009djy38g1dyy1d",
+    "stepKey": "sku_count",
+    "value": 1000,
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:11:20.811Z"
+  },
+  {
+    "id": "cmvvcjnpa000pdjy3hqt5g39y",
+    "journeyId": "cmvvchxvm0009djy38g1dyy1d",
+    "stepKey": "sample_product",
+    "value": {
+      "name": "ewrwer",
+      "category": "",
+      "main_materials": ""
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:11:21.597Z"
+  },
+  {
+    "id": "cmvvf2m57002x5hy39qjh34v0",
+    "journeyId": "cmvvf2d5s002v5hy3y7shybkl",
+    "stepKey": "product_categories",
+    "value": [
+      "battery_ev",
+      "battery_industrial"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T19:20:30.235Z"
+  },
+  {
+    "id": "cmvvf2rw5002y5hy374uzwtm0",
+    "journeyId": "cmvvf2d5s002v5hy3y7shybkl",
+    "stepKey": "company_type",
+    "value": [
+      "manufacturer",
+      "importer",
+      "retailer"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T19:20:37.685Z"
+  },
+  {
+    "id": "cmvvf2wn2002z5hy3e2qgrpj4",
+    "journeyId": "cmvvf2d5s002v5hy3y7shybkl",
+    "stepKey": "production_model",
+    "value": "both",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T19:20:43.838Z"
+  },
+  {
+    "id": "cmvvdh63n000zhhy33g5z77vi",
+    "journeyId": "cmvvdgpz8000xhhy3f33yo9mv",
+    "stepKey": "product_categories",
+    "value": [
+      "battery_ev",
+      "battery_industrial"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:53:45.000Z"
+  },
+  {
+    "id": "cmvvdhb8z0010hhy3eyp4gu4g",
+    "journeyId": "cmvvdgpz8000xhhy3f33yo9mv",
+    "stepKey": "company_type",
+    "value": [
+      "manufacturer",
+      "importer",
+      "retailer"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:53:46.045Z"
+  },
+  {
+    "id": "cmvvdhdqy0011hhy3ombsw1iw",
+    "journeyId": "cmvvdgpz8000xhhy3f33yo9mv",
+    "stepKey": "production_model",
+    "value": "both",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:53:47.257Z"
+  },
+  {
+    "id": "cmvvdhrr70015hhy319sfnq4y",
+    "journeyId": "cmvvdgpz8000xhhy3f33yo9mv",
+    "stepKey": "dpp_granularity",
+    "value": {
+      "battery_ev": [
+        "item"
+      ],
+      "battery_industrial": [
+        "item"
+      ]
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:53:48.937Z"
+  },
+  {
+    "id": "cmvvdhtal0016hhy3fjhqcmm3",
+    "journeyId": "cmvvdgpz8000xhhy3f33yo9mv",
+    "stepKey": "maintenance",
+    "value": {
+      "battery_ev": [
+        "yes"
+      ],
+      "battery_industrial": [
+        "yes"
+      ]
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:53:50.152Z"
+  },
+  {
+    "id": "cmvvdi61m0017hhy3jboh8ud0",
+    "journeyId": "cmvvdgpz8000xhhy3f33yo9mv",
+    "stepKey": "data_dynamics",
+    "value": {
+      "battery_ev": [
+        "mixed"
+      ],
+      "battery_industrial": [
+        "mixed"
+      ]
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:53:51.920Z"
+  },
+  {
+    "id": "cmvvdikqt0018hhy3a8dnff01",
+    "journeyId": "cmvvdgpz8000xhhy3f33yo9mv",
+    "stepKey": "data_sources",
+    "value": [
+      "suppliers_excel",
+      "suppliers_pdf",
+      "suppliers_api",
+      "manual"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:53:53.610Z"
+  },
+  {
+    "id": "cmvvf36cc00305hy3o12gw3vv",
+    "journeyId": "cmvvf2d5s002v5hy3y7shybkl",
+    "stepKey": "dpp_owner",
+    "value": "sustainability",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T19:20:56.412Z"
+  },
+  {
+    "id": "cmvvf3e0300315hy3zdpfr6vn",
+    "journeyId": "cmvvf2d5s002v5hy3y7shybkl",
+    "stepKey": "dpp_granularity",
+    "value": {
+      "battery_ev": [
+        "item"
+      ],
+      "battery_industrial": [
+        "item"
+      ]
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T19:21:06.339Z"
+  },
+  {
+    "id": "cmvvf3nz800325hy3cgkmejtw",
+    "journeyId": "cmvvf2d5s002v5hy3y7shybkl",
+    "stepKey": "maintenance",
+    "value": {
+      "battery_ev": [
+        "yes"
+      ],
+      "battery_industrial": [
+        "yes"
+      ]
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T19:21:19.268Z"
+  },
+  {
+    "id": "cmvvf3tuv00335hy31kvk3uhh",
+    "journeyId": "cmvvf2d5s002v5hy3y7shybkl",
+    "stepKey": "data_dynamics",
+    "value": {
+      "battery_ev": [
+        "mixed"
+      ],
+      "battery_industrial": [
+        "mixed"
+      ]
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T19:21:26.887Z"
+  },
+  {
+    "id": "cmvvf42om00345hy36s8wd5n5",
+    "journeyId": "cmvvf2d5s002v5hy3y7shybkl",
+    "stepKey": "data_sources",
+    "value": [
+      "suppliers_excel",
+      "suppliers_api",
+      "manual"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T19:21:38.326Z"
+  },
+  {
+    "id": "cmvvf49yq00355hy3gpwmdey6",
+    "journeyId": "cmvvf2d5s002v5hy3y7shybkl",
+    "stepKey": "supplier_count",
+    "value": "1_10",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T19:21:47.762Z"
+  },
+  {
+    "id": "cmvvf4f1s00365hy34oet1xdu",
+    "journeyId": "cmvvf2d5s002v5hy3y7shybkl",
+    "stepKey": "data_organization",
+    "value": "decentralized",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T19:21:54.352Z"
+  },
+  {
+    "id": "cmvvf4og800375hy3ha8muwf6",
+    "journeyId": "cmvvf2d5s002v5hy3y7shybkl",
+    "stepKey": "data_model",
+    "value": [
+      "materials",
+      "origin",
+      "sustainability",
+      "end_of_life",
+      "compliance_docs",
+      "repair_info",
+      "substances",
+      "recycled_content",
+      "durability",
+      "instructions",
+      "state_of_health"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T19:22:06.536Z"
+  },
+  {
+    "id": "cmvvf4rem00385hy3zwgf01tm",
+    "journeyId": "cmvvf2d5s002v5hy3y7shybkl",
+    "stepKey": "qr_presence",
+    "value": "qr",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T19:22:10.366Z"
+  },
+  {
+    "id": "cmvvf4y4p00395hy3zg9g6l92",
+    "journeyId": "cmvvf2d5s002v5hy3y7shybkl",
+    "stepKey": "carrier_placement",
+    "value": "product",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T19:22:19.081Z"
+  },
+  {
+    "id": "cmvvf54l6003a5hy3kvbmbseo",
+    "journeyId": "cmvvf2d5s002v5hy3y7shybkl",
+    "stepKey": "url_scheme",
+    "value": "own_domain",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T19:22:27.450Z"
+  },
+  {
+    "id": "cmvvf578z003b5hy3i0odh6i7",
+    "journeyId": "cmvvf2d5s002v5hy3y7shybkl",
+    "stepKey": "hosting",
+    "value": "saas",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T19:22:30.899Z"
+  },
+  {
+    "id": "cmvvf5gd7003c5hy3nckqmiu6",
+    "journeyId": "cmvvf2d5s002v5hy3y7shybkl",
+    "stepKey": "data_access",
+    "value": [
+      "b2b",
+      "repairers"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T19:22:42.715Z"
+  },
+  {
+    "id": "cmvvf5lme003d5hy3ler3vbp4",
+    "journeyId": "cmvvf2d5s002v5hy3y7shybkl",
+    "stepKey": "registry_integration",
+    "value": "via_provider",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T19:22:49.526Z"
+  },
+  {
+    "id": "cmvvf5qu1003e5hy3fz5u0n93",
+    "journeyId": "cmvvf2d5s002v5hy3y7shybkl",
+    "stepKey": "sku_count",
+    "value": 1000,
+    "needsReview": false,
+    "updatedAt": "2026-10-30T19:22:56.281Z"
+  },
+  {
+    "id": "cmvvf5tgg003f5hy3extxqi10",
+    "journeyId": "cmvvf2d5s002v5hy3y7shybkl",
+    "stepKey": "sample_product",
+    "value": {
+      "code": "",
+      "name": "Batteria 2kw",
+      "main_materials": ""
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T19:22:59.680Z"
+  },
+  {
+    "id": "cmvvgi7tq0003ivy3oj5xninf",
+    "journeyId": "cmvvgi5dj0002ivy3v3bnydn0",
+    "stepKey": "industry",
+    "value": "battery",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T20:00:37.790Z"
+  },
+  {
+    "id": "cmvvgiavz0004ivy3zcvhq847",
+    "journeyId": "cmvvgi5dj0002ivy3v3bnydn0",
+    "stepKey": "product_categories",
+    "value": [
+      "battery_ev",
+      "battery_industrial"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T20:00:41.759Z"
+  },
+  {
+    "id": "cmvvgifm10005ivy3x90oa2c1",
+    "journeyId": "cmvvgi5dj0002ivy3v3bnydn0",
+    "stepKey": "company_type",
+    "value": [
+      "manufacturer",
+      "importer",
+      "distributor",
+      "retailer"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T20:00:47.881Z"
+  },
+  {
+    "id": "cmvvgii600006ivy3t2vo1qu9",
+    "journeyId": "cmvvgi5dj0002ivy3v3bnydn0",
+    "stepKey": "production_model",
+    "value": "both",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T20:00:51.192Z"
+  },
+  {
+    "id": "cmvvdivko0019hhy3hrj9dfdx",
+    "journeyId": "cmvvdgpz8000xhhy3f33yo9mv",
+    "stepKey": "data_organization",
+    "value": "centralized",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:59:18.628Z"
+  },
+  {
+    "id": "cmvvdj33m001ahhy3d44zp1m3",
+    "journeyId": "cmvvdgpz8000xhhy3f33yo9mv",
+    "stepKey": "data_model",
+    "value": [],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:59:20.120Z"
+  },
+  {
+    "id": "cmvvdj7ke001bhhy39nerv9mp",
+    "journeyId": "cmvvdgpz8000xhhy3f33yo9mv",
+    "stepKey": "qr_presence",
+    "value": "qr",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:59:21.072Z"
+  },
+  {
+    "id": "cmvvdj9jt001chhy31kstusll",
+    "journeyId": "cmvvdgpz8000xhhy3f33yo9mv",
+    "stepKey": "url_scheme",
+    "value": "own_domain",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:59:21.702Z"
+  },
+  {
+    "id": "cmvvdjf11001dhhy35ipogltb",
+    "journeyId": "cmvvdgpz8000xhhy3f33yo9mv",
+    "stepKey": "hosting",
+    "value": "saas",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:59:22.283Z"
+  },
+  {
+    "id": "cmvvdjlza001ehhy3b6waq175",
+    "journeyId": "cmvvdgpz8000xhhy3f33yo9mv",
+    "stepKey": "registry_integration",
+    "value": "via_provider",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:59:22.869Z"
+  },
+  {
+    "id": "cmvvdjpac001fhhy317bsym2k",
+    "journeyId": "cmvvdgpz8000xhhy3f33yo9mv",
+    "stepKey": "sku_count",
+    "value": 1000,
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:59:23.953Z"
+  },
+  {
+    "id": "cmvvdjriv001ghhy3yfel2moa",
+    "journeyId": "cmvvdgpz8000xhhy3f33yo9mv",
+    "stepKey": "sample_product",
+    "value": {
+      "name": "sswww",
+      "category": "",
+      "main_materials": ""
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T18:59:24.770Z"
+  },
+  {
+    "id": "cmvvc0nvz000t70y3ycakxybm",
+    "journeyId": "cmvvc0jir000s70y3w44fcx0u",
+    "stepKey": "industry",
+    "value": "steel_aluminium",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T19:00:27.486Z"
+  },
+  {
+    "id": "cmvvgijy50007ivy38hh5nvfo",
+    "journeyId": "cmvvgi5dj0002ivy3v3bnydn0",
+    "stepKey": "dpp_granularity",
+    "value": {
+      "battery_ev": [
+        "item"
+      ],
+      "battery_industrial": [
+        "item"
+      ]
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T20:00:53.501Z"
+  },
+  {
+    "id": "cmvvgilik0008ivy3jqqmk5m3",
+    "journeyId": "cmvvgi5dj0002ivy3v3bnydn0",
+    "stepKey": "maintenance",
+    "value": {
+      "battery_ev": [
+        "yes"
+      ],
+      "battery_industrial": [
+        "yes"
+      ]
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T20:00:55.532Z"
+  },
+  {
+    "id": "cmvvgimqa0009ivy3lty4jel0",
+    "journeyId": "cmvvgi5dj0002ivy3v3bnydn0",
+    "stepKey": "data_dynamics",
+    "value": {
+      "battery_ev": [
+        "mixed"
+      ],
+      "battery_industrial": [
+        "mixed"
+      ]
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T20:00:57.106Z"
+  },
+  {
+    "id": "cmvvgis9g000aivy3cja32jn0",
+    "journeyId": "cmvvgi5dj0002ivy3v3bnydn0",
+    "stepKey": "data_sources",
+    "value": [
+      "suppliers_excel",
+      "suppliers_api",
+      "erp"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T20:01:04.276Z"
+  },
+  {
+    "id": "cmvvgiwbs000bivy32f7u1rj0",
+    "journeyId": "cmvvgi5dj0002ivy3v3bnydn0",
+    "stepKey": "data_organization",
+    "value": "decentralized",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T20:01:09.544Z"
+  },
+  {
+    "id": "cmvvgj4hc000civy3wvorfpog",
+    "journeyId": "cmvvgi5dj0002ivy3v3bnydn0",
+    "stepKey": "data_model",
+    "value": [
+      "materials",
+      "origin",
+      "sustainability",
+      "end_of_life",
+      "compliance_docs",
+      "repair_info"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T20:01:20.112Z"
+  },
+  {
+    "id": "cmvvgj68x000divy3sl4mr2bu",
+    "journeyId": "cmvvgi5dj0002ivy3v3bnydn0",
+    "stepKey": "qr_presence",
+    "value": "qr",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T20:01:22.402Z"
+  },
+  {
+    "id": "cmvvgj84q000eivy391jktyy0",
+    "journeyId": "cmvvgi5dj0002ivy3v3bnydn0",
+    "stepKey": "url_scheme",
+    "value": "own_domain",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T20:01:24.842Z"
+  },
+  {
+    "id": "cmvvgj9is000fivy395pg8r3k",
+    "journeyId": "cmvvgi5dj0002ivy3v3bnydn0",
+    "stepKey": "hosting",
+    "value": "saas",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T20:01:26.644Z"
+  },
+  {
+    "id": "cmvvgjauu000givy3iq3zkpwa",
+    "journeyId": "cmvvgi5dj0002ivy3v3bnydn0",
+    "stepKey": "registry_integration",
+    "value": "via_provider",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T20:01:28.374Z"
+  },
+  {
+    "id": "cmvvgjdrt000hivy3dl69czi0",
+    "journeyId": "cmvvgi5dj0002ivy3v3bnydn0",
+    "stepKey": "sku_count",
+    "value": 1000,
+    "needsReview": false,
+    "updatedAt": "2026-10-30T20:01:32.153Z"
+  },
+  {
+    "id": "cmvvgjfs3000iivy38ihmk4yy",
+    "journeyId": "cmvvgi5dj0002ivy3v3bnydn0",
+    "stepKey": "sample_product",
+    "value": {
+      "name": "Batteria 2kw",
+      "category": "",
+      "main_materials": ""
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T20:01:34.755Z"
+  },
+  {
+    "id": "cmvvk9uvi000h76y3mew5r3fe",
+    "journeyId": "cmvvk9sbh000g76y3k4xi2oxu",
+    "stepKey": "industry",
+    "value": "battery",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:46:06.222Z"
+  },
+  {
+    "id": "cmvvk9y14000i76y3s0ogjt9s",
+    "journeyId": "cmvvk9sbh000g76y3k4xi2oxu",
+    "stepKey": "product_categories",
+    "value": [
+      "battery_ev",
+      "battery_industrial"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:46:10.312Z"
+  },
+  {
+    "id": "cmvvka815000j76y3y7r0zbuc",
+    "journeyId": "cmvvk9sbh000g76y3k4xi2oxu",
+    "stepKey": "company_type",
+    "value": [
+      "manufacturer",
+      "brand",
+      "importer"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:46:23.273Z"
+  },
+  {
+    "id": "cmvvkaakh000k76y39zj49od5",
+    "journeyId": "cmvvk9sbh000g76y3k4xi2oxu",
+    "stepKey": "production_model",
+    "value": "both",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:46:26.561Z"
+  },
+  {
+    "id": "cmvvkac6f000l76y38w30w0p3",
+    "journeyId": "cmvvk9sbh000g76y3k4xi2oxu",
+    "stepKey": "dpp_granularity",
+    "value": {
+      "battery_ev": [
+        "item"
+      ],
+      "battery_industrial": [
+        "item"
+      ]
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:46:28.647Z"
+  },
+  {
+    "id": "cmvvkaem9000m76y3hjdbuinx",
+    "journeyId": "cmvvk9sbh000g76y3k4xi2oxu",
+    "stepKey": "maintenance",
+    "value": {
+      "battery_ev": [
+        "yes"
+      ],
+      "battery_industrial": [
+        "yes"
+      ]
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:46:31.809Z"
+  },
+  {
+    "id": "cmvvkag38000n76y3c4y1igwe",
+    "journeyId": "cmvvk9sbh000g76y3k4xi2oxu",
+    "stepKey": "data_dynamics",
+    "value": {
+      "battery_ev": [
+        "mixed"
+      ],
+      "battery_industrial": [
+        "mixed"
+      ]
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:46:33.716Z"
+  },
+  {
+    "id": "cmvvkal7h000o76y3rt40npg6",
+    "journeyId": "cmvvk9sbh000g76y3k4xi2oxu",
+    "stepKey": "data_sources",
+    "value": [
+      "suppliers_excel",
+      "suppliers_pdf",
+      "suppliers_api",
+      "mes"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:46:40.349Z"
+  },
+  {
+    "id": "cmvvkap4b000p76y33rh4loh1",
+    "journeyId": "cmvvk9sbh000g76y3k4xi2oxu",
+    "stepKey": "data_organization",
+    "value": "decentralized",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:46:45.419Z"
+  },
+  {
+    "id": "cmvvkatee000q76y37qqvie3n",
+    "journeyId": "cmvvk9sbh000g76y3k4xi2oxu",
+    "stepKey": "data_model",
+    "value": [
+      "materials",
+      "origin",
+      "sustainability",
+      "end_of_life",
+      "compliance_docs",
+      "repair_info"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:46:50.966Z"
+  },
+  {
+    "id": "cmvvkaux6000r76y36e6if4j8",
+    "journeyId": "cmvvk9sbh000g76y3k4xi2oxu",
+    "stepKey": "qr_presence",
+    "value": "qr",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:46:52.938Z"
+  },
+  {
+    "id": "cmvvkawcl000s76y3tx4jemvc",
+    "journeyId": "cmvvk9sbh000g76y3k4xi2oxu",
+    "stepKey": "url_scheme",
+    "value": "own_domain",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:46:54.789Z"
+  },
+  {
+    "id": "cmvvkaxm1000t76y3mdd2b5p8",
+    "journeyId": "cmvvk9sbh000g76y3k4xi2oxu",
+    "stepKey": "hosting",
+    "value": "saas",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:46:56.425Z"
+  },
+  {
+    "id": "cmvvkb034000u76y37reephu1",
+    "journeyId": "cmvvk9sbh000g76y3k4xi2oxu",
+    "stepKey": "registry_integration",
+    "value": "via_provider",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:46:59.632Z"
+  },
+  {
+    "id": "cmvvkb2ew000v76y3zbnktmdg",
+    "journeyId": "cmvvk9sbh000g76y3k4xi2oxu",
+    "stepKey": "sku_count",
+    "value": 1000,
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:47:02.648Z"
+  },
+  {
+    "id": "cmvvkb4nd000w76y3yi8d8ivt",
+    "journeyId": "cmvvk9sbh000g76y3k4xi2oxu",
+    "stepKey": "sample_product",
+    "value": {
+      "name": "Batteria 2kw",
+      "category": "",
+      "main_materials": ""
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:48:00.515Z"
+  },
+  {
+    "id": "cmvvke8780001edy3fmfwkq2s",
+    "journeyId": "cmvvke7zd0000edy3ljgzsl3m",
+    "stepKey": "industry",
+    "value": "battery",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:49:30.116Z"
+  },
+  {
+    "id": "cmvvke88b0002edy3089wsh9l",
+    "journeyId": "cmvvke7zd0000edy3ljgzsl3m",
+    "stepKey": "product_categories",
+    "value": [
+      "battery_ev",
+      "battery_portable"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:49:30.155Z"
+  },
+  {
+    "id": "cmvvke8950003edy36ekzifh1",
+    "journeyId": "cmvvke7zd0000edy3ljgzsl3m",
+    "stepKey": "company_type",
+    "value": [
+      "manufacturer"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:49:30.185Z"
+  },
+  {
+    "id": "cmvvke89z0004edy3xjo7gq5l",
+    "journeyId": "cmvvke7zd0000edy3ljgzsl3m",
+    "stepKey": "production_model",
+    "value": "both",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:49:30.215Z"
+  },
+  {
+    "id": "cmvvke8aq0005edy3mndjvifo",
+    "journeyId": "cmvvke7zd0000edy3ljgzsl3m",
+    "stepKey": "dpp_owner",
+    "value": "quality",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:49:30.242Z"
+  },
+  {
+    "id": "cmvvke8bf0006edy3rzwa5efp",
+    "journeyId": "cmvvke7zd0000edy3ljgzsl3m",
+    "stepKey": "dpp_granularity",
+    "value": {
+      "battery_ev": [
+        "item"
+      ],
+      "battery_portable": [
+        "model"
+      ]
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:49:30.267Z"
+  },
+  {
+    "id": "cmvvke8c40007edy3d5fpey6f",
+    "journeyId": "cmvvke7zd0000edy3ljgzsl3m",
+    "stepKey": "maintenance",
+    "value": {
+      "battery_ev": [
+        "yes"
+      ],
+      "battery_portable": [
+        "no"
+      ]
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:49:30.292Z"
+  },
+  {
+    "id": "cmvvke8cu0008edy3qj1yhlkk",
+    "journeyId": "cmvvke7zd0000edy3ljgzsl3m",
+    "stepKey": "data_dynamics",
+    "value": {
+      "battery_ev": [
+        "mixed"
+      ],
+      "battery_portable": [
+        "static"
+      ]
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:49:30.318Z"
+  },
+  {
+    "id": "cmvvke8dh0009edy3suuoahoq",
+    "journeyId": "cmvvke7zd0000edy3ljgzsl3m",
+    "stepKey": "data_sources",
+    "value": [
+      "suppliers_excel",
+      "suppliers_pdf",
+      "suppliers_api",
+      "erp",
+      "manual"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:49:30.341Z"
+  },
+  {
+    "id": "cmvvke8e5000aedy3yfesnixb",
+    "journeyId": "cmvvke7zd0000edy3ljgzsl3m",
+    "stepKey": "supplier_count",
+    "value": "over_50",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:49:30.365Z"
+  },
+  {
+    "id": "cmvvke8eu000bedy3ngk68a0f",
+    "journeyId": "cmvvke7zd0000edy3ljgzsl3m",
+    "stepKey": "data_organization",
+    "value": "decentralized",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:49:30.390Z"
+  },
+  {
+    "id": "cmvvke8fl000cedy3k8xuhvfb",
+    "journeyId": "cmvvke7zd0000edy3ljgzsl3m",
+    "stepKey": "data_model",
+    "value": [
+      "materials",
+      "origin",
+      "sustainability"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:49:30.417Z"
+  },
+  {
+    "id": "cmvvke8gc000dedy31pwvs33u",
+    "journeyId": "cmvvke7zd0000edy3ljgzsl3m",
+    "stepKey": "qr_presence",
+    "value": "qr",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:49:30.444Z"
+  },
+  {
+    "id": "cmvvke8gy000eedy3sint8x0i",
+    "journeyId": "cmvvke7zd0000edy3ljgzsl3m",
+    "stepKey": "carrier_placement",
+    "value": "product",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:49:30.466Z"
+  },
+  {
+    "id": "cmvvke8hl000fedy3ixq95bm4",
+    "journeyId": "cmvvke7zd0000edy3ljgzsl3m",
+    "stepKey": "url_scheme",
+    "value": "gs1_digital_link",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:49:30.489Z"
+  },
+  {
+    "id": "cmvvke8i7000gedy3gx12v8xt",
+    "journeyId": "cmvvke7zd0000edy3ljgzsl3m",
+    "stepKey": "hosting",
+    "value": "saas",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:49:30.511Z"
+  },
+  {
+    "id": "cmvvke8is000hedy371xipflt",
+    "journeyId": "cmvvke7zd0000edy3ljgzsl3m",
+    "stepKey": "data_access",
+    "value": [
+      "consumers",
+      "repairers",
+      "authorities"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:49:30.532Z"
+  },
+  {
+    "id": "cmvvke8jh000iedy3dxcasf3g",
+    "journeyId": "cmvvke7zd0000edy3ljgzsl3m",
+    "stepKey": "registry_integration",
+    "value": "via_provider",
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:49:30.557Z"
+  },
+  {
+    "id": "cmvvke8k3000jedy3sqw4pwzg",
+    "journeyId": "cmvvke7zd0000edy3ljgzsl3m",
+    "stepKey": "sku_count",
+    "value": 2500,
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:49:30.579Z"
+  },
+  {
+    "id": "cmvvke8kp000kedy3r9mijs0d",
+    "journeyId": "cmvvke7zd0000edy3ljgzsl3m",
+    "stepKey": "sample_product",
+    "value": {
+      "code": "EV48-01",
+      "name": "Pacco batteria EV-48",
+      "main_materials": "Litio, nichel"
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-30T21:49:30.601Z"
+  },
+  {
+    "id": "cmvw34mip0003q3y3j286jid5",
+    "journeyId": "cmvw31j8p0000q3y3oyzkp1qr",
+    "stepKey": "industry",
+    "value": "battery",
+    "needsReview": false,
+    "updatedAt": "2026-10-31T06:33:54.817Z"
+  },
+  {
+    "id": "cmvw34o4w0004q3y323plabmj",
+    "journeyId": "cmvw31j8p0000q3y3oyzkp1qr",
+    "stepKey": "product_categories",
+    "value": [
+      "battery_portable",
+      "battery_ev",
+      "battery_industrial"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-31T06:38:12.165Z"
+  },
+  {
+    "id": "cmvw3538f000cq3y3w5jxtmwj",
+    "journeyId": "cmvw31j8p0000q3y3oyzkp1qr",
+    "stepKey": "qr_presence",
+    "value": "qr",
+    "needsReview": false,
+    "updatedAt": "2026-10-31T06:39:09.424Z"
+  },
+  {
+    "id": "cmvw34pwv0005q3y3qntf4idl",
+    "journeyId": "cmvw31j8p0000q3y3oyzkp1qr",
+    "stepKey": "company_type",
+    "value": [
+      "brand"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-31T06:38:13.255Z"
+  },
+  {
+    "id": "cmvw34sy20006q3y3flhnn9cx",
+    "journeyId": "cmvw31j8p0000q3y3oyzkp1qr",
+    "stepKey": "dpp_granularity",
+    "value": {
+      "battery_ev": [
+        "item"
+      ],
+      "battery_portable": [
+        "item"
+      ],
+      "battery_industrial": [
+        "item"
+      ]
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-31T06:38:57.998Z"
+  },
+  {
+    "id": "cmvw34yz40009q3y3l6x7e4oc",
+    "journeyId": "cmvw31j8p0000q3y3oyzkp1qr",
+    "stepKey": "data_sources",
+    "value": [
+      "suppliers_excel"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-31T06:39:03.451Z"
+  },
+  {
+    "id": "cmvw350gr000aq3y3ttzusowz",
+    "journeyId": "cmvw31j8p0000q3y3oyzkp1qr",
+    "stepKey": "data_organization",
+    "value": "centralized",
+    "needsReview": false,
+    "updatedAt": "2026-10-31T06:39:05.710Z"
+  },
+  {
+    "id": "cmvw351p7000bq3y35qnqi1c2",
+    "journeyId": "cmvw31j8p0000q3y3oyzkp1qr",
+    "stepKey": "data_model",
+    "value": [
+      "materials"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-31T06:39:08.099Z"
+  },
+  {
+    "id": "cmvw34v930007q3y3t18st7i2",
+    "journeyId": "cmvw31j8p0000q3y3oyzkp1qr",
+    "stepKey": "maintenance",
+    "value": {
+      "battery_ev": [
+        "yes"
+      ],
+      "battery_portable": [
+        "no"
+      ],
+      "battery_industrial": [
+        "yes"
+      ]
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-31T06:38:59.965Z"
+  },
+  {
+    "id": "cmvw34x4g0008q3y3c31n5qff",
+    "journeyId": "cmvw31j8p0000q3y3oyzkp1qr",
+    "stepKey": "data_dynamics",
+    "value": {
+      "battery_ev": [
+        "mixed"
+      ],
+      "battery_portable": [
+        "mixed"
+      ],
+      "battery_industrial": [
+        "mixed"
+      ]
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-31T06:39:02.173Z"
+  },
+  {
+    "id": "cmvw3i8lo0001tcy3quy393oz",
+    "journeyId": "cmvw3i5210000tcy3s498ixq9",
+    "stepKey": "industry",
+    "value": "battery",
+    "needsReview": false,
+    "updatedAt": "2026-10-31T06:44:29.964Z"
+  },
+  {
+    "id": "cmvw3ib9c0002tcy3i3zhnziw",
+    "journeyId": "cmvw3i5210000tcy3s498ixq9",
+    "stepKey": "product_categories",
+    "value": [
+      "battery_ev",
+      "battery_industrial"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-31T06:44:33.408Z"
+  },
+  {
+    "id": "cmvw3ie0d0003tcy36nym11ki",
+    "journeyId": "cmvw3i5210000tcy3s498ixq9",
+    "stepKey": "company_type",
+    "value": [
+      "manufacturer",
+      "distributor",
+      "retailer"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-31T06:44:36.973Z"
+  },
+  {
+    "id": "cmvw3ifn00004tcy3kq97ld5m",
+    "journeyId": "cmvw3i5210000tcy3s498ixq9",
+    "stepKey": "production_model",
+    "value": "both",
+    "needsReview": false,
+    "updatedAt": "2026-10-31T06:44:39.084Z"
+  },
+  {
+    "id": "cmvw3ilf90005tcy3egp7i2pq",
+    "journeyId": "cmvw3i5210000tcy3s498ixq9",
+    "stepKey": "dpp_owner",
+    "value": "it",
+    "needsReview": false,
+    "updatedAt": "2026-10-31T06:44:46.581Z"
+  },
+  {
+    "id": "cmvw3in4z0006tcy39j9fqmod",
+    "journeyId": "cmvw3i5210000tcy3s498ixq9",
+    "stepKey": "dpp_granularity",
+    "value": {
+      "battery_ev": [
+        "item"
+      ],
+      "battery_industrial": [
+        "item"
+      ]
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-31T06:44:48.803Z"
+  },
+  {
+    "id": "cmvw3iokc0007tcy3bcihhtyv",
+    "journeyId": "cmvw3i5210000tcy3s498ixq9",
+    "stepKey": "maintenance",
+    "value": {
+      "battery_ev": [
+        "yes"
+      ],
+      "battery_industrial": [
+        "yes"
+      ]
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-31T06:44:50.652Z"
+  },
+  {
+    "id": "cmvw3ipwd0008tcy37wcf7eiv",
+    "journeyId": "cmvw3i5210000tcy3s498ixq9",
+    "stepKey": "data_dynamics",
+    "value": {
+      "battery_ev": [
+        "mixed"
+      ],
+      "battery_industrial": [
+        "mixed"
+      ]
+    },
+    "needsReview": false,
+    "updatedAt": "2026-10-31T06:44:52.381Z"
+  },
+  {
+    "id": "cmvw3j0kh0009tcy30r73lcdb",
+    "journeyId": "cmvw3i5210000tcy3s498ixq9",
+    "stepKey": "data_sources",
+    "value": [
+      "suppliers_excel",
+      "suppliers_pdf",
+      "suppliers_api"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-31T06:45:06.209Z"
+  },
+  {
+    "id": "cmvw3j4zd000atcy36lto33ov",
+    "journeyId": "cmvw3i5210000tcy3s498ixq9",
+    "stepKey": "supplier_count",
+    "value": "1_10",
+    "needsReview": false,
+    "updatedAt": "2026-10-31T06:45:11.929Z"
+  },
+  {
+    "id": "cmvw3j8hx000btcy3s2ido47h",
+    "journeyId": "cmvw3i5210000tcy3s498ixq9",
+    "stepKey": "data_organization",
+    "value": "decentralized",
+    "needsReview": false,
+    "updatedAt": "2026-10-31T06:45:16.485Z"
+  },
+  {
+    "id": "cmvw3jby9000ctcy37nh7xcgh",
+    "journeyId": "cmvw3i5210000tcy3s498ixq9",
+    "stepKey": "data_model",
+    "value": [
+      "materials",
+      "origin",
+      "sustainability"
+    ],
+    "needsReview": false,
+    "updatedAt": "2026-10-31T06:45:20.961Z"
+  },
+  {
+    "id": "cmvw3jdp7000dtcy3qqojaqp1",
+    "journeyId": "cmvw3i5210000tcy3s498ixq9",
+    "stepKey": "qr_presence",
+    "value": "qr",
+    "needsReview": false,
+    "updatedAt": "2026-10-31T06:45:23.227Z"
+  },
+  {
+    "id": "cmvw3jg4n000etcy34zjvekhs",
+    "journeyId": "cmvw3i5210000tcy3s498ixq9",
+    "stepKey": "carrier_placement",
+    "value": "product",
+    "needsReview": false,
+    "updatedAt": "2026-10-31T06:45:26.376Z"
+  },
+  {
+    "id": "cmvw3jtqu000ftcy34a5zshn7",
+    "journeyId": "cmvw3i5210000tcy3s498ixq9",
+    "stepKey": "url_scheme",
+    "value": "iso_digital_link",
+    "needsReview": false,
+    "updatedAt": "2026-10-31T06:45:44.022Z"
+  }
+]

@@ -29,7 +29,21 @@
       "Bash(node cdp.mjs http://localhost:3000/it home-now.png 1280 860)",
       "Bash(node cdp.mjs http://localhost:3000/it home-m.png 390 1100)",
       "Bash(python3 - *)",
-      "Bash(node cdp.mjs http://localhost:3000/it home-m.png 390 1000)"
+      "Bash(node cdp.mjs http://localhost:3000/it home-m.png 390 1000)",
+      "Bash(node cdp.mjs http://localhost:3000/it/guida g-index.png 1280 1300)",
+      "Bash(node cdp.mjs http://localhost:3000/it/guida/dpp-granularity g-art.png 1280 2200)",
+      "Bash(node cdp.mjs http://localhost:3000/en/guide/url-scheme g-m.png 390 1400)",
+      "Bash(node cdp.mjs http://localhost:3000/en/guide/url-scheme g-m.png 390 1000)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" http://localhost:3000/it/progetta)",
+      "Bash(node cdp.mjs http://localhost:3000/it/guida g-index.png 1280 520)",
+      "Bash(time node scripts/generate-world-map.mjs)",
+      "Bash(node cdp.mjs http://localhost:3000/it globe1.png 1280 860)",
+      "Bash(WAIT=14000 node cdp.mjs http://localhost:3000/it globe2.png 1280 860)",
+      "Bash(node cdp.mjs http://localhost:3000/en home-m.png 390 1000)",
+      "Bash(curl -s http://localhost:3000/en)",
+      "Bash(lsof -tiTCP:54329 -sTCP:LISTEN)",
+      "Bash(break)",
+      "Bash(curl -s -o /dev/null -w \"guida %{http_code}\\\\n\" http://localhost:3000/it/guida)"
     ],
     "additionalDirectories": [
       "/Users/corrado/Downloads/Corrado/dppdesigner/src/app/[locale]"

@@ -1,12 +1,14 @@
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
+import { guideSegment } from "@/lib/guide";
 import { getMenu, getPageByKey } from "@/server/content";
 import { Logo } from "./logo";
 
 export async function SiteFooter({ locale }: { locale: string }) {
-  const [t, tNav, menu, privacy] = await Promise.all([
+  const [t, tNav, tGuide, menu, privacy] = await Promise.all([
     getTranslations("footer"),
     getTranslations("nav"),
+    getTranslations("guide"),
     getMenu(locale),
     getPageByKey(locale, "privacy"),
   ]);
@@ -24,6 +26,9 @@ export async function SiteFooter({ locale }: { locale: string }) {
             <h2 className="mb-1 text-[13px] font-medium">{t("site")}</h2>
             <Link href="/progetta" className={link}>
               {tNav("startWizard")}
+            </Link>
+            <Link href={`/${guideSegment(locale)}`} className={link}>
+              {tGuide("nav")}
             </Link>
             {menu.map((item) => (
               <Link key={item.key} href={`/${item.slug}`} className={link}>

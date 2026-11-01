@@ -1,0 +1,32 @@
+[
+  {
+    "id": "iiZ6FxOABwshxKjpUDimV3Plvyd4fkSt",
+    "name": "Mario Test",
+    "email": "test-1793369577816@example.com",
+    "emailVerified": false,
+    "image": null,
+    "role": "USER",
+    "company": "ACME Batterie",
+    "jobTitle": null,
+    "phone": null,
+    "locale": "it",
+    "lastSeenAt": "2026-10-30T13:12:57.953Z",
+    "createdAt": "2026-10-30T13:12:57.944Z",
+    "updatedAt": "2026-10-30T13:12:57.954Z"
+  },
+  {
+    "id": "507f29d1-fe9d-4027-9c2e-71229c9de031",
+    "name": "Admin",
+    "email": "admin@example.com",
+    "emailVerified": true,
+    "image": null,
+    "role": "ADMIN",
+    "company": null,
+    "jobTitle": null,
+    "phone": null,
+    "locale": null,
+    "lastSeenAt": "2026-10-31T10:41:33.238Z",
+    "createdAt": "2026-10-30T13:10:35.075Z",
+    "updatedAt": "2026-10-31T10:41:33.240Z"
+  }
+]

@@ -1,0 +1,563 @@
+[
+  {
+    "id": "cmvv1uw6g006tnay3h287u6yi",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "condition": {
+      "op": "eq",
+      "step": "industry",
+      "value": "battery"
+    },
+    "priority": 10
+  },
+  {
+    "id": "cmvv1uw6h006wnay3j6mxmfd1",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "condition": {
+      "op": "eq",
+      "step": "data_organization",
+      "value": "unorganized"
+    },
+    "priority": 9
+  },
+  {
+    "id": "cmvv1uw6i006znay39h9egf0w",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "condition": {
+      "op": "eq",
+      "step": "qr_presence",
+      "value": "none"
+    },
+    "priority": 8
+  },
+  {
+    "id": "cmvv1uw6j0072nay3r7pjowup",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "condition": {
+      "op": "includes",
+      "step": "data_sources",
+      "value": "suppliers_excel"
+    },
+    "priority": 7
+  },
+  {
+    "id": "cmvv1uw6k0075nay32l9esaii",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "condition": {
+      "op": "eq",
+      "step": "hosting",
+      "value": "undecided"
+    },
+    "priority": 6
+  },
+  {
+    "id": "cmvv1uw6l0078nay3t99x3zej",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "condition": {
+      "op": "in",
+      "step": "registry_integration",
+      "value": [
+        "not_planned",
+        "unknown"
+      ]
+    },
+    "priority": 5
+  },
+  {
+    "id": "cmvv1uw6l007bnay3jetvvmjl",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "condition": {
+      "op": "in",
+      "step": "data_dynamics",
+      "value": [
+        "dynamic",
+        "mixed"
+      ]
+    },
+    "priority": 4
+  },
+  {
+    "id": "cmvv1uw6m007enay3ncjlovfj",
+    "versionId": "cmvv1uw3g0000nay3kae5fkpz",
+    "condition": {
+      "op": "eq",
+      "step": "url_scheme",
+      "value": "unsure"
+    },
+    "priority": 3
+  },
+  {
+    "id": "cmvv7v0n600eu0ey3ephi1hk5",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "condition": {
+      "op": "eq",
+      "step": "industry",
+      "value": "battery"
+    },
+    "priority": 10
+  },
+  {
+    "id": "cmvv7v0n800ex0ey3mqz2kxxj",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "condition": {
+      "op": "eq",
+      "step": "data_organization",
+      "value": "unorganized"
+    },
+    "priority": 9
+  },
+  {
+    "id": "cmvv7v0n800f00ey3w7tp624r",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "condition": {
+      "op": "eq",
+      "step": "qr_presence",
+      "value": "none"
+    },
+    "priority": 8
+  },
+  {
+    "id": "cmvv7v0n900f30ey3kw4ogr62",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "condition": {
+      "op": "includes",
+      "step": "data_sources",
+      "value": "suppliers_excel"
+    },
+    "priority": 7
+  },
+  {
+    "id": "cmvv7v0na00f60ey3i5nstebz",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "condition": {
+      "op": "eq",
+      "step": "hosting",
+      "value": "undecided"
+    },
+    "priority": 6
+  },
+  {
+    "id": "cmvv7v0nb00f90ey3on5hsv38",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "condition": {
+      "op": "in",
+      "step": "registry_integration",
+      "value": [
+        "not_planned",
+        "unknown"
+      ]
+    },
+    "priority": 5
+  },
+  {
+    "id": "cmvv7v0nb00fc0ey3fsteubbn",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "condition": {
+      "op": "in",
+      "step": "data_dynamics",
+      "value": [
+        "dynamic",
+        "mixed"
+      ]
+    },
+    "priority": 4
+  },
+  {
+    "id": "cmvv7v0nc00ff0ey39649scxa",
+    "versionId": "cmvv7v0ln007y0ey3wxdwi41k",
+    "condition": {
+      "op": "eq",
+      "step": "url_scheme",
+      "value": "unsure"
+    },
+    "priority": 3
+  },
+  {
+    "id": "cmvv7z1vj00ms0ey3k0y9nvuh",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "condition": {
+      "op": "eq",
+      "step": "industry",
+      "value": "battery"
+    },
+    "priority": 10
+  },
+  {
+    "id": "cmvv7z1vk00mv0ey31prsl9vy",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "condition": {
+      "op": "eq",
+      "step": "data_organization",
+      "value": "unorganized"
+    },
+    "priority": 9
+  },
+  {
+    "id": "cmvv7z1vk00my0ey336fak780",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "condition": {
+      "op": "eq",
+      "step": "qr_presence",
+      "value": "none"
+    },
+    "priority": 8
+  },
+  {
+    "id": "cmvv7z1vl00n10ey3d7dqrqje",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "condition": {
+      "op": "includes",
+      "step": "data_sources",
+      "value": "suppliers_excel"
+    },
+    "priority": 7
+  },
+  {
+    "id": "cmvv7z1vl00n40ey3xvkt3u1m",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "condition": {
+      "op": "eq",
+      "step": "hosting",
+      "value": "undecided"
+    },
+    "priority": 6
+  },
+  {
+    "id": "cmvv7z1vm00n70ey3dvtl5drb",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "condition": {
+      "op": "in",
+      "step": "registry_integration",
+      "value": [
+        "not_planned",
+        "unknown"
+      ]
+    },
+    "priority": 5
+  },
+  {
+    "id": "cmvv7z1vm00na0ey30msuv0yk",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "condition": {
+      "op": "in",
+      "step": "data_dynamics",
+      "value": [
+        "dynamic",
+        "mixed"
+      ]
+    },
+    "priority": 4
+  },
+  {
+    "id": "cmvv7z1vm00nd0ey3swkgkv4j",
+    "versionId": "cmvv7z1ts00fw0ey3ehgk28vq",
+    "condition": {
+      "op": "eq",
+      "step": "url_scheme",
+      "value": "unsure"
+    },
+    "priority": 3
+  },
+  {
+    "id": "cmvv84shr0070m2y3o3gidg9w",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "condition": {
+      "op": "eq",
+      "step": "industry",
+      "value": "battery"
+    },
+    "priority": 10
+  },
+  {
+    "id": "cmvv84shs0073m2y39wxieele",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "condition": {
+      "op": "eq",
+      "step": "data_organization",
+      "value": "unorganized"
+    },
+    "priority": 9
+  },
+  {
+    "id": "cmvv84sht0076m2y36ck6nm6r",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "condition": {
+      "op": "eq",
+      "step": "qr_presence",
+      "value": "none"
+    },
+    "priority": 8
+  },
+  {
+    "id": "cmvv84shu0079m2y3u9hnngt6",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "condition": {
+      "op": "includes",
+      "step": "data_sources",
+      "value": "suppliers_excel"
+    },
+    "priority": 7
+  },
+  {
+    "id": "cmvv84shu007cm2y3xfaa3495",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "condition": {
+      "op": "eq",
+      "step": "hosting",
+      "value": "undecided"
+    },
+    "priority": 6
+  },
+  {
+    "id": "cmvv84shv007fm2y3lra79642",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "condition": {
+      "op": "in",
+      "step": "registry_integration",
+      "value": [
+        "not_planned",
+        "unknown"
+      ]
+    },
+    "priority": 5
+  },
+  {
+    "id": "cmvv84shw007im2y3stnq134k",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "condition": {
+      "op": "in",
+      "step": "data_dynamics",
+      "value": [
+        "dynamic",
+        "mixed"
+      ]
+    },
+    "priority": 4
+  },
+  {
+    "id": "cmvv84shw007lm2y39ix1vesu",
+    "versionId": "cmvv84sfe0004m2y36lcnqttm",
+    "condition": {
+      "op": "eq",
+      "step": "url_scheme",
+      "value": "unsure"
+    },
+    "priority": 3
+  },
+  {
+    "id": "cmvv9bu8r00bfeuy34g1pg94r",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "condition": {
+      "op": "eq",
+      "step": "industry",
+      "value": "battery"
+    },
+    "priority": 10
+  },
+  {
+    "id": "cmvv9bu8s00bieuy3mpwl8sly",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "condition": {
+      "op": "eq",
+      "step": "data_organization",
+      "value": "unorganized"
+    },
+    "priority": 9
+  },
+  {
+    "id": "cmvv9bu8t00bleuy3d5javpbe",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "condition": {
+      "op": "eq",
+      "step": "qr_presence",
+      "value": "none"
+    },
+    "priority": 8
+  },
+  {
+    "id": "cmvv9bu8t00boeuy3fes3mwmw",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "condition": {
+      "op": "includes",
+      "step": "data_sources",
+      "value": "suppliers_excel"
+    },
+    "priority": 7
+  },
+  {
+    "id": "cmvv9bu8u00breuy3falskmtb",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "condition": {
+      "op": "eq",
+      "step": "hosting",
+      "value": "undecided"
+    },
+    "priority": 6
+  },
+  {
+    "id": "cmvv9bu8u00bueuy3kenbkl6q",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "condition": {
+      "op": "in",
+      "step": "registry_integration",
+      "value": [
+        "not_planned",
+        "unknown"
+      ]
+    },
+    "priority": 5
+  },
+  {
+    "id": "cmvv9bu8v00bxeuy3pnlggxly",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "condition": {
+      "op": "in",
+      "step": "data_dynamics",
+      "value": [
+        "dynamic",
+        "mixed"
+      ]
+    },
+    "priority": 4
+  },
+  {
+    "id": "cmvv9bu8v00c0euy3dbpse3nz",
+    "versionId": "cmvv9bu5o001yeuy3gha52hfk",
+    "condition": {
+      "op": "eq",
+      "step": "url_scheme",
+      "value": "unsure"
+    },
+    "priority": 3
+  },
+  {
+    "id": "cmvvel4o400a3qhy3g62d15by",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "condition": {
+      "op": "eq",
+      "step": "industry",
+      "value": "battery"
+    },
+    "priority": 10
+  },
+  {
+    "id": "cmvvel4o500a6qhy3hv51zed8",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "condition": {
+      "op": "eq",
+      "step": "data_organization",
+      "value": "unorganized"
+    },
+    "priority": 9
+  },
+  {
+    "id": "cmvvel4o600a9qhy3iis3mvrh",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "condition": {
+      "op": "eq",
+      "step": "qr_presence",
+      "value": "none"
+    },
+    "priority": 8
+  },
+  {
+    "id": "cmvvel4o600acqhy3fm9noheu",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "condition": {
+      "op": "includes",
+      "step": "data_sources",
+      "value": "suppliers_excel"
+    },
+    "priority": 7
+  },
+  {
+    "id": "cmvvel4o700afqhy3go6nk9gx",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "condition": {
+      "op": "eq",
+      "step": "hosting",
+      "value": "undecided"
+    },
+    "priority": 6
+  },
+  {
+    "id": "cmvvel4o800aiqhy3fy1ot3tk",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "condition": {
+      "op": "in",
+      "step": "registry_integration",
+      "value": [
+        "not_planned",
+        "unknown"
+      ]
+    },
+    "priority": 5
+  },
+  {
+    "id": "cmvvel4o800alqhy32apuko1b",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "condition": {
+      "op": "in",
+      "step": "data_dynamics",
+      "value": [
+        "dynamic",
+        "mixed"
+      ]
+    },
+    "priority": 4
+  },
+  {
+    "id": "cmvvel4o900aoqhy3gkwsyzu3",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "condition": {
+      "op": "eq",
+      "step": "url_scheme",
+      "value": "unsure"
+    },
+    "priority": 3
+  },
+  {
+    "id": "cmvveys7v002lzwy33q0chupj",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "condition": {
+      "op": "eq",
+      "step": "dpp_owner",
+      "value": "undefined"
+    },
+    "priority": 8
+  },
+  {
+    "id": "cmvveys7w002ozwy3dha7pz8i",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "condition": {
+      "all": [
+        {
+          "op": "in",
+          "step": "supplier_count",
+          "value": [
+            "11_50",
+            "over_50"
+          ]
+        },
+        {
+          "op": "includes",
+          "step": "data_sources",
+          "value": [
+            "suppliers_excel",
+            "suppliers_pdf"
+          ]
+        }
+      ]
+    },
+    "priority": 7
+  },
+  {
+    "id": "cmvveys7x002rzwy3qrusnc1s",
+    "versionId": "cmvvel4kl0001qhy3fj5lzynz",
+    "condition": {
+      "op": "includes",
+      "step": "dpp_granularity",
+      "value": "unsure"
+    },
+    "priority": 5
+  }
+]

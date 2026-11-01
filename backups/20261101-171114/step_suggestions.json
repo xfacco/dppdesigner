@@ -1,0 +1,673 @@
+[
+  {
+    "id": "cmvv8w8si0020boy31083ltgo",
+    "stepId": "cmvv84sfm0005m2y36cr0x2j9",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "battery_lmt",
+        "battery_ev",
+        "battery_industrial"
+      ]
+    },
+    "optionKey": "item",
+    "priority": 10,
+    "mandatory": false
+  },
+  {
+    "id": "cmvv8w8sl0023boy3ftj5rypd",
+    "stepId": "cmvv84sfm0005m2y36cr0x2j9",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "battery_portable",
+        "battery_sli"
+      ]
+    },
+    "optionKey": null,
+    "priority": 9,
+    "mandatory": false
+  },
+  {
+    "id": "cmvv8w8sm0026boy37fiq9kfc",
+    "stepId": "cmvv84sfm0005m2y36cr0x2j9",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "elec_mobile",
+        "elec_computers",
+        "elec_appliances",
+        "elec_displays",
+        "elec_other"
+      ]
+    },
+    "optionKey": "item",
+    "priority": 6,
+    "mandatory": false
+  },
+  {
+    "id": "cmvv8w8so0029boy3qo3me1ll",
+    "stepId": "cmvv84sfm0005m2y36cr0x2j9",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "metal_steel",
+        "metal_aluminium",
+        "constr_materials"
+      ]
+    },
+    "optionKey": "batch",
+    "priority": 5,
+    "mandatory": false
+  },
+  {
+    "id": "cmvv8w8sp002cboy3rg1kb117",
+    "stepId": "cmvv84sfm0005m2y36cr0x2j9",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "tyres_car",
+        "tyres_commercial"
+      ]
+    },
+    "optionKey": "batch",
+    "priority": 4,
+    "mandatory": false
+  },
+  {
+    "id": "cmvv8w8sq002fboy3aa8mot6g",
+    "stepId": "cmvv84sfm0005m2y36cr0x2j9",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "textile_apparel",
+        "textile_footwear",
+        "textile_home",
+        "textile_accessories",
+        "furn_furniture",
+        "furn_mattresses"
+      ]
+    },
+    "optionKey": "model",
+    "priority": 3,
+    "mandatory": false
+  },
+  {
+    "id": "cmvv8w8sr002iboy3f3yi6fp0",
+    "stepId": "cmvv84sfm0005m2y36cr0x2j9",
+    "condition": {
+      "op": "answered",
+      "step": "product_categories"
+    },
+    "optionKey": null,
+    "priority": 0,
+    "mandatory": false
+  },
+  {
+    "id": "cmvv9bu760065euy3mfe8p8ko",
+    "stepId": "cmvv9bu71005neuy3nvruz0nv",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "battery_portable",
+        "battery_sli"
+      ]
+    },
+    "optionKey": null,
+    "priority": 9,
+    "mandatory": false
+  },
+  {
+    "id": "cmvv9bu770068euy3hec996lv",
+    "stepId": "cmvv9bu71005neuy3nvruz0nv",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "elec_mobile",
+        "elec_computers",
+        "elec_appliances",
+        "elec_displays",
+        "elec_other"
+      ]
+    },
+    "optionKey": "item",
+    "priority": 6,
+    "mandatory": false
+  },
+  {
+    "id": "cmvv9bu77006beuy3q5zckzpc",
+    "stepId": "cmvv9bu71005neuy3nvruz0nv",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "metal_steel",
+        "metal_aluminium",
+        "constr_materials"
+      ]
+    },
+    "optionKey": "batch",
+    "priority": 5,
+    "mandatory": false
+  },
+  {
+    "id": "cmvv9bu78006eeuy3vh7rmwqg",
+    "stepId": "cmvv9bu71005neuy3nvruz0nv",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "tyres_car",
+        "tyres_commercial"
+      ]
+    },
+    "optionKey": "batch",
+    "priority": 4,
+    "mandatory": false
+  },
+  {
+    "id": "cmvv9bu79006heuy3gm4zxz9r",
+    "stepId": "cmvv9bu71005neuy3nvruz0nv",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "textile_apparel",
+        "textile_footwear",
+        "textile_home",
+        "textile_accessories",
+        "furn_furniture",
+        "furn_mattresses"
+      ]
+    },
+    "optionKey": "model",
+    "priority": 3,
+    "mandatory": false
+  },
+  {
+    "id": "cmvv9bu7a006keuy3z53zbl1d",
+    "stepId": "cmvv9bu71005neuy3nvruz0nv",
+    "condition": {
+      "op": "answered",
+      "step": "product_categories"
+    },
+    "optionKey": null,
+    "priority": 0,
+    "mandatory": false
+  },
+  {
+    "id": "cmvv9bu750062euy3nq2r3okj",
+    "stepId": "cmvv9bu71005neuy3nvruz0nv",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "battery_lmt",
+        "battery_ev",
+        "battery_industrial"
+      ]
+    },
+    "optionKey": "item",
+    "priority": 10,
+    "mandatory": true
+  },
+  {
+    "id": "cmvva1cif00034iy35j526ogi",
+    "stepId": "cmvv9bu7d006neuy3e15k4o0h",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "battery_lmt",
+        "battery_ev",
+        "battery_industrial"
+      ]
+    },
+    "optionKey": "yes",
+    "priority": 5,
+    "mandatory": false
+  },
+  {
+    "id": "cmvva1cih00064iy3giwjiavh",
+    "stepId": "cmvv9bu7d006neuy3e15k4o0h",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "elec_mobile",
+        "elec_computers",
+        "elec_appliances",
+        "elec_displays",
+        "elec_other"
+      ]
+    },
+    "optionKey": "yes",
+    "priority": 4,
+    "mandatory": false
+  },
+  {
+    "id": "cmvva1cij00094iy30d29j41s",
+    "stepId": "cmvv9bu7d006neuy3e15k4o0h",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "tyres_commercial"
+      ]
+    },
+    "optionKey": "yes",
+    "priority": 3,
+    "mandatory": false
+  },
+  {
+    "id": "cmvva1cik000c4iy3183bogea",
+    "stepId": "cmvv9bu7d006neuy3e15k4o0h",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "textile_apparel",
+        "textile_footwear",
+        "textile_home",
+        "textile_accessories",
+        "furn_furniture",
+        "furn_mattresses"
+      ]
+    },
+    "optionKey": "depends",
+    "priority": 2,
+    "mandatory": false
+  },
+  {
+    "id": "cmvva1cil000f4iy3ypi5uykq",
+    "stepId": "cmvv9bu7d006neuy3e15k4o0h",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "metal_steel",
+        "metal_aluminium",
+        "constr_materials"
+      ]
+    },
+    "optionKey": "no",
+    "priority": 2,
+    "mandatory": false
+  },
+  {
+    "id": "cmvva6juz0000byy3t2j84g5z",
+    "stepId": "cmvv9bu7i006weuy3rvl70rl8",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "battery_lmt",
+        "battery_ev",
+        "battery_industrial"
+      ]
+    },
+    "optionKey": "mixed",
+    "priority": 5,
+    "mandatory": false
+  },
+  {
+    "id": "cmvva6jv20003byy30sm2p7pn",
+    "stepId": "cmvv9bu7i006weuy3rvl70rl8",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "elec_mobile",
+        "elec_computers",
+        "elec_appliances",
+        "elec_displays",
+        "elec_other"
+      ]
+    },
+    "optionKey": "mixed",
+    "priority": 4,
+    "mandatory": false
+  },
+  {
+    "id": "cmvva6jv40006byy3fpctkxpy",
+    "stepId": "cmvv9bu7i006weuy3rvl70rl8",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "tyres_commercial"
+      ]
+    },
+    "optionKey": "mixed",
+    "priority": 3,
+    "mandatory": false
+  },
+  {
+    "id": "cmvva6jv50009byy3mhdvrkb6",
+    "stepId": "cmvv9bu7i006weuy3rvl70rl8",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "textile_apparel",
+        "textile_footwear",
+        "textile_home",
+        "textile_accessories",
+        "furn_furniture",
+        "furn_mattresses",
+        "metal_steel",
+        "metal_aluminium",
+        "constr_materials",
+        "tyres_car"
+      ]
+    },
+    "optionKey": "static",
+    "priority": 2,
+    "mandatory": false
+  },
+  {
+    "id": "cmvvel4nc007eqhy3mxtqoqg5",
+    "stepId": "cmvvel4na006zqhy3d1bihza0",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "battery_lmt",
+        "battery_ev",
+        "battery_industrial"
+      ]
+    },
+    "optionKey": "item",
+    "priority": 10,
+    "mandatory": true
+  },
+  {
+    "id": "cmvvel4ne007hqhy3xfh8w92p",
+    "stepId": "cmvvel4na006zqhy3d1bihza0",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "battery_portable",
+        "battery_sli"
+      ]
+    },
+    "optionKey": null,
+    "priority": 9,
+    "mandatory": false
+  },
+  {
+    "id": "cmvvel4ne007kqhy3jrqmxaeu",
+    "stepId": "cmvvel4na006zqhy3d1bihza0",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "elec_mobile",
+        "elec_computers",
+        "elec_appliances",
+        "elec_displays",
+        "elec_other"
+      ]
+    },
+    "optionKey": "item",
+    "priority": 6,
+    "mandatory": false
+  },
+  {
+    "id": "cmvvel4ne007nqhy3kc2h8i2z",
+    "stepId": "cmvvel4na006zqhy3d1bihza0",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "metal_steel",
+        "metal_aluminium",
+        "constr_materials"
+      ]
+    },
+    "optionKey": "batch",
+    "priority": 5,
+    "mandatory": false
+  },
+  {
+    "id": "cmvvel4nf007qqhy3ana0il64",
+    "stepId": "cmvvel4na006zqhy3d1bihza0",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "tyres_car",
+        "tyres_commercial"
+      ]
+    },
+    "optionKey": "batch",
+    "priority": 4,
+    "mandatory": false
+  },
+  {
+    "id": "cmvvel4nf007tqhy319pdfl10",
+    "stepId": "cmvvel4na006zqhy3d1bihza0",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "textile_apparel",
+        "textile_footwear",
+        "textile_home",
+        "textile_accessories",
+        "furn_furniture",
+        "furn_mattresses"
+      ]
+    },
+    "optionKey": "model",
+    "priority": 3,
+    "mandatory": false
+  },
+  {
+    "id": "cmvvel4nf007wqhy366wvutwx",
+    "stepId": "cmvvel4na006zqhy3d1bihza0",
+    "condition": {
+      "op": "answered",
+      "step": "product_categories"
+    },
+    "optionKey": null,
+    "priority": 0,
+    "mandatory": false
+  },
+  {
+    "id": "cmvvel4nl008bqhy37xxld29e",
+    "stepId": "cmvvel4nk007zqhy3ncoou8vr",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "battery_lmt",
+        "battery_ev",
+        "battery_industrial"
+      ]
+    },
+    "optionKey": "yes",
+    "priority": 5,
+    "mandatory": false
+  },
+  {
+    "id": "cmvvel4nm008eqhy3hwt1wcz9",
+    "stepId": "cmvvel4nk007zqhy3ncoou8vr",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "elec_mobile",
+        "elec_computers",
+        "elec_appliances",
+        "elec_displays",
+        "elec_other"
+      ]
+    },
+    "optionKey": "yes",
+    "priority": 4,
+    "mandatory": false
+  },
+  {
+    "id": "cmvvel4nm008hqhy3rj43pka7",
+    "stepId": "cmvvel4nk007zqhy3ncoou8vr",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "tyres_commercial"
+      ]
+    },
+    "optionKey": "yes",
+    "priority": 3,
+    "mandatory": false
+  },
+  {
+    "id": "cmvvel4nm008kqhy377x7vcuc",
+    "stepId": "cmvvel4nk007zqhy3ncoou8vr",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "textile_apparel",
+        "textile_footwear",
+        "textile_home",
+        "textile_accessories",
+        "furn_furniture",
+        "furn_mattresses"
+      ]
+    },
+    "optionKey": "depends",
+    "priority": 2,
+    "mandatory": false
+  },
+  {
+    "id": "cmvvel4nn008nqhy3r6j2hcuf",
+    "stepId": "cmvvel4nk007zqhy3ncoou8vr",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "metal_steel",
+        "metal_aluminium",
+        "constr_materials"
+      ]
+    },
+    "optionKey": "no",
+    "priority": 2,
+    "mandatory": false
+  },
+  {
+    "id": "cmvvel4ns0092qhy34m5ann44",
+    "stepId": "cmvvel4nq008qqhy3c6kxca1z",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "battery_lmt",
+        "battery_ev",
+        "battery_industrial"
+      ]
+    },
+    "optionKey": "mixed",
+    "priority": 5,
+    "mandatory": false
+  },
+  {
+    "id": "cmvvel4ns0095qhy3sp9flpcs",
+    "stepId": "cmvvel4nq008qqhy3c6kxca1z",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "elec_mobile",
+        "elec_computers",
+        "elec_appliances",
+        "elec_displays",
+        "elec_other"
+      ]
+    },
+    "optionKey": "mixed",
+    "priority": 4,
+    "mandatory": false
+  },
+  {
+    "id": "cmvvel4nu0098qhy3uw52qd37",
+    "stepId": "cmvvel4nq008qqhy3c6kxca1z",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "tyres_commercial"
+      ]
+    },
+    "optionKey": "mixed",
+    "priority": 3,
+    "mandatory": false
+  },
+  {
+    "id": "cmvvel4nu009bqhy3nqv7ra5i",
+    "stepId": "cmvvel4nq008qqhy3c6kxca1z",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "textile_apparel",
+        "textile_footwear",
+        "textile_home",
+        "textile_accessories",
+        "furn_furniture",
+        "furn_mattresses",
+        "metal_steel",
+        "metal_aluminium",
+        "constr_materials",
+        "tyres_car"
+      ]
+    },
+    "optionKey": "static",
+    "priority": 2,
+    "mandatory": false
+  },
+  {
+    "id": "cmvveys76001uzwy321d207x8",
+    "stepId": "cmvveys6n001fzwy37zs044a0",
+    "condition": {
+      "op": "includes",
+      "step": "product_categories",
+      "value": [
+        "battery_portable",
+        "battery_lmt",
+        "battery_ev",
+        "battery_industrial",
+        "battery_sli"
+      ]
+    },
+    "optionKey": "product",
+    "priority": 5,
+    "mandatory": false
+  },
+  {
+    "id": "cmvveys7e002fzwy3llu1gje8",
+    "stepId": "cmvveys7c001xzwy3i2xn7w3g",
+    "condition": {
+      "op": "includes",
+      "step": "maintenance",
+      "value": [
+        "yes",
+        "depends"
+      ]
+    },
+    "optionKey": "repairers",
+    "priority": 3,
+    "mandatory": false
+  }
+]

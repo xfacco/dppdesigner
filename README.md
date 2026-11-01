@@ -36,6 +36,7 @@ Senza `RESEND_API_KEY` le email (verifica, reset password) vengono stampate nel 
 | Comando | Cosa fa |
 |---|---|
 | `npm run db` | PostgreSQL locale incorporato (dati in `.data/pgdata`) |
+| `npm run db:backup` | Backup del database in `backups/<data-ora>/` (un JSON per tabella) |
 | `npm run dev` | Server di sviluppo |
 | `npm run build` | Genera il client Prisma e la build di produzione |
 | `npm test` | Test del motore del wizard |
@@ -95,3 +96,13 @@ cancella gli utenti `USER` inattivi da 24 mesi (i progetti restano anonimi) e in
 1. Database Neon, `DATABASE_URL` nelle variabili d'ambiente Vercel (integrazione 1Password↔Vercel o sincronizzazione dalla CI: Vercel non risolve i riferimenti `op://`).
 2. Impostare `BETTER_AUTH_SECRET`, `BETTER_AUTH_URL`, `NEXT_PUBLIC_APP_URL`, `RESEND_API_KEY`, `EMAIL_FROM`, `CRON_SECRET`.
 3. Eseguire `npx prisma migrate deploy` e `npm run db:seed` sul database di produzione.
+
+## Guida alle domande (SEO e GEO)
+
+Ogni domanda della versione **pubblicata** del wizard è anche un articolo pubblico, senza contenuti aggiuntivi: titolo, descrizione, risposte possibili (con le loro descrizioni), indicazioni, nota e riferimenti normativi vengono dagli stessi campi di Admin → Wizard. Pubblicando una nuova versione, la guida si aggiorna da sola.
+
+- Indice: `/it/guida`, `/en/guide`; articoli: `/it/guida/<chiave-step>` (es. `/it/guida/url-scheme`). Gli articoli sono raggruppati per area come nel Blueprint.
+- SEO: title e description per pagina, canonical, hreflang (`it`, `en`, `x-default`), Open Graph, `sitemap.xml` (sito, pagine, guida) e `robots.txt` (esclusi admin, API, account e progetti degli utenti).
+- Dati strutturati (JSON-LD): `TechArticle` con fonti citate, `FAQPage` (domanda e risposta), `BreadcrumbList`; sull'indice `CollectionPage` con `ItemList`.
+- GEO (motori di risposta AI): `/llms.txt` (indice con un link per domanda) e `/llms-full.txt` (testo completo in Markdown, in tutte le lingue); i crawler AI sono citati in `robots.txt`.
+- Gli URL assoluti usano `NEXT_PUBLIC_APP_URL`: in produzione deve essere l'indirizzo pubblico del sito.

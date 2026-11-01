@@ -5,6 +5,7 @@ import { Button, buttonVariants } from "@/components/ui/button";
 import { Badge } from "@/components/ui/card";
 import { Link } from "@/i18n/navigation";
 import { db } from "@/lib/db";
+import { articleSlug, guideSegment } from "@/lib/guide";
 import { getSession } from "@/lib/session";
 import { getPageByKey } from "@/server/content";
 import { getAnonymousJourney } from "@/server/journey";
@@ -97,7 +98,12 @@ export default async function WizardStart({ params }: { params: Promise<{ locale
                 </span>
                 <span className="grid gap-0.5">
                   <span className="font-medium">
-                    {s.title}
+                    <Link
+                      href={`/${guideSegment(locale)}/${articleSlug(s.key)}`}
+                      className="underline-offset-4 hover:underline"
+                    >
+                      {s.title}
+                    </Link>
                     {s.visibleIf && (
                       <Badge className="ml-2 align-middle">{t("conditional")}</Badge>
                     )}

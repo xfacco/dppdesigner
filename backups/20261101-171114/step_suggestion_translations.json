@@ -1,0 +1,494 @@
+[
+  {
+    "id": "cmvv8w8sj0021boy3ox8gj96s",
+    "suggestionId": "cmvv8w8si0020boy31083ltgo",
+    "locale": "it",
+    "message": "**Batterie per mezzi di trasporto leggeri, veicoli elettrici e industriali oltre 2 kWh**: il Regolamento (UE) 2023/1542 richiede un passaporto per **ogni singola batteria** (art. 77). È un obbligo, non una scelta."
+  },
+  {
+    "id": "cmvv8w8sj0022boy3trlg2qt3",
+    "suggestionId": "cmvv8w8si0020boy31083ltgo",
+    "locale": "en",
+    "message": "**Light means of transport, electric vehicle and industrial batteries above 2 kWh**: Regulation (EU) 2023/1542 requires a passport for **each individual battery** (Article 77). This is an obligation, not a choice."
+  },
+  {
+    "id": "cmvv8w8sl0024boy329ij2l6a",
+    "suggestionId": "cmvv8w8sl0023boy3ftj5rypd",
+    "locale": "it",
+    "message": "**Batterie portatili e SLI**: il Regolamento Batterie non prevede il passaporto per queste categorie (art. 77). Restano altri obblighi, come etichettatura e QR code (art. 13)."
+  },
+  {
+    "id": "cmvv8w8sl0025boy3v5t3sb88",
+    "suggestionId": "cmvv8w8sl0023boy3ftj5rypd",
+    "locale": "en",
+    "message": "**Portable and SLI batteries**: the Battery Regulation does not require a passport for these categories (Article 77). Other obligations still apply, such as labelling and the QR code (Article 13)."
+  },
+  {
+    "id": "cmvv8w8sn0027boy33zl30lso",
+    "suggestionId": "cmvv8w8sm0026boy37fiq9kfc",
+    "locale": "it",
+    "message": "**Elettronica**: prodotti con numero di serie, riparazioni e aggiornamenti durante la vita. Il livello di **singolo prodotto** permette di registrare questi eventi. Indicazione da confermare con l'atto delegato."
+  },
+  {
+    "id": "cmvv8w8sn0028boy37vut0l3p",
+    "suggestionId": "cmvv8w8sm0026boy37fiq9kfc",
+    "locale": "en",
+    "message": "**Electronics**: serialised products with repairs and updates during their life. The **individual item** level lets you record these events. Indicative, to be confirmed by the delegated act."
+  },
+  {
+    "id": "cmvv8w8so002aboy3xyjhgx5y",
+    "suggestionId": "cmvv8w8so0029boy3qo3me1ll",
+    "locale": "it",
+    "message": "**Acciaio, alluminio e materiali da costruzione**: composizione e impronta ambientale variano da una colata o da un lotto di produzione all'altro, quindi il livello di **lotto** è il più naturale. Indicazione da confermare con l'atto delegato o le specifiche tecniche CPR."
+  },
+  {
+    "id": "cmvv8w8so002bboy37ty3ye7z",
+    "suggestionId": "cmvv8w8so0029boy3qo3me1ll",
+    "locale": "en",
+    "message": "**Steel, aluminium and construction materials**: composition and environmental footprint vary from one heat or production batch to another, so the **batch** level is the most natural. Indicative, to be confirmed by the delegated act or CPR technical specifications."
+  },
+  {
+    "id": "cmvv8w8sp002dboy30af4mrk0",
+    "suggestionId": "cmvv8w8sp002cboy3rg1kb117",
+    "locale": "it",
+    "message": "**Pneumatici**: sono già identificati per lotto e settimana di produzione, quindi il livello di **lotto** è un buon punto di partenza. Indicazione da confermare con l'atto delegato."
+  },
+  {
+    "id": "cmvv8w8sp002eboy3qah1ul95",
+    "suggestionId": "cmvv8w8sp002cboy3rg1kb117",
+    "locale": "en",
+    "message": "**Tyres**: they are already identified by production batch and week, so the **batch** level is a good starting point. Indicative, to be confirmed by the delegated act."
+  },
+  {
+    "id": "cmvv8w8sq002gboy322xe9ihx",
+    "suggestionId": "cmvv8w8sq002fboy3aa8mot6g",
+    "locale": "it",
+    "message": "**Tessile e arredamento**: per prodotti di serie con molte varianti si parte di solito dal livello di **modello**. Il lotto o il singolo prodotto servono se vuoi tracciare provenienza o riparazioni dei singoli pezzi. Indicazione da confermare con l'atto delegato."
+  },
+  {
+    "id": "cmvv8w8sq002hboy3pma4ty40",
+    "suggestionId": "cmvv8w8sq002fboy3aa8mot6g",
+    "locale": "en",
+    "message": "**Textiles and furniture**: for series products with many variants you usually start at **model** level. Batch or individual item are needed if you want to track provenance or repairs of single pieces. Indicative, to be confirmed by the delegated act."
+  },
+  {
+    "id": "cmvv8w8sr002jboy3tap8k3lm",
+    "suggestionId": "cmvv8w8sr002iboy3f3yi6fp0",
+    "locale": "it",
+    "message": "Il livello definitivo è stabilito dall'atto delegato del gruppo di prodotto. Se hai selezionato più categorie, il livello può essere diverso per ciascuna: il consiglio più vincolante è indicato per primo."
+  },
+  {
+    "id": "cmvv8w8sr002kboy3lvyslu2q",
+    "suggestionId": "cmvv8w8sr002iboy3f3yi6fp0",
+    "locale": "en",
+    "message": "The final level is set by the product group's delegated act. If you selected several categories, the level may differ for each: the most binding advice is shown first."
+  },
+  {
+    "id": "cmvv9bu760063euy30fxyfbx2",
+    "suggestionId": "cmvv9bu750062euy3nq2r3okj",
+    "locale": "it",
+    "message": "**Batterie per mezzi di trasporto leggeri, veicoli elettrici e industriali oltre 2 kWh**: il Regolamento (UE) 2023/1542 richiede un passaporto per **ogni singola batteria** (art. 77). È un obbligo, non una scelta."
+  },
+  {
+    "id": "cmvv9bu760064euy3wpe41u4w",
+    "suggestionId": "cmvv9bu750062euy3nq2r3okj",
+    "locale": "en",
+    "message": "**Light means of transport, electric vehicle and industrial batteries above 2 kWh**: Regulation (EU) 2023/1542 requires a passport for **each individual battery** (Article 77). This is an obligation, not a choice."
+  },
+  {
+    "id": "cmvv9bu760066euy3e999u3ee",
+    "suggestionId": "cmvv9bu760065euy3mfe8p8ko",
+    "locale": "it",
+    "message": "**Batterie portatili e SLI**: il Regolamento Batterie non prevede il passaporto per queste categorie (art. 77). Restano altri obblighi, come etichettatura e QR code (art. 13)."
+  },
+  {
+    "id": "cmvv9bu760067euy3pyv0gxoc",
+    "suggestionId": "cmvv9bu760065euy3mfe8p8ko",
+    "locale": "en",
+    "message": "**Portable and SLI batteries**: the Battery Regulation does not require a passport for these categories (Article 77). Other obligations still apply, such as labelling and the QR code (Article 13)."
+  },
+  {
+    "id": "cmvv9bu770069euy3xjy4m82l",
+    "suggestionId": "cmvv9bu770068euy3hec996lv",
+    "locale": "it",
+    "message": "**Elettronica**: prodotti con numero di serie, riparazioni e aggiornamenti durante la vita. Il livello di **singolo prodotto** permette di registrare questi eventi. Indicazione da confermare con l'atto delegato."
+  },
+  {
+    "id": "cmvv9bu77006aeuy3ir28zah9",
+    "suggestionId": "cmvv9bu770068euy3hec996lv",
+    "locale": "en",
+    "message": "**Electronics**: serialised products with repairs and updates during their life. The **individual item** level lets you record these events. Indicative, to be confirmed by the delegated act."
+  },
+  {
+    "id": "cmvv9bu77006ceuy36wb18m4c",
+    "suggestionId": "cmvv9bu77006beuy3q5zckzpc",
+    "locale": "it",
+    "message": "**Acciaio, alluminio e materiali da costruzione**: composizione e impronta ambientale variano da una colata o da un lotto di produzione all'altro, quindi il livello di **lotto** è il più naturale. Indicazione da confermare con l'atto delegato o le specifiche tecniche CPR."
+  },
+  {
+    "id": "cmvv9bu77006deuy3z7r40ppf",
+    "suggestionId": "cmvv9bu77006beuy3q5zckzpc",
+    "locale": "en",
+    "message": "**Steel, aluminium and construction materials**: composition and environmental footprint vary from one heat or production batch to another, so the **batch** level is the most natural. Indicative, to be confirmed by the delegated act or CPR technical specifications."
+  },
+  {
+    "id": "cmvv9bu78006feuy31nvcmn4i",
+    "suggestionId": "cmvv9bu78006eeuy3vh7rmwqg",
+    "locale": "it",
+    "message": "**Pneumatici**: sono già identificati per lotto e settimana di produzione, quindi il livello di **lotto** è un buon punto di partenza. Indicazione da confermare con l'atto delegato."
+  },
+  {
+    "id": "cmvv9bu78006geuy3ctfkcxrj",
+    "suggestionId": "cmvv9bu78006eeuy3vh7rmwqg",
+    "locale": "en",
+    "message": "**Tyres**: they are already identified by production batch and week, so the **batch** level is a good starting point. Indicative, to be confirmed by the delegated act."
+  },
+  {
+    "id": "cmvv9bu7a006ieuy352rcg05r",
+    "suggestionId": "cmvv9bu79006heuy3gm4zxz9r",
+    "locale": "it",
+    "message": "**Tessile e arredamento**: per prodotti di serie con molte varianti si parte di solito dal livello di **modello**. Il lotto o il singolo prodotto servono se vuoi tracciare provenienza o riparazioni dei singoli pezzi. Indicazione da confermare con l'atto delegato."
+  },
+  {
+    "id": "cmvv9bu7a006jeuy30ntiuc0e",
+    "suggestionId": "cmvv9bu79006heuy3gm4zxz9r",
+    "locale": "en",
+    "message": "**Textiles and furniture**: for series products with many variants you usually start at **model** level. Batch or individual item are needed if you want to track provenance or repairs of single pieces. Indicative, to be confirmed by the delegated act."
+  },
+  {
+    "id": "cmvv9bu7b006leuy3p2i88ngz",
+    "suggestionId": "cmvv9bu7a006keuy3z53zbl1d",
+    "locale": "it",
+    "message": "Il livello definitivo è stabilito dall'atto delegato del gruppo di prodotto. Se hai selezionato più categorie, il livello può essere diverso per ciascuna: il consiglio più vincolante è indicato per primo."
+  },
+  {
+    "id": "cmvv9bu7b006meuy3xlczevse",
+    "suggestionId": "cmvv9bu7a006keuy3z53zbl1d",
+    "locale": "en",
+    "message": "The final level is set by the product group's delegated act. If you selected several categories, the level may differ for each: the most binding advice is shown first."
+  },
+  {
+    "id": "cmvva1cig00044iy3tq156cmp",
+    "suggestionId": "cmvva1cif00034iy35j526ogi",
+    "locale": "it",
+    "message": "**Batterie EV, LMT e industriali**: stato di salute e durata prevista vanno aggiornati durante la vita della batteria (Reg. (UE) 2023/1542, art. 14)."
+  },
+  {
+    "id": "cmvva1cig00054iy34ngjl4we",
+    "suggestionId": "cmvva1cif00034iy35j526ogi",
+    "locale": "en",
+    "message": "**EV, LMT and industrial batteries**: state of health and expected lifetime must be updated during the battery's life (Regulation (EU) 2023/1542, Article 14)."
+  },
+  {
+    "id": "cmvva1cii00074iy3tmepicak",
+    "suggestionId": "cmvva1cih00064iy3giwjiavh",
+    "locale": "it",
+    "message": "**Elettronica**: riparabilità e ricambi sono tra i requisiti attesi; per diverse categorie si applica anche la Direttiva (UE) 2024/1799 sul diritto alla riparazione."
+  },
+  {
+    "id": "cmvva1cii00084iy3hg0748um",
+    "suggestionId": "cmvva1cih00064iy3giwjiavh",
+    "locale": "en",
+    "message": "**Electronics**: reparability and spare parts are among the expected requirements; for several categories the Right to Repair Directive (EU) 2024/1799 also applies."
+  },
+  {
+    "id": "cmvva1cij000a4iy3aejrxf6j",
+    "suggestionId": "cmvva1cij00094iy30d29j41s",
+    "locale": "it",
+    "message": "**Pneumatici per veicoli commerciali**: sono spesso ricostruiti; valuta se registrare questi interventi nel passaporto."
+  },
+  {
+    "id": "cmvva1cij000b4iy30lmkno5c",
+    "suggestionId": "cmvva1cij00094iy30d29j41s",
+    "locale": "en",
+    "message": "**Commercial vehicle tyres**: they are often retreaded; consider recording this work in the passport."
+  },
+  {
+    "id": "cmvva1cik000d4iy3jsz2xjkd",
+    "suggestionId": "cmvva1cik000c4iy3183bogea",
+    "locale": "it",
+    "message": "**Tessile e arredamento**: dipende dal prodotto. I prodotti di fascia alta sono spesso riparati, quelli di largo consumo raramente."
+  },
+  {
+    "id": "cmvva1cik000e4iy303ncs7d9",
+    "suggestionId": "cmvva1cik000c4iy3183bogea",
+    "locale": "en",
+    "message": "**Textiles and furniture**: it depends on the product. High-end products are often repaired, mass-market ones rarely."
+  },
+  {
+    "id": "cmvva1cil000g4iy30vo19i91",
+    "suggestionId": "cmvva1cil000f4iy3ypi5uykq",
+    "locale": "it",
+    "message": "**Materiali (acciaio, alluminio, materiali da costruzione)**: di norma non hanno manutenzione come singolo prodotto. Rispondi Sì solo per componenti o prodotti finiti."
+  },
+  {
+    "id": "cmvva1cil000h4iy372yimai0",
+    "suggestionId": "cmvva1cil000f4iy3ypi5uykq",
+    "locale": "en",
+    "message": "**Materials (steel, aluminium, construction materials)**: they usually have no maintenance as a single product. Answer Yes only for components or finished products."
+  },
+  {
+    "id": "cmvva6jv00001byy3nd8nxnzs",
+    "suggestionId": "cmvva6juz0000byy3t2j84g5z",
+    "locale": "it",
+    "message": "**Batterie EV, LMT e industriali**: il passaporto ha una parte statica (composizione, impronta di carbonio) e una dinamica, come lo stato di salute, da aggiornare durante la vita della batteria (Reg. (UE) 2023/1542, art. 14 e Allegato XIII)."
+  },
+  {
+    "id": "cmvva6jv00002byy3qz605fyg",
+    "suggestionId": "cmvva6juz0000byy3t2j84g5z",
+    "locale": "en",
+    "message": "**EV, LMT and industrial batteries**: the passport has a static part (composition, carbon footprint) and a dynamic one, such as state of health, to be updated during the battery's life (Regulation (EU) 2023/1542, Article 14 and Annex XIII)."
+  },
+  {
+    "id": "cmvva6jv30004byy38g3tijw4",
+    "suggestionId": "cmvva6jv20003byy30sm2p7pn",
+    "locale": "it",
+    "message": "**Elettronica**: specifiche e composizione sono statiche; riparazioni, ricambi sostituiti e aggiornamenti software rendono una parte dei dati dinamica."
+  },
+  {
+    "id": "cmvva6jv30005byy3y1k28n3g",
+    "suggestionId": "cmvva6jv20003byy30sm2p7pn",
+    "locale": "en",
+    "message": "**Electronics**: specifications and composition are static; repairs, replaced parts and software updates make part of the data dynamic."
+  },
+  {
+    "id": "cmvva6jv40007byy384soastp",
+    "suggestionId": "cmvva6jv40006byy3fpctkxpy",
+    "locale": "it",
+    "message": "**Pneumatici per veicoli commerciali**: con la ricostruzione alcuni dati cambiano durante la vita del pneumatico."
+  },
+  {
+    "id": "cmvva6jv40008byy32r893x3j",
+    "suggestionId": "cmvva6jv40006byy3fpctkxpy",
+    "locale": "en",
+    "message": "**Commercial vehicle tyres**: with retreading some data changes during the tyre's life."
+  },
+  {
+    "id": "cmvva6jv5000abyy3ytxvwmpn",
+    "suggestionId": "cmvva6jv50009byy3mhdvrkb6",
+    "locale": "it",
+    "message": "Per questa categoria i dati sono di norma **statici**, fissati alla produzione. Scegli Entrambi se vuoi registrare riparazioni, rivendite o altri eventi successivi."
+  },
+  {
+    "id": "cmvva6jv5000bbyy3uqztu9sc",
+    "suggestionId": "cmvva6jv50009byy3mhdvrkb6",
+    "locale": "en",
+    "message": "For this category data is usually **static**, set at production. Choose Both if you want to record repairs, resales or other later events."
+  },
+  {
+    "id": "cmvvel4nd007fqhy35awvf2n4",
+    "suggestionId": "cmvvel4nc007eqhy3mxtqoqg5",
+    "locale": "it",
+    "message": "**Batterie per mezzi di trasporto leggeri, veicoli elettrici e industriali oltre 2 kWh**: il Regolamento (UE) 2023/1542 richiede un passaporto per **ogni singola batteria** (art. 77). È un obbligo, non una scelta."
+  },
+  {
+    "id": "cmvvel4nd007gqhy36vdit828",
+    "suggestionId": "cmvvel4nc007eqhy3mxtqoqg5",
+    "locale": "en",
+    "message": "**Light means of transport, electric vehicle and industrial batteries above 2 kWh**: Regulation (EU) 2023/1542 requires a passport for **each individual battery** (Article 77). This is an obligation, not a choice."
+  },
+  {
+    "id": "cmvvel4ne007iqhy360alw2su",
+    "suggestionId": "cmvvel4ne007hqhy3xfh8w92p",
+    "locale": "it",
+    "message": "**Batterie portatili e SLI**: il Regolamento Batterie non prevede il passaporto per queste categorie (art. 77). Restano altri obblighi, come etichettatura e QR code (art. 13)."
+  },
+  {
+    "id": "cmvvel4ne007jqhy3qy2g2jsu",
+    "suggestionId": "cmvvel4ne007hqhy3xfh8w92p",
+    "locale": "en",
+    "message": "**Portable and SLI batteries**: the Battery Regulation does not require a passport for these categories (Article 77). Other obligations still apply, such as labelling and the QR code (Article 13)."
+  },
+  {
+    "id": "cmvvel4ne007lqhy3c9h55eac",
+    "suggestionId": "cmvvel4ne007kqhy3jrqmxaeu",
+    "locale": "it",
+    "message": "**Elettronica**: prodotti con numero di serie, riparazioni e aggiornamenti durante la vita. Il livello di **singolo prodotto** permette di registrare questi eventi. Indicazione da confermare con l'atto delegato."
+  },
+  {
+    "id": "cmvvel4ne007mqhy3kwr0wfym",
+    "suggestionId": "cmvvel4ne007kqhy3jrqmxaeu",
+    "locale": "en",
+    "message": "**Electronics**: serialised products with repairs and updates during their life. The **individual item** level lets you record these events. Indicative, to be confirmed by the delegated act."
+  },
+  {
+    "id": "cmvvel4nf007oqhy3vmzmpvnp",
+    "suggestionId": "cmvvel4ne007nqhy3kc2h8i2z",
+    "locale": "it",
+    "message": "**Acciaio, alluminio e materiali da costruzione**: composizione e impronta ambientale variano da una colata o da un lotto di produzione all'altro, quindi il livello di **lotto** è il più naturale. Indicazione da confermare con l'atto delegato o le specifiche tecniche CPR."
+  },
+  {
+    "id": "cmvvel4nf007pqhy32b9nx32p",
+    "suggestionId": "cmvvel4ne007nqhy3kc2h8i2z",
+    "locale": "en",
+    "message": "**Steel, aluminium and construction materials**: composition and environmental footprint vary from one heat or production batch to another, so the **batch** level is the most natural. Indicative, to be confirmed by the delegated act or CPR technical specifications."
+  },
+  {
+    "id": "cmvvel4nf007rqhy3vqt0otfj",
+    "suggestionId": "cmvvel4nf007qqhy3ana0il64",
+    "locale": "it",
+    "message": "**Pneumatici**: sono già identificati per lotto e settimana di produzione, quindi il livello di **lotto** è un buon punto di partenza. Indicazione da confermare con l'atto delegato."
+  },
+  {
+    "id": "cmvvel4nf007sqhy3kylp3lmg",
+    "suggestionId": "cmvvel4nf007qqhy3ana0il64",
+    "locale": "en",
+    "message": "**Tyres**: they are already identified by production batch and week, so the **batch** level is a good starting point. Indicative, to be confirmed by the delegated act."
+  },
+  {
+    "id": "cmvvel4nf007uqhy3010utzoa",
+    "suggestionId": "cmvvel4nf007tqhy319pdfl10",
+    "locale": "it",
+    "message": "**Tessile e arredamento**: per prodotti di serie con molte varianti si parte di solito dal livello di **modello**. Il lotto o il singolo prodotto servono se vuoi tracciare provenienza o riparazioni dei singoli pezzi. Indicazione da confermare con l'atto delegato."
+  },
+  {
+    "id": "cmvvel4nf007vqhy3ohr49rib",
+    "suggestionId": "cmvvel4nf007tqhy319pdfl10",
+    "locale": "en",
+    "message": "**Textiles and furniture**: for series products with many variants you usually start at **model** level. Batch or individual item are needed if you want to track provenance or repairs of single pieces. Indicative, to be confirmed by the delegated act."
+  },
+  {
+    "id": "cmvvel4nf007xqhy32hspdiko",
+    "suggestionId": "cmvvel4nf007wqhy366wvutwx",
+    "locale": "it",
+    "message": "Il livello definitivo è stabilito dall'atto delegato del gruppo di prodotto. Se hai selezionato più categorie, il livello può essere diverso per ciascuna: il consiglio più vincolante è indicato per primo."
+  },
+  {
+    "id": "cmvvel4nf007yqhy3syxnn0fs",
+    "suggestionId": "cmvvel4nf007wqhy366wvutwx",
+    "locale": "en",
+    "message": "The final level is set by the product group's delegated act. If you selected several categories, the level may differ for each: the most binding advice is shown first."
+  },
+  {
+    "id": "cmvvel4nl008cqhy3np0bi622",
+    "suggestionId": "cmvvel4nl008bqhy37xxld29e",
+    "locale": "it",
+    "message": "**Batterie EV, LMT e industriali**: stato di salute e durata prevista vanno aggiornati durante la vita della batteria (Reg. (UE) 2023/1542, art. 14)."
+  },
+  {
+    "id": "cmvvel4nl008dqhy3q6q6sbmb",
+    "suggestionId": "cmvvel4nl008bqhy37xxld29e",
+    "locale": "en",
+    "message": "**EV, LMT and industrial batteries**: state of health and expected lifetime must be updated during the battery's life (Regulation (EU) 2023/1542, Article 14)."
+  },
+  {
+    "id": "cmvvel4nm008fqhy32qpqhupe",
+    "suggestionId": "cmvvel4nm008eqhy3hwt1wcz9",
+    "locale": "it",
+    "message": "**Elettronica**: riparabilità e ricambi sono tra i requisiti attesi; per diverse categorie si applica anche la Direttiva (UE) 2024/1799 sul diritto alla riparazione."
+  },
+  {
+    "id": "cmvvel4nm008gqhy35j5zjeiy",
+    "suggestionId": "cmvvel4nm008eqhy3hwt1wcz9",
+    "locale": "en",
+    "message": "**Electronics**: reparability and spare parts are among the expected requirements; for several categories the Right to Repair Directive (EU) 2024/1799 also applies."
+  },
+  {
+    "id": "cmvvel4nm008iqhy33jivnqmb",
+    "suggestionId": "cmvvel4nm008hqhy3rj43pka7",
+    "locale": "it",
+    "message": "**Pneumatici per veicoli commerciali**: sono spesso ricostruiti; valuta se registrare questi interventi nel passaporto."
+  },
+  {
+    "id": "cmvvel4nm008jqhy3hw7x3h3i",
+    "suggestionId": "cmvvel4nm008hqhy3rj43pka7",
+    "locale": "en",
+    "message": "**Commercial vehicle tyres**: they are often retreaded; consider recording this work in the passport."
+  },
+  {
+    "id": "cmvvel4nn008lqhy36qorn1r6",
+    "suggestionId": "cmvvel4nm008kqhy377x7vcuc",
+    "locale": "it",
+    "message": "**Tessile e arredamento**: dipende dal prodotto. I prodotti di fascia alta sono spesso riparati, quelli di largo consumo raramente."
+  },
+  {
+    "id": "cmvvel4nn008mqhy36dorit4i",
+    "suggestionId": "cmvvel4nm008kqhy377x7vcuc",
+    "locale": "en",
+    "message": "**Textiles and furniture**: it depends on the product. High-end products are often repaired, mass-market ones rarely."
+  },
+  {
+    "id": "cmvvel4nn008oqhy3v25up6lo",
+    "suggestionId": "cmvvel4nn008nqhy3r6j2hcuf",
+    "locale": "it",
+    "message": "**Materiali (acciaio, alluminio, materiali da costruzione)**: di norma non hanno manutenzione come singolo prodotto. Rispondi Sì solo per componenti o prodotti finiti."
+  },
+  {
+    "id": "cmvvel4nn008pqhy30sgpxi32",
+    "suggestionId": "cmvvel4nn008nqhy3r6j2hcuf",
+    "locale": "en",
+    "message": "**Materials (steel, aluminium, construction materials)**: they usually have no maintenance as a single product. Answer Yes only for components or finished products."
+  },
+  {
+    "id": "cmvvel4ns0093qhy3n1qjbvy4",
+    "suggestionId": "cmvvel4ns0092qhy34m5ann44",
+    "locale": "it",
+    "message": "**Batterie EV, LMT e industriali**: il passaporto ha una parte statica (composizione, impronta di carbonio) e una dinamica, come lo stato di salute, da aggiornare durante la vita della batteria (Reg. (UE) 2023/1542, art. 14 e Allegato XIII)."
+  },
+  {
+    "id": "cmvvel4ns0094qhy39npzmokk",
+    "suggestionId": "cmvvel4ns0092qhy34m5ann44",
+    "locale": "en",
+    "message": "**EV, LMT and industrial batteries**: the passport has a static part (composition, carbon footprint) and a dynamic one, such as state of health, to be updated during the battery's life (Regulation (EU) 2023/1542, Article 14 and Annex XIII)."
+  },
+  {
+    "id": "cmvvel4nu0096qhy331s6xo97",
+    "suggestionId": "cmvvel4ns0095qhy3sp9flpcs",
+    "locale": "it",
+    "message": "**Elettronica**: specifiche e composizione sono statiche; riparazioni, ricambi sostituiti e aggiornamenti software rendono una parte dei dati dinamica."
+  },
+  {
+    "id": "cmvvel4nu0097qhy3s06uph0p",
+    "suggestionId": "cmvvel4ns0095qhy3sp9flpcs",
+    "locale": "en",
+    "message": "**Electronics**: specifications and composition are static; repairs, replaced parts and software updates make part of the data dynamic."
+  },
+  {
+    "id": "cmvvel4nu0099qhy3fxkelkgq",
+    "suggestionId": "cmvvel4nu0098qhy3uw52qd37",
+    "locale": "it",
+    "message": "**Pneumatici per veicoli commerciali**: con la ricostruzione alcuni dati cambiano durante la vita del pneumatico."
+  },
+  {
+    "id": "cmvvel4nu009aqhy3dfotallz",
+    "suggestionId": "cmvvel4nu0098qhy3uw52qd37",
+    "locale": "en",
+    "message": "**Commercial vehicle tyres**: with retreading some data changes during the tyre's life."
+  },
+  {
+    "id": "cmvvel4nv009cqhy35w8gd7pd",
+    "suggestionId": "cmvvel4nu009bqhy3nqv7ra5i",
+    "locale": "it",
+    "message": "Per questa categoria i dati sono di norma **statici**, fissati alla produzione. Scegli Entrambi se vuoi registrare riparazioni, rivendite o altri eventi successivi."
+  },
+  {
+    "id": "cmvvel4nv009dqhy3u1ajwyjt",
+    "suggestionId": "cmvvel4nu009bqhy3nqv7ra5i",
+    "locale": "en",
+    "message": "For this category data is usually **static**, set at production. Choose Both if you want to record repairs, resales or other later events."
+  },
+  {
+    "id": "cmvveys77001vzwy3ujkgpd8x",
+    "suggestionId": "cmvveys76001uzwy321d207x8",
+    "locale": "it",
+    "message": "**Batterie**: il QR code va di norma stampato o inciso sulla batteria stessa (Reg. (UE) 2023/1542, art. 13)."
+  },
+  {
+    "id": "cmvveys77001wzwy3p3qiwo0y",
+    "suggestionId": "cmvveys76001uzwy321d207x8",
+    "locale": "en",
+    "message": "**Batteries**: the QR code is normally printed or engraved on the battery itself (Regulation (EU) 2023/1542, Article 13)."
+  },
+  {
+    "id": "cmvveys7e002gzwy301bn7vyw",
+    "suggestionId": "cmvveys7e002fzwy3llu1gje8",
+    "locale": "it",
+    "message": "Avete indicato prodotti con manutenzione: i **riparatori** avranno bisogno di accedere alle informazioni di riparazione e, a seconda del settore, di registrare gli interventi."
+  },
+  {
+    "id": "cmvveys7e002hzwy35361dr44",
+    "suggestionId": "cmvveys7e002fzwy3llu1gje8",
+    "locale": "en",
+    "message": "You indicated products with maintenance: **repairers** will need access to repair information and, depending on the sector, to record their work."
+  }
+]

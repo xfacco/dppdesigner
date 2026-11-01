@@ -299,8 +299,34 @@
   },
   "home": {
     "byline": "ESPR · Regolamento (UE) 2024/1781",
-    "globe": "Globo in caratteri ASCII centrato sull'Europa, circondato da un anello con le sigle di ESPR, Regolamento Batterie, Registro UE e norme EN sul passaporto digitale",
+    "globe": "Globo in caratteri ASCII centrato sull'Europa; intorno orbitano le scritte Registro UE, Digital Product Passport, ESPR, QR code, DPP Designer, 2024/1781 e altre",
     "secondary": "Cos’è il DPP",
-    "ring": "ESPR 2024/1781 · REGISTRO UE · EN 18219 · EN 18220 · EN 18222 · REG. BATTERIE 2023/1542 · QR → DPP · "
+    "ring": "REGISTRO UE · DIGITAL PRODUCT PASSPORT · ESPR · QR CODE · DPP DESIGNER · 2024/1781 · TRACCIABILITÀ · ECONOMIA CIRCOLARE · CARBON FOOTPRINT · "
+  },
+  "guide": {
+    "nav": "Guida alle domande",
+    "breadcrumb": "Percorso",
+    "home": "Home",
+    "section": "Guida",
+    "title": "Le domande del Digital Product Passport",
+    "lede": "Tutte le domande di Progetta il tuo DPP, una per pagina: cosa chiedono, le risposte possibili, le indicazioni e i riferimenti normativi.",
+    "byline": "Guida · {count} domande",
+    "question": "Domanda {number} di {total}",
+    "answers": "Le risposte possibili",
+    "answerMatrix": "Si risponde per ciascuna categoria di prodotto scelta.",
+    "answerText": "Si risponde con un testo libero.",
+    "answerNumber": "Si risponde con un numero.",
+    "answerFields": "Si risponde compilando alcuni campi descrittivi.",
+    "notes": "Indicazioni",
+    "mandatory": "Obbligo di legge",
+    "help": "Nota",
+    "references": "Riferimenti normativi",
+    "ctaTitle": "Rispondi per il tuo progetto",
+    "ctaText": "Questa domanda fa parte di Progetta il tuo DPP: rispondi a tutte e ottieni il blueprint, il punteggio e i prossimi passi consigliati.",
+    "prev": "Domanda precedente",
+    "next": "Domanda successiva",
+    "all": "Tutte le domande",
+    "updated": "Aggiornato al {date} · versione wizard {version}",
+    "readArticle": "Leggi la guida a questa domanda"
   }
 }
