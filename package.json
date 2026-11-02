@@ -12,6 +12,7 @@
     "test": "vitest run",
     "db": "node scripts/db.mjs",
     "db:backup": "node scripts/backup-db.mjs",
+    "db:remote": "CLOUDSDK_ACTIVE_CONFIG_NAME=dpp-designer cloud-sql-proxy --gcloud-auth --port 5433 dpp-designer:europe-west1:dpp-designer-db",
     "db:generate": "prisma generate",
     "db:migrate": "prisma migrate dev",
     "db:deploy": "prisma migrate deploy",

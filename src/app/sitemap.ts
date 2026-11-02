@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { routing } from "@/i18n/routing";
 import { db } from "@/lib/db";
+import { blogPath } from "@/lib/blog";
 import { guidePath } from "@/lib/guide";
 import { absoluteUrl } from "@/lib/site-url";
 import { SYSTEM_PAGES } from "@/server/content";
@@ -20,12 +21,13 @@ const entry = (paths: Record<string, string>, lastModified?: Date, priority?: nu
 const perLocale = (fn: (locale: string) => string) => Object.fromEntries(routing.locales.map((l) => [l, fn(l)]));
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const [pages, guide] = await Promise.all([
+  const [pages, guide, posts] = await Promise.all([
     db.page.findMany({
       where: { status: "PUBLISHED", key: { notIn: Object.keys(SYSTEM_PAGES) } },
       include: { translations: true },
     }),
     getGuide(routing.defaultLocale),
+    db.post.findMany({ where: { status: "PUBLISHED" }, include: { translations: true } }),
   ]);
 
   return [
@@ -33,6 +35,10 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...entry(perLocale((l) => `/${l}/progetta`), undefined, 0.9),
     ...pages.flatMap((p) =>
       entry(Object.fromEntries(p.translations.map((t) => [t.locale, `/${t.locale}/${t.slug}`])), p.updatedAt, 0.7),
+    ),
+    ...entry(perLocale((l) => blogPath(l)), undefined, 0.8),
+    ...posts.flatMap((p) =>
+      entry(Object.fromEntries(p.translations.map((t) => [t.locale, blogPath(t.locale, t.slug)])), p.updatedAt, 0.7),
     ),
     ...(guide
       ? [

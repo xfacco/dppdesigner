@@ -1,0 +1,15 @@
+# File esclusi dall'upload verso Cloud Build (gcloud builds submit).
+# Stesse regole del .dockerignore: niente segreti, database locale, backup e dipendenze.
+.gcloudignore
+.git
+.gitignore
+node_modules
+.next
+.env
+.env.*
+!.env.example
+.data
+backups
+.claude
+*.tsbuildinfo
+.DS_Store

@@ -26,3 +26,7 @@ ANALISI-*.md
 # IDE / OS
 .DS_Store
 .claude
+
+# Script locali (database incorporato, backup)
+scripts/backup-db.mjs
+scripts/db.mjs

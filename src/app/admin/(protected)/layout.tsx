@@ -10,6 +10,7 @@ const NAV = [
   { href: "/admin/questions", label: "Domande" },
   { href: "/admin/wizard", label: "Wizard" },
   { href: "/admin/content", label: "Contenuti" },
+  { href: "/admin/posts", label: "Articoli" },
   { href: "/admin/messages", label: "Messaggi" },
 ];
 

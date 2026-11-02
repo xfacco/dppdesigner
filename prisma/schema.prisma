@@ -408,6 +408,76 @@ model PageTranslation {
   @@map("page_translations")
 }
 
+/// Articolo del blog ("Articoli"): stesso stato bozza/pubblicato delle pagine
+model Post {
+  id            String            @id @default(cuid())
+  status        PageStatus        @default(DRAFT)
+  /// Data mostrata e usata per l'ordinamento; impostata alla prima pubblicazione se vuota
+  publishedAt   DateTime?
+  /// Ultima revisione dei contenuti (dateModified); se vuota si usa updatedAt
+  reviewedAt    DateTime?
+  /// Autore (E-E-A-T): nome, ruolo e pagina/profilo
+  author        String?
+  authorTitle   String?
+  authorUrl     String?
+  /// Immagine di copertina (URL assoluto o percorso del sito), usata anche per Open Graph
+  coverImageUrl String?
+  category      String?
+  tags          String[]          @default([])
+  /// Esclude l'articolo da motori di ricerca, sitemap e llms.txt
+  noindex       Boolean           @default(false)
+  /// URL canonico esterno, se l'articolo è ripubblicato da un'altra fonte
+  canonicalUrl  String?
+  createdAt     DateTime          @default(now())
+  updatedAt     DateTime          @updatedAt
+  translations  PostTranslation[]
+
+  @@index([status, publishedAt])
+  @@map("posts")
+}
+
+model PostTranslation {
+  id             String  @id @default(cuid())
+  postId         String
+  post           Post    @relation(fields: [postId], references: [id], onDelete: Cascade)
+  locale         String
+  slug           String
+  title          String
+  /// Sommario: anteprima nell'elenco e meta description se manca quella SEO
+  excerpt        String?
+  /// Markdown
+  body           String
+  seoTitle       String?
+  seoDescription String?
+  coverImageAlt  String?
+  /// Punti chiave ("In breve"), uno per riga
+  keyTakeaways   String?
+  /// Domande frequenti: blocchi separati da una riga vuota, prima riga = domanda
+  faq            String?
+  /// Fonti: una per riga, "Titolo | https://…"
+  sources        String?
+
+  @@unique([postId, locale])
+  @@unique([locale, slug])
+  @@map("post_translations")
+}
+
+/// Impostazioni SEO del sito (una sola riga, id "site")
+model SiteSettings {
+  id                String   @id @default("site")
+  organizationName  String   @default("DPP Designer")
+  organizationUrl   String?
+  logoUrl           String?
+  /// Profili ufficiali (LinkedIn, X, …), uno per riga: schema.org sameAs
+  sameAs            String?
+  defaultOgImageUrl String?
+  twitterHandle     String?
+  defaultAuthor     String?
+  updatedAt         DateTime @updatedAt
+
+  @@map("site_settings")
+}
+
 model ContactMessage {
   id        String   @id @default(cuid())
   name      String

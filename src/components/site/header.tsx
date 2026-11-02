@@ -1,6 +1,7 @@
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { buttonVariants } from "@/components/ui/button";
+import { blogSegment } from "@/lib/blog";
 import { getSession } from "@/lib/session";
 import { LocaleSwitch } from "./locale-switch";
 import { Logo } from "./logo";
@@ -8,7 +9,7 @@ import { MobileMenu } from "./mobile-menu";
 import { SignOutButton } from "./sign-out-button";
 import { ThemeToggle } from "./theme-toggle";
 
-// Le pagine del sito sono raggiungibili dal footer: in alto restano lingua, account e pulsante principale
+// Le pagine del sito sono raggiungibili dal footer: in alto restano Articoli, lingua, account e pulsante principale
 export async function SiteHeader({ locale }: { locale: string }) {
   const [t, session] = await Promise.all([getTranslations("nav"), getSession()]);
   const other = locale === "it" ? "en" : "it";
@@ -26,6 +27,9 @@ export async function SiteHeader({ locale }: { locale: string }) {
 
         <div className="ml-auto flex items-center gap-3">
           <nav aria-label={t("menu")} className="hidden items-center gap-4 md:flex">
+            <Link href={`/${blogSegment(locale)}`} className={navLink}>
+              {t("articles")}
+            </Link>
             <LocaleSwitch to={other} label={t("language")} />
             {session ? (
               <>
@@ -48,6 +52,9 @@ export async function SiteHeader({ locale }: { locale: string }) {
           {/* Su telefono le stesse voci stanno nel pannello ad hamburger */}
           <MobileMenu labels={{ open: t("openMenu"), close: t("closeMenu") }}>
             <nav aria-label={t("menu")} className="pb-4">
+              <Link href={`/${blogSegment(locale)}`} className={mobileLink}>
+                {t("articles")}
+              </Link>
               <LocaleSwitch to={other} label={t("language")} className={mobileLink} />
               {session ? (
                 <>

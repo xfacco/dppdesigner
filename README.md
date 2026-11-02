@@ -106,3 +106,9 @@ Ogni domanda della versione **pubblicata** del wizard è anche un articolo pubbl
 - Dati strutturati (JSON-LD): `TechArticle` con fonti citate, `FAQPage` (domanda e risposta), `BreadcrumbList`; sull'indice `CollectionPage` con `ItemList`.
 - GEO (motori di risposta AI): `/llms.txt` (indice con un link per domanda) e `/llms-full.txt` (testo completo in Markdown, in tutte le lingue); i crawler AI sono citati in `robots.txt`.
 - Gli URL assoluti usano `NEXT_PUBLIC_APP_URL`: in produzione deve essere l'indirizzo pubblico del sito.
+
+## Articoli (blog)
+
+Sezione pubblica `/it/articoli` e `/en/articles`, collegata nel menu in alto e nel footer. Gli articoli si scrivono da **Admin → Articoli**: titolo, slug, sommario e testo in Markdown per lingua, stato bozza/pubblicato, data e autore. Un articolo compare solo nelle lingue in cui ha un titolo; il cambio lingua porta alla traduzione dello stesso articolo.
+
+SEO e GEO come la guida: canonical, hreflang delle traduzioni esistenti, Open Graph `article`, JSON-LD `Blog`/`BlogPosting` e `BreadcrumbList`, voci in `sitemap.xml` e in `/llms.txt`.

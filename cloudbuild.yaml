@@ -1,0 +1,60 @@
+# Build e pubblicazione su Google Cloud Run (progetto dpp-designer, regione europe-west1).
+#
+#   gcloud builds submit --config cloudbuild.yaml
+#
+# 1. crea le immagini del sito (runner) e delle migrazioni (migrator)
+# 2. aggiorna il database eseguendo il job "dpp-designer-migrate"
+# 3. pubblica la nuova versione del servizio "dpp-designer"
+# Segreti e collegamento al database sono già configurati sul servizio e sul job (vedi DEPLOY.md):
+# qui si cambia solo l'immagine.
+
+substitutions:
+  _REGION: europe-west1
+  _SERVICE: dpp-designer
+  _APP_URL: https://dpp-designer-471028444452.europe-west1.run.app
+  _IMAGE_BASE: europe-west1-docker.pkg.dev/${PROJECT_ID}/dpp-designer
+
+options:
+  machineType: E2_HIGHCPU_8
+  logging: CLOUD_LOGGING_ONLY
+  substitutionOption: ALLOW_LOOSE
+  dynamicSubstitutions: true
+
+steps:
+  - id: build-runner
+    name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - --build-arg=NEXT_PUBLIC_APP_URL=${_APP_URL}
+      - --tag=${_IMAGE_BASE}/web:${BUILD_ID}
+      - --tag=${_IMAGE_BASE}/web:latest
+      - .
+
+  - id: build-migrator
+    name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - --target=migrator
+      - --build-arg=NEXT_PUBLIC_APP_URL=${_APP_URL}
+      - --tag=${_IMAGE_BASE}/migrator:${BUILD_ID}
+      - --tag=${_IMAGE_BASE}/migrator:latest
+      - .
+
+  - id: push
+    name: gcr.io/cloud-builders/docker
+    entrypoint: bash
+    args: ["-c", "docker push --all-tags ${_IMAGE_BASE}/web && docker push --all-tags ${_IMAGE_BASE}/migrator"]
+
+  - id: migrate
+    name: gcr.io/google.com/cloudsdktool/cloud-sdk:slim
+    entrypoint: bash
+    args:
+      - -c
+      - |
+        gcloud run jobs update ${_SERVICE}-migrate --region=${_REGION} --image=${_IMAGE_BASE}/migrator:${BUILD_ID} \
+          && gcloud run jobs execute ${_SERVICE}-migrate --region=${_REGION} --wait
+
+  - id: deploy
+    name: gcr.io/google.com/cloudsdktool/cloud-sdk:slim
+    entrypoint: gcloud
+    args: ["run", "deploy", "${_SERVICE}", "--region=${_REGION}", "--image=${_IMAGE_BASE}/web:${BUILD_ID}"]

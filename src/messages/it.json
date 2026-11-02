@@ -14,7 +14,8 @@
     "closeMenu": "Chiudi il menu",
     "tagline": "Digital Product Passport",
     "themeDark": "Passa al tema scuro",
-    "themeLight": "Passa al tema chiaro"
+    "themeLight": "Passa al tema chiaro",
+    "articles": "Articoli"
   },
   "footer": {
     "privacy": "Privacy",
@@ -328,5 +329,19 @@
     "all": "Tutte le domande",
     "updated": "Aggiornato al {date} · versione wizard {version}",
     "readArticle": "Leggi la guida a questa domanda"
+  },
+  "blog": {
+    "title": "Articoli",
+    "lede": "Approfondimenti sul Digital Product Passport, il Regolamento ESPR e come prepararsi.",
+    "byline": "Articoli · {count, plural, =0 {nessun articolo} one {1 articolo} other {# articoli}}",
+    "empty": "Non ci sono ancora articoli pubblicati.",
+    "home": "Home",
+    "breadcrumb": "Percorso",
+    "readMore": "Leggi l'articolo",
+    "by": "di {author}",
+    "all": "Tutti gli articoli",
+    "updated": "Aggiornato il {date}",
+    "ctaTitle": "Progetta il tuo DPP",
+    "ctaText": "Rispondi a qualche domanda e ottieni il blueprint del tuo passaporto digitale, il punteggio e i prossimi passi."
   }
 }

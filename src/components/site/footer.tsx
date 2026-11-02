@@ -1,5 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
+import { blogSegment } from "@/lib/blog";
 import { guideSegment } from "@/lib/guide";
 import { getMenu, getPageByKey } from "@/server/content";
 import { Logo } from "./logo";
@@ -26,6 +27,9 @@ export async function SiteFooter({ locale }: { locale: string }) {
             <h2 className="mb-1 text-[13px] font-medium">{t("site")}</h2>
             <Link href="/progetta" className={link}>
               {tNav("startWizard")}
+            </Link>
+            <Link href={`/${blogSegment(locale)}`} className={link}>
+              {tNav("articles")}
             </Link>
             <Link href={`/${guideSegment(locale)}`} className={link}>
               {tGuide("nav")}
