@@ -2,7 +2,7 @@
 
 import { useLocale, useTranslations } from "next-intl";
 import { useState, useTransition } from "react";
-import { askStepAi, askStepExpert } from "@/app/[locale]/progetta/actions";
+import { askStepExpert } from "@/app/[locale]/progetta/actions";
 import { Markdown } from "@/components/site/markdown";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { Badge } from "@/components/ui/card";
@@ -10,24 +10,15 @@ import { FieldError, Textarea } from "@/components/ui/form";
 import { cn } from "@/lib/utils";
 import type { QuestionView } from "@/server/questions";
 
-type Channel = "AI" | "EXPERT";
-
-export function StepAssistant({
-  journeyId,
-  stepKey,
-  initial,
-  aiEnabled,
-}: {
-  journeyId: string;
-  stepKey: string;
-  initial: QuestionView[];
-  aiEnabled: boolean;
-}) {
+/**
+ * "Hai un dubbio su questa domanda?": l'utente scrive all'esperto del sito, che risponde dall'admin.
+ * Le eventuali risposte AI ricevute in passato restano visibili nello storico.
+ */
+export function StepAssistant({ journeyId, stepKey, initial }: { journeyId: string; stepKey: string; initial: QuestionView[] }) {
   const t = useTranslations("wizard.assistant");
   const tw = useTranslations("wizard");
   const locale = useLocale();
   const [questions, setQuestions] = useState(initial);
-  const [channel, setChannel] = useState<Channel>(aiEnabled ? "AI" : "EXPERT");
   const [text, setText] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [pending, startTransition] = useTransition();
@@ -38,12 +29,12 @@ export function StepAssistant({
     const question = text.trim();
     if (question.length < 3 || question.length > 1000) return setError(t("errors.invalid"));
     startTransition(async () => {
-      const res = channel === "AI" ? await askStepAi(journeyId, stepKey, question) : await askStepExpert(journeyId, stepKey, question);
+      const res = await askStepExpert(journeyId, stepKey, question);
       if (res.ok) {
         setQuestions((q) => [...q, res.question]);
         setText("");
       } else if (res.error === "limit") {
-        setError(channel === "AI" ? t("errors.limit") : t("errors.limitExpert"));
+        setError(t("errors.limitExpert"));
       } else {
         setError(t(`errors.${res.error === "disabled" ? "unavailable" : res.error}`));
       }
@@ -93,32 +84,7 @@ export function StepAssistant({
           </ol>
         )}
 
-        <div role="tablist" aria-label={t("title")} className="flex gap-1 rounded-md bg-muted p-1 text-sm">
-          {(["AI", "EXPERT"] as const).map((c) => (
-            <button
-              key={c}
-              type="button"
-              role="tab"
-              aria-selected={channel === c}
-              disabled={c === "AI" && !aiEnabled}
-              onClick={() => {
-                setChannel(c);
-                setError(null);
-              }}
-              className={cn(
-                "flex-1 cursor-pointer rounded px-3 py-1.5 transition-colors disabled:cursor-not-allowed disabled:opacity-50",
-                channel === c ? "bg-background font-medium shadow-sm" : "text-muted-foreground hover:text-foreground",
-              )}
-            >
-              {c === "AI" ? t("tabAi") : t("tabExpert")}
-            </button>
-          ))}
-        </div>
-
-        <p className="text-xs text-muted-foreground">
-          {channel === "AI" ? t("aiNote") : t("expertNote")}
-          {!aiEnabled && ` ${t("aiDisabled")}`}
-        </p>
+        <p className="text-xs text-muted-foreground">{t("expertNote")}</p>
 
         <div className="grid gap-2">
           <label htmlFor={`ask-${stepKey}`} className="sr-only">
@@ -142,7 +108,7 @@ export function StepAssistant({
           <FieldError>{error}</FieldError>
           <div>
             <Button type="button" onClick={submit} disabled={pending || !text.trim()}>
-              {pending ? (channel === "AI" ? t("thinking") : t("sending")) : channel === "AI" ? t("sendAi") : t("sendExpert")}
+              {pending ? t("sending") : t("sendExpert")}
             </Button>
           </div>
         </div>

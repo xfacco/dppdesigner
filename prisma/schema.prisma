@@ -428,6 +428,8 @@ model Post {
   noindex       Boolean           @default(false)
   /// URL canonico esterno, se l'articolo è ripubblicato da un'altra fonte
   canonicalUrl  String?
+  /// Step del wizard (chiavi) a cui l'articolo fa da approfondimento: valgono per tutte le versioni
+  stepKeys      String[]          @default([])
   createdAt     DateTime          @default(now())
   updatedAt     DateTime          @updatedAt
   translations  PostTranslation[]

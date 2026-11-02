@@ -1,6 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import { routing } from "@/i18n/routing";
-import { blogPath } from "@/lib/blog";
+import { blogMarkdownPath, blogPath } from "@/lib/blog";
 import { guidePath } from "@/lib/guide";
 import { absoluteUrl } from "@/lib/site-url";
 import { listPosts } from "@/server/blog";
@@ -15,11 +15,13 @@ export async function GET() {
 
   // Articoli del blog, per lingua
   for (const locale of routing.locales) {
-    const posts = await listPosts(locale);
+    const posts = (await listPosts(locale)).filter((p) => !p.noindex);
     if (!posts.length) continue;
     const tBlog = await getTranslations({ locale, namespace: "blog" });
     parts.push(`## ${tBlog("title")} (${locale.toUpperCase()})`, "", `${tBlog("lede")} ${absoluteUrl(blogPath(locale))}`, "");
-    for (const p of posts) parts.push(`- [${p.title}](${absoluteUrl(blogPath(locale, p.slug))})${p.excerpt ? `: ${p.excerpt}` : ""}`);
+    // Link alla versione Markdown, più facile da leggere per un modello; la pagina HTML è indicata nel testo
+    for (const p of posts)
+      parts.push(`- [${p.title}](${absoluteUrl(blogMarkdownPath(locale, p.slug))}): ${p.excerpt ? `${p.excerpt} ` : ""}(${absoluteUrl(blogPath(locale, p.slug))})`);
     parts.push("");
   }
 
@@ -30,6 +32,6 @@ export async function GET() {
     parts.push(`## ${tGuide("title")} (${locale.toUpperCase()})`, "", `${tGuide("lede")} ${absoluteUrl(guidePath(locale))}`, "", list, "");
   }
 
-  parts.push("## Optional", "", `- [${"Testo completo della guida / Full guide text"}](${absoluteUrl("/llms-full.txt")})`, "");
+  parts.push("## Optional", "", `- [${"Testo completo di articoli e guida / Full text of articles and guide"}](${absoluteUrl("/llms-full.txt")})`, "");
   return new Response(parts.join("\n"), { headers: { "Content-Type": "text/plain; charset=utf-8" } });
 }

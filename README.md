@@ -109,6 +109,15 @@ Ogni domanda della versione **pubblicata** del wizard è anche un articolo pubbl
 
 ## Articoli (blog)
 
-Sezione pubblica `/it/articoli` e `/en/articles`, collegata nel menu in alto e nel footer. Gli articoli si scrivono da **Admin → Articoli**: titolo, slug, sommario e testo in Markdown per lingua, stato bozza/pubblicato, data e autore. Un articolo compare solo nelle lingue in cui ha un titolo; il cambio lingua porta alla traduzione dello stesso articolo.
+Sezione pubblica `/it/articoli` e `/en/articles`, collegata nel menu in alto e nel footer. Gli articoli si scrivono da **Admin → Articoli**; le impostazioni comuni (organizzazione, logo, profili social, immagine di condivisione, account X, autore predefinito) da **Admin → SEO**.
 
-SEO e GEO come la guida: canonical, hreflang delle traduzioni esistenti, Open Graph `article`, JSON-LD `Blog`/`BlogPosting` e `BreadcrumbList`, voci in `sitemap.xml` e in `/llms.txt`.
+Per ogni articolo, configurabile in admin:
+
+- **Pubblicazione**: stato, data di pubblicazione, data di ultima revisione (diventa `dateModified`).
+- **Autore** (E-E-A-T): nome, ruolo, profilo → schema.org `Person` con `jobTitle`, `sameAs`, `worksFor`.
+- **Classificazione**: categoria (`articleSection`), tag (`keywords`, `about`, articoli correlati), immagine di copertina (Open Graph e `image`), `noindex`, canonical esterno.
+- **Per lingua**: titolo, slug, sommario, meta title e meta description, testo alternativo della copertina, **In breve** (punti chiave in apertura, `abstract` e `speakable`), testo in Markdown (i titoli `##` diventano l'indice con ancore), **domande frequenti** (`FAQPage`), **fonti** (`citation`).
+
+Dati strutturati: `Organization` e `WebSite` su tutto il sito; sugli articoli `BlogPosting` (con `wordCount`, `timeRequired`, `isPartOf`), `FAQPage`, `BreadcrumbList`; sull'elenco `Blog`.
+
+GEO: versione Markdown di ogni articolo su `/md/<lingua>/<slug>.md` (indicata con `<link rel="alternate" type="text/markdown">`), articoli in `/llms.txt` e testo completo in `/llms-full.txt`. Gli articoli `noindex` o con canonical esterno sono esclusi da sitemap, `llms.txt` e articoli correlati.

@@ -4,9 +4,9 @@ import { Badge, Progress } from "@/components/ui/card";
 import { db } from "@/lib/db";
 import { PreviewBanner } from "@/components/wizard/preview-banner";
 import { StepAssistant } from "@/components/wizard/step-assistant";
+import { StepArticles } from "@/components/wizard/step-articles";
 import { StepReferences } from "@/components/wizard/step-references";
 import { StickyStepHeader } from "@/components/wizard/sticky-step-header";
-import { aiEnabled } from "@/server/ai";
 import { listStepQuestions } from "@/server/questions";
 import { Markdown } from "@/components/site/markdown";
 import {
@@ -17,6 +17,7 @@ import {
   visibleOptions,
   visibleSteps,
 } from "@/lib/wizard/engine";
+import { postsForStep } from "@/server/blog";
 import { getAccessibleJourney } from "@/server/journey";
 import { loadWizard, toAnswers } from "@/server/wizard";
 import { StepForm, type MatrixRow } from "./step-form";
@@ -39,6 +40,9 @@ export default async function StepPage({ params }: Props) {
   if (!step) notFound();
 
   const { index, total, prev, next } = adjacentSteps(def, answers, stepKey);
+  const articles = await postsForStep(locale, stepKey);
+  // Colonna destra: riferimenti normativi e/o articoli di approfondimento
+  const hasAside = Boolean(step.references) || articles.length > 0;
   const stored = journey.answers.find((a) => a.stepKey === stepKey);
   // Le opzioni arrivano al client già filtrate: lo schema del form non deve rivalutare condizioni
   const clientStep = {
@@ -103,12 +107,12 @@ export default async function StepPage({ params }: Props) {
         )}
       </div>
 
-      {/* Sinistra: campi da compilare · Destra: riferimenti normativi.
-          Su schermi stretti i riferimenti vengono prima dei campi. */}
+      {/* Sinistra: campi da compilare · Destra: articoli di approfondimento e riferimenti normativi.
+          Su schermi stretti la colonna destra viene prima dei campi. */}
       <div
         className={
-          step.references
-            ? "grid gap-6 lg:grid-cols-[minmax(0,7fr)_minmax(0,3fr)] lg:items-start lg:gap-8"
+          hasAside
+            ? "grid grid-cols-1 gap-6 lg:grid-cols-[minmax(0,7fr)_minmax(0,3fr)] lg:items-start lg:gap-8"
             : "grid max-w-3xl"
         }
       >
@@ -143,9 +147,10 @@ export default async function StepPage({ params }: Props) {
             isLast={!next}
           />
         </section>
-        {step.references && (
-          <aside className="order-1 lg:sticky lg:top-[calc(var(--step-header-h,0px)+1.5rem)] lg:order-2">
-            <StepReferences markdown={step.references} />
+        {hasAside && (
+          <aside className="order-1 grid min-w-0 gap-4 lg:sticky lg:top-[calc(var(--step-header-h,0px)+1.5rem)] lg:order-2">
+            <StepArticles locale={locale} posts={articles} />
+            {step.references && <StepReferences markdown={step.references} />}
           </aside>
         )}
       </div>
@@ -157,7 +162,6 @@ export default async function StepPage({ params }: Props) {
           journeyId={journeyId}
           stepKey={step.key}
           initial={await listStepQuestions(journeyId, step.key)}
-          aiEnabled={aiEnabled()}
         />
       </div>
     </div>

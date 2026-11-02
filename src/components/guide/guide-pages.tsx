@@ -9,6 +9,8 @@ import { routing } from "@/i18n/routing";
 import { guidePath, guideSegment, markdownLinks, plainText, truncate, type GuideLocale } from "@/lib/guide";
 import { optionDescription } from "@/lib/option-description";
 import { absoluteUrl, SITE_URL } from "@/lib/site-url";
+import { blogSegment } from "@/lib/blog";
+import { postsForStep } from "@/server/blog";
 import { getGuide, type GuideArticle } from "@/server/guide";
 import { JsonLd } from "./json-ld";
 
@@ -194,14 +196,16 @@ export async function GuideArticlePage({ params, segmentLocale }: { params: Arti
   const { locale, slug } = await params;
   checkSegment(locale, segmentLocale, slug);
   setRequestLocale(locale);
-  const [found, t, tSections, tNav] = await Promise.all([
+  const [found, t, tSections, tNav, tArticles] = await Promise.all([
     findArticle(locale, slug),
     getTranslations("guide"),
     getTranslations("diagrams.blueprint.sections"),
     getTranslations("nav"),
+    getTranslations("wizard.articles"),
   ]);
   if (!found) notFound();
   const { guide, article: a, prev, next } = found;
+  const further = await postsForStep(locale, a.key);
 
   const sectionTitle = tSections.has(a.section) ? tSections(a.section) : a.section;
   const url = absoluteUrl(guidePath(locale, a.slug));
@@ -268,12 +272,12 @@ export async function GuideArticlePage({ params, segmentLocale }: { params: Arti
         label={t("breadcrumb")}
         items={[{ name: t("home"), href: "/" }, { name: t("section"), href: base }, { name: a.title }]}
       />
-      <header className="max-w-[820px] pb-10">
+      <header className="pb-10">
         <MonoLabel className="mb-5">
           {t("question", { number: a.number, total: guide.articles.length })} · {sectionTitle}
         </MonoLabel>
         <h1 className="m-0 text-[clamp(34px,4.6vw,52px)] font-medium leading-[1.1] tracking-[-0.045em] text-balance">{a.title}</h1>
-        {a.description && <p className="mt-5 max-w-[720px] text-lg leading-normal tracking-[-0.02em] md:text-xl">{a.description}</p>}
+        {a.description && <p className="mt-5 text-lg leading-normal tracking-[-0.02em] md:text-xl">{a.description}</p>}
       </header>
 
       {(a.options.length > 0 || typeNote) && (
@@ -320,6 +324,21 @@ export async function GuideArticlePage({ params, segmentLocale }: { params: Arti
       {a.references && (
         <SectionRow title={t("references")}>
           <Markdown className="step-references text-[15px]">{a.references}</Markdown>
+        </SectionRow>
+      )}
+
+      {further.length > 0 && (
+        <SectionRow title={tArticles("title")}>
+          <ul className="grid gap-4">
+            {further.map((p) => (
+              <li key={p.id} className="grid gap-1">
+                <Link href={`/${blogSegment(locale)}/${p.slug}`} className="font-medium text-primary underline-offset-4 hover:underline">
+                  {p.title}
+                </Link>
+                {p.excerpt && <p className="m-0 text-sm text-muted-foreground">{p.excerpt}</p>}
+              </li>
+            ))}
+          </ul>
         </SectionRow>
       )}
 

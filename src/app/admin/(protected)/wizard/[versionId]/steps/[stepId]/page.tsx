@@ -31,6 +31,7 @@ import {
   updateOption,
   updateStep,
 } from "../../../actions";
+import { setStepArticles } from "../../../../posts/actions";
 
 const CONFIG_HELP: Record<string, string> = {
   NUMBER: '{ "min": 1, "max": 100000 }',
@@ -67,6 +68,10 @@ export default async function StepEditor({
     include: { translations: true, options: { orderBy: { position: "asc" }, include: { translations: true } } },
   });
   const refs = toStepRefs(previous);
+  const posts = await db.post.findMany({
+    orderBy: [{ publishedAt: { sort: "desc", nulls: "first" } }, { createdAt: "desc" }],
+    include: { translations: { select: { locale: true, title: true } } },
+  });
   const tr = (l: string) => step.translations.find((t) => t.locale === l);
   // Nelle griglie le opzioni sono le colonne
   const hasOptions = step.type === "SINGLE_CHOICE" || step.type === "MULTI_CHOICE" || step.type === "MATRIX";
@@ -383,6 +388,50 @@ export default async function StepEditor({
               );
             })}
           </div>
+        )}
+      </Card>
+
+      <Card>
+        <CardTitle className="mb-2">Articoli di approfondimento</CardTitle>
+        <SectionHelp>
+          <p>
+            Gli articoli selezionati compaiono nello step, sotto i riferimenti normativi, nel riquadro «Articoli di approfondimento»; il link
+            si apre in una nuova scheda. Si vedono solo gli articoli <strong>pubblicati</strong> e tradotti nella lingua dell&apos;utente.
+          </p>
+          <p>
+            Il collegamento è per chiave dello step (<code>{step.key}</code>): vale per tutte le versioni del wizard e si può cambiare anche
+            quando la versione è pubblicata. Lo stesso collegamento si imposta anche da Admin → Articoli.
+          </p>
+        </SectionHelp>
+        {posts.length === 0 ? (
+          <p className="text-sm text-muted-foreground">
+            Nessun articolo: crealo in{" "}
+            <Link href="/admin/posts" className="underline">
+              Admin → Articoli
+            </Link>
+            .
+          </p>
+        ) : (
+          <form action={setStepArticles.bind(null, step.key, `/admin/wizard/${versionId}/steps/${stepId}`)} className="grid gap-3">
+            <div className="grid gap-1.5">
+              {posts.map((p) => {
+                const title = p.translations.find((t) => t.locale === "it")?.title ?? p.translations[0]?.title ?? p.id;
+                return (
+                  <label key={p.id} className="flex items-center gap-2 text-sm">
+                    <Checkbox name="postIds" value={p.id} defaultChecked={p.stepKeys.includes(step.key)} />
+                    <span>{title}</span>
+                    {p.status !== "PUBLISHED" && <Badge tone="warning">bozza</Badge>}
+                    <span className="text-xs uppercase text-muted-foreground">{p.translations.map((t) => t.locale).join(" · ")}</span>
+                  </label>
+                );
+              })}
+            </div>
+            <div>
+              <Button type="submit" size="sm">
+                Salva articoli collegati
+              </Button>
+            </div>
+          </form>
         )}
       </Card>
     </div>

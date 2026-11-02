@@ -27,7 +27,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       include: { translations: true },
     }),
     getGuide(routing.defaultLocale),
-    db.post.findMany({ where: { status: "PUBLISHED" }, include: { translations: true } }),
+    // Esclusi gli articoli noindex e quelli con canonical verso un altro sito
+    db.post.findMany({ where: { status: "PUBLISHED", noindex: false, canonicalUrl: null }, include: { translations: true } }),
   ]);
 
   return [

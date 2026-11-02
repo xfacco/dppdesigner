@@ -73,7 +73,18 @@
       "Bash(git check-ignore *)",
       "Bash(CLOUDSDK_PYTHON=/opt/homebrew/bin/python3.11 npm run db:remote)",
       "Bash(sed -i '' 's|/\\\\*\\\\* Indice del sito per i modelli linguistici \\(formato llms.txt\\): la guida con un link per domanda. \\\\*/|/** Indice del sito per i modelli linguistici \\(formato llms.txt\\): articoli e guida, con un link per pagina. */|' src/app/llms.txt/route.ts)",
-      "Bash(mkdir -p \"src/app/admin/\\(protected\\)/posts/[id]\")"
+      "Bash(mkdir -p \"src/app/admin/\\(protected\\)/posts/[id]\")",
+      "Bash(sed -i '' 's/const W = innerWidth;/const W = 390;/' overflow-probe.js)",
+      "Bash(sed -i '' 's/prof-three/prof-four/; s/9340/9341/' find-overflow.mjs)",
+      "Bash(node find-overflow.mjs __TRACKED_VAR__/shots __TRACKED_VAR__/overflow-probe.js)",
+      "Bash(node one-session.mjs __TRACKED_VAR__/shots)",
+      "Bash(node ../cdp.mjs http://localhost:3000/it/articoli/qrcode-url-unici-en18219 art-wide.png 1280 700)",
+      "Bash(unset COOKIE CLICK)",
+      "Bash(node cdp.mjs http://localhost:3000/it/articoli/qrcode-url-unici-en18219 art-wide.png 1280 700)",
+      "Bash(node cdp.mjs http://localhost:3000/it/guida/dpp-granularity guide-wide.png 1280 560)",
+      "Bash(sed -i '' 's/9343/9345/; s/prof-footer/prof-footer2/' footer-shot.mjs)",
+      "Bash(node footer-shot.mjs __TRACKED_VAR__/shots)",
+      "Bash(gcloud builds *)"
     ],
     "additionalDirectories": [
       "/Users/corrado/Downloads/Corrado/dppdesigner/src/app/[locale]"

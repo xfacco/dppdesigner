@@ -37,6 +37,12 @@ export async function createPost(form: FormData) {
   });
 }
 
+const optionalUrl = z
+  .string()
+  .trim()
+  .refine((u) => !u || /^https?:\/\//.test(u) || u.startsWith("/"), "Indirizzo: deve iniziare con https:// oppure /")
+  .transform((u) => u || null);
+
 export async function updatePost(postId: string, form: FormData) {
   await requireStaff();
   const back = `/admin/posts/${postId}`;
@@ -44,13 +50,29 @@ export async function updatePost(postId: string, form: FormData) {
     const post = await db.post.findUniqueOrThrow({ where: { id: postId } });
     const status = z.enum(["DRAFT", "PUBLISHED"]).parse(str(form, "status"));
     const date = str(form, "publishedAt");
+    const reviewed = str(form, "reviewedAt");
     // Alla prima pubblicazione senza data si usa oggi
     const publishedAt = date ? new Date(`${date}T09:00:00Z`) : status === "PUBLISHED" ? (post.publishedAt ?? new Date()) : null;
+    const tags = [...new Set(str(form, "tags").split(",").map((t) => t.trim()).filter(Boolean))];
+    const stepKeys = [...new Set(form.getAll("stepKeys").map(String).filter(Boolean))];
 
     await db.$transaction([
       db.post.update({
         where: { id: postId },
-        data: { status, publishedAt, author: str(form, "author") || null },
+        data: {
+          status,
+          publishedAt,
+          reviewedAt: reviewed ? new Date(`${reviewed}T09:00:00Z`) : null,
+          author: str(form, "author") || null,
+          authorTitle: str(form, "authorTitle") || null,
+          authorUrl: optionalUrl.parse(str(form, "authorUrl")),
+          coverImageUrl: optionalUrl.parse(str(form, "coverImageUrl")),
+          category: str(form, "category") || null,
+          tags,
+          noindex: form.get("noindex") === "on",
+          canonicalUrl: optionalUrl.parse(str(form, "canonicalUrl")),
+          stepKeys,
+        },
       }),
       ...LOCALES.flatMap((locale): PrismaPromise<unknown>[] => {
         const title = str(form, `title_${locale}`);
@@ -60,6 +82,12 @@ export async function updatePost(postId: string, form: FormData) {
           title,
           excerpt: str(form, `excerpt_${locale}`) || null,
           body: str(form, `body_${locale}`),
+          seoTitle: str(form, `seoTitle_${locale}`) || null,
+          seoDescription: str(form, `seoDescription_${locale}`) || null,
+          coverImageAlt: str(form, `coverImageAlt_${locale}`) || null,
+          keyTakeaways: str(form, `keyTakeaways_${locale}`) || null,
+          faq: str(form, `faq_${locale}`) || null,
+          sources: str(form, `sources_${locale}`) || null,
         };
         return [
           db.postTranslation.upsert({
@@ -71,6 +99,27 @@ export async function updatePost(postId: string, form: FormData) {
       }),
     ]);
     // Le pagine pubbliche leggono gli articoli dal DB: si aggiornano subito
+    revalidatePath("/[locale]", "layout");
+  });
+}
+
+/**
+ * Dall'editor di uno step del wizard: imposta quali articoli fanno da approfondimento a quello step.
+ * Il collegamento è per chiave dello step, quindi vale per tutte le versioni del wizard.
+ */
+export async function setStepArticles(stepKey: string, back: string, form: FormData) {
+  await requireStaff();
+  await guarded(back, async () => {
+    const chosen = new Set(form.getAll("postIds").map(String));
+    const posts = await db.post.findMany({ select: { id: true, stepKeys: true } });
+    await db.$transaction(
+      posts.flatMap((p) => {
+        const has = p.stepKeys.includes(stepKey);
+        if (chosen.has(p.id) === has) return [];
+        const stepKeys = has ? p.stepKeys.filter((k) => k !== stepKey) : [...p.stepKeys, stepKey];
+        return [db.post.update({ where: { id: p.id }, data: { stepKeys } })];
+      }),
+    );
     revalidatePath("/[locale]", "layout");
   });
 }

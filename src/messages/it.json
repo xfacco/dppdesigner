@@ -22,7 +22,8 @@
     "rights": "Tutti i diritti riservati.",
     "about": "Strumenti e consulenza per progettare il Digital Product Passport secondo il Regolamento ESPR.",
     "site": "Sito",
-    "info": "Informazioni"
+    "info": "Informazioni",
+    "machine": "Dati per macchine"
   },
   "wizard": {
     "title": "Progetta il tuo Digital Product Passport",
@@ -35,18 +36,12 @@
     "assistant": {
       "title": "Hai un dubbio su questa domanda?",
       "cta": "Chiedi un aiuto",
-      "ctaHint": "Risposta immediata dall'assistente AI o consiglio dall'esperto del sito.",
-      "intro": "Chiedi un consiglio all'assistente AI per una risposta immediata, oppure scrivi all'esperto del sito.",
-      "tabAi": "Chiedi all'AI",
-      "tabExpert": "Chiedi all'esperto",
-      "aiNote": "Risposta immediata generata da un'intelligenza artificiale (Claude di Anthropic): può contenere errori e non è una consulenza legale. La domanda e il contesto di questo step vengono inviati ad Anthropic.",
+      "ctaHint": "Scrivi all'esperto del sito: ti risponde qui, su questo step.",
+      "intro": "Hai un dubbio su come rispondere? Scrivi all'esperto del sito.",
       "expertNote": "Risponde l'esperto del sito. La risposta comparirà qui: torna su questo step dallo stesso browser, oppure registrati alla fine del progetto per ritrovarla da qualsiasi dispositivo.",
-      "aiDisabled": "L'assistente AI al momento non è disponibile: puoi scrivere all'esperto.",
       "placeholder": "Scrivi la tua domanda…",
-      "sendAi": "Chiedi all'AI",
       "sendExpert": "Invia all'esperto",
       "sending": "Invio…",
-      "thinking": "L'assistente sta scrivendo…",
       "you": "Tu",
       "ai": "Assistente AI",
       "expert": "Esperto",
@@ -54,9 +49,7 @@
       "pendingShort": "risposta in attesa",
       "errors": {
         "invalid": "Scrivi una domanda tra 3 e 1000 caratteri.",
-        "limit": "Hai raggiunto il limite di domande all'assistente per oggi: puoi scrivere all'esperto.",
         "limitExpert": "Hai già diverse domande in attesa: aspetta la risposta dell'esperto.",
-        "refused": "L'assistente non può rispondere a questa domanda: prova a riformularla o chiedi all'esperto.",
         "unavailable": "Assistente non disponibile: riprova tra poco o chiedi all'esperto.",
         "not_found": "Progetto non trovato o scaduto."
       }
@@ -118,6 +111,10 @@
       "granularity": "Granularità",
       "product": "Prodotto",
       "notAnswered": "Da definire"
+    },
+    "articles": {
+      "title": "Articoli di approfondimento",
+      "newTab": "(si apre in una nuova scheda)"
     }
   },
   "auth": {
@@ -333,7 +330,6 @@
   "blog": {
     "title": "Articoli",
     "lede": "Approfondimenti sul Digital Product Passport, il Regolamento ESPR e come prepararsi.",
-    "byline": "Articoli · {count, plural, =0 {nessun articolo} one {1 articolo} other {# articoli}}",
     "empty": "Non ci sono ancora articoli pubblicati.",
     "home": "Home",
     "breadcrumb": "Percorso",
@@ -342,6 +338,15 @@
     "all": "Tutti gli articoli",
     "updated": "Aggiornato il {date}",
     "ctaTitle": "Progetta il tuo DPP",
-    "ctaText": "Rispondi a qualche domanda e ottieni il blueprint del tuo passaporto digitale, il punteggio e i prossimi passi."
+    "ctaText": "Rispondi a qualche domanda e ottieni il blueprint del tuo passaporto digitale, il punteggio e i prossimi passi.",
+    "inBrief": "In breve",
+    "toc": "In questo articolo",
+    "faq": "Domande frequenti",
+    "sources": "Fonti",
+    "related": "Articoli correlati",
+    "readingTime": "{minutes} min di lettura",
+    "tags": "Argomenti",
+    "author": "Autore",
+    "markdown": "Versione Markdown"
   }
 }
