@@ -52,9 +52,25 @@ export default async function SeoSettings({ searchParams }: { searchParams: Prom
             <Label htmlFor="twitterHandle">Account X (Twitter)</Label>
             <Input id="twitterHandle" name="twitterHandle" defaultValue={s?.twitterHandle ? `@${s.twitterHandle}` : ""} placeholder="@account" />
           </Field>
+        </Card>
+
+        <Card className="grid gap-4">
+          <p className="text-sm font-semibold">Persona di riferimento e autore predefinito (E-E-A-T)</p>
+          <p className={hint}>
+            Compare come autore di articoli e pagine principali quando non ne è indicato un altro, ed è la persona (schema.org Person) della
+            pagina Chi sono e il fondatore dell&apos;organizzazione nei dati strutturati.
+          </p>
           <Field>
-            <Label htmlFor="defaultAuthor">Autore predefinito degli articoli</Label>
+            <Label htmlFor="defaultAuthor">Nome</Label>
             <Input id="defaultAuthor" name="defaultAuthor" defaultValue={s?.defaultAuthor ?? ""} placeholder="es. Mario Rossi" />
+          </Field>
+          <Field>
+            <Label htmlFor="defaultAuthorTitle">Ruolo</Label>
+            <Input id="defaultAuthorTitle" name="defaultAuthorTitle" defaultValue={s?.defaultAuthorTitle ?? ""} placeholder="es. CTO & Innovation Manager" />
+          </Field>
+          <Field>
+            <Label htmlFor="defaultAuthorUrl">Profilo (LinkedIn o pagina personale)</Label>
+            <Input id="defaultAuthorUrl" name="defaultAuthorUrl" defaultValue={s?.defaultAuthorUrl ?? ""} placeholder="https://www.linkedin.com/in/…" />
           </Field>
         </Card>
 

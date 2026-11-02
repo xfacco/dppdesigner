@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound, permanentRedirect } from "next/navigation";
 import { JsonLd } from "@/components/guide/json-ld";
+import { Byline } from "@/components/site/byline";
 import { Markdown } from "@/components/site/markdown";
 import { MonoLabel, RAIL } from "@/components/site/page-sections";
 import { buttonVariants } from "@/components/ui/button";
@@ -11,7 +12,7 @@ import { blogMarkdownPath, blogPath, blogSegment, lines, parseFaq, parseSources,
 import { plainText, truncate } from "@/lib/guide";
 import { absoluteUrl, SITE_URL } from "@/lib/site-url";
 import { getPost, listPosts, relatedPosts, type PostView } from "@/server/blog";
-import { getSiteSettings, organizationLd, toAbsolute } from "@/server/site-settings";
+import { getSiteSettings, PERSON_ID, personLd, resolveAuthor, toAbsolute } from "@/server/site-settings";
 
 /**
  * Pagine della sezione "Articoli", condivise da /it/articoli e /en/articles: ogni cartella passa
@@ -64,7 +65,6 @@ export async function BlogIndexPage({ params, segmentLocale }: { params: IndexPa
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
-      organizationLd(s),
       {
         "@type": "Blog",
         "@id": url,
@@ -197,23 +197,26 @@ export async function BlogPostPage({ params, segmentLocale }: { params: PostPara
   const toc = tableOfContents(post.body);
   const stats = readingStats(plainText(post.body));
   const image = toAbsolute(post.coverImageUrl);
-  const authorName = post.author || s.defaultAuthor;
-  const edited = post.modifiedAt.getTime() - post.publishedAt.getTime() > 24 * 3600 * 1000;
+  const author = resolveAuthor(s, { name: post.author, title: post.authorTitle, url: post.authorUrl });
+  const person = personLd(s);
 
-  const authorLd = authorName
-    ? {
-        "@type": "Person",
-        name: authorName,
-        ...(post.authorTitle ? { jobTitle: post.authorTitle } : {}),
-        ...(post.authorUrl ? { url: post.authorUrl, sameAs: [post.authorUrl] } : {}),
-        worksFor: ORG_REF,
-      }
-    : ORG_REF;
+  // La persona di riferimento del sito è un'unica entità (stesso @id su tutte le pagine)
+  const authorLd = !author
+    ? ORG_REF
+    : author.isDefault && person
+      ? { "@id": PERSON_ID }
+      : {
+          "@type": "Person",
+          name: author.name,
+          ...(author.title ? { jobTitle: author.title } : {}),
+          ...(author.url ? { url: author.url, sameAs: [author.url] } : {}),
+          worksFor: ORG_REF,
+        };
 
   const jsonLd = {
     "@context": "https://schema.org",
     "@graph": [
-      organizationLd(s),
+      // Organization e Person sono già nel grafo del sito (layout): qui solo i riferimenti @id
       {
         "@type": "BlogPosting",
         "@id": `${url}#article`,
@@ -279,24 +282,12 @@ export async function BlogPostPage({ params, segmentLocale }: { params: PostPara
 
       <header className="pb-8">
         <MonoLabel className="mb-5">
-          <time dateTime={post.publishedAt.toISOString()}>{fmt(locale, post.publishedAt)}</time>
-          {post.category && <> · {post.category}</>} · {t("readingTime", { minutes: stats.minutes })}
+          {post.category && <>{post.category} · </>}
+          {t("readingTime", { minutes: stats.minutes })}
         </MonoLabel>
         <h1 className="m-0 text-[clamp(34px,4.6vw,52px)] font-medium leading-[1.1] tracking-[-0.045em] text-balance">{post.title}</h1>
         {post.excerpt && <p className="mt-5 text-lg leading-normal tracking-[-0.02em] text-muted-foreground md:text-xl">{post.excerpt}</p>}
-        {authorName && (
-          <p className="mt-5 text-sm">
-            <span className="text-muted-foreground">{t("author")}: </span>
-            {post.authorUrl ? (
-              <a href={post.authorUrl} rel="author noopener" target="_blank" className="font-medium underline-offset-4 hover:underline">
-                {authorName}
-              </a>
-            ) : (
-              <span className="font-medium">{authorName}</span>
-            )}
-            {post.authorTitle && <span className="text-muted-foreground"> · {post.authorTitle}</span>}
-          </p>
-        )}
+        <Byline locale={locale} published={post.publishedAt} updated={post.modifiedAt} author={author} />
       </header>
 
       {image && (
@@ -375,11 +366,6 @@ export async function BlogPostPage({ params, segmentLocale }: { params: PostPara
                     {tag}
                   </span>
                 ))}
-              </p>
-            )}
-            {edited && (
-              <p className="m-0">
-                <time dateTime={post.modifiedAt.toISOString()}>{t("updated", { date: fmt(locale, post.modifiedAt) })}</time>
               </p>
             )}
             <p className="m-0">

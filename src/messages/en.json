@@ -342,7 +342,6 @@
     "readMore": "Read the article",
     "by": "by {author}",
     "all": "All articles",
-    "updated": "Updated {date}",
     "ctaTitle": "Design your DPP",
     "ctaText": "Answer a few questions and get your digital passport blueprint, the score and the next steps.",
     "inBrief": "Key takeaways",
@@ -352,7 +351,6 @@
     "related": "Related articles",
     "readingTime": "{minutes} min read",
     "tags": "Topics",
-    "author": "Author",
     "markdown": "Markdown version"
   },
   "cookies": {
@@ -398,5 +396,10 @@
     "choiceSummary": "Statistics: {analytics} · Marketing: {marketing}",
     "allowed": "allowed",
     "denied": "not allowed"
+  },
+  "byline": {
+    "published": "Published {date}",
+    "updated": "Updated {date}",
+    "by": "by"
   }
 }

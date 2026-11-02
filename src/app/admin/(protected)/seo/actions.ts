@@ -30,6 +30,8 @@ export async function updateSiteSettings(form: FormData) {
       defaultOgImageUrl: optionalUrl.parse(str(form, "defaultOgImageUrl")),
       twitterHandle: str(form, "twitterHandle").replace(/^@/, "") || null,
       defaultAuthor: str(form, "defaultAuthor") || null,
+      defaultAuthorTitle: str(form, "defaultAuthorTitle") || null,
+      defaultAuthorUrl: optionalUrl.parse(str(form, "defaultAuthorUrl")),
     };
     await db.siteSettings.upsert({ where: { id: "site" }, create: { id: "site", ...data }, update: data });
     revalidatePath("/[locale]", "layout");

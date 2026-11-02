@@ -4,22 +4,30 @@ import { guidePath, markdownLinks } from "@/lib/guide";
 import { absoluteUrl, SITE_URL } from "@/lib/site-url";
 import { listPosts } from "@/server/blog";
 import { getGuide } from "@/server/guide";
+import { pageMarkdownPath, pillarPages } from "@/server/pages-markdown";
 import { getSiteSettings } from "@/server/site-settings";
 
 export const dynamic = "force-dynamic";
 
 /**
  * Open data: i contenuti pubblici del sito in JSON, per riuso e integrazioni.
- * Domande del wizard pubblicato (con risposte possibili, indicazioni e riferimenti normativi)
- * e articoli pubblicati, in tutte le lingue. Nessun dato degli utenti.
+ * Pagine principali, domande del wizard pubblicato (con risposte possibili, indicazioni e riferimenti
+ * normativi) e articoli pubblicati, in tutte le lingue. Nessun dato degli utenti.
  */
 export async function GET() {
   const settings = await getSiteSettings();
   const languages = await Promise.all(
     routing.locales.map(async (locale) => {
-      const [guide, posts] = await Promise.all([getGuide(locale), listPosts(locale)]);
+      const [guide, posts, pages] = await Promise.all([getGuide(locale), listPosts(locale), pillarPages(locale)]);
       return {
         locale,
+        pages: pages.map((p) => ({
+          title: p.title,
+          description: p.description,
+          url: absoluteUrl(`/${locale}/${p.slug}`),
+          markdown: absoluteUrl(pageMarkdownPath(locale, p.slug)),
+          updatedAt: p.updatedAt.toISOString(),
+        })),
         guide: guide && {
           url: absoluteUrl(guidePath(locale)),
           wizardVersion: guide.versionNumber,

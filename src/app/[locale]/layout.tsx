@@ -10,7 +10,7 @@ import { THEME_SCRIPT } from "@/components/site/theme-toggle";
 import { routing } from "@/i18n/routing";
 import { SITE_URL } from "@/lib/site-url";
 import { getPageByKey } from "@/server/content";
-import { getSiteSettings, organizationLd } from "@/server/site-settings";
+import { getSiteSettings, organizationLd, personLd } from "@/server/site-settings";
 import { inter } from "../fonts";
 import "../globals.css";
 
@@ -42,6 +42,7 @@ export default async function LocaleLayout({
     "@context": "https://schema.org",
     "@graph": [
       organizationLd(settings),
+      ...[personLd(settings)].filter(Boolean),
       {
         "@type": "WebSite",
         "@id": `${SITE_URL}/#website`,

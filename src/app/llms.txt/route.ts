@@ -4,14 +4,25 @@ import { blogMarkdownPath, blogPath } from "@/lib/blog";
 import { guidePath } from "@/lib/guide";
 import { absoluteUrl } from "@/lib/site-url";
 import { listPosts } from "@/server/blog";
+import { pageMarkdownPath, pillarPages } from "@/server/pages-markdown";
 import { guideMarkdown } from "@/server/guide-markdown";
 
 export const dynamic = "force-dynamic";
 
-/** Indice del sito per i modelli linguistici (formato llms.txt): articoli e guida, con un link per pagina. */
+/** Indice del sito per i modelli linguistici (formato llms.txt): pagine principali, articoli e guida. */
 export async function GET() {
   const t = await getTranslations({ locale: routing.defaultLocale, namespace: "footer" });
   const parts = [`# DPP Designer`, "", `> ${t("about")}`, ""];
+
+  // Pagine principali (le più generali e citabili), per lingua
+  for (const locale of routing.locales) {
+    const pages = await pillarPages(locale);
+    if (!pages.length) continue;
+    parts.push(locale === "it" ? "## Pagine principali (IT)" : "## Main pages (EN)", "");
+    for (const p of pages)
+      parts.push(`- [${p.title}](${absoluteUrl(pageMarkdownPath(locale, p.slug))}): ${p.description ? `${p.description} ` : ""}(${absoluteUrl(`/${locale}/${p.slug}`)})`);
+    parts.push("");
+  }
 
   // Articoli del blog, per lingua
   for (const locale of routing.locales) {

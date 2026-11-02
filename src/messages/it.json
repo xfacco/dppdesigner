@@ -342,7 +342,6 @@
     "readMore": "Leggi l'articolo",
     "by": "di {author}",
     "all": "Tutti gli articoli",
-    "updated": "Aggiornato il {date}",
     "ctaTitle": "Progetta il tuo DPP",
     "ctaText": "Rispondi a qualche domanda e ottieni il blueprint del tuo passaporto digitale, il punteggio e i prossimi passi.",
     "inBrief": "In breve",
@@ -352,7 +351,6 @@
     "related": "Articoli correlati",
     "readingTime": "{minutes} min di lettura",
     "tags": "Argomenti",
-    "author": "Autore",
     "markdown": "Versione Markdown"
   },
   "cookies": {
@@ -398,5 +396,10 @@
     "choiceSummary": "Statistiche: {analytics} · Marketing: {marketing}",
     "allowed": "consentiti",
     "denied": "non consentiti"
+  },
+  "byline": {
+    "published": "Pubblicato il {date}",
+    "updated": "Aggiornato il {date}",
+    "by": "di"
   }
 }
