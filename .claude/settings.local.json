@@ -94,7 +94,9 @@
       "Bash(rm -rf /tmp/prof-cookie)",
       "Bash(sed -e 's|http://localhost:3000|https://www.dppdesigner.com|g' -e 's|9347|9348|' cookie-test.mjs)",
       "Bash(node cookie-test-prod.mjs __TRACKED_VAR__/shots)",
-      "Bash(curl -s https://www.dppdesigner.com/robots.txt)"
+      "Bash(curl -s https://www.dppdesigner.com/robots.txt)",
+      "Bash(sed -i '' 's|            isPartOf: { \"@id\": absoluteUrl\\(\"/#website\"\\).replace\\(/\\\\\\\\/#website$/, \"/#website\"\\) },|            isPartOf: { \"@id\": `${SITE_URL}/#website` },|' \"src/app/[locale]/[slug]/page.tsx\")",
+      "Bash(sed -i '' 's|import { absoluteUrl } from \"@/lib/site-url\";|import { absoluteUrl, SITE_URL } from \"@/lib/site-url\";|' \"src/app/[locale]/[slug]/page.tsx\")"
     ],
     "additionalDirectories": [
       "/Users/corrado/Downloads/Corrado/dppdesigner/src/app/[locale]"
