@@ -1,0 +1,28 @@
+# Git
+.git
+.gitignore
+
+# Node
+node_modules
+npm-debug.log*
+
+# Next.js build output (will be rebuilt inside Docker)
+.next
+
+# Local env files (secrets come from Secret Manager at runtime)
+.env
+.env.local
+.env.*.local
+
+# Local database data
+.data
+
+# Dev / test artefacts
+backups
+*.tsbuildinfo
+vitest.config.ts
+ANALISI-*.md
+
+# IDE / OS
+.DS_Store
+.claude

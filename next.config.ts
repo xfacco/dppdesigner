@@ -11,6 +11,7 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
+  output: "standalone",
   async redirects() {
     // Vecchio percorso del wizard
     return [
