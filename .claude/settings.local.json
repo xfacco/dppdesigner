@@ -90,7 +90,11 @@
       "Bash(node ../full-shot.mjs http://localhost:3000/it/progetta progetta-m.png 390 1)",
       "Bash(node ../full-shot.mjs http://localhost:3000/en/progetta progetta-en.png 1280 0)",
       "Bash(curl -s -D - -o /dev/null http://localhost:3000/it)",
-      "Bash(grep -iE \"^\\\\+.*\\(password|secret|api_key\\)\\\\s*[=:]\\\\s*['\\\\\"][^'\\\\\"]{6,}\")"
+      "Bash(grep -iE \"^\\\\+.*\\(password|secret|api_key\\)\\\\s*[=:]\\\\s*['\\\\\"][^'\\\\\"]{6,}\")",
+      "Bash(rm -rf /tmp/prof-cookie)",
+      "Bash(sed -e 's|http://localhost:3000|https://www.dppdesigner.com|g' -e 's|9347|9348|' cookie-test.mjs)",
+      "Bash(node cookie-test-prod.mjs __TRACKED_VAR__/shots)",
+      "Bash(curl -s https://www.dppdesigner.com/robots.txt)"
     ],
     "additionalDirectories": [
       "/Users/corrado/Downloads/Corrado/dppdesigner/src/app/[locale]"
