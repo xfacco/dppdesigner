@@ -84,7 +84,13 @@
       "Bash(node cdp.mjs http://localhost:3000/it/guida/dpp-granularity guide-wide.png 1280 560)",
       "Bash(sed -i '' 's/9343/9345/; s/prof-footer/prof-footer2/' footer-shot.mjs)",
       "Bash(node footer-shot.mjs __TRACKED_VAR__/shots)",
-      "Bash(gcloud builds *)"
+      "Bash(gcloud builds *)",
+      "Bash(curl -s https://dpp-designer-471028444452.europe-west1.run.app/it)",
+      "Bash(curl -s -o /dev/null -w \"login da www: %{http_code}\\\\n\" -X POST https://www.dppdesigner.com/api/auth/sign-in/email -H \"Content-Type: application/json\" -H \"Origin: https://www.dppdesigner.com\" --data '{\"email\":\"nessuno@example.com\",\"password\":\"x\"}')",
+      "Bash(node ../full-shot.mjs http://localhost:3000/it/progetta progetta-m.png 390 1)",
+      "Bash(node ../full-shot.mjs http://localhost:3000/en/progetta progetta-en.png 1280 0)",
+      "Bash(curl -s -D - -o /dev/null http://localhost:3000/it)",
+      "Bash(grep -iE \"^\\\\+.*\\(password|secret|api_key\\)\\\\s*[=:]\\\\s*['\\\\\"][^'\\\\\"]{6,}\")"
     ],
     "additionalDirectories": [
       "/Users/corrado/Downloads/Corrado/dppdesigner/src/app/[locale]"
