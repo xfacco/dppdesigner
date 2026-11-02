@@ -5,9 +5,11 @@ import { notFound } from "next/navigation";
 import { SiteFooter } from "@/components/site/footer";
 import { SiteHeader } from "@/components/site/header";
 import { JsonLd } from "@/components/guide/json-ld";
+import { CookieConsent } from "@/components/site/cookie-consent";
 import { THEME_SCRIPT } from "@/components/site/theme-toggle";
 import { routing } from "@/i18n/routing";
 import { SITE_URL } from "@/lib/site-url";
+import { getPageByKey } from "@/server/content";
 import { getSiteSettings, organizationLd } from "@/server/site-settings";
 import { inter } from "../fonts";
 import "../globals.css";
@@ -34,7 +36,7 @@ export default async function LocaleLayout({
   const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) notFound();
   setRequestLocale(locale);
-  const settings = await getSiteSettings();
+  const [settings, cookiePage] = await Promise.all([getSiteSettings(), getPageByKey(locale, "cookies")]);
   // Organizzazione e sito su ogni pagina: le pagine collegano articoli e guida a questi @id
   const siteLd = {
     "@context": "https://schema.org",
@@ -63,6 +65,7 @@ export default async function LocaleLayout({
           <SiteHeader locale={locale} />
           <main className="flex-1">{children}</main>
           <SiteFooter locale={locale} />
+          <CookieConsent policyHref={cookiePage ? `/${cookiePage.slug}` : null} />
         </NextIntlClientProvider>
       </body>
     </html>

@@ -3,16 +3,19 @@ import { Link } from "@/i18n/navigation";
 import { blogSegment } from "@/lib/blog";
 import { guideSegment } from "@/lib/guide";
 import { getMenu, getPageByKey } from "@/server/content";
+import { CookiePreferencesButton } from "./cookie-consent";
 import { LocaleSwitch } from "./locale-switch";
 import { Logo } from "./logo";
 
 export async function SiteFooter({ locale }: { locale: string }) {
-  const [t, tNav, tGuide, menu, privacy] = await Promise.all([
+  const [t, tNav, tGuide, tCookies, menu, privacy, cookiePage] = await Promise.all([
     getTranslations("footer"),
     getTranslations("nav"),
     getTranslations("guide"),
+    getTranslations("cookies"),
     getMenu(locale),
     getPageByKey(locale, "privacy"),
+    getPageByKey(locale, "cookies"),
   ]);
   const link = "text-[13px] leading-snug text-muted-foreground transition-colors hover:text-foreground";
   // "Chi sono" e "Contatti" stanno sotto Informazioni; le altre pagine del menu sotto Sito
@@ -61,6 +64,12 @@ export async function SiteFooter({ locale }: { locale: string }) {
                 {t("privacy")}
               </Link>
             )}
+            {cookiePage && (
+              <Link href={`/${cookiePage.slug}`} className={link}>
+                {tCookies("policy")}
+              </Link>
+            )}
+            <CookiePreferencesButton label={tCookies("openPreferences")} className={`${link} cursor-pointer text-left`} />
           </div>
         </div>
         <div className="flex flex-wrap items-center justify-between gap-x-6 gap-y-3 border-t pb-7 pt-5 text-[11px] text-muted-foreground">

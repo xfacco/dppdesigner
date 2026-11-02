@@ -348,4 +348,59 @@ When you sign up you provide your name, email and, optionally, company, role and
 From your account you can download your data and delete your account at any time.`,
     },
   },
+  {
+    key: "cookies",
+    position: 7,
+    showInMenu: false,
+    it: {
+      slug: "cookie-policy",
+      title: "Cookie policy",
+      description: "Quali cookie usa DPP Designer e come gestire le tue preferenze.",
+      body: `# Cookie policy
+
+Questa pagina spiega quali cookie e strumenti simili usa il sito DPP Designer e come puoi gestire le tue scelte.
+
+*Bozza da validare con il consulente privacy.*
+
+## Cosa sono i cookie
+I cookie sono piccoli file di testo che un sito salva nel tuo browser per ricordare informazioni tra una pagina e l'altra o tra una visita e l'altra. Strumenti simili, come la memoria del browser (localStorage), funzionano in modo analogo.
+
+## Cookie tecnici
+Il sito usa solo cookie tecnici, necessari al suo funzionamento: mantenere l'accesso all'account, riprendere un progetto, ricordare lingua e tema e registrare le tue scelte sui cookie. Per questi cookie non serve il consenso.
+
+## Cookie per statistiche e marketing
+Al momento il sito non usa cookie per statistiche o marketing né strumenti di terze parti. Se li attiveremo, saranno elencati qui e verranno usati solo con il tuo consenso.
+
+## Come gestire le tue scelte
+Puoi cambiare le preferenze in qualsiasi momento dal pulsante qui sotto o dal link «Preferenze cookie» in fondo a ogni pagina. La scelta vale 6 mesi, poi te la richiederemo. Puoi anche cancellare i cookie dalle impostazioni del browser: in quel caso dovrai accedere di nuovo e il progetto non salvato non potrà essere ripreso.
+
+## Altre informazioni
+Per il trattamento dei dati personali vedi l'[Informativa privacy](/it/privacy). Per qualsiasi domanda puoi [contattarci](/it/contatti).`,
+    },
+    en: {
+      slug: "cookie-policy",
+      title: "Cookie policy",
+      description: "Which cookies DPP Designer uses and how to manage your preferences.",
+      body: `# Cookie policy
+
+This page explains which cookies and similar tools the DPP Designer website uses and how you can manage your choices.
+
+*Draft to be validated with the privacy consultant.*
+
+## What cookies are
+Cookies are small text files that a website stores in your browser to remember information between pages or visits. Similar tools, such as browser storage (localStorage), work in the same way.
+
+## Technical cookies
+The site only uses technical cookies that it needs to work: keeping you signed in, resuming a project, remembering language and theme and storing your cookie choices. These cookies do not require consent.
+
+## Statistics and marketing cookies
+At the moment the site does not use statistics or marketing cookies or third-party tools. If we enable them, they will be listed here and used only with your consent.
+
+## How to manage your choices
+You can change your preferences at any time with the button below or the «Cookie preferences» link at the bottom of every page. Your choice lasts 6 months, after which we will ask again. You can also delete cookies in your browser settings: you will then need to sign in again and an unsaved project cannot be resumed.
+
+## More information
+For the processing of personal data see the [Privacy notice](/en/privacy). For any questions you can [contact us](/en/contact).`,
+    },
+  },
 ];

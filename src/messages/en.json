@@ -115,6 +115,12 @@
     "articles": {
       "title": "Further reading",
       "newTab": "(opens in a new tab)"
+    },
+    "example": {
+      "title": "An example result",
+      "intro": "At the end you get your DPP Blueprint, the data flow and the recommended next steps. Here they are for an example company: an e-bike battery manufacturer that needs a passport for every single battery.",
+      "hint": "Example: click a card to read the question in the guide.",
+      "note": "Example answers: your results depend on your answers."
     }
   },
   "auth": {
@@ -348,5 +354,49 @@
     "tags": "Topics",
     "author": "Author",
     "markdown": "Markdown version"
+  },
+  "cookies": {
+    "bannerTitle": "Cookies",
+    "bannerText": "We use technical cookies that the site needs to work. With your consent we may also use cookies for statistics and marketing: you can accept them, reject them or choose by category.",
+    "acceptAll": "Accept all",
+    "rejectAll": "Reject",
+    "customize": "Customise",
+    "policy": "Cookie policy",
+    "preferencesTitle": "Cookie preferences",
+    "preferencesIntro": "Choose which cookie categories to allow. You can change your mind at any time from the «Cookie preferences» link at the bottom of the page.",
+    "save": "Save preferences",
+    "close": "Close",
+    "alwaysOn": "Always on",
+    "noServices": "No services active at the moment.",
+    "openPreferences": "Cookie preferences",
+    "categories": {
+      "necessary": {
+        "title": "Necessary",
+        "text": "Needed for the site to work: signing in, resuming your project, language, theme and storing your choices. They cannot be turned off."
+      },
+      "analytics": {
+        "title": "Statistics",
+        "text": "Help us understand, in aggregate, how the site is used so we can improve it."
+      },
+      "marketing": {
+        "title": "Marketing",
+        "text": "Allow us to show you content and communications matching your interests, including on other sites."
+      }
+    },
+    "table": {
+      "name": "Name",
+      "type": "Type",
+      "provider": "Provider",
+      "purpose": "Purpose",
+      "duration": "Duration",
+      "cookie": "Cookie",
+      "localStorage": "Browser storage"
+    },
+    "listTitle": "Cookies and tools used by this site",
+    "yourChoice": "Your current choice",
+    "choiceNone": "You haven't made a choice yet.",
+    "choiceSummary": "Statistics: {analytics} · Marketing: {marketing}",
+    "allowed": "allowed",
+    "denied": "not allowed"
   }
 }

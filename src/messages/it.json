@@ -115,6 +115,12 @@
     "articles": {
       "title": "Articoli di approfondimento",
       "newTab": "(si apre in una nuova scheda)"
+    },
+    "example": {
+      "title": "Un esempio di risultato",
+      "intro": "Alla fine del percorso ottieni il Blueprint del tuo DPP, il flusso dei dati e i prossimi passi consigliati. Qui li vedi per un'azienda di esempio: un produttore di batterie per e-bike, che deve gestire un passaporto per ogni singola batteria.",
+      "hint": "Esempio: clicca su una scheda per leggere la domanda nella guida.",
+      "note": "Risposte di esempio: i tuoi risultati dipendono dalle tue risposte."
     }
   },
   "auth": {
@@ -348,5 +354,49 @@
     "tags": "Argomenti",
     "author": "Autore",
     "markdown": "Versione Markdown"
+  },
+  "cookies": {
+    "bannerTitle": "Cookie",
+    "bannerText": "Usiamo cookie tecnici, necessari al funzionamento del sito. Con il tuo consenso potremmo usare anche cookie per statistiche e marketing: puoi accettarli, rifiutarli o scegliere per categoria.",
+    "acceptAll": "Accetta tutti",
+    "rejectAll": "Rifiuta",
+    "customize": "Personalizza",
+    "policy": "Cookie policy",
+    "preferencesTitle": "Preferenze cookie",
+    "preferencesIntro": "Scegli quali categorie di cookie consentire. Puoi cambiare idea quando vuoi dal link «Preferenze cookie» in fondo alla pagina.",
+    "save": "Salva preferenze",
+    "close": "Chiudi",
+    "alwaysOn": "Sempre attivi",
+    "noServices": "Nessun servizio attivo al momento.",
+    "openPreferences": "Preferenze cookie",
+    "categories": {
+      "necessary": {
+        "title": "Necessari",
+        "text": "Servono al funzionamento del sito: accesso all'account, ripresa del progetto, lingua, tema e registrazione delle tue scelte. Non si possono disattivare."
+      },
+      "analytics": {
+        "title": "Statistiche",
+        "text": "Aiutano a capire, in forma aggregata, come viene usato il sito per migliorarlo."
+      },
+      "marketing": {
+        "title": "Marketing",
+        "text": "Permettono di mostrarti contenuti e comunicazioni in linea con i tuoi interessi, anche su altri siti."
+      }
+    },
+    "table": {
+      "name": "Nome",
+      "type": "Tipo",
+      "provider": "Fornitore",
+      "purpose": "Finalità",
+      "duration": "Durata",
+      "cookie": "Cookie",
+      "localStorage": "Memoria del browser"
+    },
+    "listTitle": "Cookie e strumenti usati da questo sito",
+    "yourChoice": "La tua scelta attuale",
+    "choiceNone": "Non hai ancora espresso una scelta.",
+    "choiceSummary": "Statistiche: {analytics} · Marketing: {marketing}",
+    "allowed": "consentiti",
+    "denied": "non consentiti"
   }
 }

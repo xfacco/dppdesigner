@@ -7,6 +7,11 @@ import { sendEmail } from "./email";
 
 export const auth = betterAuth({
   database: prismaAdapter(db, { provider: "postgresql" }),
+  // Domini da cui si può accedere oltre a BETTER_AUTH_URL (es. dominio senza www, indirizzo run.app)
+  trustedOrigins: (process.env.TRUSTED_ORIGINS ?? "")
+    .split(",")
+    .map((o) => o.trim())
+    .filter(Boolean),
   emailAndPassword: {
     enabled: true,
     minPasswordLength: 10,

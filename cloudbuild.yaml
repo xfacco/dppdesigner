@@ -11,7 +11,7 @@
 substitutions:
   _REGION: europe-west1
   _SERVICE: dpp-designer
-  _APP_URL: https://dpp-designer-471028444452.europe-west1.run.app
+  _APP_URL: https://www.dppdesigner.com
   _IMAGE_BASE: europe-west1-docker.pkg.dev/${PROJECT_ID}/dpp-designer
 
 options:

@@ -13,8 +13,15 @@ const securityHeaders = [
 const nextConfig: NextConfig = {
   output: "standalone",
   async redirects() {
-    // Vecchio percorso del wizard
     return [
+      // Dominio senza www → www (un solo indirizzo per i motori di ricerca)
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "dppdesigner.com" }],
+        destination: "https://www.dppdesigner.com/:path*",
+        permanent: true,
+      },
+      // Vecchio percorso del wizard
       { source: "/:locale(it|en)/readiness", destination: "/:locale/progetta", permanent: true },
       { source: "/:locale(it|en)/readiness/:path*", destination: "/:locale/progetta/:path*", permanent: true },
     ];

@@ -121,3 +121,9 @@ Per ogni articolo, configurabile in admin:
 Dati strutturati: `Organization` e `WebSite` su tutto il sito; sugli articoli `BlogPosting` (con `wordCount`, `timeRequired`, `isPartOf`), `FAQPage`, `BreadcrumbList`; sull'elenco `Blog`.
 
 GEO: versione Markdown di ogni articolo su `/md/<lingua>/<slug>.md` (indicata con `<link rel="alternate" type="text/markdown">`), articoli in `/llms.txt` e testo completo in `/llms-full.txt`. Gli articoli `noindex` o con canonical esterno sono esclusi da sitemap, `llms.txt` e articoli correlati.
+
+## Cookie
+
+Banner e preferenze in [cookie-consent.tsx](src/components/site/cookie-consent.tsx); categorie ed elenco dei cookie in [cookie-consent.ts](src/lib/cookie-consent.ts), fonte unica anche per la tabella della **Cookie policy** (pagina di contenuto con chiave `cookies`, creata con `npx tsx prisma/scripts/add-cookie-page.ts` o dal seed). La scelta è salvata nel cookie `dpp_consent` per 6 mesi; "Accetta tutti" e "Rifiuta" hanno la stessa evidenza e le preferenze si riaprono dal footer.
+
+Per aggiungere uno strumento di statistiche o marketing: aggiungerlo all'elenco `COOKIES` nella sua categoria, aumentare `CONSENT_VERSION` (il banner viene riproposto) e caricare lo script solo con il consenso, ascoltando l'evento `cookie-consent-changed` o leggendo `parseConsent(document.cookie)`.

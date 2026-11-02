@@ -10,7 +10,7 @@ Progetto `dpp-designer` (numero 471028444452), regione `europe-west1` (Belgio).
 | Immagini | Artifact Registry `europe-west1-docker.pkg.dev/dpp-designer/dpp-designer` (`web`, `migrator`) |
 | Segreti | Secret Manager: `database-url`, `better-auth-secret`, `cron-secret`, `admin-password` |
 
-Indirizzo: https://dpp-designer-471028444452.europe-west1.run.app
+Indirizzo: https://www.dppdesigner.com (anche https://dppdesigner.com, reindirizzato a www; l'indirizzo tecnico è https://dpp-designer-471028444452.europe-west1.run.app)
 
 ## Pubblicare una nuova versione
 
@@ -46,7 +46,8 @@ L'app in locale può usare il database Cloud SQL invece di quello incorporato:
 - `DATABASE_URL` ← segreto `database-url` (connessione via socket Cloud SQL: `?host=/cloudsql/dpp-designer:europe-west1:dpp-designer-db`)
 - `BETTER_AUTH_SECRET` ← segreto `better-auth-secret`
 - `CRON_SECRET` ← segreto `cron-secret`
-- `BETTER_AUTH_URL`, `NEXT_PUBLIC_APP_URL`: indirizzo pubblico del sito. `NEXT_PUBLIC_APP_URL` è incorporato nella build: va cambiato anche in `cloudbuild.yaml` (`_APP_URL`) quando si collega il dominio definitivo.
+- `BETTER_AUTH_URL`, `NEXT_PUBLIC_APP_URL`: `https://www.dppdesigner.com`. `NEXT_PUBLIC_APP_URL` è incorporato nella build (`_APP_URL` in `cloudbuild.yaml`).
+- `TRUSTED_ORIGINS`: altri indirizzi da cui il login è accettato (dominio senza www e indirizzo run.app).
 - `EMAIL_FROM`; `RESEND_API_KEY` e `ANTHROPIC_API_KEY` non sono ancora impostati (email stampate nei log, assistente AI disattivato). Per aggiungerli: creare il segreto e collegarlo con `gcloud run services update dpp-designer --update-secrets=RESEND_API_KEY=resend-api-key:latest`.
 
 Password dell'admin di produzione:
@@ -58,5 +59,5 @@ CLOUDSDK_ACTIVE_CONFIG_NAME=dpp-designer gcloud secrets versions access latest -
 ## Da completare
 
 - Job notturno di conservazione dati: Cloud Scheduler che chiama `GET /api/cron/retention` con `Authorization: Bearer <cron-secret>` alle 03:00 (serve l'API `cloudscheduler.googleapis.com`).
-- Dominio personalizzato, poi aggiornare `_APP_URL`, `BETTER_AUTH_URL` e Search Console.
+- Search Console per www.dppdesigner.com e invio della sitemap.
 - Avviso di budget sul progetto.

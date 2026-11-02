@@ -17,6 +17,8 @@ export async function DiagramPanel({
   diagramConfig,
   locale,
   stepHref,
+  hrefFor: hrefForProp,
+  hint,
   fileSuffix,
 }: {
   def: WizardDef;
@@ -24,7 +26,11 @@ export async function DiagramPanel({
   diagramConfig: unknown;
   locale: string;
   /** Prefisso del link agli step del progetto, es. /it/progetta/<id> */
-  stepHref: string;
+  stepHref?: string;
+  /** In alternativa a stepHref: link di ogni scheda (es. alla guida, nell'esempio di "Progetta") */
+  hrefFor?: (stepKey: string) => string;
+  /** Testo sotto il titolo del Blueprint; predefinito "Clicca su una scheda per modificare la risposta" */
+  hint?: string;
   fileSuffix: string;
 }) {
   const tr = await getTranslations("diagrams");
@@ -34,7 +40,7 @@ export async function DiagramPanel({
   const cfg = resolveDiagramConfig(diagramConfig);
   const flow = generateFlowDiagram(def, answers, cfg, t);
   const blueprint = generateBlueprint(def, answers, cfg, t, locale);
-  const hrefFor = (stepKey: string) => `${stepHref}/${stepKey}`;
+  const hrefFor = hrefForProp ?? ((stepKey: string) => `${stepHref}/${stepKey}`);
   const statuses: BpStatus[] = ["defined", "open", "attention", "na"];
   const labels = {
     category: tr("blueprint.category"),
@@ -49,7 +55,7 @@ export async function DiagramPanel({
         <div className="flex flex-wrap items-center justify-between gap-3">
           <div>
             <h2 className="text-lg font-semibold tracking-tight">{blueprint.title}</h2>
-            <p className="text-sm text-muted-foreground">{tr("blueprint.editHint")}</p>
+            <p className="text-sm text-muted-foreground">{hint ?? tr("blueprint.editHint")}</p>
           </div>
           <DiagramDownload svgId="diagram-blueprint" fileName={`blueprint-${fileSuffix}`} />
         </div>

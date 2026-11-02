@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
+import { CookieTable } from "@/components/site/cookie-table";
 import { MarkdownBody, MonoLabel, RAIL, SectionRow } from "@/components/site/page-sections";
 import { splitMarkdown } from "@/lib/markdown-sections";
 import { getPageBySlug } from "@/server/content";
@@ -40,6 +41,11 @@ export default async function ContentPage({ params }: Props) {
         {parts.lede && <p className="mt-5 max-w-[720px] text-lg leading-normal tracking-[-0.02em] md:text-xl">{parts.lede}</p>}
       </header>
       {rest && <MarkdownBody body={rest} />}
+      {page.page.key === "cookies" && (
+        <div className="max-w-[900px] border-t pt-10">
+          <CookieTable locale={locale} />
+        </div>
+      )}
       {page.page.key === "contacts" && (
         <SectionRow title={page.title}>
           <ContactForm />
