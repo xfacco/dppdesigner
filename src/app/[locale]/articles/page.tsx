@@ -1,9 +1,9 @@
 import { BlogIndexPage, blogIndexMetadata } from "@/components/blog/blog-pages";
 
-type Props = { params: Promise<{ locale: string }> };
+type Props = { params: Promise<{ locale: string }>; searchParams: Promise<{ q?: string | string[] }> };
 
-export const generateMetadata = ({ params }: Props) => blogIndexMetadata(params);
+export const generateMetadata = ({ params, searchParams }: Props) => blogIndexMetadata(params, searchParams);
 
-export default function Page({ params }: Props) {
-  return <BlogIndexPage params={params} segmentLocale="en" />;
+export default function Page({ params, searchParams }: Props) {
+  return <BlogIndexPage params={params} searchParams={searchParams} segmentLocale="en" />;
 }

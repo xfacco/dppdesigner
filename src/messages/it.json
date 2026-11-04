@@ -290,6 +290,7 @@
         "sample_product": "Prodotto di esempio",
         "dpp_granularity": "Livello DPP",
         "maintenance": "Manutenzione",
+        "dpp_versioning": "Versioning DPP",
         "data_dynamics": "Dati statici / dinamici",
         "data_sources": "Fonti dei dati",
         "data_organization": "Organizzazione dei dati",
@@ -360,7 +361,16 @@
     "related": "Articoli correlati",
     "readingTime": "{minutes} min di lettura",
     "tags": "Argomenti",
-    "markdown": "Versione Markdown"
+    "markdown": "Versione Markdown",
+    "search": {
+      "label": "Cerca negli articoli",
+      "placeholder": "Cerca negli articoli: ESPR, batterie, QR code…",
+      "clear": "Cancella la ricerca",
+      "results": "{count, plural, one {1 articolo} other {# articoli}} per «{q}».",
+      "none": "Nessun articolo per «{q}». Prova con altre parole.",
+      "showAll": "Mostra tutti gli articoli",
+      "metaTitle": "Ricerca: {q}"
+    }
   },
   "cookies": {
     "bannerTitle": "Cookie",

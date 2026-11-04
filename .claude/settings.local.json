@@ -96,7 +96,16 @@
       "Bash(node cookie-test-prod.mjs __TRACKED_VAR__/shots)",
       "Bash(curl -s https://www.dppdesigner.com/robots.txt)",
       "Bash(sed -i '' 's|            isPartOf: { \"@id\": absoluteUrl\\(\"/#website\"\\).replace\\(/\\\\\\\\/#website$/, \"/#website\"\\) },|            isPartOf: { \"@id\": `${SITE_URL}/#website` },|' \"src/app/[locale]/[slug]/page.tsx\")",
-      "Bash(sed -i '' 's|import { absoluteUrl } from \"@/lib/site-url\";|import { absoluteUrl, SITE_URL } from \"@/lib/site-url\";|' \"src/app/[locale]/[slug]/page.tsx\")"
+      "Bash(sed -i '' 's|import { absoluteUrl } from \"@/lib/site-url\";|import { absoluteUrl, SITE_URL } from \"@/lib/site-url\";|' \"src/app/[locale]/[slug]/page.tsx\")",
+      "Bash(python3 -c \"import fitz\")",
+      "Bash(sips -g pixelWidth -g pixelHeight /private/tmp/claude-501/-Users-corrado-Downloads-Corrado-dppdesigner/0a2afefc-c1f1-43f4-9211-577994166dba/scratchpad/downloads/blueprint.png)",
+      "Bash(npx eslint *)",
+      "Bash(npm test *)",
+      "Bash(CLOUDSDK_ACTIVE_CONFIG_NAME=dpp-designer CLOUDSDK_PYTHON=/opt/homebrew/bin/python3.11 gcloud builds submit --config cloudbuild.yaml)",
+      "Bash(curl -s https://www.dppdesigner.com/it/articoli/calendario-delle-categorie-di-prodotto-per-il-dpp)",
+      "Bash(grep -o '\\\\\\\\\\\\?\"citation\\\\\\\\\\\\?\":\\\\[[^]]\\\\{0,200\\\\}')",
+      "Bash(curl -s https://www.dppdesigner.com/md/it/calendario-delle-categorie-di-prodotto-per-il-dpp.md)",
+      "Bash(curl -s http://localhost:3000/it/articoli/calendario-delle-categorie-di-prodotto-per-il-dpp)"
     ],
     "additionalDirectories": [
       "/Users/corrado/Downloads/Corrado/dppdesigner/src/app/[locale]"

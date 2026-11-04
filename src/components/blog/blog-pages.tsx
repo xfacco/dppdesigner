@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound, permanentRedirect } from "next/navigation";
+import { ArticleSearch } from "@/components/blog/article-search";
 import { JsonLd } from "@/components/guide/json-ld";
 import { Byline } from "@/components/site/byline";
 import { Markdown } from "@/components/site/markdown";
@@ -9,6 +10,7 @@ import { buttonVariants } from "@/components/ui/button";
 import { Link } from "@/i18n/navigation";
 import { routing } from "@/i18n/routing";
 import { blogMarkdownPath, blogPath, blogSegment, lines, parseFaq, parseSources, readingStats, tableOfContents, type BlogLocale } from "@/lib/blog";
+import { highlight, queryTerms, searchPosts } from "@/lib/blog-search";
 import { plainText, truncate } from "@/lib/guide";
 import { absoluteUrl, SITE_URL } from "@/lib/site-url";
 import { getPost, listPosts, relatedPosts, type PostView } from "@/server/blog";
@@ -24,6 +26,7 @@ import { getSiteSettings, PERSON_ID, personLd, resolveAuthor, toAbsolute } from 
  */
 type IndexParams = Promise<{ locale: string }>;
 type PostParams = Promise<{ locale: string; slug: string }>;
+type SearchParams = Promise<{ q?: string | string[] }>;
 
 const OG_LOCALE: Record<string, string> = { it: "it_IT", en: "en_GB" };
 const ORG_REF = { "@id": `${SITE_URL}/#organization` };
@@ -39,12 +42,20 @@ const descriptionOf = (p: PostView) => truncate(p.seoDescription || p.excerpt ||
 
 // ─── Elenco ───
 
-export async function blogIndexMetadata(params: IndexParams): Promise<Metadata> {
-  const { locale } = await params;
+/** La ricerca (?q=) letta dall'URL, al massimo 100 caratteri. */
+const searchQuery = async (searchParams: SearchParams) => {
+  const { q } = await searchParams;
+  return (Array.isArray(q) ? q[0] : (q ?? "")).trim().slice(0, 100);
+};
+
+export async function blogIndexMetadata(params: IndexParams, searchParams: SearchParams): Promise<Metadata> {
+  const [{ locale }, q] = await Promise.all([params, searchQuery(searchParams)]);
   const [t, s] = await Promise.all([getTranslations({ locale, namespace: "blog" }), getSiteSettings()]);
   const images = s.defaultOgImageUrl ? [s.defaultOgImageUrl] : undefined;
   return {
-    title: t("title"),
+    title: q ? t("search.metaTitle", { q }) : t("title"),
+    // I risultati di una ricerca non vanno indicizzati: il canonical resta l'elenco completo
+    ...(q ? { robots: { index: false, follow: true } } : {}),
     description: t("lede"),
     alternates: {
       canonical: blogPath(locale),
@@ -55,11 +66,16 @@ export async function blogIndexMetadata(params: IndexParams): Promise<Metadata> 
   };
 }
 
-export async function BlogIndexPage({ params, segmentLocale }: { params: IndexParams; segmentLocale: BlogLocale }) {
+export async function BlogIndexPage({ params, searchParams, segmentLocale }: { params: IndexParams; searchParams: SearchParams; segmentLocale: BlogLocale }) {
   const { locale } = await params;
   checkSegment(locale, segmentLocale);
   setRequestLocale(locale);
-  const [posts, t, s] = await Promise.all([listPosts(locale), getTranslations("blog"), getSiteSettings()]);
+  const [posts, t, q] = await Promise.all([listPosts(locale), getTranslations("blog"), searchQuery(searchParams)]);
+  const terms = queryTerms(q);
+  const results = searchPosts(
+    posts.map((p) => ({ ...p, text: plainText(p.body), date: p.publishedAt })),
+    q,
+  );
 
   const url = absoluteUrl(blogPath(locale));
   const jsonLd = {
@@ -103,24 +119,47 @@ export async function BlogIndexPage({ params, segmentLocale }: { params: IndexPa
         <p className="mt-5 text-lg leading-normal tracking-[-0.02em] text-muted-foreground md:text-xl">{t("lede")}</p>
       </header>
 
+      {posts.length > 0 && (
+        <div className="grid gap-3 pb-8">
+          <ArticleSearch initial={q} label={t("search.label")} placeholder={t("search.placeholder")} clear={t("search.clear")} />
+          {q && (
+            <p role="status" className="m-0 text-sm text-muted-foreground">
+              {results.length > 0 ? t("search.results", { count: results.length, q }) : t("search.none", { q })}{" "}
+              <Link href={`/${blogSegment(locale)}`} className="text-foreground underline underline-offset-4">
+                {t("search.showAll")}
+              </Link>
+            </p>
+          )}
+        </div>
+      )}
+
       {posts.length === 0 ? (
         <p className="border-t py-10 text-muted-foreground">{t("empty")}</p>
       ) : (
         <ol className="grid">
-          {posts.map((p) => (
+          {results.map(({ post: p, snippet }) => (
             <li key={p.id} className="grid gap-3 border-t py-8 md:grid-cols-[minmax(190px,0.8fr)_minmax(0,1.2fr)] md:gap-[30px]">
               <MonoLabel className="pt-1.5">
                 <time dateTime={p.publishedAt.toISOString()}>{fmt(locale, p.publishedAt)}</time>
                 {p.category && <> · {p.category}</>}
-                <> · {t("readingTime", { minutes: readingStats(plainText(p.body)).minutes })}</>
+                <> · {t("readingTime", { minutes: readingStats(p.text).minutes })}</>
               </MonoLabel>
               <article className="grid max-w-[640px] gap-2">
                 <h2 className="m-0 text-2xl font-medium leading-snug tracking-[-0.03em]">
                   <Link href={`/${blogSegment(locale)}/${p.slug}`} className="underline-offset-4 hover:underline">
-                    {p.title}
+                    <Marked text={p.title} terms={terms} />
                   </Link>
                 </h2>
-                {p.excerpt && <p className="m-0 text-muted-foreground">{p.excerpt}</p>}
+                {p.excerpt && (
+                  <p className="m-0 text-muted-foreground">
+                    <Marked text={p.excerpt} terms={terms} />
+                  </p>
+                )}
+                {snippet && (
+                  <p className="m-0 border-l-2 pl-3 text-sm text-muted-foreground">
+                    <Marked text={snippet} terms={terms} />
+                  </p>
+                )}
                 <Link href={`/${blogSegment(locale)}/${p.slug}`} className="mt-1 w-fit text-sm text-primary underline-offset-4 hover:underline">
                   {t("readMore")} →
                 </Link>
@@ -130,6 +169,19 @@ export async function BlogIndexPage({ params, segmentLocale }: { params: IndexPa
         </ol>
       )}
     </div>
+  );
+}
+
+/** Testo con le parole cercate evidenziate. */
+function Marked({ text, terms }: { text: string; terms: string[] }) {
+  return highlight(text, terms).map((p, i) =>
+    p.match ? (
+      <mark key={i} className="rounded-sm bg-primary/15 px-0.5 text-inherit">
+        {p.text}
+      </mark>
+    ) : (
+      p.text
+    ),
   );
 }
 

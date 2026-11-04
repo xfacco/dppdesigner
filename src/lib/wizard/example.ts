@@ -16,6 +16,7 @@ export function exampleAnswers(locale: string): Answers {
     dpp_owner: "quality",
     dpp_granularity: { battery_lmt: ["item"] },
     maintenance: { battery_lmt: ["yes"] },
+    dpp_versioning: { battery_lmt: ["history_linked"] },
     data_dynamics: { battery_lmt: ["mixed"] },
     data_sources: ["erp", "mes", "suppliers_excel"],
     supplier_count: "11_50",

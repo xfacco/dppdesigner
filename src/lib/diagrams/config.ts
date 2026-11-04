@@ -99,7 +99,7 @@ export const DEFAULT_DIAGRAM_CONFIG = {
   blueprint: {
     sections: [
       { key: "company", steps: ["industry", "industry_other", "company_type", "production_model", "dpp_owner", "sku_count"] },
-      { key: "product", steps: ["product_categories", "sample_product", "dpp_granularity", "maintenance", "data_dynamics"] },
+      { key: "product", steps: ["product_categories", "sample_product", "dpp_granularity", "maintenance", "dpp_versioning", "data_dynamics"] },
       { key: "data", steps: ["data_sources", "supplier_count", "data_organization", "data_model"] },
       { key: "identification", steps: ["qr_presence", "carrier_placement", "qr_code_type", "url_scheme"] },
       { key: "infrastructure", steps: ["hosting", "data_access", "registry_integration"] },

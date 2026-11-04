@@ -127,6 +127,8 @@ Per ogni articolo, configurabile in admin:
 - **Classificazione**: categoria (`articleSection`), tag (`keywords`, `about`, articoli correlati), immagine di copertina (Open Graph e `image`), `noindex`, canonical esterno.
 - **Per lingua**: titolo, slug, sommario, meta title e meta description, testo alternativo della copertina, **In breve** (punti chiave, non mostrati ai lettori: solo `abstract` e versione Markdown; `speakable` punta a titolo e sommario), testo in Markdown (i titoli `##` diventano l'indice con ancore), **domande frequenti** (`FAQPage`), **fonti** (`citation`).
 
+**Ricerca** sull'elenco (`/it/articoli?q=…`): cerca in titolo, sommario, categoria, tag e testo, senza distinguere maiuscole e accenti; servono tutte le parole e i risultati sono ordinati per pertinenza ([blog-search.ts](src/lib/blog-search.ts), testato). Il filtro si aggiorna mentre si scrive e funziona anche senza JavaScript; le pagine di ricerca sono `noindex`.
+
 Dati strutturati: `Organization` e `WebSite` su tutto il sito; sugli articoli `BlogPosting` (con `wordCount`, `timeRequired`, `isPartOf`), `FAQPage`, `BreadcrumbList`; sull'elenco `Blog`.
 
 GEO: versione Markdown di ogni articolo su `/md/<lingua>/<slug>.md` (indicata con `<link rel="alternate" type="text/markdown">`), articoli in `/llms.txt` e testo completo in `/llms-full.txt`. Gli articoli `noindex` o con canonical esterno sono esclusi da sitemap, `llms.txt` e articoli correlati.
