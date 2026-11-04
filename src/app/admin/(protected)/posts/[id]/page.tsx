@@ -218,15 +218,15 @@ export default async function PostEditor({
                 <p className={hint}>Una domanda per blocco: prima riga la domanda, sotto la risposta; separa i blocchi con una riga vuota. Diventano la sezione «Domande frequenti» e i dati FAQPage.</p>
               </Field>
               <Field>
-                <Label htmlFor={`sources_${l}`}>Fonti (una per riga: Titolo | URL)</Label>
+                <Label htmlFor={`sources_${l}`}>Fonti (Titolo | URL, una per riga, oppure Markdown)</Label>
                 <Textarea
                   id={`sources_${l}`}
                   name={`sources_${l}`}
                   defaultValue={tr(l)?.sources ?? ""}
-                  rows={3}
-                  placeholder="Regolamento (UE) 2024/1781 (ESPR) | https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita"
+                  rows={6}
+                  placeholder={"Regolamento (UE) 2024/1781 (ESPR) | https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita\n\noppure in Markdown:\n* [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita)\n  Descrizione facoltativa sulla riga sotto."}
                 />
-                <p className={hint}>Elencate in fondo all&apos;articolo e come «citation» nei dati strutturati: fonti ufficiali rendono l&apos;articolo più citabile.</p>
+                <p className={hint}>Elencate in fondo all&apos;articolo e come «citation» nei dati strutturati: fonti ufficiali rendono l&apos;articolo più citabile. In Markdown il testo sotto un link diventa la sua descrizione; titoli (###) e separatori (---) vengono ignorati.</p>
               </Field>
               {post.status === "PUBLISHED" && tr(l) && (
                 <p className={hint}>

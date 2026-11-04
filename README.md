@@ -70,12 +70,21 @@ src/
 
 ## Schemi del riepilogo
 
-Il riepilogo mostra due schemi generati dalle risposte, scaricabili in PNG e SVG:
+Il riepilogo mostra due schemi generati dalle risposte, scaricabili in PNG e SVG insieme a un report PDF (vedi sotto):
 
 - **Flusso dei dati DPP**: fonti dati → middle layer (se serve) → DPP platform → Registro UE, con frecce puntinate (integrazioni), continue e tratteggiate (da pianificare) e il percorso di caricamento manuale.
 - **Blueprint del DPP**: tutti gli step raggruppati in aree (Azienda, Prodotto, Dati, Identificazione, Infrastruttura, Altro), una scheda per step con risposta e stato (definito, da definire, attenzione, non applicabile), le griglie per categoria in un’unica tabella, contatori e note. Schede cliccabili per modificare la risposta; su telefono le aree sono impilate.
 
 Il generatore è in [src/lib/diagrams/generate.ts](src/lib/diagrams/generate.ts) (testato), il disegno in [src/components/diagrams/](src/components/diagrams/). Quali step alimentano ogni parte si configura per versione in **Admin → Wizard → versione → Schemi del riepilogo**.
+
+### Download (PDF, PNG, SVG)
+
+I file si generano sul server in `/api/journeys/<id>/download?format=pdf|png|svg&diagram=blueprint|flow`, solo per l'utente registrato proprietario del progetto: chi non ha fatto l'accesso viene mandato al login e poi riportato al riepilogo; nella pagina vede l'invito a registrarsi al posto dei pulsanti.
+
+- **PDF** ([src/server/pdf/report.tsx](src/server/pdf/report.tsx), `@react-pdf/renderer`): punteggio, prossimi passi, i due schemi, tutte le risposte con link alla guida e ai riferimenti normativi, contatti.
+- **PNG/SVG** ([src/server/download-files.tsx](src/server/download-files.tsx)): stesso disegno della pagina; il PNG con `@resvg/resvg-js`.
+- Il font Inter (licenza OFL) è in `assets/fonts`, copiato nell'immagine Docker: sul server non ci sono font di sistema.
+- Ogni download è registrato (tabella `Download`) e consultabile in **Admin → Download**.
 
 ## Domande sugli step (AI ed esperto)
 
@@ -125,5 +134,7 @@ GEO: versione Markdown di ogni articolo su `/md/<lingua>/<slug>.md` (indicata co
 ## Cookie
 
 Banner e preferenze in [cookie-consent.tsx](src/components/site/cookie-consent.tsx); categorie ed elenco dei cookie in [cookie-consent.ts](src/lib/cookie-consent.ts), fonte unica anche per la tabella della **Cookie policy** (pagina di contenuto con chiave `cookies`, creata con `npx tsx prisma/scripts/add-cookie-page.ts` o dal seed). La scelta è salvata nel cookie `dpp_consent` per 6 mesi; "Accetta tutti" e "Rifiuta" hanno la stessa evidenza e le preferenze si riaprono dal footer.
+
+**Google Analytics 4** (`G-ZDF1ST8JK4`, in `GA_MEASUREMENT_ID`) è caricato da [google-analytics.tsx](src/components/site/google-analytics.tsx) solo con il consenso alle statistiche; se il consenso viene revocato smette di inviare dati e cancella i cookie `_ga`. L'admin non è tracciato.
 
 Per aggiungere uno strumento di statistiche o marketing: aggiungerlo all'elenco `COOKIES` nella sua categoria, aumentare `CONSENT_VERSION` (il banner viene riproposto) e caricare lo script solo con il consenso, ascoltando l'evento `cookie-consent-changed` o leggendo `parseConsent(document.cookie)`.

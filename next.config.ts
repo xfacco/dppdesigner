@@ -12,6 +12,8 @@ const securityHeaders = [
 
 const nextConfig: NextConfig = {
   output: "standalone",
+  // Moduli nativi / con font e worker propri: caricati da node_modules, non impacchettati
+  serverExternalPackages: ["@resvg/resvg-js", "@react-pdf/renderer"],
   async redirects() {
     return [
       // Dominio senza www → www (un solo indirizzo per i motori di ricerca)

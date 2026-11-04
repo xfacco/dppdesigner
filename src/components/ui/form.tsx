@@ -1,5 +1,6 @@
 import type { ComponentProps } from "react";
 import { cn } from "@/lib/utils";
+import { ResettableSelect } from "./resettable-select";
 
 const fieldBase =
   "w-full rounded-md border border-input bg-background px-3 text-sm placeholder:text-muted-foreground disabled:opacity-50 aria-invalid:border-destructive";
@@ -13,7 +14,7 @@ export function Textarea({ className, ...props }: ComponentProps<"textarea">) {
 }
 
 export function Select({ className, ...props }: ComponentProps<"select">) {
-  return <select className={cn(fieldBase, "h-10", className)} {...props} />;
+  return <ResettableSelect className={cn(fieldBase, "h-10", className)} {...props} />;
 }
 
 export function Label({ className, ...props }: ComponentProps<"label">) {

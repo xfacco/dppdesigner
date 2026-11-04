@@ -31,14 +31,44 @@ export function parseFaq(text: string | null | undefined): { question: string; a
     .filter((f) => f.question && f.answer);
 }
 
-/** Fonti: una per riga, "Titolo | https://…" (oppure solo l'URL). */
-export function parseSources(text: string | null | undefined): { name: string; url: string }[] {
-  return lines(text).flatMap((l) => {
-    const [a, b] = l.split("|").map((x) => x.trim());
-    const url = b ?? a;
-    if (!/^https?:\/\//.test(url)) return [];
-    return [{ name: b ? a : url.replace(/^https?:\/\/(www\.)?/, ""), url }];
-  });
+export type Source = { name: string; url: string; description?: string };
+
+/** Testo semplice da una riga Markdown: niente enfasi, codice e simboli di elenco. */
+const inlineText = (l: string) =>
+  l
+    .replace(/^\s*[-*•]\s+/, "")
+    .replace(/(\*\*|__|\*|_|`)(.+?)\1/g, "$2")
+    .trim();
+
+/**
+ * Fonti, in due formati (anche mescolati):
+ *   - una per riga, "Titolo | https://…" oppure solo l'URL;
+ *   - Markdown: "* [Titolo](https://…)", con le righe di testo che seguono come descrizione.
+ * Titoli (#), separatori (---) e testo prima della prima fonte vengono ignorati.
+ */
+export function parseSources(text: string | null | undefined): Source[] {
+  const out: Source[] = [];
+  let last: Source | null = null;
+  for (const raw of (text ?? "").replace(/\r\n/g, "\n").split("\n")) {
+    const line = raw.trim();
+    if (!line || /^#{1,6}\s/.test(line) || /^([-*_])\1{2,}$/.test(line)) continue;
+    const md = line.match(/\[([^\]]+)\]\((https?:\/\/[^)\s]+)\)/);
+    if (md) {
+      const rest = inlineText(line.replace(md[0], "")).replace(/^[\s:–—-]+/, "");
+      out.push((last = { name: inlineText(md[1]), url: md[2], ...(rest ? { description: rest } : {}) }));
+      continue;
+    }
+    const [x, y] = inlineText(line).split("|").map((v) => v.trim());
+    const url = y ?? x;
+    if (/^https?:\/\/\S+$/.test(url)) {
+      out.push({ name: y ? x : url.replace(/^https?:\/\/(www\.)?/, ""), url });
+      last = null;
+      continue;
+    }
+    // Testo sotto una fonte in Markdown: la sua descrizione
+    if (last) last.description = [last.description, inlineText(line)].filter(Boolean).join(" ");
+  }
+  return out;
 }
 
 /** Ancora per un titolo: minuscole senza accenti, parole separate da trattini. */

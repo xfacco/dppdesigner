@@ -237,7 +237,7 @@ export async function BlogPostPage({ params, segmentLocale }: { params: PostPara
         ...(post.tags.length ? { keywords: post.tags.join(", "), about: post.tags.map((name) => ({ "@type": "Thing", name })) } : {}),
         wordCount: stats.words,
         timeRequired: `PT${stats.minutes}M`,
-        ...(sources.length ? { citation: sources.map((c) => ({ "@type": "CreativeWork", name: c.name, url: c.url })) } : {}),
+        ...(sources.length ? { citation: sources.map((c) => ({ "@type": "CreativeWork", name: c.name, url: c.url, ...(c.description ? { description: c.description } : {}) })) } : {}),
         // Parti più adatte alla lettura vocale e alla citazione: titolo e "In breve"
         speakable: { "@type": "SpeakableSpecification", cssSelector: ["h1", "#in-breve"] },
         encoding: { "@type": "MediaObject", encodingFormat: "text/markdown", contentUrl: absoluteUrl(blogMarkdownPath(locale, post.slug)) },
@@ -351,6 +351,7 @@ export async function BlogPostPage({ params, segmentLocale }: { params: PostPara
                     <a href={c.url} target="_blank" rel="noopener noreferrer" className="text-primary underline-offset-4 hover:underline">
                       {c.name}
                     </a>
+                    {c.description && <p className="m-0 mt-0.5 text-muted-foreground">{c.description}</p>}
                   </li>
                 ))}
               </ol>

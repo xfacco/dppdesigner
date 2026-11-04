@@ -111,7 +111,6 @@ export default async function WizardStart({ params }: { params: Promise<{ locale
               locale={locale}
               hrefFor={guideHref}
               hint={tEx("hint")}
-              fileSuffix="esempio"
             />
             {exampleSteps.length > 0 && (
               <Card>

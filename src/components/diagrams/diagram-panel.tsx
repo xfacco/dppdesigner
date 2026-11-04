@@ -1,16 +1,17 @@
-import { getTranslations } from "next-intl/server";
 import { Card } from "@/components/ui/card";
-import { generateBlueprint, type BpStatus } from "@/lib/diagrams/blueprint";
-import { resolveDiagramConfig } from "@/lib/diagrams/config";
-import { describeDiagram, generateFlowDiagram, type Translate } from "@/lib/diagrams/generate";
+import { describeDiagram } from "@/lib/diagrams/generate";
 import type { WizardDef } from "@/lib/wizard/engine";
 import type { Answers } from "@/lib/wizard/rules";
+import { buildDiagrams } from "@/server/diagrams";
 import { BlueprintList } from "./blueprint-list";
 import { BlueprintSvg } from "./blueprint-svg";
-import { DiagramDownload } from "./diagram-download";
+import { DiagramDownload, type DownloadMode } from "./diagram-download";
 import { DiagramSvg } from "./diagram-svg";
 
-/** Schemi del riepilogo: Flusso dei dati DPP e Blueprint del DPP, con download e descrizione testuale. */
+/**
+ * Schemi del riepilogo: Flusso dei dati DPP e Blueprint del DPP, con descrizione testuale e, se
+ * indicato, i download (file per gli utenti registrati, altrimenti invito a registrarsi).
+ */
 export async function DiagramPanel({
   def,
   answers,
@@ -19,7 +20,7 @@ export async function DiagramPanel({
   stepHref,
   hrefFor: hrefForProp,
   hint,
-  fileSuffix,
+  download,
 }: {
   def: WizardDef;
   answers: Answers;
@@ -31,22 +32,11 @@ export async function DiagramPanel({
   hrefFor?: (stepKey: string) => string;
   /** Testo sotto il titolo del Blueprint; predefinito "Clicca su una scheda per modificare la risposta" */
   hint?: string;
-  fileSuffix: string;
+  /** Download degli schemi; senza, nessun pulsante */
+  download?: DownloadMode;
 }) {
-  const tr = await getTranslations("diagrams");
-  const t: Translate = Object.assign((key: string, vars?: Record<string, string | number>) => tr(key as never, vars as never), {
-    has: (key: string) => tr.has(key as never),
-  });
-  const cfg = resolveDiagramConfig(diagramConfig);
-  const flow = generateFlowDiagram(def, answers, cfg, t);
-  const blueprint = generateBlueprint(def, answers, cfg, t, locale);
+  const { tr, t, flow, blueprint, labels } = await buildDiagrams(def, answers, diagramConfig, locale);
   const hrefFor = hrefForProp ?? ((stepKey: string) => `${stepHref}/${stepKey}`);
-  const statuses: BpStatus[] = ["defined", "open", "attention", "na"];
-  const labels = {
-    category: tr("blueprint.category"),
-    legend: Object.fromEntries(statuses.map((s) => [s, tr(`blueprint.legend.${s}` as never)])) as Record<BpStatus, string>,
-    statusName: Object.fromEntries(statuses.map((s) => [s, tr(`blueprint.status.${s}` as never)])) as Record<BpStatus, string>,
-  };
 
   return (
     <div className="grid gap-8">
@@ -57,7 +47,7 @@ export async function DiagramPanel({
             <h2 className="text-lg font-semibold tracking-tight">{blueprint.title}</h2>
             <p className="text-sm text-muted-foreground">{hint ?? tr("blueprint.editHint")}</p>
           </div>
-          <DiagramDownload svgId="diagram-blueprint" fileName={`blueprint-${fileSuffix}`} />
+          {download && <DiagramDownload diagram="blueprint" mode={download} />}
         </div>
         {/* Desktop: disegno con schede cliccabili; telefono: aree impilate */}
         <div className="hidden lg:block">
@@ -78,7 +68,7 @@ export async function DiagramPanel({
       <Card className="grid gap-4 p-4 sm:p-6">
         <div className="flex flex-wrap items-center justify-between gap-3">
           <h2 className="text-lg font-semibold tracking-tight">{flow.title}</h2>
-          <DiagramDownload svgId="diagram-flow" fileName={`flow-${fileSuffix}`} />
+          {download && <DiagramDownload diagram="flow" mode={download} />}
         </div>
         <div className="-mx-4 overflow-x-auto px-4 sm:mx-0 sm:px-0">
           <div className="min-w-[720px]">

@@ -1,75 +1,51 @@
-"use client";
+import { getTranslations } from "next-intl/server";
+import { buttonVariants } from "@/components/ui/button";
+import { Link } from "@/i18n/navigation";
+import type { DiagramName } from "@/server/diagrams";
 
-import { useTranslations } from "next-intl";
-import { useState } from "react";
-import { Button } from "@/components/ui/button";
+/**
+ * Come si scaricano gli schemi: "files" = link ai file generati dal server (utente registrato,
+ * proprietario del progetto); "locked" = invito a registrarsi o ad accedere.
+ */
+export type DownloadMode =
+  | { kind: "files"; href: (diagram: DiagramName, format: "png" | "svg") => string }
+  | { kind: "locked"; registerHref: string; loginHref: string };
 
-function save(blob: Blob, name: string) {
-  const url = URL.createObjectURL(blob);
-  const a = document.createElement("a");
-  a.href = url;
-  a.download = name;
-  document.body.appendChild(a);
-  a.click();
-  a.remove();
-  setTimeout(() => URL.revokeObjectURL(url), 1000);
+export function LockIcon({ className = "h-4 w-4" }: { className?: string }) {
+  return (
+    <svg aria-hidden viewBox="0 0 20 20" className={`${className} shrink-0`} fill="none" stroke="currentColor" strokeWidth="1.6">
+      <rect x="4" y="9" width="12" height="8" rx="2" />
+      <path d="M7 9V6.5a3 3 0 0 1 6 0V9" strokeLinecap="round" />
+    </svg>
+  );
 }
 
-function svgSource(svgId: string): { text: string; width: number; height: number } | null {
-  const svg = document.getElementById(svgId) as SVGSVGElement | null;
-  if (!svg) return null;
-  const [, , width, height] = (svg.getAttribute("viewBox") ?? "0 0 1000 600").split(" ").map(Number);
-  const clone = svg.cloneNode(true) as SVGSVGElement;
-  clone.setAttribute("width", String(width));
-  clone.setAttribute("height", String(height));
-  return { text: new XMLSerializer().serializeToString(clone), width, height };
-}
-
-/** Scarica lo schema come SVG (vettoriale) o PNG (immagine ad alta risoluzione). */
-export function DiagramDownload({ svgId, fileName }: { svgId: string; fileName: string }) {
-  const t = useTranslations("diagrams");
-  const [busy, setBusy] = useState(false);
-
-  const downloadSvg = () => {
-    const src = svgSource(svgId);
-    if (src) save(new Blob([src.text], { type: "image/svg+xml" }), `${fileName}.svg`);
-  };
-
-  const downloadPng = async () => {
-    const src = svgSource(svgId);
-    if (!src) return;
-    setBusy(true);
-    try {
-      const scale = 2;
-      const img = new Image();
-      const url = URL.createObjectURL(new Blob([src.text], { type: "image/svg+xml" }));
-      await new Promise<void>((resolve, reject) => {
-        img.onload = () => resolve();
-        img.onerror = reject;
-        img.src = url;
-      });
-      const canvas = document.createElement("canvas");
-      canvas.width = src.width * scale;
-      canvas.height = src.height * scale;
-      const ctx = canvas.getContext("2d")!;
-      ctx.fillStyle = "#FFFFFF";
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
-      ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
-      URL.revokeObjectURL(url);
-      canvas.toBlob((blob) => blob && save(blob, `${fileName}.png`), "image/png");
-    } finally {
-      setBusy(false);
-    }
-  };
-
+/** Pulsanti di download di uno schema (SVG vettoriale o PNG ad alta risoluzione). */
+export async function DiagramDownload({ diagram, mode }: { diagram: DiagramName; mode: DownloadMode }) {
+  const t = await getTranslations("diagrams");
+  if (mode.kind === "locked") {
+    return (
+      <p className="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-muted-foreground">
+        <LockIcon />
+        <span>{t("lockedHint")}</span>
+        <Link href={mode.registerHref} className="font-medium text-primary underline-offset-4 hover:underline">
+          {t("lockedRegister")}
+        </Link>
+        <span aria-hidden>·</span>
+        <Link href={mode.loginHref} className="text-primary underline-offset-4 hover:underline">
+          {t("lockedLogin")}
+        </Link>
+      </p>
+    );
+  }
   return (
     <div className="flex flex-wrap gap-2">
-      <Button type="button" size="sm" variant="outline" onClick={downloadPng} disabled={busy}>
+      <a href={mode.href(diagram, "png")} className={buttonVariants({ size: "sm", variant: "outline" })}>
         {t("downloadPng")}
-      </Button>
-      <Button type="button" size="sm" variant="outline" onClick={downloadSvg}>
+      </a>
+      <a href={mode.href(diagram, "svg")} className={buttonVariants({ size: "sm", variant: "outline" })}>
         {t("downloadSvg")}
-      </Button>
+      </a>
     </div>
   );
 }

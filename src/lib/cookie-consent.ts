@@ -6,9 +6,12 @@
 
 export const CONSENT_COOKIE = "dpp_consent";
 /** Da aumentare quando cambiano categorie o servizi: il banner viene riproposto. */
-export const CONSENT_VERSION = 1;
+export const CONSENT_VERSION = 2;
 /** La scelta vale 6 mesi (linee guida del Garante privacy), poi il banner ricompare. */
 export const CONSENT_MAX_AGE_DAYS = 180;
+
+/** Google Analytics 4: caricato solo con il consenso alle statistiche. */
+export const GA_MEASUREMENT_ID = "G-ZDF1ST8JK4";
 
 export const OPTIONAL_CATEGORIES = ["analytics", "marketing"] as const;
 export type OptionalCategory = (typeof OPTIONAL_CATEGORIES)[number];
@@ -62,6 +65,25 @@ export const COOKIES: CookieItem[] = [
     provider: "DPP Designer",
     purpose: { it: "Ricorda il tema chiaro o scuro scelto.", en: "Remembers the light or dark theme you chose." },
     duration: { it: "Fino alla cancellazione dal browser", en: "Until cleared from the browser" },
+  },
+  {
+    name: "_ga",
+    category: "analytics",
+    storage: "cookie",
+    provider: "Google Analytics (Google Ireland Ltd)",
+    purpose: {
+      it: "Distingue i visitatori in forma anonima per le statistiche di utilizzo del sito.",
+      en: "Distinguishes visitors anonymously for site usage statistics.",
+    },
+    duration: { it: "2 anni", en: "2 years" },
+  },
+  {
+    name: `_ga_${GA_MEASUREMENT_ID.slice(2)}`,
+    category: "analytics",
+    storage: "cookie",
+    provider: "Google Analytics (Google Ireland Ltd)",
+    purpose: { it: "Mantiene lo stato della sessione per le statistiche.", en: "Keeps the session state for statistics." },
+    duration: { it: "2 anni", en: "2 years" },
   },
 ];
 

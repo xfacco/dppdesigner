@@ -36,6 +36,6 @@ export async function postMarkdown(locale: string, post: PostView): Promise<stri
     for (const f of faq) out.push(`### ${f.question}`, "", f.answer, "");
   }
   const sources = parseSources(post.sources);
-  if (sources.length) out.push(`## ${t("sources")}`, "", ...sources.map((c) => `- [${c.name}](${c.url})`), "");
+  if (sources.length) out.push(`## ${t("sources")}`, "", ...sources.map((c) => `- [${c.name}](${c.url})${c.description ? ` — ${c.description}` : ""}`), "");
   return out.join("\n").trim() + "\n";
 }

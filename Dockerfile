@@ -38,6 +38,8 @@ ENV HOSTNAME=0.0.0.0
 COPY --from=builder --chown=node:node /app/.next/standalone ./
 COPY --from=builder --chown=node:node /app/.next/static ./.next/static
 COPY --from=builder --chown=node:node /app/public ./public
+# Font per i file scaricabili (PDF e PNG generati sul server)
+COPY --from=builder --chown=node:node /app/assets ./assets
 
 USER node
 EXPOSE 8080

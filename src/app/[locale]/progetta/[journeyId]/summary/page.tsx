@@ -1,11 +1,13 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { DiagramPanel } from "@/components/diagrams/diagram-panel";
+import { LockIcon, type DownloadMode } from "@/components/diagrams/diagram-download";
 import { db } from "@/lib/db";
 import { PreviewBanner } from "@/components/wizard/preview-banner";
 import { buttonVariants } from "@/components/ui/button";
 import { Card, CardTitle, Progress } from "@/components/ui/card";
 import { Link } from "@/i18n/navigation";
+import { getSession } from "@/lib/session";
 import { computeScore, firstIncompleteStep, matchingRecommendations, visibleSteps } from "@/lib/wizard/engine";
 import { getAccessibleJourney } from "@/server/journey";
 import { loadWizard, toAnswers } from "@/server/wizard";
@@ -18,11 +20,12 @@ export default async function SummaryPage({ params }: Props) {
   const journey = await getAccessibleJourney(journeyId);
   if (!journey) notFound();
 
-  const [def, t, tDiagrams, version] = await Promise.all([
+  const [def, t, tDiagrams, version, session] = await Promise.all([
     loadWizard(journey.versionId, locale),
     getTranslations("wizard.summary"),
     getTranslations("diagrams"),
     db.wizardVersion.findUniqueOrThrow({ where: { id: journey.versionId }, select: { diagramConfig: true } }),
+    getSession(),
   ]);
   const answers = toAnswers(journey.answers);
   const incomplete = firstIncompleteStep(def, answers);
@@ -42,6 +45,15 @@ export default async function SummaryPage({ params }: Props) {
   const recommendations = matchingRecommendations(def, answers);
   const firstStep = visibleSteps(def, answers)[0];
   const returnTo = encodeURIComponent(`/progetta/${journeyId}/summary`);
+  // Download (PDF, PNG, SVG) solo per l'utente registrato proprietario del progetto
+  const canDownload = !!journey.userId && session?.user.id === journey.userId;
+  const fileHref = (format: string, diagram?: string) =>
+    `/api/journeys/${journeyId}/download?format=${format}${diagram ? `&diagram=${diagram}` : ""}&locale=${locale}`;
+  const registerHref = `/register?next=${returnTo}`;
+  const loginHref = `/login?next=${returnTo}`;
+  const download: DownloadMode = canDownload
+    ? { kind: "files", href: (diagram, format) => fileHref(format, diagram) }
+    : { kind: "locked", registerHref, loginHref };
 
   return (
     <div className="mx-auto grid max-w-6xl gap-8 px-4 py-12">
@@ -51,6 +63,37 @@ export default async function SummaryPage({ params }: Props) {
         <p className="mt-2 text-muted-foreground">{tDiagrams("sectionIntro")}</p>
       </div>
 
+      {/* Report PDF: download per i registrati, altrimenti invito a registrarsi */}
+      {canDownload ? (
+        <Card className="flex flex-wrap items-center justify-between gap-4 border-primary/40">
+          <div className="max-w-xl">
+            <CardTitle>{t("pdfTitle")}</CardTitle>
+            <p className="mt-1 text-sm text-muted-foreground">{t("pdfBody")}</p>
+          </div>
+          <a href={fileHref("pdf")} className={buttonVariants()}>
+            {t("pdfCta")}
+          </a>
+        </Card>
+      ) : (
+        <Card className="flex flex-wrap items-center justify-between gap-4 border-primary">
+          <div className="flex max-w-xl gap-3">
+            <LockIcon className="mt-1 h-5 w-5 text-primary" />
+            <div>
+              <CardTitle>{t("lockedTitle")}</CardTitle>
+              <p className="mt-1 text-sm text-muted-foreground">{t("lockedBody")}</p>
+            </div>
+          </div>
+          <div className="flex flex-wrap items-center gap-4">
+            <Link href={registerHref} className={buttonVariants()}>
+              {t("lockedCta")}
+            </Link>
+            <Link href={loginHref} className="text-sm text-primary underline">
+              {t("haveAccount")}
+            </Link>
+          </div>
+        </Card>
+      )}
+
       {/* 1. Blueprint del DPP · 2. Flusso dei dati DPP */}
       <DiagramPanel
         def={def}
@@ -58,7 +101,7 @@ export default async function SummaryPage({ params }: Props) {
         diagramConfig={version.diagramConfig}
         locale={locale}
         stepHref={`/${locale}/progetta/${journeyId}`}
-        fileSuffix={journeyId.slice(-6)}
+        download={download}
       />
 
       {/* 3. Il tuo risultato: punteggio totale e per area */}
@@ -105,21 +148,6 @@ export default async function SummaryPage({ params }: Props) {
           <p className="text-sm text-muted-foreground">{t("noRecommendations")}</p>
         )}
       </Card>
-
-      {!journey.userId && (
-        <Card className="border-primary">
-          <CardTitle>{t("saveTitle")}</CardTitle>
-          <p className="mt-2 text-sm text-muted-foreground">{t("saveBody")}</p>
-          <div className="mt-4 flex flex-wrap items-center gap-4">
-            <Link href={`/register?next=${returnTo}`} className={buttonVariants()}>
-              {t("saveCta")}
-            </Link>
-            <Link href={`/login?next=${returnTo}`} className="text-sm text-primary underline">
-              {t("haveAccount")}
-            </Link>
-          </div>
-        </Card>
-      )}
 
       {firstStep && (
         <div>

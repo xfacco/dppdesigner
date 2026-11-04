@@ -25,6 +25,29 @@ describe("articoli", () => {
     ]);
   });
 
+  it("fonti in Markdown, con descrizione, titoli e separatori ignorati", () => {
+    const md = [
+      "### 🏛️ Fonti Normative Ufficiali UE",
+      "",
+      "* [Regolamento (UE) 2024/1781 (ESPR)](https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita)  ",
+      "  *Regolamento sulla progettazione ecocompatibile.* È la norma **quadro**.",
+      "",
+      "---",
+      "",
+      "* [DPP Hub](https://single-market-economy.ec.europa.eu/dpp) – documentazione della Commissione",
+      "Batterie | https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita",
+    ].join("\r\n");
+    expect(parseSources(md)).toEqual([
+      {
+        name: "Regolamento (UE) 2024/1781 (ESPR)",
+        url: "https://eur-lex.europa.eu/eli/reg/2024/1781/oj/ita",
+        description: "Regolamento sulla progettazione ecocompatibile. È la norma quadro.",
+      },
+      { name: "DPP Hub", url: "https://single-market-economy.ec.europa.eu/dpp", description: "documentazione della Commissione" },
+      { name: "Batterie", url: "https://eur-lex.europa.eu/eli/reg/2023/1542/oj/ita" },
+    ]);
+  });
+
   it("indice dai titoli ## con ancore stabili", () => {
     expect(headingId("Perché il **DPP** è utile?")).toBe("perche-il-dpp-e-utile");
     expect(tableOfContents("# T\n## Primo punto\ntesto\n### sotto\n## [Link](x) finale")).toEqual([

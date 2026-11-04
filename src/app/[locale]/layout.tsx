@@ -6,6 +6,7 @@ import { SiteFooter } from "@/components/site/footer";
 import { SiteHeader } from "@/components/site/header";
 import { JsonLd } from "@/components/guide/json-ld";
 import { CookieConsent } from "@/components/site/cookie-consent";
+import { GoogleAnalytics } from "@/components/site/google-analytics";
 import { THEME_SCRIPT } from "@/components/site/theme-toggle";
 import { routing } from "@/i18n/routing";
 import { SITE_URL } from "@/lib/site-url";
@@ -67,6 +68,7 @@ export default async function LocaleLayout({
           <main className="flex-1">{children}</main>
           <SiteFooter locale={locale} />
           <CookieConsent policyHref={cookiePage ? `/${cookiePage.slug}` : null} />
+          <GoogleAnalytics />
         </NextIntlClientProvider>
       </body>
     </html>

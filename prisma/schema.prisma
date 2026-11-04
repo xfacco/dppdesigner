@@ -34,6 +34,7 @@ model User {
   journeys          Journey[]
   consents          Consent[]
   answeredQuestions StepQuestion[]
+  downloads         Download[]
 
   @@map("user")
 }
@@ -321,6 +322,7 @@ model Journey {
   completedAt    DateTime?
   answers        Answer[]
   questions      StepQuestion[]
+  downloads      Download[]
 
   @@index([userId])
   @@index([createdAt])
@@ -350,6 +352,29 @@ enum QuestionChannel {
 enum QuestionStatus {
   OPEN
   ANSWERED
+}
+
+enum DownloadFormat {
+  PDF
+  PNG
+  SVG
+}
+
+/// Download del riepilogo di un progetto (report PDF o schemi PNG/SVG): riservati agli utenti registrati
+model Download {
+  id        String         @id @default(cuid())
+  userId    String?
+  user      User?          @relation(fields: [userId], references: [id], onDelete: SetNull)
+  journeyId String?
+  journey   Journey?       @relation(fields: [journeyId], references: [id], onDelete: SetNull)
+  format    DownloadFormat
+  /// Schema scaricato (blueprint, flow); null per il report PDF
+  diagram   String?
+  locale    String
+  createdAt DateTime       @default(now())
+
+  @@index([createdAt])
+  @@index([userId])
 }
 
 model StepQuestion {

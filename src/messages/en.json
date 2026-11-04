@@ -100,7 +100,13 @@
       "saveBody": "Sign up to save the journey and access it from any device. Without an account you can resume it from this browser for 30 days.",
       "saveCta": "Sign up and save",
       "haveAccount": "Already have an account? Sign in",
-      "saved": "Journey saved to your account."
+      "saved": "Journey saved to your account.",
+      "pdfTitle": "Download the PDF report",
+      "pdfBody": "The full summary to share: diagrams, score, next steps and all your answers, with links to the guide and the regulatory references.",
+      "pdfCta": "Download PDF",
+      "lockedTitle": "Download the PDF report and the diagrams as PNG and SVG",
+      "lockedBody": "Downloads are available to registered users. Registration is free: the project is saved to your account and you can open it from any device.",
+      "lockedCta": "Register for free"
     },
     "diagram": {
       "sources": "Data sources",
@@ -299,7 +305,10 @@
         "carrier_placement": "Carrier position",
         "data_access": "Passport access"
       }
-    }
+    },
+    "lockedHint": "PNG and SVG for registered users.",
+    "lockedRegister": "Register",
+    "lockedLogin": "Sign in"
   },
   "home": {
     "byline": "ESPR · Regulation (EU) 2024/1781",
@@ -401,5 +410,23 @@
     "published": "Published {date}",
     "updated": "Updated {date}",
     "by": "by"
+  },
+  "report": {
+    "kicker": "DPP Designer report",
+    "intro": "Generated from your answers to the guided journey: maturity score, next steps, architecture diagrams and every choice in the project.",
+    "preparedFor": "Prepared for",
+    "date": "Date",
+    "project": "Project",
+    "online": "Online version:",
+    "answers": "Your answers",
+    "answersIntro": "Each answer links to the guide, which explains the question, and to the regulatory references.",
+    "guide": "Guide",
+    "references": "Regulatory references",
+    "description": "Diagram description",
+    "helpTitle": "Need help building your DPP?",
+    "helpBody": "From answers to delivery: we can help you choose providers, data and architecture, and plan for the ESPR deadlines.",
+    "contacts": "Contact us",
+    "page": "Page {n} of {total}",
+    "disclaimer": "This report is an automatically generated orientation tool and is not legal advice. Always check the requirements in the delegated acts that apply to your product."
   }
 }

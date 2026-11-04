@@ -100,7 +100,13 @@
       "saveBody": "Registrati per salvare il progetto e ritrovarlo da qualsiasi dispositivo. Senza registrazione puoi riprenderlo da questo browser per 30 giorni.",
       "saveCta": "Registrati e salva",
       "haveAccount": "Hai già un account? Accedi",
-      "saved": "Progetto salvato nel tuo account."
+      "saved": "Progetto salvato nel tuo account.",
+      "pdfTitle": "Scarica il report PDF",
+      "pdfBody": "Il riepilogo completo da condividere: schemi, punteggio, prossimi passi e tutte le risposte, con i link alla guida e ai riferimenti normativi.",
+      "pdfCta": "Scarica PDF",
+      "lockedTitle": "Scarica il report PDF e gli schemi in PNG e SVG",
+      "lockedBody": "I download sono riservati agli utenti registrati. La registrazione è gratuita: il progetto viene salvato nel tuo account e lo ritrovi da qualsiasi dispositivo.",
+      "lockedCta": "Registrati gratis"
     },
     "diagram": {
       "sources": "Sorgenti dati",
@@ -299,7 +305,10 @@
         "carrier_placement": "Posizione del carrier",
         "data_access": "Accessi al passaporto"
       }
-    }
+    },
+    "lockedHint": "PNG e SVG per gli utenti registrati.",
+    "lockedRegister": "Registrati",
+    "lockedLogin": "Accedi"
   },
   "home": {
     "byline": "ESPR · Regolamento (UE) 2024/1781",
@@ -401,5 +410,23 @@
     "published": "Pubblicato il {date}",
     "updated": "Aggiornato il {date}",
     "by": "di"
+  },
+  "report": {
+    "kicker": "Report DPP Designer",
+    "intro": "Generato dalle tue risposte al percorso guidato: punteggio di maturità, prossimi passi, schemi di architettura e tutte le scelte del progetto.",
+    "preparedFor": "Preparato per",
+    "date": "Data",
+    "project": "Progetto",
+    "online": "Versione online:",
+    "answers": "Le tue risposte",
+    "answersIntro": "Ogni risposta ha il link alla guida, con le spiegazioni della domanda, e ai riferimenti normativi.",
+    "guide": "Guida",
+    "references": "Riferimenti normativi",
+    "description": "Descrizione dello schema",
+    "helpTitle": "Vuoi un aiuto per realizzare il tuo DPP?",
+    "helpBody": "Dalle risposte al progetto: possiamo aiutarti a scegliere fornitori, dati e architettura, e a pianificare le scadenze ESPR.",
+    "contacts": "Contattaci",
+    "page": "Pagina {n} di {total}",
+    "disclaimer": "Questo report è uno strumento di orientamento generato automaticamente e non costituisce consulenza legale. Verifica sempre i requisiti negli atti delegati applicabili al tuo prodotto."
   }
 }
