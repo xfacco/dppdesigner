@@ -238,8 +238,9 @@ export async function BlogPostPage({ params, segmentLocale }: { params: PostPara
         wordCount: stats.words,
         timeRequired: `PT${stats.minutes}M`,
         ...(sources.length ? { citation: sources.map((c) => ({ "@type": "CreativeWork", name: c.name, url: c.url, ...(c.description ? { description: c.description } : {}) })) } : {}),
-        // Parti più adatte alla lettura vocale e alla citazione: titolo e "In breve"
-        speakable: { "@type": "SpeakableSpecification", cssSelector: ["h1", "#in-breve"] },
+        // Parti più adatte alla lettura vocale e alla citazione: titolo e sommario. "In breve" non è
+        // mostrato ai lettori: resta solo in abstract e nella versione Markdown
+        speakable: { "@type": "SpeakableSpecification", cssSelector: post.excerpt ? ["h1", "#sommario"] : ["h1"] },
         encoding: { "@type": "MediaObject", encodingFormat: "text/markdown", contentUrl: absoluteUrl(blogMarkdownPath(locale, post.slug)) },
       },
       ...(faq.length
@@ -286,7 +287,7 @@ export async function BlogPostPage({ params, segmentLocale }: { params: PostPara
           {t("readingTime", { minutes: stats.minutes })}
         </MonoLabel>
         <h1 className="m-0 text-[clamp(34px,4.6vw,52px)] font-medium leading-[1.1] tracking-[-0.045em] text-balance">{post.title}</h1>
-        {post.excerpt && <p className="mt-5 text-lg leading-normal tracking-[-0.02em] text-muted-foreground md:text-xl">{post.excerpt}</p>}
+        {post.excerpt && <p id="sommario" className="mt-5 text-lg leading-normal tracking-[-0.02em] text-muted-foreground md:text-xl">{post.excerpt}</p>}
         <Byline locale={locale} published={post.publishedAt} updated={post.modifiedAt} author={author} />
       </header>
 
@@ -298,19 +299,6 @@ export async function BlogPostPage({ params, segmentLocale }: { params: PostPara
 
       <div className="grid gap-10 border-t pt-10 lg:grid-cols-[minmax(0,720px)_minmax(0,240px)] lg:justify-between">
         <div className="min-w-0">
-          {takeaways.length > 0 && (
-            <section id="in-breve" aria-labelledby="in-breve-title" className="mb-10 rounded-lg border bg-muted/40 p-6">
-              <h2 id="in-breve-title" className="m-0 mb-3 text-base font-semibold">
-                {t("inBrief")}
-              </h2>
-              <ul className="grid list-disc gap-2 pl-5">
-                {takeaways.map((k, i) => (
-                  <li key={i}>{k}</li>
-                ))}
-              </ul>
-            </section>
-          )}
-
           {toc.length > 1 && (
             <details className="mb-10 rounded-lg border px-5 py-4 lg:hidden">
               <summary className="cursor-pointer text-sm font-semibold">{t("toc")}</summary>

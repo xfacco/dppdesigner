@@ -125,7 +125,7 @@ Per ogni articolo, configurabile in admin:
 - **Pubblicazione**: stato, data di pubblicazione, data di ultima revisione (diventa `dateModified`).
 - **Autore** (E-E-A-T): nome, ruolo, profilo → schema.org `Person` con `jobTitle`, `sameAs`, `worksFor`.
 - **Classificazione**: categoria (`articleSection`), tag (`keywords`, `about`, articoli correlati), immagine di copertina (Open Graph e `image`), `noindex`, canonical esterno.
-- **Per lingua**: titolo, slug, sommario, meta title e meta description, testo alternativo della copertina, **In breve** (punti chiave in apertura, `abstract` e `speakable`), testo in Markdown (i titoli `##` diventano l'indice con ancore), **domande frequenti** (`FAQPage`), **fonti** (`citation`).
+- **Per lingua**: titolo, slug, sommario, meta title e meta description, testo alternativo della copertina, **In breve** (punti chiave, non mostrati ai lettori: solo `abstract` e versione Markdown; `speakable` punta a titolo e sommario), testo in Markdown (i titoli `##` diventano l'indice con ancore), **domande frequenti** (`FAQPage`), **fonti** (`citation`).
 
 Dati strutturati: `Organization` e `WebSite` su tutto il sito; sugli articoli `BlogPosting` (con `wordCount`, `timeRequired`, `isPartOf`), `FAQPage`, `BreadcrumbList`; sull'elenco `Blog`.
 

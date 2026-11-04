@@ -196,7 +196,7 @@ export default async function PostEditor({
               <Field>
                 <Label htmlFor={`keyTakeaways_${l}`}>In breve: punti chiave (uno per riga)</Label>
                 <Textarea id={`keyTakeaways_${l}`} name={`keyTakeaways_${l}`} defaultValue={tr(l)?.keyTakeaways ?? ""} rows={4} />
-                <p className={hint}>Riquadro all&apos;inizio dell&apos;articolo: frasi brevi e autosufficienti, con numeri e date. È la parte che i motori AI citano più volentieri.</p>
+                <p className={hint}>Non compare nella pagina: va nei dati strutturati (abstract) e nella versione Markdown per le AI. Frasi brevi e autosufficienti, con numeri e date: è la parte che i motori AI citano più volentieri.</p>
               </Field>
               <Field>
                 <Label htmlFor={`body_${l}`}>Testo (Markdown)</Label>
