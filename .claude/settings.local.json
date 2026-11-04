@@ -105,7 +105,11 @@
       "Bash(curl -s https://www.dppdesigner.com/it/articoli/calendario-delle-categorie-di-prodotto-per-il-dpp)",
       "Bash(grep -o '\\\\\\\\\\\\?\"citation\\\\\\\\\\\\?\":\\\\[[^]]\\\\{0,200\\\\}')",
       "Bash(curl -s https://www.dppdesigner.com/md/it/calendario-delle-categorie-di-prodotto-per-il-dpp.md)",
-      "Bash(curl -s http://localhost:3000/it/articoli/calendario-delle-categorie-di-prodotto-per-il-dpp)"
+      "Bash(curl -s http://localhost:3000/it/articoli/calendario-delle-categorie-di-prodotto-per-il-dpp)",
+      "Bash(/usr/bin/sips -c 760 420 --cropOffset 820 860 articles-box-light.png --out crop-light.png)",
+      "Bash(/usr/bin/sips -c 760 420 --cropOffset 820 860 articles-box-dark.png --out crop-dark.png)",
+      "Bash(/usr/bin/sips -c 330 400 --cropOffset 330 860 articles-box-light.png --out crop-light.png)",
+      "Bash(/usr/bin/sips -c 330 400 --cropOffset 330 860 articles-box-dark.png --out crop-dark.png)"
     ],
     "additionalDirectories": [
       "/Users/corrado/Downloads/Corrado/dppdesigner/src/app/[locale]"

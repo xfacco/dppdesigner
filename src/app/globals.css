@@ -24,6 +24,8 @@
   --destructive: #c0392b;
   --warning: #c98a12;
   --ring: #257345;
+  /* Riquadro "Articoli di approfondimento" negli step del wizard */
+  --articles: #d4e9ef;
   --radius: 0.625rem;
   color-scheme: light;
 }
@@ -45,6 +47,7 @@
   --destructive: #e57368;
   --warning: #e0a83a;
   --ring: #99dda9;
+  --articles: #17292e;
   color-scheme: dark;
 }
 
@@ -66,6 +69,7 @@
     --destructive: #e57368;
     --warning: #e0a83a;
     --ring: #99dda9;
+    --articles: #17292e;
     color-scheme: dark;
   }
 }
@@ -87,6 +91,7 @@
   --color-destructive: var(--destructive);
   --color-warning: var(--warning);
   --color-ring: var(--ring);
+  --color-articles: var(--articles);
   --radius-sm: calc(var(--radius) - 2px);
   --radius-md: var(--radius);
   --radius-lg: calc(var(--radius) + 4px);

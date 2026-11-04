@@ -45,7 +45,7 @@ export async function StepArticles({ locale, posts }: { locale: string; posts: P
   return (
     <>
       {/* Mobile e tablet: chiuso, si apre con la freccia */}
-      <details className="group min-w-0 rounded-lg border bg-muted/40 lg:hidden">
+      <details className="group min-w-0 rounded-lg border border-articles bg-articles lg:hidden">
         <summary className="flex cursor-pointer list-none items-center gap-2 px-4 py-3 text-sm font-semibold [&::-webkit-details-marker]:hidden">
           <Icon />
           {t("title")}
@@ -60,11 +60,11 @@ export async function StepArticles({ locale, posts }: { locale: string; posts: P
             <path d="M5 8l5 5 5-5" strokeLinecap="round" strokeLinejoin="round" />
           </svg>
         </summary>
-        <div className="border-t px-4 pb-4">{list}</div>
+        <div className="border-t border-foreground/10 px-4 pb-4">{list}</div>
       </details>
 
       {/* Desktop: sempre aperto nella colonna destra */}
-      <section aria-labelledby="step-articles" className="hidden min-w-0 rounded-lg border bg-muted/40 px-5 py-4 lg:block">
+      <section aria-labelledby="step-articles" className="hidden min-w-0 rounded-lg border border-articles bg-articles px-5 py-4 lg:block">
         <h2 id="step-articles" className="flex items-center gap-2 text-sm font-semibold">
           <Icon />
           {t("title")}

@@ -84,6 +84,7 @@ export async function cloneVersion(fromId: string | null) {
     },
   });
 
+  // Una scrittura per step, opzione e regola: con il wizard completo i 5 secondi predefiniti non bastano
   return db.$transaction(async (tx) => {
     const version = await tx.wizardVersion.create({
       data: { number, notes: `Copia della versione ${src.number}`, diagramConfig: jsonOrNull(src.diagramConfig) },
@@ -152,7 +153,7 @@ export async function cloneVersion(fromId: string | null) {
       });
     }
     return version;
-  });
+  }, { timeout: 60_000 });
 }
 
 export async function publishVersion(versionId: string) {
