@@ -1,5 +1,4 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { notFound } from "next/navigation";
 import { DiagramPanel } from "@/components/diagrams/diagram-panel";
 import { LockIcon, type DownloadMode } from "@/components/diagrams/diagram-download";
 import { db } from "@/lib/db";
@@ -9,7 +8,7 @@ import { Card, CardTitle, Progress } from "@/components/ui/card";
 import { Link } from "@/i18n/navigation";
 import { getSession } from "@/lib/session";
 import { computeScore, firstIncompleteStep, matchingRecommendations, visibleSteps } from "@/lib/wizard/engine";
-import { getAccessibleJourney } from "@/server/journey";
+import { requireJourney } from "@/server/journey";
 import { loadWizard, toAnswers } from "@/server/wizard";
 
 type Props = { params: Promise<{ locale: string; journeyId: string }> };
@@ -17,8 +16,7 @@ type Props = { params: Promise<{ locale: string; journeyId: string }> };
 export default async function SummaryPage({ params }: Props) {
   const { locale, journeyId } = await params;
   setRequestLocale(locale);
-  const journey = await getAccessibleJourney(journeyId);
-  if (!journey) notFound();
+  const journey = await requireJourney(journeyId, locale, `/progetta/${journeyId}/summary`);
 
   const [def, t, tDiagrams, version, session] = await Promise.all([
     loadWizard(journey.versionId, locale),

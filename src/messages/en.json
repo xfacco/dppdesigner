@@ -27,9 +27,10 @@
   },
   "wizard": {
     "title": "Design your Digital Product Passport",
-    "intro": "Answer a few questions about your company and product: at the end you will get a maturity score, an architecture sketch and recommended next steps. No sign-up needed to start.",
+    "intro": "Answer a few questions about your company and product: at the end you will get a maturity score, an architecture sketch and recommended next steps. All you need to start is a free account.",
     "start": "Start designing",
     "resume": "Resume your project",
+    "registerFirst": "To start, create a free account: all you need is an email and a password.",
     "stepsTitle": "What we will ask",
     "stepsIntro": "{count} questions, about {minutes} minutes. Marked questions only appear if relevant to your previous answers.",
     "conditional": "if relevant",
@@ -133,6 +134,7 @@
     "loginTitle": "Sign in",
     "registerTitle": "Create your account",
     "registerIntro": "Save your DPP project and come back to it any time.",
+    "registerIntroWizard": "To start designing your DPP, create a free account: all you need is an email and a password. Your project is saved and you can open it from any device.",
     "name": "Full name",
     "email": "Email",
     "password": "Password",
@@ -140,8 +142,9 @@
     "company": "Company",
     "jobTitle": "Role",
     "phone": "Phone",
-    "privacyConsent": "I have read the privacy notice and consent to the processing of my data to manage my account.",
-    "marketingConsent": "I agree to be contacted with information and commercial proposals (optional).",
+    "optionalFields": "Optional",
+    "privacyNotice": "By signing up you confirm that you have read the <link>privacy notice</link>.",
+    "marketingConsent": "I agree to receive <link>information and commercial offers</link> (optional).",
     "submitLogin": "Sign in",
     "submitRegister": "Sign up",
     "noAccount": "No account yet? Sign up",
@@ -155,9 +158,9 @@
     "resetSubmit": "Save password",
     "resetDone": "Password updated. You can now sign in.",
     "errors": {
+      "email": "Enter a valid email address.",
       "invalidCredentials": "Wrong email or password.",
       "exists": "An account with this email already exists.",
-      "privacyRequired": "Privacy consent is required.",
       "generic": "Something went wrong. Please try again."
     }
   },

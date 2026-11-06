@@ -11,14 +11,14 @@ export const contactSchema = z.object({
 });
 export type ContactInput = z.infer<typeof contactSchema>;
 
+/** Registrazione: obbligatori solo email e password; l'informativa privacy si accetta registrandosi. */
 export const registerSchema = z.object({
-  name: z.string().trim().min(1).max(120),
   email: z.email().max(200),
   password: z.string().min(10).max(128),
+  name: z.string().trim().max(120).optional(),
   company: z.string().trim().max(160).optional(),
   jobTitle: z.string().trim().max(120).optional(),
   phone: z.string().trim().max(40).optional(),
-  privacy: z.literal(true),
   marketing: z.boolean(),
 });
 export type RegisterInput = z.infer<typeof registerSchema>;

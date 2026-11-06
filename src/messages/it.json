@@ -27,9 +27,10 @@
   },
   "wizard": {
     "title": "Progetta il tuo Digital Product Passport",
-    "intro": "Rispondi a qualche domanda sulla tua azienda e sul tuo prodotto: alla fine otterrai un punteggio di maturità, uno schema di architettura e i prossimi passi consigliati. Non serve registrarsi per iniziare.",
+    "intro": "Rispondi a qualche domanda sulla tua azienda e sul tuo prodotto: alla fine otterrai un punteggio di maturità, uno schema di architettura e i prossimi passi consigliati. Per iniziare basta un account gratuito.",
     "start": "Inizia a progettare",
     "resume": "Riprendi il progetto",
+    "registerFirst": "Per iniziare crea un account gratuito: bastano email e password.",
     "stepsTitle": "Cosa ti chiederemo",
     "stepsIntro": "{count} domande, circa {minutes} minuti. Quelle segnate compaiono solo se pertinenti rispetto alle risposte precedenti.",
     "conditional": "se pertinente",
@@ -133,6 +134,7 @@
     "loginTitle": "Accedi",
     "registerTitle": "Crea il tuo account",
     "registerIntro": "Salva il tuo progetto DPP e ritrovalo quando vuoi.",
+    "registerIntroWizard": "Per iniziare a progettare il tuo DPP crea un account gratuito: bastano email e password. Il progetto resta salvato e lo ritrovi da qualsiasi dispositivo.",
     "name": "Nome e cognome",
     "email": "Email",
     "password": "Password",
@@ -140,8 +142,9 @@
     "company": "Azienda",
     "jobTitle": "Ruolo",
     "phone": "Telefono",
-    "privacyConsent": "Ho letto l'informativa privacy e acconsento al trattamento dei miei dati per la gestione dell'account.",
-    "marketingConsent": "Acconsento a essere ricontattato per informazioni e proposte commerciali (facoltativo).",
+    "optionalFields": "Facoltativi",
+    "privacyNotice": "Registrandoti confermi di aver letto l''<link>informativa privacy</link>.",
+    "marketingConsent": "Acconsento a ricevere <link>informazioni e proposte commerciali</link> (facoltativo).",
     "submitLogin": "Accedi",
     "submitRegister": "Registrati",
     "noAccount": "Non hai un account? Registrati",
@@ -155,9 +158,9 @@
     "resetSubmit": "Salva la password",
     "resetDone": "Password aggiornata. Ora puoi accedere.",
     "errors": {
+      "email": "Inserisci un indirizzo email valido.",
       "invalidCredentials": "Email o password non corretti.",
       "exists": "Esiste già un account con questa email.",
-      "privacyRequired": "Il consenso privacy è obbligatorio.",
       "generic": "Si è verificato un errore. Riprova."
     }
   },

@@ -2,12 +2,16 @@
 
 import { getLocale } from "next-intl/server";
 import { redirect } from "next/navigation";
+import { getSession } from "@/lib/session";
 import type { AnswerValue } from "@/lib/wizard/rules";
+import { WIZARD_START } from "../(auth)/safe-next";
 import { createJourney, saveAnswer } from "@/server/journey";
 import { askAi, askExpert } from "@/server/questions";
 
+/** Nuovo progetto: serve un account, chi non è registrato passa prima dalla registrazione. */
 export async function startJourney() {
   const locale = await getLocale();
+  if (!(await getSession())) redirect(`/${locale}/register?next=${WIZARD_START}`);
   const journey = await createJourney(locale);
   redirect(`/${locale}/progetta/${journey.id}`);
 }

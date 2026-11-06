@@ -1,6 +1,7 @@
 import "server-only";
-import { createHash, randomBytes } from "node:crypto";
+import { createHash } from "node:crypto";
 import { cookies } from "next/headers";
+import { notFound, redirect } from "next/navigation";
 import { db } from "@/lib/db";
 import { getSession } from "@/lib/session";
 import {
@@ -14,7 +15,6 @@ import type { AnswerValue } from "@/lib/wizard/rules";
 import { getPublishedVersionId, loadWizard, toAnswers } from "./wizard";
 
 export const JOURNEY_COOKIE = "dpp_journey";
-export const RESUME_DAYS = 30;
 
 const hashToken = (token: string) => createHash("sha256").update(token).digest("hex");
 
@@ -22,29 +22,17 @@ async function readToken(): Promise<string | null> {
   return (await cookies()).get(JOURNEY_COOKIE)?.value ?? null;
 }
 
-/** Crea un nuovo progetto: legato all'utente se loggato, altrimenti anonimo con cookie di ripresa. */
+/**
+ * Crea un nuovo progetto legato all'utente: il wizard richiede la registrazione.
+ * I progetti anonimi (cookie di ripresa) sono quelli creati prima di questo obbligo:
+ * si collegano all'account alla registrazione o al login (claimAnonymousJourney).
+ */
 export async function createJourney(locale: string) {
   const versionId = await getPublishedVersionId();
   if (!versionId) throw new Error("Nessuna versione del wizard pubblicata");
-
   const session = await getSession();
-  if (session) {
-    return db.journey.create({ data: { versionId, locale, userId: session.user.id } });
-  }
-
-  const token = randomBytes(32).toString("base64url");
-  const expires = new Date(Date.now() + RESUME_DAYS * 24 * 60 * 60 * 1000);
-  const journey = await db.journey.create({
-    data: { versionId, locale, tokenHash: hashToken(token), tokenExpiresAt: expires },
-  });
-  (await cookies()).set(JOURNEY_COOKIE, token, {
-    httpOnly: true,
-    secure: process.env.NODE_ENV === "production",
-    sameSite: "lax",
-    path: "/",
-    expires,
-  });
-  return journey;
+  if (!session) throw new Error("Per creare un progetto serve un account");
+  return db.journey.create({ data: { versionId, locale, userId: session.user.id } });
 }
 
 /** Progetto anonimo associato al cookie di questo browser, se ancora valido. */
@@ -56,23 +44,23 @@ export async function getAnonymousJourney() {
   });
 }
 
-/** Progetto accessibile all'utente corrente (proprietario oppure titolare del cookie). */
+/** Progetto accessibile all'utente corrente: solo il proprietario registrato. */
 export async function getAccessibleJourney(journeyId: string) {
+  const session = await getSession();
+  if (!session) return null;
   const journey = await db.journey.findUnique({ where: { id: journeyId }, include: { answers: true } });
-  if (!journey) return null;
+  return journey && journey.userId === session.user.id ? journey : null;
+}
 
-  if (journey.userId) {
-    const session = await getSession();
-    return session?.user.id === journey.userId ? journey : null;
-  }
-
-  const token = await readToken();
-  const valid =
-    token !== null &&
-    journey.tokenHash === hashToken(token) &&
-    journey.tokenExpiresAt !== null &&
-    journey.tokenExpiresAt > new Date();
-  return valid ? journey : null;
+/**
+ * Per le pagine del wizard: il progetto dell'utente, altrimenti 404.
+ * Chi non ha fatto l'accesso va alla registrazione e poi torna a `path` (senza lingua).
+ */
+export async function requireJourney(journeyId: string, locale: string, path: string) {
+  const journey = await getAccessibleJourney(journeyId);
+  if (journey) return journey;
+  if (!(await getSession())) redirect(`/${locale}/register?next=${encodeURIComponent(path)}`);
+  notFound();
 }
 
 export type SaveResult =

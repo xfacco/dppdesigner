@@ -25,9 +25,13 @@ export function Checkbox({ className, ...props }: Omit<ComponentProps<"input">, 
   return <input type="checkbox" className={cn("h-4 w-4 accent-primary", className)} {...props} />;
 }
 
-export function FieldError({ children }: { children?: React.ReactNode }) {
+export function FieldError({ children, id }: { children?: React.ReactNode; id?: string }) {
   if (!children) return null;
-  return <p className="text-sm text-destructive">{children}</p>;
+  return (
+    <p id={id} className="text-sm text-destructive">
+      {children}
+    </p>
+  );
 }
 
 export function Field({ className, ...props }: ComponentProps<"div">) {

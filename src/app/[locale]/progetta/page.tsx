@@ -57,7 +57,7 @@ export default async function WizardStart({ params }: { params: Promise<{ locale
   const exampleSteps = def ? matchingRecommendations(def, example) : [];
   const guideHref = (stepKey: string) => `/${locale}/${guideSegment(locale)}/${articleSlug(stepKey)}`;
 
-  const actions = (
+  const buttons = (
     <div className="flex flex-wrap gap-3">
       {existing ? (
         <>
@@ -77,6 +77,15 @@ export default async function WizardStart({ params }: { params: Promise<{ locale
           </Button>
         </form>
       )}
+    </div>
+  );
+  // Il wizard richiede un account: chi non ha fatto l'accesso passa dalla registrazione
+  const actions = session ? (
+    buttons
+  ) : (
+    <div className="grid gap-3">
+      {buttons}
+      <p className="text-sm text-muted-foreground">{t("registerFirst")}</p>
     </div>
   );
 

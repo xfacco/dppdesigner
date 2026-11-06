@@ -65,7 +65,7 @@ src/
 - Le modifiche si fanno su una **bozza**; alla pubblicazione la bozza diventa la versione attiva. I progetti già iniziati restano sulla loro versione.
 - Le condizioni sono JSON (vedi [src/lib/wizard/rules.ts](src/lib/wizard/rules.ts)), con un editor visuale nell'admin:
   `{ "step": "industry", "op": "eq", "value": "battery" }`, combinabili con `all`, `any`, `not`.
-- Il wizard si compila **senza account**. Un cookie (30 giorni) permette di riprenderlo dallo stesso browser. A fine progetto l'utente può registrarsi: il progetto viene associato all'account.
+- Il wizard richiede un **account**: "Inizia a progettare" e ogni pagina del progetto portano chi non ha fatto l'accesso alla registrazione (`/register?next=/progetta`), dove sono obbligatori solo email e password; dopo la registrazione si apre subito un nuovo progetto. Il form ha i link all'informativa privacy (chiave `privacy`) e alla pagina "Informazioni e proposte commerciali" (chiave `marketing`, creata con `npx tsx prisma/scripts/add-page.ts marketing`). I vecchi progetti anonimi (cookie `dpp_journey`) si collegano all'account alla registrazione o al login.
 - Le **regole di punteggio del seed sono esempi** da validare.
 
 ## Schemi del riepilogo

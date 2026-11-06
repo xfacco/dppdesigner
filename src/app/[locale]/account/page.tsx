@@ -94,7 +94,7 @@ export default async function AccountPage({ params }: { params: Promise<{ locale
           <dt className="text-muted-foreground">{tAuth("email")}</dt>
           <dd>{session.user.email}</dd>
           <dt className="text-muted-foreground">{tAuth("name")}</dt>
-          <dd>{session.user.name}</dd>
+          <dd>{session.user.name || "—"}</dd>
           {session.user.company && (
             <>
               <dt className="text-muted-foreground">{tAuth("company")}</dt>

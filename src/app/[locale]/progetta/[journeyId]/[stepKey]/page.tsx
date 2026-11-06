@@ -18,7 +18,7 @@ import {
   visibleSteps,
 } from "@/lib/wizard/engine";
 import { postsForStep } from "@/server/blog";
-import { getAccessibleJourney } from "@/server/journey";
+import { requireJourney } from "@/server/journey";
 import { loadWizard, toAnswers } from "@/server/wizard";
 import { StepForm, type MatrixRow } from "./step-form";
 
@@ -27,8 +27,7 @@ type Props = { params: Promise<{ locale: string; journeyId: string; stepKey: str
 export default async function StepPage({ params }: Props) {
   const { locale, journeyId, stepKey } = await params;
   setRequestLocale(locale);
-  const journey = await getAccessibleJourney(journeyId);
-  if (!journey) notFound();
+  const journey = await requireJourney(journeyId, locale, `/progetta/${journeyId}/${stepKey}`);
 
   const [def, t, version] = await Promise.all([
     loadWizard(journey.versionId, locale),

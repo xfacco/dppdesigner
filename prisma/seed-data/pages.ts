@@ -69,7 +69,7 @@ Rispondi a qualche domanda sulla tua azienda e sul tuo prodotto. Alla fine otter
 - uno **schema di architettura** del tuo DPP
 - i **prossimi passi consigliati**
 
-Non serve registrarsi per iniziare: puoi riprendere dallo stesso browser per 30 giorni, oppure registrarti alla fine per salvare il progetto.`,
+Per iniziare basta un account gratuito, con email e password: il progetto resta salvato e lo ritrovi da qualsiasi dispositivo.`,
     },
     en: {
       slug: "wizard-intro-en",
@@ -83,7 +83,7 @@ Answer a few questions about your company and product. At the end you will get:
 - an **architecture sketch** of your DPP
 - **recommended next steps**
 
-No sign-up needed to start: you can resume from the same browser for 30 days, or sign up at the end to save your project.`,
+All you need to start is a free account with an email and a password: your project is saved and you can open it from any device.`,
     },
   },
   {
@@ -316,13 +316,13 @@ Want to discuss your Digital Product Passport project? Get in touch.`,
 *Bozza da validare con il consulente privacy.*
 
 ## Progetti DPP (Progetta)
-Il wizard si compila senza account e non raccoglie dati personali. Le risposte (dati aziendali e di prodotto) sono conservate per finalità statistiche. Un cookie tecnico permette di riprendere il progetto dallo stesso browser per 30 giorni.
+Per compilare il wizard serve un account. Le risposte (dati aziendali e di prodotto) sono salvate nel tuo account e conservate anche per finalità statistiche.
 
 ## Domande sugli step
 In ogni step puoi fare una domanda all'assistente AI o all'esperto del sito. Domande e risposte sono conservate insieme al progetto. Le domande all'assistente AI, con il contesto dello step e le risposte già date nel progetto, vengono inviate ad Anthropic (fornitore del modello Claude) per generare la risposta. Non inserire dati personali nelle domande.
 
 ## Account
-Registrandoti fornisci nome, email e, facoltativamente, azienda, ruolo e telefono. I dati sono conservati per **24 mesi dall'ultimo accesso**, poi cancellati; i progetti restano in forma anonima.
+Registrandoti fornisci email e password e, facoltativamente, nome, azienda, ruolo e telefono. I dati sono conservati per **24 mesi dall'ultimo accesso**, poi cancellati; i progetti restano in forma anonima.
 
 ## I tuoi diritti
 Dall'area personale puoi scaricare i tuoi dati ed eliminare l'account in qualsiasi momento.`,
@@ -336,13 +336,13 @@ Dall'area personale puoi scaricare i tuoi dati ed eliminare l'account in qualsia
 *Draft to be validated with the privacy consultant.*
 
 ## DPP projects (Design)
-The wizard requires no account and collects no personal data. Answers (company and product data) are kept for statistical purposes. A technical cookie lets you resume the journey from the same browser for 30 days.
+You need an account to fill in the wizard. Answers (company and product data) are saved in your account and also kept for statistical purposes.
 
 ## Questions on steps
 In each step you can ask the AI assistant or the site's expert a question. Questions and answers are stored with the journey. Questions to the AI assistant, together with the step context and the answers already given in the journey, are sent to Anthropic (provider of the Claude model) to generate the reply. Do not include personal data in your questions.
 
 ## Account
-When you sign up you provide your name, email and, optionally, company, role and phone. Data is kept for **24 months after your last sign-in**, then deleted; journeys are kept anonymously.
+When you sign up you provide your email and password and, optionally, your name, company, role and phone. Data is kept for **24 months after your last sign-in**, then deleted; journeys are kept anonymously.
 
 ## Your rights
 From your account you can download your data and delete your account at any time.`,
@@ -401,6 +401,67 @@ You can change your preferences at any time with the button below or the «Cooki
 
 ## More information
 For the processing of personal data see the [Privacy notice](/en/privacy). For any questions you can [contact us](/en/contact).`,
+    },
+  },
+  {
+    key: "marketing",
+    position: 8,
+    showInMenu: false,
+    it: {
+      slug: "informazioni-commerciali",
+      title: "Informazioni e proposte commerciali",
+      description: "Cosa ricevi se acconsenti alle comunicazioni commerciali e come revocare il consenso.",
+      body: `# Informazioni e proposte commerciali
+
+*Bozza da validare con il consulente privacy.*
+
+Al momento della registrazione puoi scegliere, in modo facoltativo, di ricevere informazioni e proposte commerciali. Senza questo consenso l'account e il wizard funzionano esattamente allo stesso modo.
+
+## Cosa ricevi
+Se acconsenti, possiamo contattarti via email (o per telefono, se ci hai lasciato il numero) per:
+
+- novità su DPP Designer e sulle normative del Digital Product Passport;
+- inviti a eventi, webinar e incontri di approfondimento;
+- proposte di consulenza e servizi per progettare e realizzare il tuo DPP.
+
+## Quali dati usiamo
+Email e, se li hai indicati, nome, azienda, ruolo e telefono. Possiamo tenere conto anche del settore e delle categorie di prodotto dei tuoi progetti, per proporti solo contenuti pertinenti. Non cediamo i tuoi dati a terzi per finalità di marketing.
+
+## Come revocare il consenso
+Puoi revocare il consenso in qualsiasi momento, senza alcun costo, [scrivendoci](/it/contatti) o usando il link di disiscrizione presente in ogni email. La revoca non cancella l'account. Se elimini l'account dall'area personale il consenso decade.
+
+## Per quanto tempo
+Usiamo i dati per questa finalità finché il consenso è attivo e comunque non oltre la conservazione dell'account (24 mesi dall'ultimo accesso).
+
+Per tutte le altre informazioni sul trattamento dei dati vedi l'[Informativa privacy](/it/privacy).`,
+    },
+    en: {
+      slug: "commercial-communications",
+      title: "Information and commercial offers",
+      description: "What you receive if you agree to commercial communications and how to withdraw your consent.",
+      body: `# Information and commercial offers
+
+*Draft to be validated with the privacy consultant.*
+
+When you sign up you can choose, optionally, to receive information and commercial offers. Without this consent your account and the wizard work exactly the same.
+
+## What you receive
+If you agree, we may contact you by email (or by phone, if you gave us your number) about:
+
+- news about DPP Designer and Digital Product Passport regulations;
+- invitations to events, webinars and in-depth sessions;
+- consulting and service offers to design and build your DPP.
+
+## Which data we use
+Your email and, if provided, your name, company, role and phone. We may also take into account the sector and product categories of your projects, so that we only send you relevant content. We do not pass your data on to third parties for marketing purposes.
+
+## How to withdraw your consent
+You can withdraw your consent at any time, free of charge, by [contacting us](/en/contact) or using the unsubscribe link in every email. Withdrawing does not delete your account. If you delete your account from your personal area, the consent lapses.
+
+## How long
+We use your data for this purpose while your consent is active and in any case no longer than your account is kept (24 months after your last sign-in).
+
+For all other information on how we process your data see the [Privacy notice](/en/privacy).`,
     },
   },
 ];

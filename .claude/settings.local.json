@@ -110,7 +110,16 @@
       "Bash(/usr/bin/sips -c 760 420 --cropOffset 820 860 articles-box-dark.png --out crop-dark.png)",
       "Bash(/usr/bin/sips -c 330 400 --cropOffset 330 860 articles-box-light.png --out crop-light.png)",
       "Bash(/usr/bin/sips -c 330 400 --cropOffset 330 860 articles-box-dark.png --out crop-dark.png)",
-      "Bash(curl -s https://www.dppdesigner.com/it/progetta)"
+      "Bash(curl -s https://www.dppdesigner.com/it/progetta)",
+      "Bash(sed -i '' 's/^import { notFound, redirect } from \"next\\\\/navigation\";/import { redirect } from \"next\\\\/navigation\";/' \"src/app/[locale]/progetta/[journeyId]/page.tsx\")",
+      "Bash(sed -i '' '/^import { notFound } from \"next\\\\/navigation\";$/d' \"src/app/[locale]/progetta/[journeyId]/summary/page.tsx\")",
+      "Bash(grep -n \"^export\\\\|^  {$\\\\|key:\" prisma/seed-data/pages.ts)",
+      "Bash(xargs kill)",
+      "Bash(npx next *)",
+      "Bash(ps -o pid,lstart,command -p 20606)",
+      "Bash(ps -o pid,command -p 20584)",
+      "Bash(awk '$2==20584 || $3==20584')",
+      "Bash(kill 20606 20584)"
     ],
     "additionalDirectories": [
       "/Users/corrado/Downloads/Corrado/dppdesigner/src/app/[locale]"
