@@ -14,6 +14,7 @@ import { highlight, queryTerms, searchPosts } from "@/lib/blog-search";
 import { plainText, truncate } from "@/lib/guide";
 import { absoluteUrl, SITE_URL } from "@/lib/site-url";
 import { getPost, listPosts, relatedPosts, type PostView } from "@/server/blog";
+import { getPageByKey } from "@/server/content";
 import { getSiteSettings, PERSON_ID, personLd, resolveAuthor, toAbsolute } from "@/server/site-settings";
 
 /**
@@ -237,7 +238,12 @@ export async function BlogPostPage({ params, segmentLocale }: { params: PostPara
   const { locale, slug } = await params;
   checkSegment(locale, segmentLocale);
   setRequestLocale(locale);
-  const [post, t, s] = await Promise.all([getPost(locale, slug), getTranslations("blog"), getSiteSettings()]);
+  const [post, t, s, contacts] = await Promise.all([
+    getPost(locale, slug),
+    getTranslations("blog"),
+    getSiteSettings(),
+    getPageByKey(locale, "contacts"),
+  ]);
   if (!post) notFound();
   const related = await relatedPosts(locale, post);
 
@@ -417,14 +423,31 @@ export async function BlogPostPage({ params, segmentLocale }: { params: PostPara
           </footer>
         </div>
 
-        {toc.length > 1 && (
-          <aside className="hidden lg:block">
-            <nav aria-label={t("toc")} className="sticky top-8 grid gap-3">
-              <p className="m-0 font-mono text-[11px] uppercase tracking-wider text-muted-foreground">{t("toc")}</p>
-              {tocList}
-            </nav>
-          </aside>
-        )}
+        {/* Colonna laterale (desktop): indice, poi le due CTA, che restano visibili scorrendo */}
+        <aside className="hidden lg:block">
+          <div className="sticky top-8 grid gap-8">
+            {toc.length > 1 && (
+              <nav aria-label={t("toc")} className="grid gap-3">
+                <p className="m-0 font-mono text-[11px] uppercase tracking-wider text-muted-foreground">{t("toc")}</p>
+                {tocList}
+              </nav>
+            )}
+            <div className="grid gap-3">
+              {contacts && (
+                <Link href={`/${contacts.slug}`} className={buttonVariants({ className: "w-full" })}>
+                  {t("contactExpert")}
+                </Link>
+              )}
+              <div className="grid gap-2 rounded-lg border p-4">
+                <p className="m-0 font-medium tracking-[-0.02em]">{t("ctaTitle")}</p>
+                <p className="m-0 text-sm text-muted-foreground">{t("ctaText")}</p>
+                <Link href="/progetta" className={buttonVariants({ variant: "outline", size: "sm", className: "mt-1 w-fit" })}>
+                  {t("ctaTitle")}
+                </Link>
+              </div>
+            </div>
+          </div>
+        </aside>
       </div>
 
       <aside className="mt-14 grid max-w-[720px] gap-4 rounded-lg border p-6">
