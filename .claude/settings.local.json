@@ -119,7 +119,11 @@
       "Bash(ps -o pid,lstart,command -p 20606)",
       "Bash(ps -o pid,command -p 20584)",
       "Bash(awk '$2==20584 || $3==20584')",
-      "Bash(kill 20606 20584)"
+      "Bash(kill 20606 20584)",
+      "Bash(curl -s -o /dev/null -w \"step anonimo: %{http_code} → %{redirect_url}\\\\n\" \"https://www.dppdesigner.com/it/progetta/abc/industry\")",
+      "Bash(curl -s \"https://www.dppdesigner.com/it/progetta/abc/industry\")",
+      "Bash(curl -s -o /dev/null localhost:3000/it)",
+      "Bash(curl -s localhost:3000/it/articoli)"
     ],
     "additionalDirectories": [
       "/Users/corrado/Downloads/Corrado/dppdesigner/src/app/[locale]"
