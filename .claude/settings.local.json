@@ -123,7 +123,22 @@
       "Bash(curl -s -o /dev/null -w \"step anonimo: %{http_code} → %{redirect_url}\\\\n\" \"https://www.dppdesigner.com/it/progetta/abc/industry\")",
       "Bash(curl -s \"https://www.dppdesigner.com/it/progetta/abc/industry\")",
       "Bash(curl -s -o /dev/null localhost:3000/it)",
-      "Bash(curl -s localhost:3000/it/articoli)"
+      "Bash(curl -s localhost:3000/it/articoli)",
+      "Read(//Users/corrado/Downloads/Corrado/**)",
+      "Bash(lsof -iTCP:5175 -sTCP:LISTEN -n)",
+      "Bash(ps -o command= -p 65222)",
+      "Bash(cd /Users/corrado/DPP/knobs-dpp-frontend/apps/admin/src/pages && ls; ls DPPConfig*; cat DPPConfig/components/SectionsPanel.tsx | head -80)",
+      "Read(//Users/corrado/DPP/knobs-dpp-frontend/apps/admin/src/pages/**)",
+      "Bash(cd /Users/corrado/DPP/knobs-dpp-backend && cat package.json | head -40; ls apps packages; find . -name \"schema.prisma\" -not -path \"*/node_modules/*\" | head)",
+      "Read(//Users/corrado/DPP/knobs-dpp-backend/**)",
+      "Bash(docker exec *)",
+      "Bash(cd /Users/corrado/DPP && grep -n \"options\\\\|idTag\" knobs-dpp-frontend/apps/admin/src/pages/DPPConfig/modals/FieldModal.tsx | head -30; grep -rn \"idTag\" knobs-dpp-backend/apps/dpp-data-engine/src --include=*.ts -l 2>/dev/null | head; grep -rln \"idTag\" knobs-dpp-backend/apps/dpp-data-engine/src | head)",
+      "Read(//Users/corrado/DPP/**)",
+      "Bash(curl -s -X POST localhost:4000/graphql -H 'content-type: application/json' -d '{\"query\":\"{ sections { title order fields { label fieldType required isActive } } }\"}')",
+      "Bash(curl -s -X POST localhost:4000/graphql -H 'content-type: application/json' -d '{\"query\":\"{ dppSections { title order fields { label } } }\"}')",
+      "Bash(node -e 'let s=\"\";process.stdin.on\\(\"data\",d=>s+=d\\).on\\(\"end\",\\(\\)=>{const j=JSON.parse\\(s\\);if\\(j.errors\\)console.log\\(j.errors[0].message\\);else console.log\\(j.data.dppSections.map\\(x=>x.order+\" \"+x.title+\" \\(\"+x.fields.length+\"\\)\"\\).join\\(\"\\\\n\"\\)\\)}\\)')",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/it)",
+      "Bash(curl -s -o /dev/null -w \"articoli %{http_code}\\\\n\" http://localhost:3000/it/articoli)"
     ],
     "additionalDirectories": [
       "/Users/corrado/Downloads/Corrado/dppdesigner/src/app/[locale]"
